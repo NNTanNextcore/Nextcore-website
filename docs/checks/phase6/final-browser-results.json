@@ -1,0 +1,1072 @@
+[
+  {
+    "route": "/",
+    "duplicateIds": [],
+    "emptyIds": 0,
+    "pendingImages": [],
+    "brokenImages": [],
+    "languages": 1,
+    "themeSwitches": 1,
+    "seo": {
+      "canonical": 1,
+      "hreflangs": [
+        {
+          "lang": "vi",
+          "url": "http://localhost/"
+        },
+        {
+          "lang": "en-US",
+          "url": "http://localhost/en/"
+        },
+        {
+          "lang": "en",
+          "url": "http://localhost/en/"
+        }
+      ]
+    },
+    "integrationNodes": 0,
+    "videos": [
+      {
+        "src": "http://localhost/wp-content/uploads/2026/09/nextcore-danang.mp4",
+        "ready": 4,
+        "error": null
+      }
+    ],
+    "untranslatedHomepage": [],
+    "errors": [],
+    "consoleErrors": [],
+    "failed": [],
+    "networkFailures": [],
+    "integrationRequests": []
+  },
+  {
+    "route": "/en/",
+    "duplicateIds": [],
+    "emptyIds": 0,
+    "pendingImages": [],
+    "brokenImages": [],
+    "languages": 1,
+    "themeSwitches": 1,
+    "seo": {
+      "canonical": 1,
+      "hreflangs": [
+        {
+          "lang": "vi",
+          "url": "http://localhost/"
+        },
+        {
+          "lang": "en-US",
+          "url": "http://localhost/en/"
+        },
+        {
+          "lang": "en",
+          "url": "http://localhost/en/"
+        }
+      ]
+    },
+    "integrationNodes": 0,
+    "videos": [
+      {
+        "src": "http://localhost/wp-content/uploads/2026/09/nextcore-danang.mp4",
+        "ready": 4,
+        "error": null
+      }
+    ],
+    "untranslatedHomepage": [
+      {
+        "tag": "NOSCRIPT",
+        "cls": "",
+        "text": "<picture><source media=\"(prefers-color-scheme: light)\" srcset=\"http://localhost/wp-content/uploads/2026/09/hero-corporate-light.png\"><img class=\"hero-image\" src=\"http://localhost/wp-content/uploads/2026/09/hero-corporate-v2.png\" alt=\"Ba đồng nghiệp m"
+      },
+      {
+        "tag": "H3",
+        "cls": "",
+        "text": "Trường Doanh nhân Top Olympia"
+      },
+      {
+        "tag": "H3",
+        "cls": "",
+        "text": "Công ty An Tâm Việt"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "sr-only",
+        "text": "— Công ty An Tâm Việt"
+      },
+      {
+        "tag": "H3",
+        "cls": "",
+        "text": "Phạm Việt Hùng"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "sr-only",
+        "text": "— Phạm Việt Hùng"
+      },
+      {
+        "tag": "H3",
+        "cls": "",
+        "text": "Nguyễn Phương Trà My"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "sr-only",
+        "text": "— Nguyễn Phương Trà My"
+      },
+      {
+        "tag": "H3",
+        "cls": "",
+        "text": "Nguyễn Văn Hiền"
+      },
+      {
+        "tag": "H3",
+        "cls": "",
+        "text": "Trần Đức Anh"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "text": "Hướng dẫn cách “Debug SpringBoot với Visual code” một cách dễ dàng"
+      },
+      {
+        "tag": "P",
+        "cls": "blog-excerpt",
+        "text": "Debugging là một kỹ năng quan trọng đối với bất kỳ lập trình viên nào, đặc biệt khi làm việc với các ứng dụng phức tạp…"
+      },
+      {
+        "tag": "P",
+        "cls": "blog-excerpt",
+        "text": "Affiliate marketing là một hình thức tiếp thị trong đó một doanh nghiệp thưởng cho một hoặc nhiều người (được gọi là \"đối tác liên kết\"…"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "text": "Trường Doanh nhân Top Olympia"
+      },
+      {
+        "tag": "P",
+        "cls": "blog-excerpt",
+        "text": "Trong lĩnh vực giáo dục, việc cung cấp một trang web chất lượng và thân thiện với người dùng là điều vô cùng quan trọng. Trang…"
+      },
+      {
+        "tag": "NOSCRIPT",
+        "cls": "",
+        "text": "<picture><source media=\"(prefers-color-scheme: light)\" srcset=\"http://localhost/wp-content/uploads/2026/09/cta-light.png\"><img class=\"cta-image\" src=\"http://localhost/wp-content/uploads/2026/09/cta.png\" alt=\"Người chinh phục đỉnh núi nhìn về chân trờ"
+      }
+    ],
+    "errors": [],
+    "consoleErrors": [],
+    "failed": [],
+    "networkFailures": [],
+    "integrationRequests": []
+  },
+  {
+    "route": "/ve-chung-toi/",
+    "duplicateIds": [],
+    "emptyIds": 0,
+    "pendingImages": [],
+    "brokenImages": [],
+    "languages": 1,
+    "themeSwitches": 1,
+    "seo": {
+      "canonical": 1,
+      "hreflangs": [
+        {
+          "lang": "vi",
+          "url": "http://localhost/ve-chung-toi/"
+        },
+        {
+          "lang": "en-US",
+          "url": "http://localhost/en/ve-chung-toi/"
+        },
+        {
+          "lang": "en",
+          "url": "http://localhost/en/ve-chung-toi/"
+        }
+      ]
+    },
+    "integrationNodes": 0,
+    "videos": [],
+    "untranslatedHomepage": [],
+    "errors": [],
+    "consoleErrors": [],
+    "failed": [],
+    "networkFailures": [],
+    "integrationRequests": []
+  },
+  {
+    "route": "/lien-he/",
+    "duplicateIds": [],
+    "emptyIds": 0,
+    "pendingImages": [],
+    "brokenImages": [],
+    "languages": 1,
+    "themeSwitches": 1,
+    "seo": {
+      "canonical": 1,
+      "hreflangs": [
+        {
+          "lang": "vi",
+          "url": "http://localhost/lien-he/"
+        },
+        {
+          "lang": "en-US",
+          "url": "http://localhost/en/lien-he/"
+        },
+        {
+          "lang": "en",
+          "url": "http://localhost/en/lien-he/"
+        }
+      ]
+    },
+    "integrationNodes": 0,
+    "videos": [],
+    "untranslatedHomepage": [],
+    "errors": [],
+    "consoleErrors": [],
+    "failed": [],
+    "networkFailures": [],
+    "integrationRequests": []
+  },
+  {
+    "route": "/outsource/",
+    "duplicateIds": [],
+    "emptyIds": 0,
+    "pendingImages": [],
+    "brokenImages": [],
+    "languages": 1,
+    "themeSwitches": 1,
+    "seo": {
+      "canonical": 1,
+      "hreflangs": [
+        {
+          "lang": "vi",
+          "url": "http://localhost/outsource/"
+        },
+        {
+          "lang": "en-US",
+          "url": "http://localhost/en/outsource/"
+        },
+        {
+          "lang": "en",
+          "url": "http://localhost/en/outsource/"
+        }
+      ]
+    },
+    "integrationNodes": 0,
+    "videos": [],
+    "timeline": "1669.3px",
+    "untranslatedHomepage": [],
+    "errors": [],
+    "consoleErrors": [],
+    "failed": [],
+    "networkFailures": [],
+    "integrationRequests": []
+  },
+  {
+    "route": "/dich-vu/",
+    "duplicateIds": [],
+    "emptyIds": 0,
+    "pendingImages": [],
+    "brokenImages": [],
+    "languages": 1,
+    "themeSwitches": 1,
+    "seo": {
+      "canonical": 1,
+      "hreflangs": [
+        {
+          "lang": "vi",
+          "url": "http://localhost/dich-vu/"
+        },
+        {
+          "lang": "en-US",
+          "url": "http://localhost/en/dich-vu/"
+        },
+        {
+          "lang": "en",
+          "url": "http://localhost/en/dich-vu/"
+        }
+      ]
+    },
+    "integrationNodes": 0,
+    "videos": [],
+    "untranslatedHomepage": [],
+    "errors": [],
+    "consoleErrors": [],
+    "failed": [],
+    "networkFailures": [],
+    "integrationRequests": []
+  },
+  {
+    "route": "/tin-tuc/",
+    "duplicateIds": [],
+    "emptyIds": 0,
+    "pendingImages": [],
+    "brokenImages": [],
+    "languages": 1,
+    "themeSwitches": 1,
+    "seo": {
+      "canonical": 1,
+      "hreflangs": [
+        {
+          "lang": "vi",
+          "url": "http://localhost/tin-tuc/"
+        },
+        {
+          "lang": "en-US",
+          "url": "http://localhost/en/tin-tuc/"
+        },
+        {
+          "lang": "en",
+          "url": "http://localhost/en/tin-tuc/"
+        }
+      ]
+    },
+    "integrationNodes": 0,
+    "videos": [],
+    "untranslatedHomepage": [],
+    "errors": [],
+    "consoleErrors": [],
+    "failed": [],
+    "networkFailures": [],
+    "integrationRequests": []
+  },
+  {
+    "route": "/danh-muc-dich-vu/tu-van-doanh-nghiep/",
+    "duplicateIds": [],
+    "emptyIds": 0,
+    "pendingImages": [],
+    "brokenImages": [],
+    "languages": 1,
+    "themeSwitches": 1,
+    "seo": {
+      "canonical": 1,
+      "hreflangs": [
+        {
+          "lang": "vi",
+          "url": "http://localhost/danh-muc-dich-vu/tu-van-doanh-nghiep/"
+        },
+        {
+          "lang": "en-US",
+          "url": "http://localhost/en/danh-muc-dich-vu/tu-van-doanh-nghiep/"
+        },
+        {
+          "lang": "en",
+          "url": "http://localhost/en/danh-muc-dich-vu/tu-van-doanh-nghiep/"
+        }
+      ]
+    },
+    "integrationNodes": 0,
+    "videos": [],
+    "untranslatedHomepage": [],
+    "errors": [],
+    "consoleErrors": [],
+    "failed": [],
+    "networkFailures": [],
+    "integrationRequests": []
+  },
+  {
+    "route": "/danh-muc-dich-vu/khach-hang-ca-nhan/",
+    "duplicateIds": [],
+    "emptyIds": 0,
+    "pendingImages": [],
+    "brokenImages": [],
+    "languages": 1,
+    "themeSwitches": 1,
+    "seo": {
+      "canonical": 1,
+      "hreflangs": [
+        {
+          "lang": "vi",
+          "url": "http://localhost/danh-muc-dich-vu/khach-hang-ca-nhan/"
+        },
+        {
+          "lang": "en-US",
+          "url": "http://localhost/en/danh-muc-dich-vu/khach-hang-ca-nhan/"
+        },
+        {
+          "lang": "en",
+          "url": "http://localhost/en/danh-muc-dich-vu/khach-hang-ca-nhan/"
+        }
+      ]
+    },
+    "integrationNodes": 0,
+    "videos": [],
+    "untranslatedHomepage": [],
+    "errors": [],
+    "consoleErrors": [],
+    "failed": [],
+    "networkFailures": [],
+    "integrationRequests": []
+  },
+  {
+    "route": "/danh-muc-dich-vu/san-pham/",
+    "duplicateIds": [],
+    "emptyIds": 0,
+    "pendingImages": [],
+    "brokenImages": [],
+    "languages": 1,
+    "themeSwitches": 1,
+    "seo": {
+      "canonical": 1,
+      "hreflangs": [
+        {
+          "lang": "vi",
+          "url": "http://localhost/danh-muc-dich-vu/san-pham/"
+        },
+        {
+          "lang": "en-US",
+          "url": "http://localhost/en/danh-muc-dich-vu/san-pham/"
+        },
+        {
+          "lang": "en",
+          "url": "http://localhost/en/danh-muc-dich-vu/san-pham/"
+        }
+      ]
+    },
+    "integrationNodes": 0,
+    "videos": [],
+    "untranslatedHomepage": [],
+    "errors": [],
+    "consoleErrors": [],
+    "failed": [],
+    "networkFailures": [],
+    "integrationRequests": []
+  },
+  {
+    "route": "/danh-muc-dich-vu/outsource/",
+    "duplicateIds": [],
+    "emptyIds": 0,
+    "pendingImages": [],
+    "brokenImages": [],
+    "languages": 1,
+    "themeSwitches": 1,
+    "seo": {
+      "canonical": 1,
+      "hreflangs": [
+        {
+          "lang": "vi",
+          "url": "http://localhost/danh-muc-dich-vu/outsource/"
+        },
+        {
+          "lang": "en-US",
+          "url": "http://localhost/en/danh-muc-dich-vu/outsource/"
+        },
+        {
+          "lang": "en",
+          "url": "http://localhost/en/danh-muc-dich-vu/outsource/"
+        }
+      ]
+    },
+    "integrationNodes": 0,
+    "videos": [],
+    "untranslatedHomepage": [],
+    "errors": [],
+    "consoleErrors": [],
+    "failed": [],
+    "networkFailures": [],
+    "integrationRequests": []
+  },
+  {
+    "route": "/category/kien-thuc/",
+    "duplicateIds": [],
+    "emptyIds": 0,
+    "pendingImages": [],
+    "brokenImages": [],
+    "languages": 1,
+    "themeSwitches": 1,
+    "seo": {
+      "canonical": 1,
+      "hreflangs": [
+        {
+          "lang": "vi",
+          "url": "http://localhost/category/kien-thuc/"
+        },
+        {
+          "lang": "en-US",
+          "url": "http://localhost/en/category/kien-thuc/"
+        },
+        {
+          "lang": "en",
+          "url": "http://localhost/en/category/kien-thuc/"
+        }
+      ]
+    },
+    "integrationNodes": 0,
+    "videos": [],
+    "untranslatedHomepage": [],
+    "errors": [],
+    "consoleErrors": [],
+    "failed": [],
+    "networkFailures": [],
+    "integrationRequests": []
+  },
+  {
+    "route": "/category/cong-ty/",
+    "duplicateIds": [],
+    "emptyIds": 0,
+    "pendingImages": [],
+    "brokenImages": [],
+    "languages": 1,
+    "themeSwitches": 1,
+    "seo": {
+      "canonical": 1,
+      "hreflangs": [
+        {
+          "lang": "vi",
+          "url": "http://localhost/category/cong-ty/"
+        },
+        {
+          "lang": "en-US",
+          "url": "http://localhost/en/category/cong-ty/"
+        },
+        {
+          "lang": "en",
+          "url": "http://localhost/en/category/cong-ty/"
+        }
+      ]
+    },
+    "integrationNodes": 0,
+    "videos": [],
+    "untranslatedHomepage": [],
+    "errors": [],
+    "consoleErrors": [],
+    "failed": [],
+    "networkFailures": [],
+    "integrationRequests": []
+  },
+  {
+    "route": "/dich-vu/lark/",
+    "duplicateIds": [],
+    "emptyIds": 0,
+    "pendingImages": [],
+    "brokenImages": [],
+    "languages": 1,
+    "themeSwitches": 1,
+    "seo": {
+      "canonical": 1,
+      "hreflangs": [
+        {
+          "lang": "vi",
+          "url": "http://localhost/dich-vu/lark/"
+        },
+        {
+          "lang": "en-US",
+          "url": "http://localhost/en/dich-vu/lark/"
+        },
+        {
+          "lang": "en",
+          "url": "http://localhost/en/dich-vu/lark/"
+        }
+      ]
+    },
+    "integrationNodes": 0,
+    "videos": [
+      {
+        "src": "http://localhost/wp-content/uploads/2024/11/larksuite-banner.mp4",
+        "ready": 4,
+        "error": null
+      }
+    ],
+    "untranslatedHomepage": [],
+    "errors": [],
+    "consoleErrors": [],
+    "failed": [],
+    "networkFailures": [],
+    "integrationRequests": []
+  },
+  {
+    "route": "/dich-vu/ung-dung-dat-san/",
+    "duplicateIds": [],
+    "emptyIds": 0,
+    "pendingImages": [],
+    "brokenImages": [],
+    "languages": 1,
+    "themeSwitches": 1,
+    "seo": {
+      "canonical": 1,
+      "hreflangs": [
+        {
+          "lang": "vi",
+          "url": "http://localhost/dich-vu/ung-dung-dat-san/"
+        },
+        {
+          "lang": "en-US",
+          "url": "http://localhost/en/dich-vu/ung-dung-dat-san/"
+        },
+        {
+          "lang": "en",
+          "url": "http://localhost/en/dich-vu/ung-dung-dat-san/"
+        }
+      ]
+    },
+    "integrationNodes": 0,
+    "videos": [],
+    "untranslatedHomepage": [],
+    "errors": [],
+    "consoleErrors": [],
+    "failed": [],
+    "networkFailures": [],
+    "integrationRequests": []
+  },
+  {
+    "route": "/dich-vu/wordpress-aff-atv/",
+    "duplicateIds": [
+      "b64b7500-205e-4b4c-b85b-719c6b9efefc",
+      "a9a06c65-5466-4dff-9af0-1537f84a1b5f"
+    ],
+    "emptyIds": 0,
+    "pendingImages": [],
+    "brokenImages": [],
+    "languages": 1,
+    "themeSwitches": 1,
+    "seo": {
+      "canonical": 1,
+      "hreflangs": [
+        {
+          "lang": "vi",
+          "url": "http://localhost/dich-vu/wordpress-aff-atv/"
+        },
+        {
+          "lang": "en-US",
+          "url": "http://localhost/en/dich-vu/wordpress-aff-atv/"
+        },
+        {
+          "lang": "en",
+          "url": "http://localhost/en/dich-vu/wordpress-aff-atv/"
+        }
+      ]
+    },
+    "integrationNodes": 0,
+    "videos": [],
+    "untranslatedHomepage": [],
+    "errors": [],
+    "consoleErrors": [],
+    "failed": [],
+    "networkFailures": [],
+    "integrationRequests": []
+  },
+  {
+    "route": "/dich-vu/viet-plugin-wordpress-chuyen-nghiep-tuy-bien-theo-yeu-cau/",
+    "duplicateIds": [],
+    "emptyIds": 0,
+    "pendingImages": [],
+    "brokenImages": [],
+    "languages": 1,
+    "themeSwitches": 1,
+    "seo": {
+      "canonical": 1,
+      "hreflangs": [
+        {
+          "lang": "vi",
+          "url": "http://localhost/dich-vu/viet-plugin-wordpress-chuyen-nghiep-tuy-bien-theo-yeu-cau/"
+        },
+        {
+          "lang": "en-US",
+          "url": "http://localhost/en/dich-vu/viet-plugin-wordpress-chuyen-nghiep-tuy-bien-theo-yeu-cau/"
+        },
+        {
+          "lang": "en",
+          "url": "http://localhost/en/dich-vu/viet-plugin-wordpress-chuyen-nghiep-tuy-bien-theo-yeu-cau/"
+        }
+      ]
+    },
+    "integrationNodes": 0,
+    "videos": [],
+    "untranslatedHomepage": [],
+    "errors": [],
+    "consoleErrors": [],
+    "failed": [],
+    "networkFailures": [],
+    "integrationRequests": []
+  },
+  {
+    "route": "/wordpress-plugin-affiliate/",
+    "duplicateIds": [],
+    "emptyIds": 0,
+    "pendingImages": [],
+    "brokenImages": [],
+    "languages": 1,
+    "themeSwitches": 1,
+    "seo": {
+      "canonical": 1,
+      "hreflangs": [
+        {
+          "lang": "vi",
+          "url": "http://localhost/wordpress-plugin-affiliate/"
+        },
+        {
+          "lang": "en-US",
+          "url": "http://localhost/en/wordpress-plugin-affiliate/"
+        },
+        {
+          "lang": "en",
+          "url": "http://localhost/en/wordpress-plugin-affiliate/"
+        }
+      ]
+    },
+    "integrationNodes": 0,
+    "videos": [],
+    "untranslatedHomepage": [],
+    "errors": [],
+    "consoleErrors": [],
+    "failed": [],
+    "networkFailures": [],
+    "integrationRequests": []
+  },
+  {
+    "route": "/truong-doanh-nhan-top-olympia/",
+    "duplicateIds": [],
+    "emptyIds": 0,
+    "pendingImages": [],
+    "brokenImages": [],
+    "languages": 1,
+    "themeSwitches": 1,
+    "seo": {
+      "canonical": 1,
+      "hreflangs": [
+        {
+          "lang": "vi",
+          "url": "http://localhost/truong-doanh-nhan-top-olympia/"
+        },
+        {
+          "lang": "en-US",
+          "url": "http://localhost/en/truong-doanh-nhan-top-olympia/"
+        },
+        {
+          "lang": "en",
+          "url": "http://localhost/en/truong-doanh-nhan-top-olympia/"
+        }
+      ]
+    },
+    "integrationNodes": 0,
+    "videos": [],
+    "untranslatedHomepage": [],
+    "errors": [],
+    "consoleErrors": [],
+    "failed": [],
+    "networkFailures": [],
+    "integrationRequests": []
+  },
+  {
+    "route": "/?s=wordpress",
+    "duplicateIds": [],
+    "emptyIds": 0,
+    "pendingImages": [],
+    "brokenImages": [],
+    "languages": 1,
+    "themeSwitches": 1,
+    "seo": {
+      "canonical": 0,
+      "hreflangs": [
+        {
+          "lang": "vi",
+          "url": "http://localhost/?s=wordpress"
+        },
+        {
+          "lang": "en-US",
+          "url": "http://localhost/en/?s=wordpress"
+        },
+        {
+          "lang": "en",
+          "url": "http://localhost/en/?s=wordpress"
+        }
+      ]
+    },
+    "integrationNodes": 0,
+    "videos": [],
+    "untranslatedHomepage": [],
+    "errors": [],
+    "consoleErrors": [],
+    "failed": [],
+    "networkFailures": [],
+    "integrationRequests": []
+  },
+  {
+    "route": "/phase6-nonexistent-page-qa/",
+    "duplicateIds": [],
+    "emptyIds": 0,
+    "pendingImages": [],
+    "brokenImages": [],
+    "languages": 1,
+    "themeSwitches": 1,
+    "seo": {
+      "canonical": 0,
+      "hreflangs": [
+        {
+          "lang": "vi",
+          "url": "http://localhost/phase6-nonexistent-page-qa/"
+        },
+        {
+          "lang": "en-US",
+          "url": "http://localhost/en/phase6-nonexistent-page-qa/"
+        },
+        {
+          "lang": "en",
+          "url": "http://localhost/en/phase6-nonexistent-page-qa/"
+        }
+      ]
+    },
+    "integrationNodes": 0,
+    "videos": [],
+    "untranslatedHomepage": [],
+    "errors": [],
+    "consoleErrors": [
+      "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    ],
+    "failed": [
+      {
+        "url": "http://localhost/phase6-nonexistent-page-qa/",
+        "status": 404
+      }
+    ],
+    "networkFailures": [],
+    "integrationRequests": []
+  },
+  {
+    "route": "/dich-vu/he-thong-cham-cong-bang-guong-mat/",
+    "duplicateIds": [],
+    "emptyIds": 0,
+    "pendingImages": [],
+    "brokenImages": [],
+    "languages": 1,
+    "themeSwitches": 1,
+    "seo": {
+      "canonical": 1,
+      "hreflangs": [
+        {
+          "lang": "vi",
+          "url": "http://localhost/dich-vu/he-thong-cham-cong-bang-guong-mat/"
+        },
+        {
+          "lang": "en-US",
+          "url": "http://localhost/en/dich-vu/he-thong-cham-cong-bang-guong-mat/"
+        },
+        {
+          "lang": "en",
+          "url": "http://localhost/en/dich-vu/he-thong-cham-cong-bang-guong-mat/"
+        }
+      ]
+    },
+    "integrationNodes": 0,
+    "videos": [],
+    "untranslatedHomepage": [],
+    "errors": [],
+    "consoleErrors": [],
+    "failed": [],
+    "networkFailures": [],
+    "integrationRequests": []
+  },
+  {
+    "route": "/en/ve-chung-toi/",
+    "duplicateIds": [],
+    "emptyIds": 0,
+    "pendingImages": [],
+    "brokenImages": [],
+    "languages": 1,
+    "themeSwitches": 1,
+    "seo": {
+      "canonical": 1,
+      "hreflangs": [
+        {
+          "lang": "vi",
+          "url": "http://localhost/ve-chung-toi/"
+        },
+        {
+          "lang": "en-US",
+          "url": "http://localhost/en/ve-chung-toi/"
+        },
+        {
+          "lang": "en",
+          "url": "http://localhost/en/ve-chung-toi/"
+        }
+      ]
+    },
+    "integrationNodes": 0,
+    "videos": [],
+    "untranslatedHomepage": [],
+    "errors": [],
+    "consoleErrors": [],
+    "failed": [],
+    "networkFailures": [],
+    "integrationRequests": []
+  },
+  {
+    "route": "/en/dich-vu/",
+    "duplicateIds": [],
+    "emptyIds": 0,
+    "pendingImages": [],
+    "brokenImages": [],
+    "languages": 1,
+    "themeSwitches": 1,
+    "seo": {
+      "canonical": 1,
+      "hreflangs": [
+        {
+          "lang": "vi",
+          "url": "http://localhost/dich-vu/"
+        },
+        {
+          "lang": "en-US",
+          "url": "http://localhost/en/dich-vu/"
+        },
+        {
+          "lang": "en",
+          "url": "http://localhost/en/dich-vu/"
+        }
+      ]
+    },
+    "integrationNodes": 0,
+    "videos": [],
+    "untranslatedHomepage": [],
+    "errors": [],
+    "consoleErrors": [],
+    "failed": [],
+    "networkFailures": [],
+    "integrationRequests": []
+  },
+  {
+    "route": "/en/danh-muc-dich-vu/tu-van-doanh-nghiep/",
+    "duplicateIds": [],
+    "emptyIds": 0,
+    "pendingImages": [],
+    "brokenImages": [],
+    "languages": 1,
+    "themeSwitches": 1,
+    "seo": {
+      "canonical": 1,
+      "hreflangs": [
+        {
+          "lang": "vi",
+          "url": "http://localhost/danh-muc-dich-vu/tu-van-doanh-nghiep/"
+        },
+        {
+          "lang": "en-US",
+          "url": "http://localhost/en/danh-muc-dich-vu/tu-van-doanh-nghiep/"
+        },
+        {
+          "lang": "en",
+          "url": "http://localhost/en/danh-muc-dich-vu/tu-van-doanh-nghiep/"
+        }
+      ]
+    },
+    "integrationNodes": 0,
+    "videos": [],
+    "untranslatedHomepage": [],
+    "errors": [],
+    "consoleErrors": [],
+    "failed": [],
+    "networkFailures": [],
+    "integrationRequests": []
+  },
+  {
+    "route": "/en/dich-vu/lark/",
+    "duplicateIds": [],
+    "emptyIds": 0,
+    "pendingImages": [],
+    "brokenImages": [],
+    "languages": 1,
+    "themeSwitches": 1,
+    "seo": {
+      "canonical": 1,
+      "hreflangs": [
+        {
+          "lang": "vi",
+          "url": "http://localhost/dich-vu/lark/"
+        },
+        {
+          "lang": "en-US",
+          "url": "http://localhost/en/dich-vu/lark/"
+        },
+        {
+          "lang": "en",
+          "url": "http://localhost/en/dich-vu/lark/"
+        }
+      ]
+    },
+    "integrationNodes": 0,
+    "videos": [
+      {
+        "src": "http://localhost/wp-content/uploads/2024/11/larksuite-banner.mp4",
+        "ready": 4,
+        "error": null
+      }
+    ],
+    "untranslatedHomepage": [],
+    "errors": [],
+    "consoleErrors": [],
+    "failed": [],
+    "networkFailures": [],
+    "integrationRequests": []
+  },
+  {
+    "route": "/en/?s=wordpress",
+    "duplicateIds": [],
+    "emptyIds": 0,
+    "pendingImages": [],
+    "brokenImages": [],
+    "languages": 1,
+    "themeSwitches": 1,
+    "seo": {
+      "canonical": 0,
+      "hreflangs": [
+        {
+          "lang": "vi",
+          "url": "http://localhost/?s=wordpress"
+        },
+        {
+          "lang": "en-US",
+          "url": "http://localhost/en/?s=wordpress"
+        },
+        {
+          "lang": "en",
+          "url": "http://localhost/en/?s=wordpress"
+        }
+      ]
+    },
+    "integrationNodes": 0,
+    "videos": [],
+    "untranslatedHomepage": [
+      {
+        "tag": "SPAN",
+        "cls": "breadcrumb_last",
+        "text": "Bạn đã tìm wordpress"
+      },
+      {
+        "tag": "H1",
+        "cls": "",
+        "text": "Kết quả tìm kiếm: wordpress"
+      },
+      {
+        "tag": "H2",
+        "cls": "",
+        "text": "Danh mục dịch vụ"
+      },
+      {
+        "tag": "H2",
+        "cls": "",
+        "text": "Danh mục bài viết"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "text": "Hướng dẫn cách “Debug SpringBoot với Visual code” một cách dễ dàng"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "text": "Trường Doanh nhân Top Olympia"
+      },
+      {
+        "tag": "P",
+        "cls": "",
+        "text": "Bạn đang tìm kiếm giải pháp để tối ưu hóa website WordPress? Bạn muốn thêm tính năng đặc biệt mà các plugin sẵn có không đáp ứng được? Chúng tôi cung cấp dịch vụ…"
+      }
+    ],
+    "errors": [],
+    "consoleErrors": [],
+    "failed": [],
+    "networkFailures": [],
+    "integrationRequests": []
+  }
+]

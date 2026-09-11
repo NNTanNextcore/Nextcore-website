@@ -1,0 +1,57 @@
+/* Curated replacement for the authored Lark landing page. No global font,
+   animation, generic utility or Slick stylesheet is imported. */
+.nextcore-lark{background:#fff;color:#17243f;font:16px/1.8 Arial,Helvetica,sans-serif;overflow:clip}
+.nextcore-lark .larksuite{max-width:100%;margin:auto}
+.nextcore-lark .container-md,.nextcore-lark .larksuite__container,.nextcore-lark .larksuite__whoneedlarksuite{width:min(1200px,calc(100% - 48px));margin-inline:auto}
+.nextcore-lark section{padding:64px 0}
+.nextcore-lark .row{display:flex;flex-wrap:wrap;gap:36px;margin:0}
+.nextcore-lark .col{flex:1 1 0;min-width:0;padding:0}
+.nextcore-lark .large-12{flex-basis:100%}
+.nextcore-lark .large-5{flex:5 1 0}
+.nextcore-lark .large-7{flex:7 1 0}
+.nextcore-lark .large-8{max-width:850px;margin-inline:auto;text-align:center}
+.nextcore-lark h1{font-size:clamp(30px,3.5vw,48px);line-height:1.25;margin:20px 0;color:#17243f}
+.nextcore-lark h2{font-size:clamp(26px,3vw,36px);line-height:1.35;margin:0 0 22px;color:#17243f}
+.nextcore-lark h3{font-size:22px;line-height:1.45}
+.nextcore-lark img,.nextcore-lark video{max-width:100%;height:auto}
+.nextcore-lark .larksuite__banner{background:linear-gradient(135deg,#eef3ff,#fafcff);padding-top:64px}
+.nextcore-lark .larksuite__banner__top{align-items:center}
+.nextcore-lark .larksuite__banner__top__content__intro{display:flex;align-items:center;gap:16px}
+.nextcore-lark .larksuite__banner__top__content__intro img{width:110px}
+.nextcore-lark .larksuite__banner__top__imgs video{width:100%;border-radius:18px;box-shadow:0 15px 50px #17375a1a}
+.nextcore-lark .larksuite__banner__top__content--contact-now{display:inline-block;margin-top:16px;background:#df0000;color:white;text-decoration:none;padding:14px 24px;border-radius:8px;font-weight:700}
+.nextcore-lark .larksuite__banner__bottom{text-align:center;margin-top:64px;font-weight:700}
+.nextcore-lark .larksuite__banner__bottom__our-apps{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:24px;margin-top:30px;font-weight:400}
+.nextcore-lark .larksuite__banner__bottom__our-apps__item__img img{width:50px;height:50px;object-fit:contain}
+.nextcore-lark .larksuite__whatislarksuite .row{align-items:center;margin-bottom:60px}
+.nextcore-lark .larksuite__whatislarksuite .row:last-child{margin-bottom:0}
+.nextcore-lark .larksuite__whatislarksuite img{border-radius:18px}
+.nextcore-lark .larksuite__count{background:#f3f6ff;text-align:center}
+.nextcore-lark .larksuite__cta-buttons{display:flex;gap:16px;flex-wrap:wrap;justify-content:center;margin-top:30px}
+.nextcore-lark .larksuite__btn-function{padding:10px 18px;border-radius:8px;background:white;border:1px solid #dce4f2;color:#234177}
+.nextcore-lark .larksuite__whoneedlarksuite__main{align-items:center}
+.nextcore-lark .larksuite__whoneedlarksuite__main__intro__top{background:#f5f7fb;padding:28px;border-radius:16px;text-align:center}
+.nextcore-lark .larksuite__whoneedlarksuite__main__intro__top__heading{font-size:22px;font-weight:700}
+.nextcore-lark .larksuite__whoneedlarksuite__main__intro__top__ratingcompany{display:flex;flex-wrap:wrap;align-items:center;gap:15px;justify-content:center}
+.nextcore-lark .larksuite__whoneedlarksuite__main__intro__top__ratingcompany img{width:90px;max-height:40px;object-fit:contain}
+.nextcore-lark .larksuite__whoneedlarksuite__main__intro__bottom{margin-top:24px}
+.nextcore-lark .rating{color:#b98100;margin:auto}
+.nextcore-lark .rating input{position:absolute;opacity:0;pointer-events:none}
+.nextcore-lark .rating label{font-size:26px}
+.nextcore-lark .larksuite__feature__header{align-items:center;margin-bottom:40px}
+.nextcore-lark .larksuite__feature__content{align-items:center;margin-bottom:48px}
+.nextcore-lark .larksuite__feature__items{margin-bottom:28px}
+.nextcore-lark .larksuite__feature__items h3{display:flex;align-items:center;gap:14px}
+.nextcore-lark .larksuite__feature__items h3 img{width:36px;height:36px;object-fit:contain}
+.nextcore-lark .larksuite__why-use{background:#f3f6ff}
+.nextcore-lark .larksuite__why-use__apps{list-style:none;display:flex;gap:22px;justify-content:center;flex-wrap:wrap;margin:0 0 35px;padding:0}
+.nextcore-lark .larksuite__why-use__apps img{width:42px;height:42px}
+.nextcore-lark .larksuite__why-use h2{text-align:center}
+.nextcore-lark .larksuite__why-use__carousel .slick-track{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;transform:none!important;width:auto!important}
+.nextcore-lark .larksuite__why-use__carousel .slick-slide{width:auto!important}
+.nextcore-lark .larksuite__why-use__item{padding:26px;background:white;border:1px solid #e1e7f0;border-radius:16px;height:100%;box-sizing:border-box}
+.nextcore-lark .larksuite__why-use__item--img img{width:60px;height:60px}
+.nextcore-lark .slick-list{overflow:visible}
+.nextcore-lark .slick-slide{float:none;display:block}
+.nextcore-lark .wow{animation:none!important;visibility:visible!important}
+@media(max-width:768px){.nextcore-lark section{padding:40px 0}.nextcore-lark .row{display:grid;grid-template-columns:1fr;gap:28px}.nextcore-lark .larksuite__banner__bottom__our-apps{grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.nextcore-lark .larksuite__why-use__carousel .slick-track{grid-template-columns:1fr}.nextcore-lark .larksuite__whatislarksuite .row{margin-bottom:40px}.nextcore-lark .larksuite__banner__bottom{margin-top:40px}}

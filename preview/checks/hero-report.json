@@ -1,0 +1,73 @@
+{
+  "results": [
+    {
+      "width": 1440,
+      "overflow": false,
+      "image": "assets/images/hero-corporate-v2.png",
+      "natural": [
+        1672,
+        941
+      ],
+      "heroHeight": 900,
+      "title": "Công ty cổ phần Phần\nmềm Nextcore",
+      "slogan": "BUILD TRUST, CREATE VALUE",
+      "cta": [
+        "Liên hệ ngay →",
+        "↗ Xem năng lực"
+      ],
+      "blogImage": "assets/images/hero.png"
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "image": "assets/images/hero-corporate-v2.png",
+      "natural": [
+        1672,
+        941
+      ],
+      "heroHeight": 1024,
+      "title": "Công ty cổ phần Phần\nmềm Nextcore",
+      "slogan": "BUILD TRUST, CREATE VALUE",
+      "cta": [
+        "Liên hệ ngay →",
+        "↗ Xem năng lực"
+      ],
+      "blogImage": "assets/images/hero.png"
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "image": "assets/images/hero-corporate-v2.png",
+      "natural": [
+        1672,
+        941
+      ],
+      "heroHeight": 844,
+      "title": "Công ty cổ phần Phần\nmềm Nextcore",
+      "slogan": "BUILD TRUST, CREATE VALUE",
+      "cta": [
+        "Liên hệ ngay →",
+        "↗ Xem năng lực"
+      ],
+      "blogImage": "assets/images/hero.png"
+    },
+    {
+      "width": 320,
+      "overflow": false,
+      "image": "assets/images/hero-corporate-v2.png",
+      "natural": [
+        1672,
+        941
+      ],
+      "heroHeight": 720,
+      "title": "Công ty cổ phần Phần\nmềm Nextcore",
+      "slogan": "BUILD TRUST, CREATE VALUE",
+      "cta": [
+        "Liên hệ ngay →",
+        "↗ Xem năng lực"
+      ],
+      "blogImage": "assets/images/hero.png"
+    }
+  ],
+  "errors": []
+}

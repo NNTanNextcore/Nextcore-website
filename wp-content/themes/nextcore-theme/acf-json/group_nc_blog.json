@@ -1,0 +1,73 @@
+{
+    "key": "group_nc_blog",
+    "title": "G14 — Trang chủ — Tiêu đề tin tức",
+    "fields": [
+        {
+            "key": "field_nc_blog_eyebrow",
+            "label": "Nhãn đầu mục",
+            "name": "nc_blog_eyebrow",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_nc_blog_heading",
+            "label": "Tiêu đề",
+            "name": "nc_blog_heading",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_nc_blog_note",
+            "label": "Ghi chú",
+            "name": "nc_blog_note",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_type",
+                "operator": "==",
+                "value": "front_page"
+            }
+        ]
+    ],
+    "menu_order": 14,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [],
+    "active": true,
+    "description": "Dữ liệu nguồn dùng chung cho sáng/tối và VI/EN. Bản dịch quản lý qua TranslatePress.",
+    "show_in_rest": 0,
+    "modified": 1789084800
+}

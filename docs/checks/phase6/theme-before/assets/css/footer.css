@@ -1,0 +1,26 @@
+.site-footer .footer-grid:where(.nextcore-native, .nextcore-native *) { grid-template-columns: 1.3fr .8fr .7fr 1.65fr .9fr; gap: 28px; }
+.site-footer .footer-grid > *:where(.nextcore-native, .nextcore-native *) { min-width: 0; }
+.site-footer .footer-contact address:where(.nextcore-native, .nextcore-native *) { font-style: normal; display: grid; gap: 12px; }
+.site-footer .footer-contact address > *:where(.nextcore-native, .nextcore-native *) { display: flex; gap: 10px; align-items: flex-start; margin: 0; color: #bfc5ca; font-size: 13px; line-height: 1.7; }
+.site-footer .footer-contact svg:where(.nextcore-native, .nextcore-native *) { width: 17px; height: 17px; flex-shrink: 0; margin-top: 3px; fill: none; stroke: #ed1523; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+.site-footer .footer-contact a:hover:where(.nextcore-native, .nextcore-native *) { color: #ed1523; }
+.site-footer .footer-motto:where(.nextcore-native, .nextcore-native *) { display: flex; margin-top: 22px; font-size: 10px; gap: 10px; }
+.site-footer .footer-motto:where(.nextcore-native, .nextcore-native *)::before { width: 24px; flex-shrink: 0; }
+.site-footer .footer-copyright:where(.nextcore-native, .nextcore-native *) { grid-column: 1 / -1; border-top: 1px solid rgba(255,255,255,.12); padding-top: 18px; font-size: 11px; color: var(--muted); }
+:root[data-theme="light"] .site-footer .footer-contact address > *:where(.nextcore-native, .nextcore-native *) { color: #555; }
+:root[data-theme="light"] .site-footer .footer-contact a:hover:where(.nextcore-native, .nextcore-native *) { color: #ce0010; }
+:root[data-theme="light"] .site-footer .footer-copyright:where(.nextcore-native, .nextcore-native *) { border-color: #e8e8e8; }
+@media (min-width: 640px) and (max-width: 1199px) {
+.site-footer .footer-grid:where(.nextcore-native, .nextcore-native *) { grid-template-columns: 1.3fr 1fr 1fr; }
+.site-footer .footer-contact:where(.nextcore-native, .nextcore-native *) { grid-column: span 2; }
+
+}
+@media (max-width: 639px) {
+.site-footer .footer-grid:where(.nextcore-native, .nextcore-native *) { grid-template-columns: minmax(0,1fr); gap: 22px; }
+.site-footer .footer-contact:where(.nextcore-native, .nextcore-native *) { max-width: 360px; }
+.site-footer h2:where(.nextcore-native, .nextcore-native *) { margin-top: 0; }
+
+}
+
+
+

@@ -1,0 +1,169 @@
+{
+    "key": "group_nc_media",
+    "title": "G13 — Toàn site — Media sáng/tối",
+    "fields": [
+        {
+            "key": "field_nc_hero_image_dark",
+            "label": "Ảnh Hero — Tối",
+            "name": "nc_hero_image_dark",
+            "type": "image",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "id",
+            "library": "all",
+            "mime_types": "jpg,jpeg,png,webp",
+            "preview_size": "medium"
+        },
+        {
+            "key": "field_nc_hero_image_light",
+            "label": "Ảnh Hero — Sáng",
+            "name": "nc_hero_image_light",
+            "type": "image",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "id",
+            "library": "all",
+            "mime_types": "jpg,jpeg,png,webp",
+            "preview_size": "medium"
+        },
+        {
+            "key": "field_nc_about_video_dark",
+            "label": "Video Cầu Rồng — Tối",
+            "name": "nc_about_video_dark",
+            "type": "file",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "id",
+            "library": "all",
+            "mime_types": "mp4",
+            "preview_size": "medium"
+        },
+        {
+            "key": "field_nc_about_video_light",
+            "label": "Video Cầu Rồng — Sáng",
+            "name": "nc_about_video_light",
+            "type": "file",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "id",
+            "library": "all",
+            "mime_types": "mp4",
+            "preview_size": "medium"
+        },
+        {
+            "key": "field_nc_about_poster_dark",
+            "label": "Ảnh chờ video Cầu Rồng — Tối",
+            "name": "nc_about_poster_dark",
+            "type": "image",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "id",
+            "library": "all",
+            "mime_types": "jpg,jpeg,png,webp",
+            "preview_size": "medium"
+        },
+        {
+            "key": "field_nc_about_poster_light",
+            "label": "Ảnh chờ video Cầu Rồng — Sáng",
+            "name": "nc_about_poster_light",
+            "type": "image",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "id",
+            "library": "all",
+            "mime_types": "jpg,jpeg,png,webp",
+            "preview_size": "medium"
+        },
+        {
+            "key": "field_nc_cta_image_dark",
+            "label": "Ảnh CTA — Tối",
+            "name": "nc_cta_image_dark",
+            "type": "image",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "id",
+            "library": "all",
+            "mime_types": "jpg,jpeg,png,webp",
+            "preview_size": "medium"
+        },
+        {
+            "key": "field_nc_cta_image_light",
+            "label": "Ảnh CTA — Sáng",
+            "name": "nc_cta_image_light",
+            "type": "image",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "id",
+            "library": "all",
+            "mime_types": "jpg,jpeg,png,webp",
+            "preview_size": "medium"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "nextcore-settings"
+            }
+        ]
+    ],
+    "menu_order": 13,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [],
+    "active": true,
+    "description": "Dữ liệu nguồn dùng chung cho sáng/tối và VI/EN. Bản dịch quản lý qua TranslatePress.",
+    "show_in_rest": 0,
+    "modified": 1789084800
+}

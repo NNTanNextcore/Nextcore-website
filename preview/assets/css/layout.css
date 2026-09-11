@@ -1,0 +1,449 @@
+/* Approved spacious layout. Keep component styling in main.css.
+   Minimum heights allow content to grow; scrolling is always free. */
+:root {
+  --section-height: 92svh;
+  --section-space: clamp(72px, 9vh, 120px);
+}
+
+.hero,
+.hero-inner {
+  min-height: 100svh;
+}
+.hero-inner {
+  padding-block: 140px 90px;
+}
+.hero-copy {
+  max-width: 850px;
+}
+.hero .company-title {
+  font-family: 'Be Vietnam Pro', Arial, sans-serif;
+  font-weight: 700;
+  font-size: clamp(44px, 4.5vw, 68px);
+  line-height: 1.18;
+  letter-spacing: -.02em;
+}
+.company-title .company-line {
+  display: block;
+  color: var(--text);
+  white-space: nowrap;
+}
+.company-title .company-name {
+  color: #ef272d;
+}
+.hero-slogan {
+  margin-top: 26px;
+  font-size: clamp(18px, 1.6vw, 24px);
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #e6e9ea;
+}
+.hero-description {
+  margin-top: 22px;
+}
+.hero .button-row {
+  margin-top: 36px;
+}
+.hero-image {
+  object-position: 65% center;
+}
+
+/* Each primary section has its own viewport-sized composition. */
+.section {
+  min-height: var(--section-height);
+  padding-block: var(--section-space);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section-heading {
+  margin-bottom: 44px;
+}
+.section-heading h2,
+.about h2,
+.team h2,
+.partner h2 {
+  font-size: clamp(32px, 3.1vw, 46px);
+  line-height: 1.2;
+}
+/* Match the Services label marker in both preview variants. */
+:is(#technology, #projects, #partner, #blog) .eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 14px;
+  letter-spacing: 1.1px;
+}
+:is(#technology, #projects, #partner, #blog) .eyebrow::before {
+  content: '';
+  width: 4px;
+  height: 19px;
+  flex-shrink: 0;
+  background: #ed1523;
+}
+.eyebrow {
+  margin-bottom: 15px;
+}
+.services-grid,
+.projects-grid,
+.blog-grid {
+  gap: 26px;
+}
+.service-card {
+  min-height: 330px;
+  padding: 36px 26px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.service-card h3 {
+  margin-top: 40px;
+  font-size: 20px;
+}
+.service-card p {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+.service-card .circle {
+  margin-top: auto;
+}
+.project-visual {
+  height: 265px;
+}
+.card-copy {
+  min-height: 125px;
+  padding-block: 24px;
+}
+.card-copy h3 {
+  font-size: 18px;
+}
+.blog-card {
+  min-height: 340px;
+  display: flex;
+  align-items: flex-end;
+}
+.blog-card > div {
+  padding: 32px 26px;
+}
+.blog-card h3 {
+  font-size: 21px;
+  line-height: 1.4;
+}
+
+.about-inner {
+  min-height: var(--section-height);
+  grid-template-columns: 42% 58%;
+}
+.about-copy {
+  align-self: center;
+  padding-block: var(--section-space);
+  padding-right: 45px;
+}
+.about-copy > p:not(.eyebrow) {
+  font-size: 17px;
+  line-height: 1.8;
+  margin-block: 28px;
+}
+.about-visual > img:first-child {
+  object-position: 60% center;
+}
+.office-logo {
+  top: 15%;
+}
+.partner-inner {
+  min-height: var(--section-height);
+  padding-block: var(--section-space);
+  grid-template-columns: 1fr 320px 250px;
+  gap: 45px;
+}
+.partner-logo {
+  width: 300px;
+  height: 260px;
+}
+.partner p:not(.eyebrow):not(.partner-motto) {
+  font-size: 18px;
+  margin-block: 24px 32px;
+}
+.team-inner {
+  min-height: var(--section-height);
+  padding-block: var(--section-space);
+  grid-template-columns: minmax(0, 1fr) 190px;
+  align-content: center;
+  gap: 44px 30px;
+}
+.team-inner > div:first-child {
+  grid-column: 1 / -1;
+}
+.team h2 br {
+  display: none;
+}
+.team-grid {
+  gap: 26px;
+}
+.team-card > img {
+  aspect-ratio: 1.12;
+}
+.team-card > div {
+  padding: 20px 16px;
+}
+.team-card h3 {
+  font-size: 18px;
+}
+.team-card p {
+  font-size: 13px;
+  margin-top: 8px;
+}
+.team-message {
+  padding: 28px 24px;
+}
+.team-message p {
+  margin-top: 28px;
+  font-size: 16px;
+}
+.final-cta,
+.cta-inner {
+  min-height: var(--section-height);
+}
+.cta-inner {
+  align-items: center;
+  padding-block: var(--section-space);
+}
+.cta-inner h2 {
+  max-width: 760px;
+  font-size: clamp(34px, 3.6vw, 52px);
+}
+.cta-inner p:not(.cta-motto) {
+  max-width: 580px;
+  font-size: 18px;
+  margin-block: 26px 34px;
+}
+.final-cta > img {
+  object-position: 65% center;
+}
+
+/* Full-bleed Da Nang company introduction. Poster stays behind the video. */
+.company-video {
+  position: relative;
+  isolation: isolate;
+  background: #101b22 url('../images/danang-poster.jpg') center / cover no-repeat;
+}
+.company-video-media {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  visibility: hidden;
+  pointer-events: none;
+  z-index: -2;
+}
+.company-video.is-playing .company-video-media {
+  visibility: visible;
+}
+.company-video::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(180deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, .7));
+  pointer-events: none;
+}
+.company-video-inner {
+  min-height: 85svh;
+  display: flex;
+  align-items: center;
+  padding-block: 80px;
+}
+.company-video-copy {
+  max-width: 700px;
+  text-shadow: 0 2px 14px rgba(0, 0, 0, .4);
+}
+.company-video h2 {
+  font-size: clamp(36px, 3.4vw, 54px);
+  line-height: 1.22;
+  letter-spacing: -1px;
+  color: #fff;
+}
+.company-video h2 span {
+  display: block;
+  white-space: nowrap;
+}
+.company-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 26px;
+  color: #ff252b;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.company-eyebrow::after {
+  content: '';
+  width: 80px;
+  height: 1px;
+  background: #df0000;
+}
+.company-founded {
+  margin-top: 18px;
+  color: #e0e4e7;
+  font-size: clamp(18px, 1.5vw, 23px);
+  font-style: italic;
+}
+.company-description {
+  margin-top: 28px;
+  max-width: 700px;
+}
+.company-description p {
+  color: #f1f3f4;
+  font-size: 18px;
+  line-height: 1.55;
+}
+.company-description p + p {
+  margin-top: 16px;
+}
+.company-description strong {
+  color: #ff3038;
+  font-weight: 600;
+}
+.company-founded.reveal-ready { transition-delay: 80ms; }
+.company-description.reveal-ready { transition-delay: 160ms; }
+.company-more {
+  margin-top: 36px;
+  padding: 15px 28px;
+  min-height: 56px;
+  border-radius: 999px;
+  gap: 28px;
+  background: #e50914;
+  font-size: 16px;
+  font-weight: 500;
+  text-shadow: none;
+}
+.company-more span { font-size: 28px; font-weight: 400; }
+.company-more.reveal-ready { transition-delay: 220ms; }
+@media (max-width: 639px) {
+  .company-video-inner {
+    min-height: max(600px, 90svh);
+    align-items: flex-end;
+    padding-block: 160px 48px;
+  }
+  .company-video::after {
+    background: linear-gradient(180deg, rgba(0, 0, 0, .35), rgba(0, 0, 0, .78));
+  }
+  .company-video h2 { font-size: clamp(24px, 6.8vw, 36px); letter-spacing: -.5px; }
+  .company-eyebrow { font-size: 12px; gap: 14px; margin-bottom: 22px; }
+  .company-eyebrow::after { width: 50px; }
+  .company-founded { font-size: 16px; margin-top: 18px; }
+  .company-description { margin-top: 24px; }
+  .company-description p { font-size: 15px; line-height: 1.75; }
+  .company-description p + p { margin-top: 16px; }
+  .company-more { margin-top: 28px; min-height: 52px; padding: 12px 24px; font-size: 15px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .company-video.is-playing .company-video-media { visibility: hidden; }
+}
+
+/* Shorter interludes, as approved: roughly half a desktop viewport. */
+.stats,
+.technology {
+  min-height: 45svh;
+  display: flex;
+  align-items: center;
+  padding-block: 48px;
+}
+.stats-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  padding-block: 0;
+}
+.stats .stat {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 22px 20px;
+  gap: 20px;
+}
+.stat strong {
+  font-size: 42px;
+}
+.stat span {
+  font-size: 14px;
+  margin-top: 12px;
+}
+.technology-inner {
+  padding-block: 0;
+}
+.site-footer {
+  padding-block: 55px 65px;
+}
+
+@media (min-width: 640px) and (max-width: 1200px) {
+  .team-inner { grid-template-columns: 1fr; }
+  .partner-inner { grid-template-columns: 1fr 230px 170px; gap: 25px; }
+  .partner-logo { width: 230px; height: 210px; }
+  .service-card { padding: 28px 20px; }
+  .service-card h3 { font-size: 18px; }
+}
+@media (min-width: 640px) and (max-width: 1023px) {
+  :root { --section-space: 80px; }
+  .hero .company-title { font-size: clamp(40px, 5.6vw, 57px); }
+  .hero-slogan { font-size: 18px; }
+  .about-inner { grid-template-columns: 46% 54%; }
+  .about-copy { padding-right: 30px; }
+  .service-card { min-height: 280px; }
+  .project-visual { height: 225px; }
+  .card-copy { min-height: 156px; }
+  .blog-grid { gap: 16px; }
+  .blog-card { min-height: 290px; }
+  .blog-card > div { padding: 22px 16px; }
+  .blog-card h3 { font-size: 18px; }
+  .stat { gap: 12px; }
+  .stat span { font-size: 12px; }
+  .team-card h3 { font-size: 16px; }
+}
+@media (max-width: 639px) {
+  :root { --section-space: 72px; }
+  .hero-inner { align-items: center; padding-block: 125px 90px; }
+  .hero-copy { width: 100%; }
+  .hero .company-title { font-size: clamp(24px, 6.65vw, 42px); letter-spacing: -.02em; line-height: 1.22; }
+  .hero-slogan { font-size: clamp(12px, 3.4vw, 17px); letter-spacing: 1px; margin-top: 22px; }
+  .hero .button-row { gap: 18px; }
+  .section { min-height: auto; }
+  .section-heading { margin-bottom: 30px; }
+  .section-heading h2, .about h2, .team h2, .partner h2 { font-size: 30px; }
+  .services-grid { gap: 14px; }
+  .service-card { padding: 24px 15px; min-height: 275px; }
+  .service-card h3 { font-size: 16px; margin-top: 26px; }
+  .service-card p { font-size: 12px; }
+  .projects-grid, .blog-grid { gap: 28px; }
+  .project-visual { height: auto; }
+  .card-copy { min-height: 120px; }
+  .card-copy h3 { font-size: 17px; }
+  .blog-card { min-height: 275px; }
+  .blog-card > div { padding: 26px 22px; }
+  .blog-card h3 { font-size: 20px; }
+  .about-inner { min-height: auto; padding-top: 72px; }
+  .about-copy { padding: 0 0 36px; }
+  .about-copy > p:not(.eyebrow) { font-size: 15px; margin-block: 24px; }
+  .about-visual { min-height: 320px; }
+  .partner-inner { min-height: auto; grid-template-columns: 1fr 1fr; gap: 36px 20px; }
+  .partner-logo { width: 150px; height: 140px; }
+  .partner p:not(.eyebrow):not(.partner-motto) { font-size: 14px; margin-block: 20px 24px; }
+  .team-inner { min-height: auto; grid-template-columns: 1fr; gap: 30px; }
+  .team-grid { gap: 20px; }
+  .team-card > img { aspect-ratio: 1; }
+  .team-card h3 { font-size: 16px; }
+  .team-card > div { padding: 16px; }
+  .team-card p { font-size: 12px; }
+  .final-cta, .cta-inner { min-height: 80svh; }
+  .cta-inner h2 { font-size: 32px; }
+  .cta-inner p:not(.cta-motto) { font-size: 16px; }
+  .stats, .technology { min-height: auto; padding-block: 44px; }
+  .stats-grid { grid-template-columns: 1fr; }
+  .stat, .stat:first-child { padding: 26px 20px; gap: 24px; border-right: 0; }
+  .stat:not(:last-child) { border-bottom: 1px solid var(--border); }
+  .stat strong { font-size: 32px; }
+  .stat span { font-size: 11px; }
+  .technology-inner { gap: 32px 12px; }
+}

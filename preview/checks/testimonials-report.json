@@ -1,0 +1,173 @@
+{
+  "results": [
+    {
+      "width": 1440,
+      "variants": [
+        {
+          "width": 1425,
+          "height": 828,
+          "cardWidth": 375,
+          "cards": 4,
+          "previous": "partner",
+          "overflow": false,
+          "images": true,
+          "nextWorks": true,
+          "modalWorks": true
+        },
+        {
+          "width": 1425,
+          "height": 828,
+          "cardWidth": 375,
+          "cards": 4,
+          "previous": "partner",
+          "overflow": false,
+          "images": true,
+          "nextWorks": true,
+          "modalWorks": true
+        }
+      ],
+      "matchingLayout": true
+    },
+    {
+      "width": 1200,
+      "variants": [
+        {
+          "width": 1185,
+          "height": 828,
+          "cardWidth": 322,
+          "cards": 4,
+          "previous": "partner",
+          "overflow": false,
+          "images": true,
+          "nextWorks": true,
+          "modalWorks": true
+        },
+        {
+          "width": 1185,
+          "height": 828,
+          "cardWidth": 322,
+          "cards": 4,
+          "previous": "partner",
+          "overflow": false,
+          "images": true,
+          "nextWorks": true,
+          "modalWorks": true
+        }
+      ],
+      "matchingLayout": true
+    },
+    {
+      "width": 1024,
+      "variants": [
+        {
+          "width": 1009,
+          "height": 828,
+          "cardWidth": 263,
+          "cards": 4,
+          "previous": "partner",
+          "overflow": false,
+          "images": true,
+          "nextWorks": true,
+          "modalWorks": true
+        },
+        {
+          "width": 1009,
+          "height": 828,
+          "cardWidth": 263,
+          "cards": 4,
+          "previous": "partner",
+          "overflow": false,
+          "images": true,
+          "nextWorks": true,
+          "modalWorks": true
+        }
+      ],
+      "matchingLayout": true
+    },
+    {
+      "width": 768,
+      "variants": [
+        {
+          "width": 753,
+          "height": 828,
+          "cardWidth": 280,
+          "cards": 4,
+          "previous": "partner",
+          "overflow": false,
+          "images": true,
+          "nextWorks": true,
+          "modalWorks": true
+        },
+        {
+          "width": 753,
+          "height": 828,
+          "cardWidth": 280,
+          "cards": 4,
+          "previous": "partner",
+          "overflow": false,
+          "images": true,
+          "nextWorks": true,
+          "modalWorks": true
+        }
+      ],
+      "matchingLayout": true
+    },
+    {
+      "width": 480,
+      "variants": [
+        {
+          "width": 465,
+          "height": 720,
+          "cardWidth": 357,
+          "cards": 4,
+          "previous": "partner",
+          "overflow": false,
+          "images": true,
+          "nextWorks": true,
+          "modalWorks": true
+        },
+        {
+          "width": 465,
+          "height": 720,
+          "cardWidth": 357,
+          "cards": 4,
+          "previous": "partner",
+          "overflow": false,
+          "images": true,
+          "nextWorks": true,
+          "modalWorks": true
+        }
+      ],
+      "matchingLayout": true
+    },
+    {
+      "width": 375,
+      "variants": [
+        {
+          "width": 360,
+          "height": 764,
+          "cardWidth": 252,
+          "cards": 4,
+          "previous": "partner",
+          "overflow": false,
+          "images": true,
+          "nextWorks": true,
+          "modalWorks": true
+        },
+        {
+          "width": 360,
+          "height": 764,
+          "cardWidth": 252,
+          "cards": 4,
+          "previous": "partner",
+          "overflow": false,
+          "images": true,
+          "nextWorks": true,
+          "modalWorks": true
+        }
+      ],
+      "matchingLayout": true
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,14 @@
+{
+    "review_id": 87,
+    "mode": "apply-local",
+    "source": "Góc nhìn &amp; kiến thức",
+    "old_translation": "",
+    "new_translation": "Insights &amp; knowledge",
+    "table": "nxt_trp_dictionary_vi_en_us",
+    "type": "regular",
+    "row_id": "1561",
+    "action": "match-encoded-source",
+    "before_count": 1628,
+    "after_count": 1628,
+    "verified_translation": "Insights &amp; knowledge"
+}

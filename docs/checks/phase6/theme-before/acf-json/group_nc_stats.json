@@ -1,0 +1,119 @@
+{
+    "key": "group_nc_stats",
+    "title": "G03 — Trang chủ — Số liệu",
+    "fields": [
+        {
+            "key": "field_nc_stats",
+            "label": "Ba số liệu nổi bật",
+            "name": "nc_stats",
+            "type": "repeater",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "pagination": 0,
+            "min": 3,
+            "max": 3,
+            "button_label": "Thêm dòng",
+            "sub_fields": [
+                {
+                    "key": "field_nc_stats_metric",
+                    "label": "Loại số liệu",
+                    "name": "metric",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "projects": "Dự án",
+                        "clients": "Khách hàng",
+                        "employees": "Nhân viên"
+                    },
+                    "default_value": false,
+                    "return_format": "value",
+                    "multiple": 0,
+                    "allow_null": 0,
+                    "ui": 1
+                },
+                {
+                    "key": "field_nc_stats_value",
+                    "label": "Giá trị",
+                    "name": "value",
+                    "type": "number",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "min": 0,
+                    "step": 1
+                },
+                {
+                    "key": "field_nc_stats_suffix",
+                    "label": "Hậu tố",
+                    "name": "suffix",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_nc_stats_label",
+                    "label": "Nhãn hiển thị",
+                    "name": "label",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_type",
+                "operator": "==",
+                "value": "front_page"
+            }
+        ]
+    ],
+    "menu_order": 3,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [],
+    "active": true,
+    "description": "Dữ liệu nguồn dùng chung cho sáng/tối và VI/EN. Bản dịch quản lý qua TranslatePress.",
+    "show_in_rest": 0,
+    "modified": 1789084800
+}

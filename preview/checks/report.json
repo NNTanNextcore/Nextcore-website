@@ -1,0 +1,321 @@
+{
+  "results": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "companyLines": [
+        {
+          "text": "Công ty cổ phần Phần",
+          "width": 702.1875,
+          "contentWidth": 702
+        },
+        {
+          "text": "mềm Nextcore",
+          "width": 702.1875,
+          "contentWidth": 702
+        }
+      ],
+      "titleSize": "64.8px",
+      "sloganSize": "23.04px",
+      "sectionHeights": [
+        {
+          "section": "home",
+          "height": 900
+        },
+        {
+          "section": "stats",
+          "height": 405
+        },
+        {
+          "section": "about",
+          "height": 829
+        },
+        {
+          "section": "services",
+          "height": 828
+        },
+        {
+          "section": "projects",
+          "height": 828
+        },
+        {
+          "section": "technology",
+          "height": 405
+        },
+        {
+          "section": "partner",
+          "height": 829
+        },
+        {
+          "section": "team",
+          "height": 829
+        },
+        {
+          "section": "blog",
+          "height": 828
+        },
+        {
+          "section": "contact",
+          "height": 828
+        }
+      ],
+      "scrollWidth": 1425,
+      "missingImages": [],
+      "sections": 10,
+      "h1": 1,
+      "brokenAnchors": [],
+      "externalRequests": [],
+      "servicesColumns": "300.5px 300.5px 300.5px 300.5px",
+      "projectsColumns": "409.328px 409.328px 409.344px",
+      "dialog": {
+        "opened": true,
+        "closed": true
+      },
+      "search": true
+    },
+    {
+      "name": "tablet",
+      "width": 768,
+      "companyLines": [
+        {
+          "text": "Công ty cổ phần Phần",
+          "width": 453.84375,
+          "contentWidth": 454
+        },
+        {
+          "text": "mềm Nextcore",
+          "width": 453.84375,
+          "contentWidth": 454
+        }
+      ],
+      "titleSize": "43.008px",
+      "sloganSize": "18px",
+      "sectionHeights": [
+        {
+          "section": "home",
+          "height": 1024
+        },
+        {
+          "section": "stats",
+          "height": 461
+        },
+        {
+          "section": "about",
+          "height": 943
+        },
+        {
+          "section": "services",
+          "height": 942
+        },
+        {
+          "section": "projects",
+          "height": 1068
+        },
+        {
+          "section": "technology",
+          "height": 461
+        },
+        {
+          "section": "partner",
+          "height": 943
+        },
+        {
+          "section": "team",
+          "height": 943
+        },
+        {
+          "section": "blog",
+          "height": 942
+        },
+        {
+          "section": "contact",
+          "height": 942
+        }
+      ],
+      "scrollWidth": 753,
+      "missingImages": [],
+      "sections": 10,
+      "h1": 1,
+      "brokenAnchors": [],
+      "externalRequests": [],
+      "servicesColumns": "331.5px 331.5px",
+      "projectsColumns": "331.5px 331.5px",
+      "menu": {
+        "opened": true,
+        "closedWithEscape": true,
+        "focusReturned": true
+      },
+      "dialog": {
+        "opened": true,
+        "closed": true
+      },
+      "search": true
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "companyLines": [
+        {
+          "text": "Công ty cổ phần Phần",
+          "width": 335,
+          "contentWidth": 335
+        },
+        {
+          "text": "mềm Nextcore",
+          "width": 335,
+          "contentWidth": 335
+        }
+      ],
+      "titleSize": "25.935px",
+      "sloganSize": "13.26px",
+      "sectionHeights": [
+        {
+          "section": "home",
+          "height": 844
+        },
+        {
+          "section": "stats",
+          "height": 347
+        },
+        {
+          "section": "about",
+          "height": 708
+        },
+        {
+          "section": "services",
+          "height": 840
+        },
+        {
+          "section": "projects",
+          "height": 1238
+        },
+        {
+          "section": "technology",
+          "height": 233
+        },
+        {
+          "section": "partner",
+          "height": 476
+        },
+        {
+          "section": "team",
+          "height": 700
+        },
+        {
+          "section": "blog",
+          "height": 1157
+        },
+        {
+          "section": "contact",
+          "height": 675
+        }
+      ],
+      "scrollWidth": 375,
+      "missingImages": [],
+      "sections": 10,
+      "h1": 1,
+      "brokenAnchors": [],
+      "externalRequests": [],
+      "servicesColumns": "160.5px 160.5px",
+      "projectsColumns": "335px",
+      "menu": {
+        "opened": true,
+        "closedWithEscape": true,
+        "focusReturned": true
+      },
+      "dialog": {
+        "opened": true,
+        "closed": true
+      },
+      "search": true
+    },
+    {
+      "name": "small-mobile",
+      "width": 320,
+      "companyLines": [
+        {
+          "text": "Công ty cổ phần Phần",
+          "width": 265,
+          "contentWidth": 265
+        },
+        {
+          "text": "mềm Nextcore",
+          "width": 265,
+          "contentWidth": 265
+        }
+      ],
+      "titleSize": "24px",
+      "sloganSize": "12px",
+      "sectionHeights": [
+        {
+          "section": "home",
+          "height": 720
+        },
+        {
+          "section": "stats",
+          "height": 364
+        },
+        {
+          "section": "about",
+          "height": 744
+        },
+        {
+          "section": "services",
+          "height": 840
+        },
+        {
+          "section": "projects",
+          "height": 1177
+        },
+        {
+          "section": "technology",
+          "height": 263
+        },
+        {
+          "section": "partner",
+          "height": 518
+        },
+        {
+          "section": "team",
+          "height": 700
+        },
+        {
+          "section": "blog",
+          "height": 1157
+        },
+        {
+          "section": "contact",
+          "height": 576
+        }
+      ],
+      "scrollWidth": 305,
+      "missingImages": [],
+      "sections": 10,
+      "h1": 1,
+      "brokenAnchors": [],
+      "externalRequests": [],
+      "servicesColumns": "125.5px 125.5px",
+      "projectsColumns": "265px",
+      "menu": {
+        "opened": true,
+        "closedWithEscape": true,
+        "focusReturned": true
+      },
+      "dialog": {
+        "opened": true,
+        "closed": true
+      },
+      "search": true
+    }
+  ],
+  "reducedMotion": {
+    "animation": "none",
+    "overflow": false
+  },
+  "fileWithoutJs": {
+    "title": "Nextcore — Build trust, create value",
+    "visibleHero": "1",
+    "loadedHero": true
+  },
+  "errors": []
+}

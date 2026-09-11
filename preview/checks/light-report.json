@@ -1,0 +1,89 @@
+{
+  "sourceIdentical": false,
+  "results": [
+    {
+      "width": 1440,
+      "layoutIdentical": true,
+      "differences": [],
+      "assetsIdentical": false,
+      "linksIdentical": true,
+      "motionIdentical": true,
+      "overflow": false,
+      "missingImages": [],
+      "menuWorks": true,
+      "pauseWorks": true,
+      "searchWorks": true
+    },
+    {
+      "width": 1200,
+      "layoutIdentical": true,
+      "differences": [],
+      "assetsIdentical": false,
+      "linksIdentical": true,
+      "motionIdentical": true,
+      "overflow": false,
+      "missingImages": [],
+      "menuWorks": true,
+      "pauseWorks": true,
+      "searchWorks": true
+    },
+    {
+      "width": 1024,
+      "layoutIdentical": true,
+      "differences": [],
+      "assetsIdentical": false,
+      "linksIdentical": true,
+      "motionIdentical": true,
+      "overflow": false,
+      "missingImages": [],
+      "menuWorks": true,
+      "pauseWorks": true,
+      "searchWorks": true
+    },
+    {
+      "width": 768,
+      "layoutIdentical": true,
+      "differences": [],
+      "assetsIdentical": false,
+      "linksIdentical": true,
+      "motionIdentical": true,
+      "overflow": false,
+      "missingImages": [],
+      "menuWorks": true,
+      "pauseWorks": true,
+      "searchWorks": true
+    },
+    {
+      "width": 480,
+      "layoutIdentical": true,
+      "differences": [],
+      "assetsIdentical": false,
+      "linksIdentical": true,
+      "motionIdentical": true,
+      "overflow": false,
+      "missingImages": [],
+      "menuWorks": true,
+      "pauseWorks": true,
+      "searchWorks": true
+    },
+    {
+      "width": 375,
+      "layoutIdentical": true,
+      "differences": [],
+      "assetsIdentical": false,
+      "linksIdentical": true,
+      "motionIdentical": true,
+      "overflow": false,
+      "missingImages": [],
+      "menuWorks": true,
+      "pauseWorks": true,
+      "searchWorks": true
+    }
+  ],
+  "reducedMotion": {
+    "videoPaused": true,
+    "marquee": "none",
+    "overflow": false
+  },
+  "errors": []
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "width": 1440,
+    "src": "http://localhost/preview/assets/video/caurongquay-light-video.mp4",
+    "poster": "http://localhost/preview/assets/images/danang-light-poster.jpg",
+    "background": "url(\"http://localhost/preview/assets/images/danang-light-poster.jpg\")",
+    "playing": true,
+    "bufferingVisibility": "visible",
+    "loop": {
+      "time": 1.246821,
+      "visible": "visible"
+    },
+    "reducedMotion": {
+      "paused": true,
+      "visible": "hidden",
+      "background": "url(\"http://localhost/preview/assets/images/danang-light-poster.jpg\")"
+    }
+  },
+  {
+    "width": 375,
+    "src": "http://localhost/preview/assets/video/caurongquay-light-video.mp4",
+    "poster": "http://localhost/preview/assets/images/danang-light-poster.jpg",
+    "background": "url(\"http://localhost/preview/assets/images/danang-light-poster.jpg\")",
+    "playing": true,
+    "bufferingVisibility": "visible",
+    "loop": {
+      "time": 1.2472,
+      "visible": "visible"
+    },
+    "reducedMotion": {
+      "paused": true,
+      "visible": "hidden",
+      "background": "url(\"http://localhost/preview/assets/images/danang-light-poster.jpg\")"
+    }
+  }
+]

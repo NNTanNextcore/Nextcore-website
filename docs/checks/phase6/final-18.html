@@ -1,0 +1,698 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ffffff">
+<script id="nextcore-theme-init">
+(function () {
+    'use strict';
+    var key = 'nextcore-theme-mode';
+    var root = document.documentElement;
+    var media = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
+    var override = null;
+    function valid(value) { return value === 'light' || value === 'dark'; }
+    try { var saved = window.localStorage.getItem(key); override = valid(saved) ? saved : null; } catch (error) {}
+    function apply() {
+        var mode = override || (media && media.matches ? 'dark' : 'light');
+        root.setAttribute('data-theme', mode);
+        var meta = document.querySelector('meta[name="theme-color"]');
+        if (meta) { meta.setAttribute('content', mode === 'dark' ? '#070b0d' : '#ffffff'); }
+        window.dispatchEvent(new CustomEvent('nextcore:themechange', { detail: { mode: mode } }));
+        return mode;
+    }
+    window.NextcoreTheme = {
+        get: function () { return root.getAttribute('data-theme'); },
+        set: function (mode) {
+            if (!valid(mode)) { return; }
+            override = mode;
+            try { window.localStorage.setItem(key, mode); } catch (error) {}
+            apply();
+        }
+    };
+    if (media) {
+        if (media.addEventListener) { media.addEventListener('change', apply); }
+        else if (media.addListener) { media.addListener(apply); }
+    }
+    window.addEventListener('storage', function (event) {
+        if (event.key !== key && event.key !== null) { return; }
+        override = valid(event.newValue) ? event.newValue : null;
+        apply();
+    });
+    apply();
+}());
+</script>
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v23.7 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Trường Doanh nhân Top Olympia | Nextcore</title>
+	<link rel="canonical" href="http://localhost/truong-doanh-nhan-top-olympia/" />
+	<meta property="og:locale" content="vi_VN" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Trường Doanh nhân Top Olympia | Nextcore" />
+	<meta property="og:description" content="Trong lĩnh vực giáo dục, việc cung cấp một trang web chất lượng và thân thiện với người dùng là điều vô cùng quan trọng. Trang web hiện tại của chúng tôi đã gặp phải một số vấn đề về giao diện người dùng (UI) và trải nghiệm người dùng (UX), điều này đã ảnh [&hellip;]" />
+	<meta property="og:url" content="http://localhost/truong-doanh-nhan-top-olympia/" />
+	<meta property="og:site_name" content="Nextcore" />
+	<meta property="article:published_time" content="2024-11-11T02:43:57+00:00" />
+	<meta property="article:modified_time" content="2025-03-27T02:10:55+00:00" />
+	<meta property="og:image" content="http://localhost/wp-content/uploads/2024/11/top.png" />
+	<meta property="og:image:width" content="1903" />
+	<meta property="og:image:height" content="871" />
+	<meta property="og:image:type" content="image/png" />
+	<meta name="author" content="admin" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Được viết bởi" />
+	<meta name="twitter:data1" content="admin" />
+	<meta name="twitter:label2" content="Ước tính thời gian đọc" />
+	<meta name="twitter:data2" content="3 phút" />
+	<script type="application/ld+json" class="yoast-schema-graph">{
+	    "@context": "https://schema.org",
+	    "@graph": [
+	        {
+	            "@type": "Article",
+	            "@id": "http://localhost/truong-doanh-nhan-top-olympia/#article",
+	            "isPartOf": {
+	                "@id": "http://localhost/truong-doanh-nhan-top-olympia/"
+	            },
+	            "author": {
+	                "name": "admin",
+	                "@id": "http://localhost/#/schema/person/9ac53e94bbd0577e16ba2c55bddfc49d"
+	            },
+	            "headline": "Trường Doanh nhân Top Olympia",
+	            "datePublished": "2024-11-11T02:43:57+00:00",
+	            "dateModified": "2025-03-27T02:10:55+00:00",
+	            "mainEntityOfPage": {
+	                "@id": "http://localhost/truong-doanh-nhan-top-olympia/"
+	            },
+	            "wordCount": 636,
+	            "publisher": {
+	                "@id": "http://localhost/#organization"
+	            },
+	            "image": {
+	                "@id": "http://localhost/truong-doanh-nhan-top-olympia/#primaryimage"
+	            },
+	            "thumbnailUrl": "http://localhost/wp-content/uploads/2024/11/top.png",
+	            "articleSection": [
+	                "Công ty"
+	            ],
+	            "inLanguage": "vi"
+	        },
+	        {
+	            "@type": "WebPage",
+	            "@id": "http://localhost/truong-doanh-nhan-top-olympia/",
+	            "url": "http://localhost/truong-doanh-nhan-top-olympia/",
+	            "name": "Trường Doanh nhân Top Olympia | Nextcore",
+	            "isPartOf": {
+	                "@id": "http://localhost/#website"
+	            },
+	            "primaryImageOfPage": {
+	                "@id": "http://localhost/truong-doanh-nhan-top-olympia/#primaryimage"
+	            },
+	            "image": {
+	                "@id": "http://localhost/truong-doanh-nhan-top-olympia/#primaryimage"
+	            },
+	            "thumbnailUrl": "http://localhost/wp-content/uploads/2024/11/top.png",
+	            "datePublished": "2024-11-11T02:43:57+00:00",
+	            "dateModified": "2025-03-27T02:10:55+00:00",
+	            "breadcrumb": {
+	                "@id": "http://localhost/truong-doanh-nhan-top-olympia/#breadcrumb"
+	            },
+	            "inLanguage": "vi",
+	            "potentialAction": [
+	                {
+	                    "@type": "ReadAction",
+	                    "target": [
+	                        "http://localhost/truong-doanh-nhan-top-olympia/"
+	                    ]
+	                }
+	            ]
+	        },
+	        {
+	            "@type": "ImageObject",
+	            "inLanguage": "vi",
+	            "@id": "http://localhost/truong-doanh-nhan-top-olympia/#primaryimage",
+	            "url": "http://localhost/wp-content/uploads/2024/11/top.png",
+	            "contentUrl": "http://localhost/wp-content/uploads/2024/11/top.png",
+	            "width": 1903,
+	            "height": 871
+	        },
+	        {
+	            "@type": "BreadcrumbList",
+	            "@id": "http://localhost/truong-doanh-nhan-top-olympia/#breadcrumb",
+	            "itemListElement": [
+	                {
+	                    "@type": "ListItem",
+	                    "position": 1,
+	                    "name": "Trang chủ",
+	                    "item": "http://localhost/"
+	                },
+	                {
+	                    "@type": "ListItem",
+	                    "position": 2,
+	                    "name": "Blog",
+	                    "item": "http://localhost/tin-tuc/"
+	                },
+	                {
+	                    "@type": "ListItem",
+	                    "position": 3,
+	                    "name": "Trường Doanh nhân Top Olympia"
+	                }
+	            ]
+	        },
+	        {
+	            "@type": "WebSite",
+	            "@id": "http://localhost/#website",
+	            "url": "http://localhost/",
+	            "name": "Nextcore",
+	            "description": "Công ty Cổ phần Phần mềm Nextcore Thành lập vào 15 thg 6, 2022 Chuyên thực hiện phát triển, bảo trì các dự án CNTT cho các đối tác outsource. Đối tác của Công ty là các Công ty outsource lớn-vừa-nhỏ ở Việt Nam ở cả 3 thị trường nói tiếng Anh-Nhật-Việt. Không ngừng nỗ...",
+	            "publisher": {
+	                "@id": "http://localhost/#organization"
+	            },
+	            "potentialAction": [
+	                {
+	                    "@type": "SearchAction",
+	                    "target": {
+	                        "@type": "EntryPoint",
+	                        "urlTemplate": "http://localhost/?s={search_term_string}"
+	                    },
+	                    "query-input": {
+	                        "@type": "PropertyValueSpecification",
+	                        "valueRequired": true,
+	                        "valueName": "search_term_string"
+	                    }
+	                }
+	            ],
+	            "inLanguage": "vi"
+	        },
+	        {
+	            "@type": "Organization",
+	            "@id": "http://localhost/#organization",
+	            "name": "Nextcore",
+	            "url": "http://localhost/",
+	            "logo": {
+	                "@type": "ImageObject",
+	                "inLanguage": "vi",
+	                "@id": "http://localhost/#/schema/logo/image/",
+	                "url": "http://localhost/wp-content/uploads/2024/10/logo_icon.png",
+	                "contentUrl": "http://localhost/wp-content/uploads/2024/10/logo_icon.png",
+	                "width": 2048,
+	                "height": 2048,
+	                "caption": "Nextcore"
+	            },
+	            "image": {
+	                "@id": "http://localhost/#/schema/logo/image/"
+	            }
+	        },
+	        {
+	            "@type": "Person",
+	            "@id": "http://localhost/#/schema/person/9ac53e94bbd0577e16ba2c55bddfc49d",
+	            "name": "admin",
+	            "image": {
+	                "@type": "ImageObject",
+	                "inLanguage": "vi",
+	                "@id": "http://localhost/#/schema/person/image/",
+	                "url": "https://secure.gravatar.com/avatar/d22c6eb4eb12c385704b9d2cab258da1c6bda130fceebeb6d681f5c4141ef53f?s=96&d=mm&r=g",
+	                "contentUrl": "https://secure.gravatar.com/avatar/d22c6eb4eb12c385704b9d2cab258da1c6bda130fceebeb6d681f5c4141ef53f?s=96&d=mm&r=g",
+	                "caption": "admin"
+	            },
+	            "sameAs": [
+	                "http://localhost"
+	            ],
+	            "url": "http://localhost/author/admin/"
+	        }
+	    ]
+	}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="alternate" title="oNhúng (JSON)" type="application/json+oembed" href="http://localhost/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2Ftruong-doanh-nhan-top-olympia%2F" />
+<link rel="alternate" title="oNhúng (XML)" type="text/xml+oembed" href="http://localhost/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2Ftruong-doanh-nhan-top-olympia%2F&#038;format=xml" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<link rel='stylesheet' id='wc-blocks-style-css' href='http://localhost/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?ver=wc-9.3.6' media='all' />
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-family--inter: "Inter", sans-serif;--wp--preset--font-family--cardo: Cardo;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-inter-font-family{font-family: var(--wp--preset--font-family--inter) !important;}.has-cardo-font-family{font-family: var(--wp--preset--font-family--cardo) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='cee-common-card-style-css' href='http://localhost/wp-content/plugins/card-elements-for-elementor/assets/css/common-card-style.css?ver=1.0' media='' />
+<link rel='stylesheet' id='cee-profile-card-style-css' href='http://localhost/wp-content/plugins/card-elements-for-elementor/assets/css/profile-card-style.css?ver=1.0' media='' />
+<link rel='stylesheet' id='cee-testimonial-card-style-css' href='http://localhost/wp-content/plugins/card-elements-for-elementor/assets/css/testimonial-card-style.css?ver=1.0' media='' />
+<link rel='stylesheet' id='cee-post-card-style-css' href='http://localhost/wp-content/plugins/card-elements-for-elementor/assets/css/post-card-style.css?ver=1.0' media='' />
+<link rel='stylesheet' id='cep-tour-card-style-css' href='http://localhost/wp-content/plugins/card-elements-for-elementor/assets/css/tour-card-style.css?ver=1.0' media='' />
+<link rel='stylesheet' id='cep-listing-card-style-css' href='http://localhost/wp-content/plugins/card-elements-for-elementor/assets/css/listing-card-style.css?ver=1.0' media='' />
+<link rel='stylesheet' id='cee-font-awesome-css' href='http://localhost/wp-content/plugins/card-elements-for-elementor/assets/css/font-awesome.css?ver=1' media='all' />
+<link rel='stylesheet' id='font-awesome-5-all-css-css' href='http://localhost/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=7.1' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css-css' href='http://localhost/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=7.1' media='all' />
+<link rel='stylesheet' id='contact-form-7-css' href='http://localhost/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.9.8' media='all' />
+<link rel='stylesheet' id='sr7css-css' href='//localhost/wp-content/plugins/slider-revolution/public/css/sr7.css?ver=6.7.20' media='all' />
+<link rel='stylesheet' id='woocommerce-layout-css' href='http://localhost/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=9.3.6' media='all' />
+<link rel='stylesheet' id='woocommerce-smallscreen-css' href='http://localhost/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=9.3.6' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='woocommerce-general-css' href='http://localhost/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=9.3.6' media='all' />
+<style id="woocommerce-inline-inline-css">
+.woocommerce form .form-row .required { visibility: visible; }
+/*# sourceURL=woocommerce-inline-inline-css */
+</style>
+<link rel='stylesheet' id='trp-language-switcher-style-css' href='http://localhost/wp-content/plugins/translatepress-multilingual/assets/css/trp-language-switcher.css?ver=2.8.7' media='all' />
+<link rel='stylesheet' id='eae-css-css' href='http://localhost/wp-content/plugins/addon-elements-for-elementor-page-builder/assets/css/eae.min.css?ver=1.13.9' media='all' />
+<link rel='stylesheet' id='eae-peel-css-css' href='http://localhost/wp-content/plugins/addon-elements-for-elementor-page-builder/assets/lib/peel/peel.css?ver=1.13.9' media='all' />
+<link rel='stylesheet' id='font-awesome-4-shim-css' href='http://localhost/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=1.0' media='all' />
+<link rel='stylesheet' id='font-awesome-5-all-css' href='http://localhost/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=1.0' media='all' />
+<link rel='stylesheet' id='vegas-css-css' href='http://localhost/wp-content/plugins/addon-elements-for-elementor-page-builder/assets/lib/vegas/vegas.min.css?ver=2.4.0' media='all' />
+<link rel='stylesheet' id='nextcore-tokens-css' href='http://localhost/wp-content/themes/nextcore-theme/assets/css/tokens.css?ver=1789034960' media='all' />
+<link rel='stylesheet' id='nextcore-base-css' href='http://localhost/wp-content/themes/nextcore-theme/assets/css/base.css?ver=1789034960' media='all' />
+<link rel='stylesheet' id='nextcore-layout-css' href='http://localhost/wp-content/themes/nextcore-theme/assets/css/layout.css?ver=1789034960' media='all' />
+<link rel='stylesheet' id='nextcore-footer-css' href='http://localhost/wp-content/themes/nextcore-theme/assets/css/footer.css?ver=1789034960' media='all' />
+<link rel='stylesheet' id='nextcore-light-css' href='http://localhost/wp-content/themes/nextcore-theme/assets/css/light.css?ver=1789034960' media='all' />
+<link rel='stylesheet' id='nextcore-content-css' href='http://localhost/wp-content/themes/nextcore-theme/assets/css/content.css?ver=1789091714' media='all' />
+<link rel='stylesheet' id='nextcore-compatibility-css' href='http://localhost/wp-content/themes/nextcore-theme/assets/css/compatibility.css?ver=1789033322' media='all' />
+<link rel='stylesheet' id='nextcore-native-css' href='http://localhost/wp-content/themes/nextcore-theme/assets/css/native.css?ver=1789091516' media='all' />
+<style id="wcw-inlinecss-inline-css">
+ .widget_wpcategorieswidget ul.children{display:none;} .widget_wp_categories_widget{background:#fff; position:relative;}.widget_wp_categories_widget h2,.widget_wpcategorieswidget h2{color:#4a5f6d;font-size:20px;font-weight:400;margin:0 0 25px;line-height:24px;text-transform:uppercase}.widget_wp_categories_widget ul li,.widget_wpcategorieswidget ul li{font-size: 16px; margin: 0px; border-bottom: 1px dashed #f0f0f0; position: relative; list-style-type: none; line-height: 35px;}.widget_wp_categories_widget ul li:last-child,.widget_wpcategorieswidget ul li:last-child{border:none;}.widget_wp_categories_widget ul li a,.widget_wpcategorieswidget ul li a{display:inline-block;color:#007acc;transition:all .5s ease;-webkit-transition:all .5s ease;-ms-transition:all .5s ease;-moz-transition:all .5s ease;text-decoration:none;}.widget_wp_categories_widget ul li a:hover,.widget_wp_categories_widget ul li.active-cat a,.widget_wp_categories_widget ul li.active-cat span.post-count,.widget_wpcategorieswidget ul li a:hover,.widget_wpcategorieswidget ul li.active-cat a,.widget_wpcategorieswidget ul li.active-cat span.post-count{color:#ee546c}.widget_wp_categories_widget ul li span.post-count,.widget_wpcategorieswidget ul li span.post-count{height: 30px; min-width: 35px; text-align: center; background: #fff; color: #605f5f; border-radius: 5px; box-shadow: inset 2px 1px 3px rgba(0, 122, 204,.1); top: 0px; float: right; margin-top: 2px;}li.cat-item.cat-have-child > span.post-count{float:inherit;}li.cat-item.cat-item-7.cat-have-child { background: #f8f9fa; }li.cat-item.cat-have-child > span.post-count:before { content: "("; }li.cat-item.cat-have-child > span.post-count:after { content: ")"; }.cat-have-child.open-m-menu ul.children li { border-top: 1px solid #d8d8d8;border-bottom:none;}li.cat-item.cat-have-child:after{ position: absolute; right: 8px; top: 8px; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAABmJLR0QA/wD/AP+gvaeTAAAAoklEQVQ4je3PzQpBURSG4WfknztxGS6BKOIaDQwkSXJTnI7J2rXbhSND3lqTtb/19m3+NGWANVof3LTiZpAWXVxQY4t2A0k7snXcdmGMKpY1dui8kHQik/JVOMAC9+zxlFfO6GFfSDZlaI5bFjpjWEgOhWT9rHYpu2CEPo7Z/v5KklgW37zG5JLlO0liVjTLJaumkmeyj5qUTEP2lSQxiflVHtR5PTMAQTkfAAAAAElFTkSuQmCC); content: ""; width: 18px; height: 18px;transform: rotate(270deg);}ul.children li.cat-item.cat-have-child:after{content:"";background-image: none;}.cat-have-child ul.children {display: none; z-index: 9; width: auto; position: relative; margin: 0px; padding: 0px; margin-top: 0px; padding-top: 10px; padding-bottom: 10px; list-style: none; text-align: left; background:  #f8f9fa; padding-left: 5px;}.widget_wp_categories_widget ul li ul.children li,.widget_wpcategorieswidget ul li ul.children li { border-bottom: 1px solid #fff; padding-right: 5px; }.cat-have-child.open-m-menu ul.children{display:block;}li.cat-item.cat-have-child.open-m-menu:after{transform: rotate(0deg);}.widget_wp_categories_widget > li.product_cat,.widget_wpcategorieswidget > li.product_cat {list-style: none;}.widget_wp_categories_widget > ul,.widget_wpcategorieswidget > ul {padding: 0px;}.widget_wp_categories_widget > ul li ul ,.widget_wpcategorieswidget > ul li ul {padding-left: 15px;} .wcwpro-list{padding: 0 15px;}
+/*# sourceURL=wcw-inlinecss-inline-css */
+</style>
+<link rel='stylesheet' id='nextcore-inner-css' href='http://localhost/wp-content/themes/nextcore-theme/assets/css/inner.css?ver=1789113891' media='all' />
+<script type="text/javascript">
+            window._nslDOMReady = function (callback) {
+                if ( document.readyState === "complete" || document.readyState === "interactive" ) {
+                    callback();
+                } else {
+                    document.addEventListener( "DOMContentLoaded", callback );
+                }
+            };
+            </script><script async data-wp-strategy="async" id="tp-tools-js" src="//localhost/wp-content/plugins/slider-revolution/public/js/libs/tptools.js?ver=6.7.20"></script>
+<script async data-wp-strategy="async" id="sr7-js" src="//localhost/wp-content/plugins/slider-revolution/public/js/sr7.js?ver=6.7.20"></script>
+<script id="jquery-core-js" src="http://localhost/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-core-js-after">
+jQuery(document).ready(function($){ jQuery('li.cat-item:has(ul.children)').addClass('cat-have-child'); jQuery('.cat-have-child').removeClass('open-m-menu');jQuery('li.cat-have-child > a').click(function(){window.location.href=jQuery(this).attr('href');return false;});jQuery('li.cat-have-child').click(function(){
+
+		var li_parentdiv = jQuery(this).parent().parent().parent().attr('class');
+			if(jQuery(this).hasClass('open-m-menu')){jQuery('.cat-have-child').removeClass('open-m-menu');}else{jQuery('.cat-have-child').removeClass('open-m-menu');jQuery(this).addClass('open-m-menu');}});});
+//# sourceURL=jquery-core-js-after
+</script>
+<script id="jquery-migrate-js" src="http://localhost/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<script data-wp-strategy="defer" defer id="jquery-blockui-js" src="http://localhost/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.9.3.6"></script>
+<script id="wc-add-to-cart-js-extra">
+var wc_add_to_cart_params = {"ajax_url":"/wp-admin/admin-ajax.php","wc_ajax_url":"/?wc-ajax=%%endpoint%%","i18n_view_cart":"Xem gi\u1ecf h\u00e0ng","cart_url":"http://localhost","is_cart":"","cart_redirect_after_add":"no"};
+//# sourceURL=wc-add-to-cart-js-extra
+</script>
+<script data-wp-strategy="defer" defer id="wc-add-to-cart-js" src="http://localhost/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=9.3.6"></script>
+<script data-wp-strategy="defer" defer id="js-cookie-js" src="http://localhost/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.9.3.6"></script>
+<script id="woocommerce-js-extra">
+var woocommerce_params = {"ajax_url":"/wp-admin/admin-ajax.php","wc_ajax_url":"/?wc-ajax=%%endpoint%%"};
+//# sourceURL=woocommerce-js-extra
+</script>
+<script data-wp-strategy="defer" defer id="woocommerce-js" src="http://localhost/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=9.3.6"></script>
+<script id="trp-frontend-compatibility-js" src="http://localhost/wp-content/plugins/translatepress-multilingual/assets/js/trp-frontend-compatibility.js?ver=2.8.7"></script>
+<script id="eae-iconHelper-js" src="http://localhost/wp-content/plugins/addon-elements-for-elementor-page-builder/assets/js/iconHelper.js?ver=1.0"></script>
+<link rel="https://api.w.org/" href="http://localhost/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="http://localhost/wp-json/wp/v2/posts/1510" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://localhost/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.1" />
+<meta name="generator" content="WooCommerce 9.3.6" />
+<link rel='shortlink' href='http://localhost/?p=1510' />
+<link rel="alternate" hreflang="vi" href="http://localhost/truong-doanh-nhan-top-olympia/"/>
+<link rel="alternate" hreflang="en-US" href="http://localhost/en/truong-doanh-nhan-top-olympia/"/>
+<link rel="alternate" hreflang="en" href="http://localhost/en/truong-doanh-nhan-top-olympia/"/>
+	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<meta name="generator" content="Elementor 3.25.3; features: e_font_icon_svg, additional_custom_breakpoints, e_optimized_control_loading, e_element_cache; settings: css_print_method-external, google_font-enabled, font_display-swap">
+			<style>
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<meta name="generator" content="Powered by Slider Revolution 6.7.20 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<style class="wp-fonts-local">
+@font-face{font-family:Inter;font-style:normal;font-weight:300 900;font-display:fallback;src:url('http://localhost/wp-content/plugins/woocommerce/assets/fonts/Inter-VariableFont_slnt,wght.woff2') format('woff2');font-stretch:normal;}
+@font-face{font-family:Cardo;font-style:normal;font-weight:400;font-display:fallback;src:url('http://localhost/wp-content/plugins/woocommerce/assets/fonts/cardo_normal_400.woff2') format('woff2');}
+</style>
+<link rel="icon" href="http://localhost/wp-content/uploads/2024/10/cropped-logo_icon-32x32.png" sizes="32x32" />
+<link rel="icon" href="http://localhost/wp-content/uploads/2024/10/cropped-logo_icon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="http://localhost/wp-content/uploads/2024/10/cropped-logo_icon-180x180.png" />
+<meta name="msapplication-TileImage" content="http://localhost/wp-content/uploads/2024/10/cropped-logo_icon-270x270.png" />
+<script>
+	window._tpt			??= {};
+	window.SR7			??= {};
+	_tpt.R				??= {};
+	_tpt.R.fonts		??= {};
+	_tpt.R.fonts.customFonts??= {};
+	SR7.devMode			=  false;
+	SR7.F 				??= {};
+	SR7.G				??= {};
+	SR7.LIB				??= {};
+	SR7.E				??= {};
+	SR7.E.gAddons		??= {};
+	SR7.E.php 			??= {};
+	SR7.E.nonce			= '73a5b0022d';
+	SR7.E.ajaxurl		= 'http://localhost/wp-admin/admin-ajax.php';
+	SR7.E.resturl		= 'http://localhost/wp-json/';
+	SR7.E.slug_path		= 'slider-revolution/revslider.php';
+	SR7.E.slug			= 'revslider';
+	SR7.E.plugin_url	= 'http://localhost/wp-content/plugins/slider-revolution/';
+	SR7.E.wp_plugin_url = 'http://localhost/wp-content/plugins/';
+	SR7.E.revision		= '6.7.20';
+	SR7.E.fontBaseUrl	= '//fonts.googleapis.com/css2?family=';
+	SR7.G.breakPoints 	= [1240,1024,778,480];
+	SR7.E.modules 		= ['module','page','slide','layer','draw','animate','srtools','canvas','defaults','carousel','navigation','media','modifiers','migration'];
+	SR7.E.libs 			= ['WEBGL'];
+	SR7.E.css 			= ['csslp','cssbtns','cssfilters','cssnav','cssmedia'];
+	SR7.E.resources		= {};
+	SR7.JSON			??= {};
+/*! Slider Revolution 7.0 - Page Processor */
+!function(){"use strict";window.SR7??={},window._tpt??={},SR7.version="Slider Revolution 6.7.16",_tpt.getWinDim=function(t){_tpt.screenHeightWithUrlBar??=window.innerHeight;let e=SR7.F?.modal?.visible&&SR7.M[SR7.F.module.getIdByAlias(SR7.F.modal.requested)];_tpt.scrollBar=window.innerWidth!==document.documentElement.clientWidth||e&&window.innerWidth!==e.c.module.clientWidth,_tpt.winW=window.innerWidth-(_tpt.scrollBar||"prepare"==t?_tpt.scrollBarW??_tpt.mesureScrollBar():0),_tpt.winH=window.innerHeight,_tpt.winWAll=document.documentElement.clientWidth},_tpt.getResponsiveLevel=function(t,e){SR7.M[e];return _tpt.closestGE(t,_tpt.winWAll)},_tpt.mesureScrollBar=function(){let t=document.createElement("div");return t.className="RSscrollbar-measure",t.style.width="100px",t.style.height="100px",t.style.overflow="scroll",t.style.position="absolute",t.style.top="-9999px",document.body.appendChild(t),_tpt.scrollBarW=t.offsetWidth-t.clientWidth,document.body.removeChild(t),_tpt.scrollBarW},_tpt.loadCSS=async function(t,e,s){return s?_tpt.R.fonts.required[e].status=1:(_tpt.R[e]??={},_tpt.R[e].status=1),new Promise(((n,i)=>{if(_tpt.isStylesheetLoaded(t))s?_tpt.R.fonts.required[e].status=2:_tpt.R[e].status=2,n();else{const l=document.createElement("link");l.rel="stylesheet";let o="text",r="css";l["type"]=o+"/"+r,l.href=t,l.onload=()=>{s?_tpt.R.fonts.required[e].status=2:_tpt.R[e].status=2,n()},l.onerror=()=>{s?_tpt.R.fonts.required[e].status=3:_tpt.R[e].status=3,i(new Error(`Failed to load CSS: ${t}`))},document.head.appendChild(l)}}))},_tpt.addContainer=function(t){const{tag:e="div",id:s,class:n,datas:i,textContent:l,iHTML:o}=t,r=document.createElement(e);if(s&&""!==s&&(r.id=s),n&&""!==n&&(r.className=n),i)for(const[t,e]of Object.entries(i))"style"==t?r.style.cssText=e:r.setAttribute(`data-${t}`,e);return l&&(r.textContent=l),o&&(r.innerHTML=o),r},_tpt.collector=function(){return{fragment:new DocumentFragment,add(t){var e=_tpt.addContainer(t);return this.fragment.appendChild(e),e},append(t){t.appendChild(this.fragment)}}},_tpt.isStylesheetLoaded=function(t){let e=t.split("?")[0];return Array.from(document.querySelectorAll('link[rel="stylesheet"], link[rel="preload"]')).some((t=>t.href.split("?")[0]===e))},_tpt.preloader={requests:new Map,preloaderTemplates:new Map,show:function(t,e){if(!e||!t)return;const{type:s,color:n}=e;if(s<0||"off"==s)return;const i=`preloader_${s}`;let l=this.preloaderTemplates.get(i);l||(l=this.build(s,n),this.preloaderTemplates.set(i,l)),this.requests.has(t)||this.requests.set(t,{count:0});const o=this.requests.get(t);clearTimeout(o.timer),o.count++,1===o.count&&(o.timer=setTimeout((()=>{o.preloaderClone=l.cloneNode(!0),o.anim&&o.anim.kill(),void 0!==_tpt.gsap?o.anim=_tpt.gsap.fromTo(o.preloaderClone,1,{opacity:0},{opacity:1}):o.preloaderClone.classList.add("sr7-fade-in"),t.appendChild(o.preloaderClone)}),150))},hide:function(t){if(!this.requests.has(t))return;const e=this.requests.get(t);e.count--,e.count<0&&(e.count=0),e.anim&&e.anim.kill(),0===e.count&&(clearTimeout(e.timer),e.preloaderClone&&(e.preloaderClone.classList.remove("sr7-fade-in"),e.anim=_tpt.gsap.to(e.preloaderClone,.3,{opacity:0,onComplete:function(){e.preloaderClone.remove()}})))},state:function(t){if(!this.requests.has(t))return!1;return this.requests.get(t).count>0},build:(t,e="#ffffff",s="")=>{if(t<0||"off"===t)return null;const n=parseInt(t);if(t="prlt"+n,isNaN(n))return null;if(_tpt.loadCSS(SR7.E.plugin_url+"public/css/preloaders/t"+n+".css","preloader_"+t),isNaN(n)||n<6){const i=`background-color:${e}`,l=1===n||2==n?i:"",o=3===n||4==n?i:"",r=_tpt.collector();["dot1","dot2","bounce1","bounce2","bounce3"].forEach((t=>r.add({tag:"div",class:t,datas:{style:o}})));const d=_tpt.addContainer({tag:"sr7-prl",class:`${t} ${s}`,datas:{style:l}});return r.append(d),d}{let i={};if(7===n){let t;e.startsWith("#")?(t=e.replace("#",""),t=`rgba(${parseInt(t.substring(0,2),16)}, ${parseInt(t.substring(2,4),16)}, ${parseInt(t.substring(4,6),16)}, `):e.startsWith("rgb")&&(t=e.slice(e.indexOf("(")+1,e.lastIndexOf(")")).split(",").map((t=>t.trim())),t=`rgba(${t[0]}, ${t[1]}, ${t[2]}, `),t&&(i.style=`border-top-color: ${t}0.65); border-bottom-color: ${t}0.15); border-left-color: ${t}0.65); border-right-color: ${t}0.15)`)}else 12===n&&(i.style=`background:${e}`);const l=[10,0,4,2,5,9,0,4,4,2][n-6],o=_tpt.collector(),r=o.add({tag:"div",class:"sr7-prl-inner",datas:i});Array.from({length:l}).forEach((()=>r.appendChild(o.add({tag:"span",datas:{style:`background:${e}`}}))));const d=_tpt.addContainer({tag:"sr7-prl",class:`${t} ${s}`});return o.append(d),d}}},SR7.preLoader={show:(t,e)=>{"off"!==(SR7.M[t]?.settings?.pLoader?.type??"off")&&_tpt.preloader.show(e||SR7.M[t].c.module,SR7.M[t]?.settings?.pLoader??{color:"#fff",type:10})},hide:(t,e)=>{"off"!==(SR7.M[t]?.settings?.pLoader?.type??"off")&&_tpt.preloader.hide(e||SR7.M[t].c.module)},state:(t,e)=>_tpt.preloader.state(e||SR7.M[t].c.module)},_tpt.prepareModuleHeight=function(t){window.SR7.M??={},window.SR7.M[t.id]??={},"ignore"==t.googleFont&&(SR7.E.ignoreGoogleFont=!0);let e=window.SR7.M[t.id];if(null==_tpt.scrollBarW&&_tpt.mesureScrollBar(),e.c??={},e.states??={},e.settings??={},e.settings.size??={},t.fixed&&(e.settings.fixed=!0),e.c.module=document.getElementById(t.id),e.c.adjuster=e.c.module.getElementsByTagName("sr7-adjuster")[0],e.c.content=e.c.module.getElementsByTagName("sr7-content")[0],"carousel"==t.type&&(e.c.carousel=e.c.content.getElementsByTagName("sr7-carousel")[0]),null==e.c.module||null==e.c.module)return;t.plType&&t.plColor&&(e.settings.pLoader={type:t.plType,color:t.plColor}),void 0!==t.plType&&"off"!==t.plType&&SR7.preLoader.show(t.id,e.c.module),_tpt.winW||_tpt.getWinDim("prepare"),_tpt.getWinDim();let s=""+e.c.module.dataset?.modal;"modal"==s||"true"==s||"undefined"!==s&&"false"!==s||(e.settings.size.fullWidth=t.size.fullWidth,e.LEV??=_tpt.getResponsiveLevel(window.SR7.G.breakPoints,t.id),t.vpt=_tpt.fillArray(t.vpt,5),e.settings.vPort=t.vpt[e.LEV],void 0!==t.el&&"720"==t.el[4]&&t.gh[4]!==t.el[4]&&"960"==t.el[3]&&t.gh[3]!==t.el[3]&&"768"==t.el[2]&&t.gh[2]!==t.el[2]&&delete t.el,e.settings.size.height=null==t.el||null==t.el[e.LEV]||0==t.el[e.LEV]||"auto"==t.el[e.LEV]?_tpt.fillArray(t.gh,5,-1):_tpt.fillArray(t.el,5,-1),e.settings.size.width=_tpt.fillArray(t.gw,5,-1),e.settings.size.minHeight=_tpt.fillArray(t.mh??[0],5,-1),e.cacheSize={fullWidth:e.settings.size?.fullWidth,fullHeight:e.settings.size?.fullHeight},void 0!==t.off&&(t.off?.t&&(e.settings.size.m??={})&&(e.settings.size.m.t=t.off.t),t.off?.b&&(e.settings.size.m??={})&&(e.settings.size.m.b=t.off.b),t.off?.l&&(e.settings.size.p??={})&&(e.settings.size.p.l=t.off.l),t.off?.r&&(e.settings.size.p??={})&&(e.settings.size.p.r=t.off.r),e.offsetPrepared=!0),_tpt.updatePMHeight(t.id,t,!0))},_tpt.updatePMHeight=(t,e,s)=>{let n=SR7.M[t];var i=n.settings.size.fullWidth?_tpt.winW:n.c.module.parentNode.offsetWidth;i=0===i||isNaN(i)?_tpt.winW:i;let l=n.settings.size.width[n.LEV]||n.settings.size.width[n.LEV++]||n.settings.size.width[n.LEV--]||i,o=n.settings.size.height[n.LEV]||n.settings.size.height[n.LEV++]||n.settings.size.height[n.LEV--]||0,r=n.settings.size.minHeight[n.LEV]||n.settings.size.minHeight[n.LEV++]||n.settings.size.minHeight[n.LEV--]||0;if(o="auto"==o?0:o,o=parseInt(o),"carousel"!==e.type&&(i-=parseInt(e.onw??0)||0),n.MP=!n.settings.size.fullWidth&&i<l||_tpt.winW<l?Math.min(1,i/l):1,e.size.fullScreen||e.size.fullHeight){let t=parseInt(e.fho)||0,s=(""+e.fho).indexOf("%")>-1;e.newh=_tpt.winH-(s?_tpt.winH*t/100:t)}else e.newh=n.MP*Math.max(o,r);if(e.newh+=(parseInt(e.onh??0)||0)+(parseInt(e.carousel?.pt)||0)+(parseInt(e.carousel?.pb)||0),void 0!==e.slideduration&&(e.newh=Math.max(e.newh,parseInt(e.slideduration)/3)),e.shdw&&_tpt.buildShadow(e.id,e),n.c.adjuster.style.height=e.newh+"px",n.c.module.style.height=e.newh+"px",n.c.content.style.height=e.newh+"px",n.states.heightPrepared=!0,n.dims??={},n.dims.moduleRect=n.c.module.getBoundingClientRect(),n.c.content.style.left="-"+n.dims.moduleRect.left+"px",!n.settings.size.fullWidth)return s&&requestAnimationFrame((()=>{i!==n.c.module.parentNode.offsetWidth&&_tpt.updatePMHeight(e.id,e)})),void _tpt.bgStyle(e.id,e,window.innerWidth==_tpt.winW,!0);_tpt.bgStyle(e.id,e,window.innerWidth==_tpt.winW,!0),requestAnimationFrame((function(){s&&requestAnimationFrame((()=>{i!==n.c.module.parentNode.offsetWidth&&_tpt.updatePMHeight(e.id,e)}))})),n.earlyResizerFunction||(n.earlyResizerFunction=function(){requestAnimationFrame((function(){_tpt.getWinDim(),_tpt.moduleDefaults(e.id,e),_tpt.updateSlideBg(t,!0)}))},window.addEventListener("resize",n.earlyResizerFunction))},_tpt.buildShadow=function(t,e){let s=SR7.M[t];null==s.c.shadow&&(s.c.shadow=document.createElement("sr7-module-shadow"),s.c.shadow.classList.add("sr7-shdw-"+e.shdw),s.c.content.appendChild(s.c.shadow))},_tpt.bgStyle=async(t,e,s,n,i)=>{const l=SR7.M[t];if((e=e??l.settings).fixed&&!l.c.module.classList.contains("sr7-top-fixed")&&(l.c.module.classList.add("sr7-top-fixed"),l.c.module.style.position="fixed",l.c.module.style.width="100%",l.c.module.style.top="0px",l.c.module.style.left="0px",l.c.module.style.pointerEvents="none",l.c.module.style.zIndex=5e3,l.c.content.style.pointerEvents="none"),null==l.c.bgcanvas){let t=document.createElement("sr7-module-bg"),o=!1;if("string"==typeof e?.bg?.color&&e?.bg?.color.includes("{"))if(_tpt.gradient&&_tpt.gsap)e.bg.color=_tpt.gradient.convert(e.bg.color);else try{let t=JSON.parse(e.bg.color);(t?.orig||t?.string)&&(e.bg.color=JSON.parse(e.bg.color))}catch(t){return}let r="string"==typeof e?.bg?.color?e?.bg?.color||"transparent":e?.bg?.color?.string??e?.bg?.color?.orig??e?.bg?.color?.color??"transparent";if(t.style["background"+(String(r).includes("grad")?"":"Color")]=r,("transparent"!==r||i)&&(o=!0),l.offsetPrepared&&(t.style.visibility="hidden"),e?.bg?.image?.src&&(t.style.backgroundImage=`url(${e?.bg?.image.src})`,t.style.backgroundSize=""==(e.bg.image?.size??"")?"cover":e.bg.image.size,t.style.backgroundPosition=e.bg.image.position,t.style.backgroundRepeat=""==e.bg.image.repeat||null==e.bg.image.repeat?"no-repeat":e.bg.image.repeat,o=!0),!o)return;l.c.bgcanvas=t,e.size.fullWidth?t.style.width=_tpt.winW-(s&&_tpt.winH<document.body.offsetHeight?_tpt.scrollBarW:0)+"px":n&&(t.style.width=l.c.module.offsetWidth+"px"),e.sbt?.use?l.c.content.appendChild(l.c.bgcanvas):l.c.module.appendChild(l.c.bgcanvas)}l.c.bgcanvas.style.height=void 0!==e.newh?e.newh+"px":("carousel"==e.type?l.dims.module.h:l.dims.content.h)+"px",l.c.bgcanvas.style.left=!s&&e.sbt?.use||l.c.bgcanvas.closest("SR7-CONTENT")?"0px":"-"+(l?.dims?.moduleRect?.left??0)+"px"},_tpt.updateSlideBg=function(t,e){const s=SR7.M[t];let n=s.settings;s?.c?.bgcanvas&&(n.size.fullWidth?s.c.bgcanvas.style.width=_tpt.winW-(e&&_tpt.winH<document.body.offsetHeight?_tpt.scrollBarW:0)+"px":preparing&&(s.c.bgcanvas.style.width=s.c.module.offsetWidth+"px"))},_tpt.moduleDefaults=(t,e)=>{let s=SR7.M[t];null!=s&&null!=s.c&&null!=s.c.module&&(s.dims??={},s.dims.moduleRect=s.c.module.getBoundingClientRect(),s.c.content.style.left="-"+s.dims.moduleRect.left+"px",s.c.content.style.width=_tpt.winW-_tpt.scrollBarW+"px","carousel"==e.type&&(s.c.module.style.overflow="visible"),_tpt.bgStyle(t,e,window.innerWidth==_tpt.winW))},_tpt.getOffset=t=>{var e=t.getBoundingClientRect(),s=window.pageXOffset||document.documentElement.scrollLeft,n=window.pageYOffset||document.documentElement.scrollTop;return{top:e.top+n,left:e.left+s}},_tpt.fillArray=function(t,e){let s,n;t=Array.isArray(t)?t:[t];let i=Array(e),l=t.length;for(n=0;n<t.length;n++)i[n+(e-l)]=t[n],null==s&&"#"!==t[n]&&(s=t[n]);for(let t=0;t<e;t++)void 0!==i[t]&&"#"!=i[t]||(i[t]=s),s=i[t];return i},_tpt.closestGE=function(t,e){let s=Number.MAX_VALUE,n=-1;for(let i=0;i<t.length;i++)t[i]-1>=e&&t[i]-1-e<s&&(s=t[i]-1-e,n=i);return++n}}();</script>
+</head>
+<body class="wp-singular post-template-default single single-post postid-1510 single-format-standard wp-embed-responsive wp-theme-nextcore-theme theme-nextcore-theme woocommerce-no-js translatepress-vi nextcore-site elementor-default elementor-kit-1587">
+<a class="nextcore-skip-link" href="#main-content">Chuyển đến nội dung</a>
+<svg class="icon-library nextcore-native" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-code" viewBox="0 0 32 32"><path d="m10 9-7 7 7 7m12-14 7 7-7 7M19 4l-6 24"/></symbol>
+    <symbol id="i-bulb" viewBox="0 0 32 32"><path d="M11 21c0-3-4-4-4-10a9 9 0 0 1 18 0c0 6-4 7-4 10m-10 2h10m-9 4h8m-6 3h4M3 5 1 3m28 2 2-2M3 15H0m29 0h3"/></symbol>
+    <symbol id="i-layout" viewBox="0 0 32 32"><rect x="3" y="3" width="26" height="26" rx="3"/><path d="M3 12h26M13 12v17M8 7h1m5 0h1"/></symbol>
+    <symbol id="i-gear" viewBox="0 0 32 32"><path d="m13 3-1 4-4 2-4-1-2 5 3 3v4l-2 3 4 4 4-2 4 1 2 4 5-2v-4l3-3h4l1-5-4-2-1-4 1-4-5-2-3 3Z"/><circle cx="16" cy="16" r="5"/></symbol>
+    <symbol id="i-layers" viewBox="0 0 32 32"><path d="m16 3 14 8-14 8L2 11Zm-14 15 14 8 14-8M2 24l14 7 14-7"/></symbol>
+    <symbol id="i-people" viewBox="0 0 32 32"><circle cx="12" cy="9" r="5"/><path d="M2 29v-5a10 10 0 0 1 20 0v5M23 4a5 5 0 0 1 0 10m3 5a7 7 0 0 1 4 6v4"/></symbol>
+    <symbol id="i-employee" viewBox="0 0 32 32"><rect x="4" y="6" width="24" height="24" rx="3"/><rect x="12" y="2" width="8" height="7" rx="2"/><circle cx="16" cy="16" r="3"/><path d="M10 26v-1a6 6 0 0 1 12 0v1"/></symbol>
+    <symbol id="i-cup" viewBox="0 0 32 32"><path d="M9 3h14v11a7 7 0 0 1-14 0ZM9 6H3v5a7 7 0 0 0 7 7M23 6h6v5a7 7 0 0 1-7 7M16 21v7m-6 1h12"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 32 32"><path d="m16 2 12 5v10c0 6-7 11-12 14C11 28 4 23 4 17V7Z"/><path d="m10 16 4 4 8-9"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10" cy="10" r="6"/><path d="m15 15 6 6"/></symbol>
+    <symbol id="i-strategy" viewBox="0 0 32 32"><path d="M4 27h5V17H4Zm10 0h5V11h-5Zm10 0h5V4h-5Z"/></symbol>
+    <symbol id="i-user" viewBox="0 0 32 32"><circle cx="16" cy="10" r="6"/><path d="M5 29v-3a11 11 0 0 1 22 0v3Z"/></symbol>
+  </svg>
+<header class="site-header nextcore-site-header nextcore-native" id="site-header">
+<div class="container header-inner">
+    <a class="brand" href="http://localhost/" aria-label="Nextcore — Trang chủ">
+            <img src="http://localhost/wp-content/themes/nextcore-theme/assets/images/nextcore-logo.png" width="200" height="90" alt="Nextcore">
+    </a>
+    <nav class="main-nav nextcore-desktop-nav" aria-label="Điều hướng chính"><ul id="nextcore-desktop-menu" class="nextcore-menu"><li id="nextcore-primary-item-1829" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1829"><a href="http://localhost/#about">Giới thiệu</a></li>
+<li id="nextcore-primary-item-1830" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1830"><a href="http://localhost/#services">Dịch vụ</a><button type="button" class="nextcore-submenu-toggle" aria-expanded="false" aria-controls="nextcore-submenu-1" aria-label="Mở menu con: Dịch vụ" hidden><span aria-hidden="true">▾</span></button>
+<ul class="sub-menu">
+	<li id="nextcore-primary-item-1831" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1831"><a href="http://localhost/outsource/">Outsource</a></li>
+	<li id="nextcore-primary-item-1832" class="menu-item menu-item-type-taxonomy menu-item-object-danh-muc-dich-vu menu-item-1832"><a href="http://localhost/danh-muc-dich-vu/tu-van-doanh-nghiep/">Tư vấn doanh nghiệp</a></li>
+	<li id="nextcore-primary-item-1833" class="menu-item menu-item-type-taxonomy menu-item-object-danh-muc-dich-vu menu-item-1833"><a href="http://localhost/danh-muc-dich-vu/khach-hang-ca-nhan/">Khách hàng cá nhân</a></li>
+	<li id="nextcore-primary-item-1834" class="menu-item menu-item-type-taxonomy menu-item-object-danh-muc-dich-vu current-post-ancestor current-menu-parent current-post-parent menu-item-1834"><a href="http://localhost/danh-muc-dich-vu/san-pham/">Sản phẩm</a></li>
+</ul>
+</li>
+<li id="nextcore-primary-item-1835" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1835"><a href="http://localhost/#technology">Công nghệ</a></li>
+<li id="nextcore-primary-item-1836" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1836"><a href="http://localhost/#projects">Sản phẩm / Dự án</a></li>
+<li id="nextcore-primary-item-1837" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1837"><a href="http://localhost/#team">Đội ngũ</a></li>
+<li id="nextcore-primary-item-1838" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1838"><a href="http://localhost/#blog">Tin tức</a><button type="button" class="nextcore-submenu-toggle" aria-expanded="false" aria-controls="nextcore-submenu-2" aria-label="Mở menu con: Tin tức" hidden><span aria-hidden="true">▾</span></button>
+<ul class="sub-menu">
+	<li id="nextcore-primary-item-1839" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1839"><a href="http://localhost/category/kien-thuc/">Kiến thức</a></li>
+	<li id="nextcore-primary-item-1840" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-1840"><a href="http://localhost/category/cong-ty/">Công ty</a></li>
+</ul>
+</li>
+<li id="nextcore-primary-item-1841" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1841"><a href="http://localhost/#contact">Liên hệ</a></li>
+</ul></nav>
+    <div class="header-actions">
+        <button class="icon-button" data-nextcore-search aria-label="Tìm kiếm"><svg class="icon"><use href="#i-search"/></svg></button>
+        <div class="nextcore-desktop-actions"><nav class="nextcore-language-switch" data-no-translation aria-label="Ngôn ngữ">
+    <a href="http://localhost/truong-doanh-nhan-top-olympia/" hreflang="vi">Vietnamese</a>
+    <a href="http://localhost/en/truong-doanh-nhan-top-olympia/" hreflang="en-US">English</a>
+</nav>
+
+<button type="button" class="nextcore-theme-switch icon-button" aria-label="Chế độ tối" aria-pressed="false" hidden><span aria-hidden="true">◐</span></button>
+
+</div>
+        <a class="button button-small nextcore-header-cta" href="http://localhost/lien-he/">Liên hệ ngay <span aria-hidden="true">→</span></a>    </div>
+    <button class="menu-toggle nextcore-mobile-toggle" type="button" aria-expanded="false" aria-controls="nextcore-mobile-panel" aria-label="Menu" hidden><span></span><span></span><span></span></button>
+    <div id="nextcore-mobile-panel" class="nextcore-mobile-panel">
+        <nav aria-label="Điều hướng di động"><ul id="nextcore-mobile-menu" class="nextcore-menu"><li id="nextcore-primary_mobile-item-1842" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1842"><a href="http://localhost/#about">Giới thiệu</a></li>
+<li id="nextcore-primary_mobile-item-1843" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1843"><a href="http://localhost/#services">Dịch vụ</a><button type="button" class="nextcore-submenu-toggle" aria-expanded="false" aria-controls="nextcore-submenu-3" aria-label="Mở menu con: Dịch vụ" hidden><span aria-hidden="true">▾</span></button>
+<ul class="sub-menu">
+	<li id="nextcore-primary_mobile-item-1844" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1844"><a href="http://localhost/outsource/">Outsource</a></li>
+	<li id="nextcore-primary_mobile-item-1845" class="menu-item menu-item-type-taxonomy menu-item-object-danh-muc-dich-vu menu-item-1845"><a href="http://localhost/danh-muc-dich-vu/tu-van-doanh-nghiep/">Tư vấn doanh nghiệp</a></li>
+	<li id="nextcore-primary_mobile-item-1846" class="menu-item menu-item-type-taxonomy menu-item-object-danh-muc-dich-vu menu-item-1846"><a href="http://localhost/danh-muc-dich-vu/khach-hang-ca-nhan/">Khách hàng cá nhân</a></li>
+	<li id="nextcore-primary_mobile-item-1847" class="menu-item menu-item-type-taxonomy menu-item-object-danh-muc-dich-vu current-post-ancestor current-menu-parent current-post-parent menu-item-1847"><a href="http://localhost/danh-muc-dich-vu/san-pham/">Sản phẩm</a></li>
+</ul>
+</li>
+<li id="nextcore-primary_mobile-item-1848" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1848"><a href="http://localhost/#technology">Công nghệ</a></li>
+<li id="nextcore-primary_mobile-item-1849" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1849"><a href="http://localhost/#projects">Sản phẩm / Dự án</a></li>
+<li id="nextcore-primary_mobile-item-1850" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1850"><a href="http://localhost/#partner">Đối tác</a></li>
+<li id="nextcore-primary_mobile-item-1851" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1851"><a href="http://localhost/#testimonials">Đánh giá</a></li>
+<li id="nextcore-primary_mobile-item-1852" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1852"><a href="http://localhost/#team">Đội ngũ</a></li>
+<li id="nextcore-primary_mobile-item-1853" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1853"><a href="http://localhost/#blog">Tin tức</a><button type="button" class="nextcore-submenu-toggle" aria-expanded="false" aria-controls="nextcore-submenu-4" aria-label="Mở menu con: Tin tức" hidden><span aria-hidden="true">▾</span></button>
+<ul class="sub-menu">
+	<li id="nextcore-primary_mobile-item-1854" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1854"><a href="http://localhost/category/kien-thuc/">Kiến thức</a></li>
+	<li id="nextcore-primary_mobile-item-1855" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-1855"><a href="http://localhost/category/cong-ty/">Công ty</a></li>
+</ul>
+</li>
+<li id="nextcore-primary_mobile-item-1856" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1856"><a href="http://localhost/#contact">Liên hệ</a></li>
+</ul></nav>
+        <div class="nextcore-mobile-actions"><nav class="nextcore-language-switch" data-no-translation aria-label="Ngôn ngữ">
+    <a href="http://localhost/truong-doanh-nhan-top-olympia/" hreflang="vi">Vietnamese</a>
+    <a href="http://localhost/en/truong-doanh-nhan-top-olympia/" hreflang="en-US">English</a>
+</nav>
+
+<button type="button" class="nextcore-theme-switch icon-button" aria-label="Chế độ tối" aria-pressed="false" hidden><span aria-hidden="true">◐</span></button>
+
+</div>
+    </div>
+</div>
+</header>
+<dialog class="nextcore-search-dialog nextcore-native" aria-labelledby="nextcore-search-title">
+    <button class="dialog-close" type="button" aria-label="Đóng tìm kiếm">×</button>
+    <h2 id="nextcore-search-title">Bạn đang tìm gì?</h2>
+    <form role="search" method="get" class="nextcore-search-form" action="http://localhost/">
+    <label><span>Tìm kiếm</span>
+        <input type="search" name="s" value="">
+    </label>
+    <button type="submit">Tìm</button>
+</form>
+
+</dialog>
+
+<main id="main-content">
+<article id="post-1510" class="nextcore-entry post-1510 post type-post status-publish format-standard has-post-thumbnail hentry category-cong-ty danh-muc-dich-vu-san-pham">
+    <header class="nextcore-page-hero nextcore-shell">
+    <div class="nextcore-inner-container">
+        <nav class="nextcore-breadcrumbs" aria-label="Đường dẫn trang">
+<span><span><a href="http://localhost/">Trang chủ</a></span> » <span><a href="http://localhost/tin-tuc/">Blog</a></span> » <span class="breadcrumb_last" aria-current="page">Trường Doanh nhân Top Olympia</span></span></nav>
+        <h1>Trường Doanh nhân Top Olympia</h1>
+            </div>
+</header>
+    <div class="nextcore-inner-container nextcore-columns">
+        <aside class="nextcore-sidebar nextcore-shell">
+            <nav class="nextcore-sidebar-block" aria-label="Danh mục dịch vụ">
+        <h2>Danh mục dịch vụ</h2>
+        <ul><li><a href="http://localhost/danh-muc-dich-vu/khach-hang-ca-nhan/"><span>Khách hàng cá nhân</span><span class="nextcore-term-count">3</span></a></li><li><a href="http://localhost/danh-muc-dich-vu/outsource/"><span>Outsource</span><span class="nextcore-term-count">0</span></a></li><li><a href="http://localhost/danh-muc-dich-vu/san-pham/"><span>Sản phẩm</span><span class="nextcore-term-count">5</span></a></li><li><a href="http://localhost/danh-muc-dich-vu/tu-van-doanh-nghiep/"><span>Tư vấn doanh nghiệp</span><span class="nextcore-term-count">4</span></a></li></ul>    </nav>
+            <nav class="nextcore-sidebar-block" aria-label="Danh mục bài viết">
+        <h2>Danh mục bài viết</h2>
+        <ul><li><a href="http://localhost/category/cong-ty/"><span>Công ty</span><span class="nextcore-term-count">3</span></a></li><li><a href="http://localhost/category/kien-thuc/"><span>Kiến thức</span><span class="nextcore-term-count">2</span></a></li></ul>    </nav>
+        
+		<section id="recent-posts-10" class="nextcore-widget widget_recent_entries">
+		<h2>Bài viết mới</h2>
+		<ul>
+											<li>
+					<a href="http://localhost/huong-dan-cach-debug-springboot-voi-visual-code-mot-cach-de-dang/">Hướng dẫn cách &#8220;Debug SpringBoot với Visual code&#8221; một cách dễ dàng</a>
+									</li>
+											<li>
+					<a href="http://localhost/wordpress-plugin-affiliate/">WordPress Plugin &#8211; Affiliate</a>
+									</li>
+											<li>
+					<a href="http://localhost/truong-doanh-nhan-top-olympia/" aria-current="page">Trường Doanh nhân Top Olympia</a>
+									</li>
+											<li>
+					<a href="http://localhost/cong-ty-cppm-nextcore-don-sinh-nhat-2-tuoi-tai-bach-ma-village-o-tinh-thua-thien-hue/">Công ty CPPM NextCore đón sinh nhật 2 tuổi tại Bạch Mã Village ở tỉnh Thừa Thiên Huế</a>
+									</li>
+											<li>
+					<a href="http://localhost/cong-ty-cppm-nextcore-to-chuc-picnic-tai-enjoy-camping-hoa-bac-da-nang/">Công ty CPPM Nextcore tổ chức picnic tại Enjoy Camping Hòa Bắc, Đà Nẵng</a>
+									</li>
+					</ul>
+
+		</section><section id="tag_cloud-9" class="nextcore-widget widget_tag_cloud"><h2>Thẻ</h2><div class="tagcloud"><a href="http://localhost/tag/wordpress-plugin/" class="tag-cloud-link tag-link-78 tag-link-position-1" style="font-size: 8pt;" aria-label="Wordpress Plugin (1 mục)">Wordpress Plugin</a></div>
+</section></aside>
+        <div class="nextcore-reading">
+            <p class="nextcore-post-meta"><time datetime="2024-11-11T02:43:57+00:00">11 Tháng 11, 2024</time></p>
+            <img width="1400" height="641" src="http://localhost/wp-content/uploads/2024/11/top-1400x641.png" class="nextcore-featured wp-post-image" alt="" decoding="async" srcset="http://localhost/wp-content/uploads/2024/11/top-1400x641.png 1400w, http://localhost/wp-content/uploads/2024/11/top-510x233.png 510w, http://localhost/wp-content/uploads/2024/11/top-800x366.png 800w, http://localhost/wp-content/uploads/2024/11/top-768x352.png 768w, http://localhost/wp-content/uploads/2024/11/top-1536x703.png 1536w, http://localhost/wp-content/uploads/2024/11/top.png 1903w" sizes="(max-width: 1400px) 100vw, 1400px" />            <div class="nextcore-gallery">
+    <a href="http://localhost/wp-content/uploads/2024/11/2024-11-18-09_14_28-Truong-Doanh-nhan-Top-Olympia-Nang-tam-tri-thuc-Khang-dinh-gia-tri.png"><img width="1400" height="663" src="http://localhost/wp-content/uploads/2024/11/2024-11-18-09_14_28-Truong-Doanh-nhan-Top-Olympia-Nang-tam-tri-thuc-Khang-dinh-gia-tri-1400x663.png" class="attachment-large size-large" alt="" loading="lazy" decoding="async" srcset="http://localhost/wp-content/uploads/2024/11/2024-11-18-09_14_28-Truong-Doanh-nhan-Top-Olympia-Nang-tam-tri-thuc-Khang-dinh-gia-tri-1400x663.png 1400w, http://localhost/wp-content/uploads/2024/11/2024-11-18-09_14_28-Truong-Doanh-nhan-Top-Olympia-Nang-tam-tri-thuc-Khang-dinh-gia-tri-510x242.png 510w, http://localhost/wp-content/uploads/2024/11/2024-11-18-09_14_28-Truong-Doanh-nhan-Top-Olympia-Nang-tam-tri-thuc-Khang-dinh-gia-tri-800x379.png 800w, http://localhost/wp-content/uploads/2024/11/2024-11-18-09_14_28-Truong-Doanh-nhan-Top-Olympia-Nang-tam-tri-thuc-Khang-dinh-gia-tri-768x364.png 768w, http://localhost/wp-content/uploads/2024/11/2024-11-18-09_14_28-Truong-Doanh-nhan-Top-Olympia-Nang-tam-tri-thuc-Khang-dinh-gia-tri-1536x728.png 1536w, http://localhost/wp-content/uploads/2024/11/2024-11-18-09_14_28-Truong-Doanh-nhan-Top-Olympia-Nang-tam-tri-thuc-Khang-dinh-gia-tri-18x9.png 18w, http://localhost/wp-content/uploads/2024/11/2024-11-18-09_14_28-Truong-Doanh-nhan-Top-Olympia-Nang-tam-tri-thuc-Khang-dinh-gia-tri.png 1921w" sizes="auto, (max-width: 1400px) 100vw, 1400px" /></a>
+    <a href="http://localhost/wp-content/uploads/2024/11/blog.png"><img width="1400" height="663" src="http://localhost/wp-content/uploads/2024/11/blog-1400x663.png" class="attachment-large size-large" alt="" loading="lazy" decoding="async" srcset="http://localhost/wp-content/uploads/2024/11/blog-1400x663.png 1400w, http://localhost/wp-content/uploads/2024/11/blog-510x242.png 510w, http://localhost/wp-content/uploads/2024/11/blog-800x379.png 800w, http://localhost/wp-content/uploads/2024/11/blog-768x364.png 768w, http://localhost/wp-content/uploads/2024/11/blog-1536x728.png 1536w, http://localhost/wp-content/uploads/2024/11/blog-18x9.png 18w, http://localhost/wp-content/uploads/2024/11/blog.png 1921w" sizes="auto, (max-width: 1400px) 100vw, 1400px" /></a>
+    <a href="http://localhost/wp-content/uploads/2024/11/doitaccongdong.png"><img width="1400" height="663" src="http://localhost/wp-content/uploads/2024/11/doitaccongdong-1400x663.png" class="attachment-large size-large" alt="" loading="lazy" decoding="async" srcset="http://localhost/wp-content/uploads/2024/11/doitaccongdong-1400x663.png 1400w, http://localhost/wp-content/uploads/2024/11/doitaccongdong-510x242.png 510w, http://localhost/wp-content/uploads/2024/11/doitaccongdong-800x379.png 800w, http://localhost/wp-content/uploads/2024/11/doitaccongdong-768x364.png 768w, http://localhost/wp-content/uploads/2024/11/doitaccongdong-1536x728.png 1536w, http://localhost/wp-content/uploads/2024/11/doitaccongdong-18x9.png 18w, http://localhost/wp-content/uploads/2024/11/doitaccongdong.png 1921w" sizes="auto, (max-width: 1400px) 100vw, 1400px" /></a>
+    <a href="http://localhost/wp-content/uploads/2024/11/gia-tri-cot-loi.png"><img width="1400" height="663" src="http://localhost/wp-content/uploads/2024/11/gia-tri-cot-loi-1400x663.png" class="attachment-large size-large" alt="" loading="lazy" decoding="async" srcset="http://localhost/wp-content/uploads/2024/11/gia-tri-cot-loi-1400x663.png 1400w, http://localhost/wp-content/uploads/2024/11/gia-tri-cot-loi-510x242.png 510w, http://localhost/wp-content/uploads/2024/11/gia-tri-cot-loi-800x379.png 800w, http://localhost/wp-content/uploads/2024/11/gia-tri-cot-loi-768x364.png 768w, http://localhost/wp-content/uploads/2024/11/gia-tri-cot-loi-1536x728.png 1536w, http://localhost/wp-content/uploads/2024/11/gia-tri-cot-loi-18x9.png 18w, http://localhost/wp-content/uploads/2024/11/gia-tri-cot-loi.png 1921w" sizes="auto, (max-width: 1400px) 100vw, 1400px" /></a>
+    <a href="http://localhost/wp-content/uploads/2024/11/nhandienthuonghieu.png"><img width="1400" height="663" src="http://localhost/wp-content/uploads/2024/11/nhandienthuonghieu-1400x663.png" class="attachment-large size-large" alt="" loading="lazy" decoding="async" srcset="http://localhost/wp-content/uploads/2024/11/nhandienthuonghieu-1400x663.png 1400w, http://localhost/wp-content/uploads/2024/11/nhandienthuonghieu-510x242.png 510w, http://localhost/wp-content/uploads/2024/11/nhandienthuonghieu-800x379.png 800w, http://localhost/wp-content/uploads/2024/11/nhandienthuonghieu-768x364.png 768w, http://localhost/wp-content/uploads/2024/11/nhandienthuonghieu-1536x728.png 1536w, http://localhost/wp-content/uploads/2024/11/nhandienthuonghieu-18x9.png 18w, http://localhost/wp-content/uploads/2024/11/nhandienthuonghieu.png 1921w" sizes="auto, (max-width: 1400px) 100vw, 1400px" /></a>
+    <a href="http://localhost/wp-content/uploads/2024/11/vp.png"><img width="1400" height="663" src="http://localhost/wp-content/uploads/2024/11/vp-1400x663.png" class="attachment-large size-large" alt="" loading="lazy" decoding="async" srcset="http://localhost/wp-content/uploads/2024/11/vp-1400x663.png 1400w, http://localhost/wp-content/uploads/2024/11/vp-510x242.png 510w, http://localhost/wp-content/uploads/2024/11/vp-800x379.png 800w, http://localhost/wp-content/uploads/2024/11/vp-768x364.png 768w, http://localhost/wp-content/uploads/2024/11/vp-1536x728.png 1536w, http://localhost/wp-content/uploads/2024/11/vp-18x9.png 18w, http://localhost/wp-content/uploads/2024/11/vp.png 1921w" sizes="auto, (max-width: 1400px) 100vw, 1400px" /></a>
+</div>
+            <div class="nextcore-native-content"><p>Trong lĩnh vực giáo dục, việc cung cấp một trang web chất lượng và thân thiện với người dùng là điều vô cùng quan trọng. Trang web hiện tại của chúng tôi đã gặp phải một số vấn đề về giao diện người dùng (UI) và trải nghiệm người dùng (UX), điều này đã ảnh hưởng đến khả năng phục vụ người dùng hiệu quả.</p>
+<p>&nbsp;</p>
+<h2>Vấn đề</h2>
+<ul>
+<li><strong>Thiếu UI và UX tối ưu</strong>: Trang web hiện tại chưa đáp ứng được nhu cầu về giao diện và trải nghiệm người dùng, làm giảm khả năng tương tác và giữ chân người dùng.</li>
+<li><strong>Chưa tính đến các cộng tác viên</strong>: Chưa có hệ thống tham khảo cho các cộng tác viên, điều này gây khó khăn trong việc quản lý và ghi nhận đóng góp.</li>
+<li><strong>Nhiều lỗi (bug)</strong>: Trang web còn tồn tại nhiều lỗi kỹ thuật, ảnh hưởng đến hiệu suất và trải nghiệm người dùng.</li>
+</ul>
+<h2>Thách thức</h2>
+<ul>
+<li><strong>Giữ vững SEO trong quá trình phát triển</strong>: Cần phát triển website mà không làm mất đi thứ hạng SEO đã có.</li>
+<li><strong>Phát triển plugin mới mà không có nhu cầu cụ thể</strong>: Việc viết mới plugin để đáp ứng nhu cầu doanh nghiệp khi chưa có yêu cầu rõ ràng là một thách thức lớn.</li>
+<li><strong>Thiết kế UI/UX dựa trên nhu cầu thực tế</strong>: Đảm bảo rằng thiết kế UI/UX thực sự phù hợp với nhu cầu của người dùng.</li>
+</ul>
+<h2>Giải pháp</h2>
+<ul>
+<li><strong>Sử dụng công cụ nội bộ</strong>: Chúng tôi đã sử dụng công cụ nội bộ để quét tất cả các liên kết trước và sau khi hoàn thành để đảm bảo rằng các trang phản hồi tốt và không bị lỗi.</li>
+<li><strong>Dựa vào kinh nghiệm thực tế</strong>: Đội ngũ phát triển đã dựa vào kinh nghiệm từ các dự án thực tế để phác thảo và chi tiết hóa yêu cầu về plugin.</li>
+<li><strong>Thiết kế linh hoạt</strong>: Trong quá trình thiết kế, đội ngũ thiết kế đã liên tục kiểm tra và thay đổi khi thấy UI/UX chưa hợp lý, đảm bảo rằng sản phẩm cuối cùng thực sự phù hợp với người dùng.</li>
+</ul>
+<h2>Kết quả</h2>
+<ul>
+<li><strong>Phát triển thành công plugin affiliate</strong>: Plugin mới đã được phát triển thành công, giúp tối ưu hóa việc quản lý các liên kết affiliate.</li>
+<li><strong>Ra mắt sản phẩm đúng hạn</strong>: Chúng tôi đã hoàn thành và ra mắt <a href="https://top-olympia.edu.vn/">sản phẩm </a>theo đúng deadline đã đề ra.</li>
+</ul>
+</div>                    </div>
+    </div>
+</article>
+</main>
+<footer class="site-footer nextcore-native">
+<div class="container footer-grid">
+    <div class="footer-brand"><a class="brand" href="http://localhost/"><img src="http://localhost/wp-content/themes/nextcore-theme/assets/images/nextcore-logo.png" width="200" height="90" alt="Nextcore"></a><p>Giải pháp công nghệ cho doanh nghiệp.</p></div>
+        <div><h2>Về Nextcore</h2>
+    <ul id="menu-nextcore-footer_about" class="footer-menu"><li id="nextcore-footer_about-item-1857" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1857"><a href="http://localhost/#about">Giới thiệu</a></li>
+<li id="nextcore-footer_about-item-1858" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1858"><a href="http://localhost/#team">Đội ngũ</a></li>
+<li id="nextcore-footer_about-item-1859" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1859"><a href="http://localhost/#projects">Dự án</a></li>
+</ul>    </div>
+        <div><h2>Hỗ trợ</h2>
+    <ul id="menu-nextcore-footer_support" class="footer-menu"><li id="nextcore-footer_support-item-1860" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1860"><a href="http://localhost/#blog">Tin tức</a></li>
+<li id="nextcore-footer_support-item-1861" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1861"><a href="http://localhost/#services">Dịch vụ</a></li>
+<li id="nextcore-footer_support-item-1862" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1862"><a href="http://localhost/#contact">Liên hệ</a></li>
+</ul>    </div>
+        <div class="footer-contact"><h2>Liên hệ</h2><address>
+<p><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg><span>63 Phan Đăng Lưu Street, Hai Chau, Da Nang 550000, Viet Nam</span></p>
+<a href="mailto:info@nextcore.vn"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg><span>info@nextcore.vn</span></a>
+<a href="tel:+84378962625"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m7 3 3 5-3 3a16 16 0 0 0 6 6l3-3 5 3-1 4C10 23 1 14 3 4Z"/></svg><span>+84378962625</span></a>
+</address>
+
+</div>
+    <div><h2>Kết nối</h2><div class="social-links">
+            <a href="https://www.facebook.com/nextcore.software.jsc" aria-label="Facebook">Facebook</a>
+            <a href="https://www.tiktok.com/@nextcore.software.jsc" aria-label="TikTok">TikTok</a>
+        </div><p class="footer-motto">Build a<br />
+better tomorrow</p></div>
+    <small class="footer-copyright">&copy; 2026 Nextcore. All rights reserved.</small>
+</div>
+</footer>
+<template id="tp-language" data-tp-language="vi"></template><script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/nextcore-theme/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+			<script type='text/javascript'>
+				const lazyloadRunObserver = () => {
+					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+						entries.forEach( ( entry ) => {
+							if ( entry.isIntersecting ) {
+								let lazyloadBackground = entry.target;
+								if( lazyloadBackground ) {
+									lazyloadBackground.classList.add( 'e-lazyloaded' );
+								}
+								lazyloadBackgroundObserver.unobserve( entry.target );
+							}
+						});
+					}, { rootMargin: '200px 0px 200px 0px' } );
+					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+						lazyloadBackgroundObserver.observe( lazyloadBackground );
+					} );
+				};
+				const events = [
+					'DOMContentLoaded',
+					'elementor/lazyload/observe',
+				];
+				events.forEach( ( event ) => {
+					document.addEventListener( event, lazyloadRunObserver );
+				} );
+			</script>
+				<script>
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	<script id="wp-hooks-js" src="http://localhost/wp-includes/js/dist/hooks.min.js?ver=f0f188028580e8dc1255"></script>
+<script id="wp-i18n-js" src="http://localhost/wp-includes/js/dist/i18n.min.js?ver=1dfe7db3940c23ea9216"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="swv-js" src="http://localhost/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.9.8"></script>
+<script id="contact-form-7-js-extra">
+var wpcf7 = {"api":{"root":"http://localhost/wp-json/","namespace":"contact-form-7/v1"}};
+//# sourceURL=contact-form-7-js-extra
+</script>
+<script id="contact-form-7-js-translations">
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "contact-form-7", {"translation-revision-date":"2024-08-11 13:44:17+0000","generator":"GlotPress\/4.0.1","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=1; plural=0;","lang":"vi_VN"},"This contact form is placed in the wrong place.":["Bi\u1ec3u m\u1eabu li\u00ean h\u1ec7 n\u00e0y \u0111\u01b0\u1ee3c \u0111\u1eb7t sai v\u1ecb tr\u00ed."],"Error:":["L\u1ed7i:"]}},"comment":{"reference":"includes\/js\/index.js"}} );
+//# sourceURL=contact-form-7-js-translations
+</script>
+<script id="contact-form-7-js" src="http://localhost/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.9.8"></script>
+<script id="eae-main-js-extra">
+var eae = {"ajaxurl":"http://localhost/wp-admin/admin-ajax.php","current_url":"aHR0cDovL2xvY2FsaG9zdC90cnVvbmctZG9hbmgtbmhhbi10b3Atb2x5bXBpYS8=","nonce":"c645e1e7eb","plugin_url":"http://localhost/wp-content/plugins/addon-elements-for-elementor-page-builder/"};
+var eae_editor = {"plugin_url":"http://localhost/wp-content/plugins/addon-elements-for-elementor-page-builder/"};
+//# sourceURL=eae-main-js-extra
+</script>
+<script id="eae-main-js" src="http://localhost/wp-content/plugins/addon-elements-for-elementor-page-builder/assets/js/eae.min.js?ver=1.13.9"></script>
+<script id="eae-index-js" src="http://localhost/wp-content/plugins/addon-elements-for-elementor-page-builder/build/index.min.js?ver=1.13.9"></script>
+<script id="font-awesome-4-shim-js" src="http://localhost/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=1.0"></script>
+<script id="animated-main-js" src="http://localhost/wp-content/plugins/addon-elements-for-elementor-page-builder/assets/js/animated-main.min.js?ver=1.0"></script>
+<script id="eae-particles-js" src="http://localhost/wp-content/plugins/addon-elements-for-elementor-page-builder/assets/js/particles.min.js?ver=2.0.0"></script>
+<script id="wts-magnific-js" src="http://localhost/wp-content/plugins/addon-elements-for-elementor-page-builder/assets/lib/magnific.min.js?ver=1.1.0"></script>
+<script id="vegas-js" src="http://localhost/wp-content/plugins/addon-elements-for-elementor-page-builder/assets/lib/vegas/vegas.min.js?ver=2.4.0"></script>
+<script id="nextcore-theme-switch-js" src="http://localhost/wp-content/themes/nextcore-theme/assets/js/theme-switch.js?ver=1789033322"></script>
+<script id="nextcore-navigation-js" src="http://localhost/wp-content/themes/nextcore-theme/assets/js/navigation.js?ver=1789113696"></script>
+<script id="sourcebuster-js-js" src="http://localhost/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=9.3.6"></script>
+<script id="wc-order-attribution-js-extra">
+var wc_order_attribution = {"params":{"lifetime":1.0e-5,"session":30,"base64":false,"ajaxurl":"http://localhost/wp-admin/admin-ajax.php","prefix":"wc_order_attribution_","allowTracking":true},"fields":{"source_type":"current.typ","referrer":"current_add.rf","utm_campaign":"current.cmp","utm_source":"current.src","utm_medium":"current.mdm","utm_content":"current.cnt","utm_id":"current.id","utm_term":"current.trm","utm_source_platform":"current.plt","utm_creative_format":"current.fmt","utm_marketing_tactic":"current.tct","session_entry":"current_add.ep","session_start_time":"current_add.fd","session_pages":"session.pgs","session_count":"udata.vst","user_agent":"udata.uag"}};
+//# sourceURL=wc-order-attribution-js-extra
+</script>
+<script id="wc-order-attribution-js" src="http://localhost/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=9.3.6"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"http://localhost/wp-includes/js/wp-emoji-release.min.js?ver=7.1"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
+//# sourceURL=http://localhost/wp-includes/js/wp-emoji-loader.min.js
+</script>
+</body>
+</html>
+

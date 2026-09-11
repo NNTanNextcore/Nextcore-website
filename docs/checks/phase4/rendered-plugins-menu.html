@@ -1,0 +1,547 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ffffff">
+<script id="nextcore-theme-init">
+(function () {
+    'use strict';
+    var key = 'nextcore-theme-mode';
+    var root = document.documentElement;
+    var media = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
+    var override = null;
+    function valid(value) { return value === 'light' || value === 'dark'; }
+    try { var saved = window.localStorage.getItem(key); override = valid(saved) ? saved : null; } catch (error) {}
+    function apply() {
+        var mode = override || (media && media.matches ? 'dark' : 'light');
+        root.setAttribute('data-theme', mode);
+        var meta = document.querySelector('meta[name="theme-color"]');
+        if (meta) { meta.setAttribute('content', mode === 'dark' ? '#070b0d' : '#ffffff'); }
+        window.dispatchEvent(new CustomEvent('nextcore:themechange', { detail: { mode: mode } }));
+        return mode;
+    }
+    window.NextcoreTheme = {
+        get: function () { return root.getAttribute('data-theme'); },
+        set: function (mode) {
+            if (!valid(mode)) { return; }
+            override = mode;
+            try { window.localStorage.setItem(key, mode); } catch (error) {}
+            apply();
+        }
+    };
+    if (media) {
+        if (media.addEventListener) { media.addEventListener('change', apply); }
+        else if (media.addListener) { media.addListener(apply); }
+    }
+    window.addEventListener('storage', function (event) {
+        if (event.key !== key && event.key !== null) { return; }
+        override = valid(event.newValue) ? event.newValue : null;
+        apply();
+    });
+    apply();
+}());
+</script>
+<script id="nextcore-media">
+/* Loaded synchronously in head: select images as markup arrives, before paint. */
+(function () {
+    'use strict';
+    var images = new Set();
+    var video = null, section = null, inView = false, generation = 0;
+    var reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
+    function mode() { return document.documentElement.getAttribute('data-theme') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'); }
+    function selectImage(img) {
+        var url = img.dataset[mode() + 'Src'];
+        if (!url || img.getAttribute('src') === url) { return; }
+        img.style.visibility = 'hidden';
+        img.onload = function () {
+            if (img.getAttribute('src') === img.dataset[mode() + 'Src']) { img.style.visibility = ''; }
+        };
+        img.src = url;
+        if (img.complete && img.naturalWidth) { img.style.visibility = ''; }
+    }
+    function hideFrame() { if (section) { section.classList.remove('is-playing'); } }
+    function syncVideo() {
+        if (!video) { return; }
+        if (reduced.matches || !inView || document.hidden) {
+            video.pause();
+            if (reduced.matches) {
+                hideFrame();
+                if (video.hasAttribute('src')) { video.removeAttribute('src'); video.load(); }
+            }
+            return;
+        }
+        var url = video.dataset[mode() + 'Src'];
+        if (video.getAttribute('src') !== url) {
+            hideFrame();
+            video.src = url;
+            video.load();
+        }
+        var token = generation;
+        var promise = video.play();
+        if (promise) { promise.catch(function () { if (token === generation) { hideFrame(); } }); }
+    }
+    function changeMode() {
+        generation++;
+        hideFrame();
+        if (video) { video.pause(); video.removeAttribute('src'); video.load(); }
+        images.forEach(selectImage);
+        if (video && section) {
+            var poster = section.querySelector('[data-mode-image]');
+            if (poster) { video.poster = poster.dataset[mode() + 'Src']; }
+        }
+        syncVideo();
+    }
+    function bindVideo(element) {
+        if (video) { return; }
+        video = element;
+        section = video.closest('.company-video');
+        video.muted = true;
+        video.addEventListener('playing', function () {
+            var token = generation;
+            var expected = new URL(video.dataset[mode() + 'Src'], document.baseURI).href;
+            function show() {
+                if (token === generation && video.currentSrc === expected && !video.paused && !reduced.matches && inView && !document.hidden) {
+                    section.classList.add('is-playing');
+                }
+            }
+            if (video.requestVideoFrameCallback) { video.requestVideoFrameCallback(show); } else { show(); }
+        });
+        video.addEventListener('error', hideFrame);
+        // Keep the decoded frame on waiting/loop boundaries; never reveal a different-mode background.
+        if ('IntersectionObserver' in window) {
+            new IntersectionObserver(function (entries) { inView = entries[0].isIntersecting; syncVideo(); }, { threshold: 0 }).observe(section);
+        } else { inView = true; }
+        changeMode();
+    }
+    function scan(root) {
+        if (root.nodeType !== 1 && root.nodeType !== 9) { return; }
+        var matches = [];
+        if (root.matches && root.matches('[data-mode-image]')) { matches.push(root); }
+        matches = matches.concat(Array.from(root.querySelectorAll('[data-mode-image]')));
+        matches.forEach(function (img) { if (!images.has(img)) { images.add(img); selectImage(img); } });
+        var candidate = root.matches && root.matches('.company-video-media') ? root : root.querySelector('.company-video-media');
+        if (candidate) { bindVideo(candidate); }
+    }
+    var observer = new MutationObserver(function (changes) { changes.forEach(function (change) { change.addedNodes.forEach(scan); }); });
+    observer.observe(document.documentElement, { childList: true, subtree: true });
+    scan(document);
+    document.addEventListener('DOMContentLoaded', function () { scan(document); observer.disconnect(); });
+    window.addEventListener('nextcore:themechange', changeMode);
+    document.addEventListener('visibilitychange', syncVideo);
+    reduced.addEventListener('change', syncVideo);
+}());
+</script>
+<title>Nextcore &#8211; Công ty Cổ phần Phần mềm Nextcore Thành lập vào 15 thg 6, 2022 Chuyên thực hiện phát triển, bảo trì các dự án CNTT cho các đối tác outsource. Đối tác của Công ty là các Công ty outsource lớn-vừa-nhỏ ở Việt Nam ở cả 3 thị trường nói tiếng Anh-Nhật-Việt. Không ngừng nỗ&#8230;</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//localhost' />
+<link rel="alternate" title="oNhúng (JSON)" type="application/json+oembed" href="http://localhost/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2F" />
+<link rel="alternate" title="oNhúng (XML)" type="text/xml+oembed" href="http://localhost/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2F&#038;format=xml" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+<style id="wp-block-styles-placeholder-inline-css">
+:root { --wp-internal-comment: "Placeholder for wp_hoist_late_printed_styles() to replace with the block styles printed at wp_footer." }
+/*# sourceURL=wp-block-styles-placeholder-inline-css */
+</style>
+<style id="wp-global-styles-placeholder-inline-css">
+:root { --wp-internal-comment: "Placeholder for wp_hoist_late_printed_styles() to replace with the global-styles printed at wp_footer." }
+/*# sourceURL=wp-global-styles-placeholder-inline-css */
+</style>
+<link rel='stylesheet' id='trp-language-switcher-style-css' href='http://localhost/wp-content/plugins/translatepress-multilingual/assets/css/trp-language-switcher.css?ver=2.8.7' media='all' />
+<link rel='stylesheet' id='nextcore-tokens-css' href='http://localhost/wp-content/themes/nextcore-theme/assets/css/tokens.css?ver=1789034960' media='all' />
+<link rel='stylesheet' id='nextcore-base-css' href='http://localhost/wp-content/themes/nextcore-theme/assets/css/base.css?ver=1789034960' media='all' />
+<link rel='stylesheet' id='nextcore-layout-css' href='http://localhost/wp-content/themes/nextcore-theme/assets/css/layout.css?ver=1789034960' media='all' />
+<link rel='stylesheet' id='nextcore-services-css' href='http://localhost/wp-content/themes/nextcore-theme/assets/css/services.css?ver=1789034960' media='all' />
+<link rel='stylesheet' id='nextcore-team-css' href='http://localhost/wp-content/themes/nextcore-theme/assets/css/team.css?ver=1789090876' media='all' />
+<link rel='stylesheet' id='nextcore-testimonials-css' href='http://localhost/wp-content/themes/nextcore-theme/assets/css/testimonials.css?ver=1789034960' media='all' />
+<link rel='stylesheet' id='nextcore-footer-css' href='http://localhost/wp-content/themes/nextcore-theme/assets/css/footer.css?ver=1789034960' media='all' />
+<link rel='stylesheet' id='nextcore-light-css' href='http://localhost/wp-content/themes/nextcore-theme/assets/css/light.css?ver=1789034960' media='all' />
+<link rel='stylesheet' id='nextcore-content-css' href='http://localhost/wp-content/themes/nextcore-theme/assets/css/content.css?ver=1789091714' media='all' />
+<link rel='stylesheet' id='nextcore-compatibility-css' href='http://localhost/wp-content/themes/nextcore-theme/assets/css/compatibility.css?ver=1789033322' media='all' />
+<link rel='stylesheet' id='nextcore-native-css' href='http://localhost/wp-content/themes/nextcore-theme/assets/css/native.css?ver=1789091516' media='all' />
+<link rel="https://api.w.org/" href="http://localhost/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="http://localhost/wp-json/wp/v2/pages/312" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://localhost/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.1" />
+<link rel="canonical" href="http://localhost/" />
+<link rel='shortlink' href='http://localhost/' />
+<link rel="alternate" hreflang="vi" href="http://localhost/"/>
+<link rel="alternate" hreflang="en-US" href="http://localhost/en/"/>
+<link rel="alternate" hreflang="en" href="http://localhost/en/"/>
+<link rel="icon" href="http://localhost/wp-content/uploads/2024/10/cropped-logo_icon-32x32.png" sizes="32x32" />
+<link rel="icon" href="http://localhost/wp-content/uploads/2024/10/cropped-logo_icon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="http://localhost/wp-content/uploads/2024/10/cropped-logo_icon-180x180.png" />
+<meta name="msapplication-TileImage" content="http://localhost/wp-content/uploads/2024/10/cropped-logo_icon-270x270.png" />
+</head>
+<body class="home wp-singular page-template-default page page-id-312 wp-embed-responsive wp-theme-nextcore-theme translatepress-vi nextcore-site nextcore-homepage">
+<a class="nextcore-skip-link" href="#main-content">Chuyển đến nội dung</a>
+<svg class="icon-library nextcore-native" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-code" viewBox="0 0 32 32"><path d="m10 9-7 7 7 7m12-14 7 7-7 7M19 4l-6 24"/></symbol>
+    <symbol id="i-bulb" viewBox="0 0 32 32"><path d="M11 21c0-3-4-4-4-10a9 9 0 0 1 18 0c0 6-4 7-4 10m-10 2h10m-9 4h8m-6 3h4M3 5 1 3m28 2 2-2M3 15H0m29 0h3"/></symbol>
+    <symbol id="i-layout" viewBox="0 0 32 32"><rect x="3" y="3" width="26" height="26" rx="3"/><path d="M3 12h26M13 12v17M8 7h1m5 0h1"/></symbol>
+    <symbol id="i-gear" viewBox="0 0 32 32"><path d="m13 3-1 4-4 2-4-1-2 5 3 3v4l-2 3 4 4 4-2 4 1 2 4 5-2v-4l3-3h4l1-5-4-2-1-4 1-4-5-2-3 3Z"/><circle cx="16" cy="16" r="5"/></symbol>
+    <symbol id="i-layers" viewBox="0 0 32 32"><path d="m16 3 14 8-14 8L2 11Zm-14 15 14 8 14-8M2 24l14 7 14-7"/></symbol>
+    <symbol id="i-people" viewBox="0 0 32 32"><circle cx="12" cy="9" r="5"/><path d="M2 29v-5a10 10 0 0 1 20 0v5M23 4a5 5 0 0 1 0 10m3 5a7 7 0 0 1 4 6v4"/></symbol>
+    <symbol id="i-employee" viewBox="0 0 32 32"><rect x="4" y="6" width="24" height="24" rx="3"/><rect x="12" y="2" width="8" height="7" rx="2"/><circle cx="16" cy="16" r="3"/><path d="M10 26v-1a6 6 0 0 1 12 0v1"/></symbol>
+    <symbol id="i-cup" viewBox="0 0 32 32"><path d="M9 3h14v11a7 7 0 0 1-14 0ZM9 6H3v5a7 7 0 0 0 7 7M23 6h6v5a7 7 0 0 1-7 7M16 21v7m-6 1h12"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 32 32"><path d="m16 2 12 5v10c0 6-7 11-12 14C11 28 4 23 4 17V7Z"/><path d="m10 16 4 4 8-9"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10" cy="10" r="6"/><path d="m15 15 6 6"/></symbol>
+    <symbol id="i-strategy" viewBox="0 0 32 32"><path d="M4 27h5V17H4Zm10 0h5V11h-5Zm10 0h5V4h-5Z"/></symbol>
+    <symbol id="i-user" viewBox="0 0 32 32"><circle cx="16" cy="10" r="6"/><path d="M5 29v-3a11 11 0 0 1 22 0v3Z"/></symbol>
+  </svg>
+<header class="site-header nextcore-site-header nextcore-native" id="site-header">
+<div class="container header-inner">
+    <a class="brand" href="http://localhost/" aria-label="Nextcore — Trang chủ">
+            <img src="http://localhost/wp-content/themes/nextcore-theme/assets/images/nextcore-logo.png" width="200" height="90" alt="Nextcore">
+    </a>
+    <nav class="main-nav nextcore-desktop-nav" aria-label="Điều hướng chính"><ul id="nextcore-desktop-menu" class="nextcore-menu"><li id="nextcore-home_primary-item-1" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1"><a href="#about">Giới thiệu</a></li>
+<li id="nextcore-home_primary-item-2" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2"><a href="#services">Dịch vụ</a><button type="button" class="nextcore-submenu-toggle" aria-expanded="false" aria-controls="nextcore-submenu-1" aria-label="Mở menu con: Dịch vụ" hidden><span aria-hidden="true">▾</span></button>
+<ul class="sub-menu">
+	<li id="nextcore-home_primary-item-3" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3"><a href="http://localhost/outsource/">Outsource</a></li>
+	<li id="nextcore-home_primary-item-4" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4"><a href="http://localhost/danh-muc-dich-vu/tu-van-doanh-nghiep/">Tư vấn doanh nghiệp</a></li>
+	<li id="nextcore-home_primary-item-5" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5"><a href="http://localhost/danh-muc-dich-vu/khach-hang-ca-nhan/">Khách hàng cá nhân</a></li>
+	<li id="nextcore-home_primary-item-6" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6"><a href="http://localhost/danh-muc-dich-vu/san-pham/">Sản phẩm</a></li>
+</ul>
+</li>
+<li id="nextcore-home_primary-item-7" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7"><a href="#technology">Công nghệ</a></li>
+<li id="nextcore-home_primary-item-8" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8"><a href="#projects">Sản phẩm / Dự án</a></li>
+<li id="nextcore-home_primary-item-11" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11"><a href="#team">Đội ngũ</a></li>
+<li id="nextcore-home_primary-item-12" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-12"><a href="#blog">Tin tức</a><button type="button" class="nextcore-submenu-toggle" aria-expanded="false" aria-controls="nextcore-submenu-2" aria-label="Mở menu con: Tin tức" hidden><span aria-hidden="true">▾</span></button>
+<ul class="sub-menu">
+	<li id="nextcore-home_primary-item-13" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13"><a href="http://localhost/category/kien-thuc/">Kiến thức</a></li>
+	<li id="nextcore-home_primary-item-14" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14"><a href="http://localhost/category/cong-ty/">Công ty</a></li>
+</ul>
+</li>
+<li id="nextcore-home_primary-item-15" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15"><a href="#contact">Liên hệ</a></li>
+</ul></nav>
+    <div class="header-actions">
+        <button class="icon-button" data-nextcore-search aria-label="Tìm kiếm"><svg class="icon"><use href="#i-search"/></svg></button>
+        <div class="nextcore-desktop-actions"><nav class="nextcore-language-switch" data-no-translation aria-label="Ngôn ngữ">
+    <a href="http://localhost/" hreflang="vi">Vietnamese</a>
+    <a href="http://localhost/en/" hreflang="en-US">English</a>
+</nav>
+
+<button type="button" class="nextcore-theme-switch icon-button" aria-label="Chế độ tối" aria-pressed="false" hidden><span aria-hidden="true">◐</span></button>
+
+</div>
+        <a class="button button-small nextcore-header-cta" href="http://localhost/lien-he/">Liên hệ ngay <span aria-hidden="true">→</span></a>    </div>
+    <button class="menu-toggle nextcore-mobile-toggle" type="button" aria-expanded="false" aria-controls="nextcore-mobile-panel" aria-label="Menu" hidden><span></span><span></span><span></span></button>
+    <div id="nextcore-mobile-panel" class="nextcore-mobile-panel">
+        <nav aria-label="Điều hướng di động"><ul id="nextcore-mobile-menu" class="nextcore-menu"><li id="nextcore-home_mobile-item-1" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1"><a href="#about">Giới thiệu</a></li>
+<li id="nextcore-home_mobile-item-2" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2"><a href="#services">Dịch vụ</a><button type="button" class="nextcore-submenu-toggle" aria-expanded="false" aria-controls="nextcore-submenu-3" aria-label="Mở menu con: Dịch vụ" hidden><span aria-hidden="true">▾</span></button>
+<ul class="sub-menu">
+	<li id="nextcore-home_mobile-item-3" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3"><a href="http://localhost/outsource/">Outsource</a></li>
+	<li id="nextcore-home_mobile-item-4" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4"><a href="http://localhost/danh-muc-dich-vu/tu-van-doanh-nghiep/">Tư vấn doanh nghiệp</a></li>
+	<li id="nextcore-home_mobile-item-5" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5"><a href="http://localhost/danh-muc-dich-vu/khach-hang-ca-nhan/">Khách hàng cá nhân</a></li>
+	<li id="nextcore-home_mobile-item-6" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6"><a href="http://localhost/danh-muc-dich-vu/san-pham/">Sản phẩm</a></li>
+</ul>
+</li>
+<li id="nextcore-home_mobile-item-7" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7"><a href="#technology">Công nghệ</a></li>
+<li id="nextcore-home_mobile-item-8" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8"><a href="#projects">Sản phẩm / Dự án</a></li>
+<li id="nextcore-home_mobile-item-9" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9"><a href="#partner">Đối tác</a></li>
+<li id="nextcore-home_mobile-item-10" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10"><a href="#testimonials">Đánh giá</a></li>
+<li id="nextcore-home_mobile-item-11" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11"><a href="#team">Đội ngũ</a></li>
+<li id="nextcore-home_mobile-item-12" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-12"><a href="#blog">Tin tức</a><button type="button" class="nextcore-submenu-toggle" aria-expanded="false" aria-controls="nextcore-submenu-4" aria-label="Mở menu con: Tin tức" hidden><span aria-hidden="true">▾</span></button>
+<ul class="sub-menu">
+	<li id="nextcore-home_mobile-item-13" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13"><a href="http://localhost/category/kien-thuc/">Kiến thức</a></li>
+	<li id="nextcore-home_mobile-item-14" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14"><a href="http://localhost/category/cong-ty/">Công ty</a></li>
+</ul>
+</li>
+<li id="nextcore-home_mobile-item-15" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15"><a href="#contact">Liên hệ</a></li>
+</ul></nav>
+        <div class="nextcore-mobile-actions"><nav class="nextcore-language-switch" data-no-translation aria-label="Ngôn ngữ">
+    <a href="http://localhost/" hreflang="vi">Vietnamese</a>
+    <a href="http://localhost/en/" hreflang="en-US">English</a>
+</nav>
+
+<button type="button" class="nextcore-theme-switch icon-button" aria-label="Chế độ tối" aria-pressed="false" hidden><span aria-hidden="true">◐</span></button>
+
+</div>
+    </div>
+</div>
+</header>
+<dialog class="nextcore-search-dialog nextcore-native" aria-labelledby="nextcore-search-title">
+    <button class="dialog-close" type="button" aria-label="Đóng tìm kiếm">×</button>
+    <h2 id="nextcore-search-title">Bạn đang tìm gì?</h2>
+    <form role="search" method="get" class="nextcore-search-form" action="http://localhost/">
+    <label><span>Tìm kiếm</span>
+        <input type="search" name="s" value="">
+    </label>
+    <button type="submit">Tìm</button>
+</form>
+
+</dialog>
+
+<main id="main-content" class="nextcore-native nextcore-home">
+<section class="hero" id="home" aria-labelledby="hero-title">
+          <img class="hero-image mode-image" data-mode-image data-dark-src="http://localhost/wp-content/themes/nextcore-theme/assets/images/hero-corporate-v2.png" data-light-src="http://localhost/wp-content/themes/nextcore-theme/assets/images/hero-corporate-light.png" alt="Ba đồng nghiệp mặc polo đen có logo N đỏ cùng làm việc bên laptop trong văn phòng hiện đại" width="1672" height="941" fetchpriority="high">
+    <noscript><picture><source media="(prefers-color-scheme: light)" srcset="http://localhost/wp-content/themes/nextcore-theme/assets/images/hero-corporate-light.png"><img class="hero-image" src="http://localhost/wp-content/themes/nextcore-theme/assets/images/hero-corporate-v2.png" alt="Ba đồng nghiệp mặc polo đen có logo N đỏ cùng làm việc bên laptop trong văn phòng hiện đại" width="1672" height="941"></picture></noscript>
+          <div class="container hero-inner"><div class="hero-copy" data-reveal>
+        <p class="eyebrow">Software development company</p>
+        <h1 id="hero-title" class="company-title"><span class="company-line">Công ty cổ phần Phần</span> <span class="company-line">mềm <span class="company-name">Nextcore</span></span></h1>
+        <p class="hero-slogan">BUILD TRUST, CREATE VALUE</p>
+        <p class="hero-description">Giải pháp phần mềm cho doanh nghiệp hiện đại.</p>
+        <div class="button-row"><a class="button" href="http://localhost/lien-he/">Liên hệ ngay <span aria-hidden="true">→</span></a><a class="button-text" href="#services"><span class="circle" aria-hidden="true">↗</span> Xem năng lực</a></div>
+      </div></div>
+      <a class="scroll-cue" href="#about"><span>Khám phá</span><span class="circle" aria-hidden="true">↓</span></a>
+    </section>
+
+
+<section class="company-video section-border" id="about" aria-labelledby="about-title">
+          <img class="company-video-poster mode-image" data-mode-image data-dark-src="http://localhost/wp-content/themes/nextcore-theme/assets/images/danang-poster.jpg" data-light-src="http://localhost/wp-content/themes/nextcore-theme/assets/images/cauronglight.png" alt="" width="1672" height="941" >
+    <noscript><picture><source media="(prefers-color-scheme: light)" srcset="http://localhost/wp-content/themes/nextcore-theme/assets/images/cauronglight.png"><img class="company-video-poster" src="http://localhost/wp-content/themes/nextcore-theme/assets/images/danang-poster.jpg" alt="" width="1672" height="941"></picture></noscript>
+    <video class="company-video-media" muted loop playsinline preload="none" aria-hidden="true" tabindex="-1"
+    data-dark-src="http://localhost/wp-content/themes/nextcore-theme/assets/video/nextcore-danang.mp4"
+    data-light-src="http://localhost/wp-content/themes/nextcore-theme/assets/video/caurongquay-light-video.mp4"></video>
+      <div class="container company-video-inner">
+        <div class="company-video-copy">
+          <p class="company-eyebrow" data-reveal>Về Nextcore</p>
+          <h2 id="about-title" data-reveal><span>Công ty Cổ phần</span> <span>Phần mềm Nextcore</span></h2>
+          <p class="company-founded" data-reveal>Thành lập vào <time datetime="2022-06-15">15 thg 6, 2022</time></p>
+          <div class="company-description" data-reveal><p>Chuyên thực hiện phát triển, bảo trì các dự án CNTT cho các đối tác outsource.</p>
+            <p>Đối tác của Công ty là các Công ty outsource lớn-vừa-nhỏ ở Việt Nam ở cả 3 thị trường nói tiếng Anh-Nhật-Việt.</p>
+            <p>Không ngừng nỗ lực để giải quyết các vấn đề là <strong>Nỗi đau</strong> và tạo giá trị <strong>hữu ích</strong> cho khách hàng để trở thành đối tác tin cậy và lâu dài.</p></div>
+          <a class="button company-more" href="#team" data-reveal>Tìm hiểu thêm <span aria-hidden="true">⟶</span></a>
+        </div>
+      </div>
+    </section>
+
+<section class="stats" aria-label="Nextcore qua những con số">
+<div class="container stats-grid">
+<div class="stat"><svg class="line-icon" aria-hidden="true"><use href="#i-layers"/></svg><div><strong>35+</strong><span>Dự án triển khai</span></div></div>
+<div class="stat"><svg class="line-icon" aria-hidden="true"><use href="#i-people"/></svg><div><strong>25+</strong><span>Khách hàng tin tưởng</span></div></div>
+<div class="stat"><svg class="line-icon" aria-hidden="true"><use href="#i-employee"/></svg><div><strong>20+</strong><span>Nhân viên</span></div></div>
+</div></section>
+
+<section class="section container" id="services" aria-labelledby="services-title">
+      <div class="section-heading" data-reveal><div><p class="eyebrow">Dịch vụ</p><h2 id="services-title">Năng lực cốt lõi</h2></div><a class="text-link" href="http://localhost/lien-he/">Trao đổi nhu cầu <span aria-hidden="true">→</span></a></div>
+      <div class="services-grid">
+        <a class="service-card" href="http://localhost/outsource/" data-reveal>
+    <img src="http://localhost/wp-content/themes/nextcore-theme/assets/images/service-outsource.png" class="service-image" alt="" width="1024" height="1280" loading="lazy">    <span class="service-icon"><svg class="line-icon" aria-hidden="true"><use href="#i-code"/></svg></span>
+    <h3>Outsource CNTT</h3>
+    <p>Phát triển và bảo trì dự án CNTT cho đối tác outsource.</p>
+    <div class="service-bottom"><span class="circle" aria-hidden="true">→</span><span class="service-micro" aria-hidden="true">CODE<br />
+SOLVE<br />
+TOGETHER</span></div>
+</a>
+<a class="service-card" href="http://localhost/danh-muc-dich-vu/tu-van-doanh-nghiep/" data-reveal>
+    <img src="http://localhost/wp-content/themes/nextcore-theme/assets/images/service-consulting.png" class="service-image" alt="" width="1024" height="1280" loading="lazy">    <span class="service-icon"><svg class="line-icon" aria-hidden="true"><use href="#i-strategy"/></svg></span>
+    <h3>Tư vấn doanh nghiệp</h3>
+    <p>Đồng hành tối ưu hoạt động và xây dựng giải pháp phù hợp.</p>
+    <div class="service-bottom"><span class="circle" aria-hidden="true">→</span><span class="service-micro" aria-hidden="true">PEOPLE<br />
+STRATEGY<br />
+GROWTH</span></div>
+</a>
+<a class="service-card" href="http://localhost/danh-muc-dich-vu/khach-hang-ca-nhan/" data-reveal>
+    <img src="http://localhost/wp-content/themes/nextcore-theme/assets/images/service-personal.png" class="service-image" alt="" width="1024" height="1280" loading="lazy">    <span class="service-icon"><svg class="line-icon" aria-hidden="true"><use href="#i-user"/></svg></span>
+    <h3>Giải pháp cá nhân</h3>
+    <p>Hỗ trợ các nhu cầu công nghệ linh hoạt cho khách hàng cá nhân.</p>
+    <div class="service-bottom"><span class="circle" aria-hidden="true">→</span><span class="service-micro" aria-hidden="true">SIMPLE<br />
+FLEXIBLE<br />
+FOR YOU</span></div>
+</a>
+</div>
+    </section>
+
+
+
+<section class="technology section-border" id="technology" aria-labelledby="technology-title"><div class="container technology-inner">
+      <div><p class="eyebrow">Công nghệ</p><h2 id="technology-title">Nền tảng<br />
+ tạo nên khác biệt</h2></div>
+      <div class="marquee" role="region" aria-label="Các công nghệ"><div class="marquee-track"><ul class="tech-list"><li class="react" aria-label="React"><span aria-hidden="true">⚛</span> React</li>
+<li class="laravel" aria-label="Laravel"><span aria-hidden="true">⬡</span> Laravel</li>
+<li class="node" aria-label="node.js">node<span class="small-tech">.js</span></li>
+<li class="aws" aria-label="aws">aws<span class="aws-smile" aria-hidden="true"></span></li>
+<li class="mysql" aria-label="MySQL">My<span>SQL</span></li>
+<li class="docker" aria-label="docker"><span aria-hidden="true">▦</span> docker</li>
+<li class="figma" aria-label="Figma"><span class="figma-symbol" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span> Figma</li>
+<li class="cicd" aria-label="CI/CD"><span aria-hidden="true">∞</span> CI/CD</li>
+</ul></div></div>
+      <button class="marquee-control icon-button" aria-label="Tạm dừng chuyển động công nghệ" aria-pressed="false"><span aria-hidden="true">Ⅱ</span></button>
+    </div></section>
+
+
+<section class="section section-projects container" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading" data-reveal><div><p class="eyebrow">Sản phẩm nổi bật</p><h2 id="projects-title">Giải pháp được tin chọn</h2></div><a class="text-link" href="http://localhost/lien-he/">Trao đổi về dự án <span aria-hidden="true">→</span></a></div>
+      <div class="projects-grid">
+        <article class="project-card"  data-reveal>
+    <div class="project-visual portal-visual">
+                <div class="screen-frame"><div class="screen-bar"><i></i><i></i><i></i><span>Nextcore Portal</span></div>
+        <img src="http://localhost/wp-content/themes/nextcore-theme/assets/images/project-portal.png" class="" alt="Giao diện báo cáo chấm công Nextcore Portal" width="1879" height="914" loading="lazy">        </div>
+    </div>
+    <div class="card-copy"><h3>Nextcore Portal</h3><p>Hệ thống quản lý doanh nghiệp thông minh.</p>
+        </div>
+</article>
+<a class="project-card" href="http://localhost/truong-doanh-nhan-top-olympia/" data-reveal>
+    <div class="project-visual olympia-visual">
+                <div class="screen-frame"><div class="screen-bar"><i></i><i></i><i></i><span>Top Olympia</span></div>
+        <img src="http://localhost/wp-content/themes/nextcore-theme/assets/images/project-olympia.png" class="" alt="Website Trường Doanh nhân Top Olympia" width="1879" height="914" loading="lazy">        </div>
+    </div>
+    <div class="card-copy"><h3>Trường Doanh nhân Top Olympia</h3><p>Website đào tạo doanh nhân.</p>
+    <span class="round-button" aria-hidden="true">→</span>    </div>
+</a>
+<a class="project-card" href="http://localhost/wordpress-plugin-affiliate/" data-reveal>
+    <div class="project-visual affiliate-visual">
+        <div class="wordpress-mark" aria-hidden="true">W</div>        <div class="screen-frame"><div class="screen-bar"><i></i><i></i><i></i><span>Affiliate</span></div>
+        <img src="http://localhost/wp-content/themes/nextcore-theme/assets/images/project-affiliate.png" class="" alt="Trang cấu hình WordPress Plugin Affiliate" width="1879" height="914" loading="lazy">        </div>
+    </div>
+    <div class="card-copy"><h3>WordPress Plugin - Affiliate</h3><p>Giải pháp tiếp thị liên kết hiệu quả.</p>
+    <span class="round-button" aria-hidden="true">→</span>    </div>
+</a>
+      </div>
+    </section>
+
+
+
+<section class="partner section-border" id="partner" aria-labelledby="partner-title"><div class="container partner-inner">
+      <div data-reveal><p class="eyebrow">Đối tác chiến lược</p><h2 id="partner-title">GM Solutions</h2><p>Cùng nhau kiến tạo<br />
+những giá trị bền vững.</p><a class="button" href="https://gm-group.vn/">Tìm hiểu thêm <span aria-hidden="true">→</span></a></div><img src="http://localhost/wp-content/themes/nextcore-theme/assets/images/gm-solutions.png" class="partner-logo" alt="GM Solutions" width="800" height="627" loading="lazy"><p class="partner-motto">Stronger<br />
+ together<br />
+ for a brighter<br />
+ tomorrow</p>
+    </div></section>
+
+<section class="testimonials section" id="testimonials" aria-labelledby="testimonials-title">
+      <div class="container">
+        <div class="testimonial-heading" data-reveal><p class="eyebrow">KHÁCH HÀNG NÓI VỀ NEXTCORE</p><h2 id="testimonials-title">Đánh giá từ khách hàng</h2><p>Những chia sẻ thực tế từ khách hàng đang đồng hành cùng Nextcore.</p></div>
+        <div class="testimonial-carousel" role="region" aria-roledescription="Băng chuyền" aria-label="Đánh giá từ khách hàng">
+          <button class="testimonial-prev" type="button" aria-label="Đánh giá trước">←</button>
+          <div class="testimonial-track" tabindex="0" aria-label="Vuốt để xem các đánh giá"><article class="testimonial-card">
+    <div class="testimonial-person"><img src="http://localhost/wp-content/themes/nextcore-theme/assets/images/testimonial-1.png" class="" alt="Công ty An Tâm Việt" width="64" height="64" loading="lazy"><div><h3>Công ty An Tâm Việt</h3><p>Dự án Plugin Affiliate</p></div></div>
+    <blockquote>Nextcore để lại ấn tượng mạnh mẽ với đội ngũ hỗ trợ chuyên nghiệp, luôn đồng hành từ khâu tư vấn ban đầu đến việc sắp xếp kế hoạch và triển khai dự án. Phản hồi nhanh chóng, thông tin rõ ràng giúp chúng tôi hoàn toàn yên tâm khi làm việc cùng họ. Đặc biệt, sự uy tín và cam kết trách nhiệm với deadline của Nextcore là yếu tố nổi bật. Không thể không nhắc đến anh Tú, Project Manager của đội, người luôn tận tâm tư vấn và hỗ trợ nhiệt tình, mang đến trải nghiệm làm việc tuyệt vời.
+Nextcore không chỉ là một đối tác, mà còn là một người bạn đồng hành đáng tin cậy trên hành trình phát triển của chúng tôi!</blockquote>
+    <button class="testimonial-more" type="button">Xem thêm<span class="sr-only"> — Công ty An Tâm Việt</span></button>
+</article>
+<article class="testimonial-card">
+    <div class="testimonial-person"><img src="http://localhost/wp-content/themes/nextcore-theme/assets/images/testimonial-2.webp" class="" alt="Phạm Việt Hùng" width="64" height="64" loading="lazy"><div><h3>Phạm Việt Hùng</h3><p>Dự án Tạo template ebook</p></div></div>
+    <blockquote>Hoàn thành công việc nhanh và chất lượng. Nhiệt tình hỗ trợ sau khi hoàn thành công việc</blockquote>
+    <button class="testimonial-more" type="button">Xem thêm<span class="sr-only"> — Phạm Việt Hùng</span></button>
+</article>
+<article class="testimonial-card">
+    <div class="testimonial-person"><img src="http://localhost/wp-content/themes/nextcore-theme/assets/images/testimonial-3.jpg" class="" alt="Nguyễn Phương Trà My" width="64" height="64" loading="lazy"><div><h3>Nguyễn Phương Trà My</h3><p>Dự án Convert nghiệp vụ sang sơ đồ khối</p></div></div>
+    <blockquote>Công ty Phần mềm Next Core làm dự án của tôi rất chuyên nghiệp, thực hiện đúng yêu cầu của khách hàng và hoàn thành công việc sớm hơn thời gian quy định, đảm bảo chất lượng. Các bạn dev của Công ty hỗ trợ tôi rất nhiệt tình trong thời gian thực hiện yêu cầu của tôi. Highly recommend cho các khách hàng trong lĩnh vực IT, phần mềm, design.</blockquote>
+    <button class="testimonial-more" type="button">Xem thêm<span class="sr-only"> — Nguyễn Phương Trà My</span></button>
+</article>
+<article class="testimonial-card">
+    <div class="testimonial-person"><img src="http://localhost/wp-content/themes/nextcore-theme/assets/images/testimonial-4.png" class="" alt="Bé khỏe bé vui" width="64" height="64" loading="lazy"><div><h3>Bé khỏe bé vui</h3><p>Dự án phục hồi website bị tấn công</p></div></div>
+    <blockquote>Highly appreciate your working spirit. I am pleased to choose you as partners. We will continue to cooperate in the future when there are new projects.</blockquote>
+    <button class="testimonial-more" type="button">Xem thêm<span class="sr-only"> — Bé khỏe bé vui</span></button>
+</article>
+</div>
+          <button class="testimonial-next" type="button" aria-label="Đánh giá tiếp theo">→</button>
+        </div>
+        <div class="testimonial-dots" aria-label="Chọn nhóm đánh giá"></div>
+      </div>
+    </section>
+
+<dialog class="testimonial-dialog nextcore-native" aria-labelledby="testimonial-dialog-title"><button class="testimonial-close" type="button" aria-label="Đóng đánh giá">×</button><h2 id="testimonial-dialog-title"></h2><p class="testimonial-dialog-project"></p><blockquote></blockquote></dialog>
+
+
+<section class="team section-border" id="team" aria-labelledby="team-title"><div class="container team-inner">
+      <div class="team-heading" data-reveal><p class="eyebrow">ĐỘI NGŨ</p><h2 id="team-title">Đội ngũ</h2><p class="team-description">Đội ngũ chuyên môn cao, tận tâm và luôn sẵn sàng đồng hành.</p></div>
+      <div class="team-grid">
+        <article class="team-card" data-reveal>
+    <img src="http://localhost/wp-content/themes/nextcore-theme/assets/images/team-hien.jpg" class="" alt="Nguyễn Văn Hiền" width="400" height="400" loading="lazy">    <div class="team-details"><h3>Nguyễn Văn Hiền</h3><p>Chief Executive Officer</p></div>
+    <div class="team-contacts">
+    <a href="mailto:hiennv@nextcore.vn" aria-label="Email Nguyễn Văn Hiền"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg></a>    <a href="tel:+84378962625" aria-label="Gọi Nguyễn Văn Hiền"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3 4 4c-2 1-1 6 3 10s9 7 11 6l2-3-5-3-2 2c-3-1-5-3-6-6l2-2Z"/></svg></a>    </div>
+</article>
+<article class="team-card" data-reveal>
+    <img src="http://localhost/wp-content/themes/nextcore-theme/assets/images/team-anh.jpg" class="" alt="Trần Đức Anh" width="400" height="400" loading="lazy">    <div class="team-details"><h3>Trần Đức Anh</h3><p>Chief Technology Officer</p></div>
+    <div class="team-contacts">
+    <a href="mailto:anhtd@nextcore.vn" aria-label="Email Trần Đức Anh"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg></a>    <a href="tel:+84976748059" aria-label="Gọi Trần Đức Anh"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3 4 4c-2 1-1 6 3 10s9 7 11 6l2-3-5-3-2 2c-3-1-5-3-6-6l2-2Z"/></svg></a>    </div>
+</article>
+<article class="team-card" data-reveal>
+    <img src="http://localhost/wp-content/themes/nextcore-theme/assets/images/team-tu.png" class="" alt="Phan Thanh Tú" width="400" height="400" loading="lazy">    <div class="team-details"><h3>Phan Thanh Tú</h3><p>Project Manager</p></div>
+    <div class="team-contacts">
+    <a href="mailto:tupt@nextcore.vn" aria-label="Email Phan Thanh Tú"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg></a>    <a href="tel:+84979525694" aria-label="Gọi Phan Thanh Tú"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3 4 4c-2 1-1 6 3 10s9 7 11 6l2-3-5-3-2 2c-3-1-5-3-6-6l2-2Z"/></svg></a>    </div>
+</article>
+      </div>
+    </div></section>
+
+<section class="section container" id="blog" aria-labelledby="blog-title"><div class="section-heading" data-reveal><div><p class="eyebrow">Tin tức</p><h2 id="blog-title">Cập nhật mới nhất</h2></div><span class="quiet-label">Góc nhìn &amp; kiến thức</span></div>
+      <div class="blog-grid">
+<article class="blog-card" data-reveal>
+    <img width="711" height="400" src="http://localhost/wp-content/uploads/2025/03/java_debug-711x400-1.png" class="attachment-large size-large wp-post-image" alt="" loading="lazy" decoding="async" srcset="http://localhost/wp-content/uploads/2025/03/java_debug-711x400-1.png 711w, http://localhost/wp-content/uploads/2025/03/java_debug-711x400-1-510x287.png 510w, http://localhost/wp-content/uploads/2025/03/java_debug-711x400-1-18x10.png 18w" sizes="auto, (max-width: 711px) 100vw, 711px" />    <div><span class="post-meta">Kiến thức</span>
+    <h3><a href="http://localhost/huong-dan-cach-debug-springboot-voi-visual-code-mot-cach-de-dang/">Hướng dẫn cách &#8220;Debug SpringBoot với Visual code&#8221; một cách dễ dàng</a></h3>
+    <p class="blog-excerpt">Debugging là một kỹ năng quan trọng đối với bất kỳ lập trình viên nào, đặc biệt khi làm việc với các ứng dụng phức tạp&hellip;</p></div>
+</article>
+<article class="blog-card" data-reveal>
+    <img width="1280" height="720" src="http://localhost/wp-content/uploads/2024/11/Presentation2.png" class="attachment-large size-large wp-post-image" alt="" loading="lazy" decoding="async" srcset="http://localhost/wp-content/uploads/2024/11/Presentation2.png 1280w, http://localhost/wp-content/uploads/2024/11/Presentation2-510x287.png 510w, http://localhost/wp-content/uploads/2024/11/Presentation2-711x400.png 711w, http://localhost/wp-content/uploads/2024/11/Presentation2-768x432.png 768w, http://localhost/wp-content/uploads/2024/11/Presentation2-18x10.png 18w" sizes="auto, (max-width: 1280px) 100vw, 1280px" />    <div><span class="post-meta">Kiến thức</span>
+    <h3><a href="http://localhost/wordpress-plugin-affiliate/">WordPress Plugin &#8211; Affiliate</a></h3>
+    <p class="blog-excerpt">Affiliate marketing là một hình thức tiếp thị trong đó một doanh nghiệp thưởng cho một hoặc nhiều người (được gọi là &quot;đối tác liên kết&quot;&hellip;</p></div>
+</article>
+<article class="blog-card" data-reveal>
+    <img width="1400" height="641" src="http://localhost/wp-content/uploads/2024/11/top-1400x641.png" class="attachment-large size-large wp-post-image" alt="" loading="lazy" decoding="async" srcset="http://localhost/wp-content/uploads/2024/11/top-1400x641.png 1400w, http://localhost/wp-content/uploads/2024/11/top-510x233.png 510w, http://localhost/wp-content/uploads/2024/11/top-800x366.png 800w, http://localhost/wp-content/uploads/2024/11/top-768x352.png 768w, http://localhost/wp-content/uploads/2024/11/top-1536x703.png 1536w, http://localhost/wp-content/uploads/2024/11/top.png 1903w" sizes="auto, (max-width: 1400px) 100vw, 1400px" />    <div><span class="post-meta">Công ty</span>
+    <h3><a href="http://localhost/truong-doanh-nhan-top-olympia/">Trường Doanh nhân Top Olympia</a></h3>
+    <p class="blog-excerpt">Trong lĩnh vực giáo dục, việc cung cấp một trang web chất lượng và thân thiện với người dùng là điều vô cùng quan trọng. Trang&hellip;</p></div>
+</article>
+</div></section>
+<section class="final-cta" id="contact" aria-labelledby="cta-title">    <img class="cta-image mode-image" data-mode-image data-dark-src="http://localhost/wp-content/themes/nextcore-theme/assets/images/cta.png" data-light-src="http://localhost/wp-content/themes/nextcore-theme/assets/images/cta-light.png" alt="Người chinh phục đỉnh núi nhìn về chân trời" width="1536" height="1024" >
+    <noscript><picture><source media="(prefers-color-scheme: light)" srcset="http://localhost/wp-content/themes/nextcore-theme/assets/images/cta-light.png"><img class="cta-image" src="http://localhost/wp-content/themes/nextcore-theme/assets/images/cta.png" alt="Người chinh phục đỉnh núi nhìn về chân trời" width="1536" height="1024"></picture></noscript>
+    <div class="container cta-inner"><div data-reveal><h2 id="cta-title">Sẵn sàng bắt đầu dự án của bạn?</h2><p>Hãy để Nextcore đồng hành cùng bạn trên hành trình chuyển đổi số.</p><a class="button" href="http://localhost/lien-he/">Liên hệ ngay <span aria-hidden="true">→</span></a></div><p class="cta-motto">New<br />
+ideas.<br />
+Higher<br />
+possibilities.</p></div></section>
+
+</main>
+<footer class="site-footer nextcore-native">
+<div class="container footer-grid">
+    <div class="footer-brand"><a class="brand" href="http://localhost/"><img src="http://localhost/wp-content/themes/nextcore-theme/assets/images/nextcore-logo.png" width="200" height="90" alt="Nextcore"></a><p>Giải pháp công nghệ cho doanh nghiệp.</p></div>
+        <div><h2>Về Nextcore</h2>
+    <ul class="footer-menu"><li><a href="http://localhost/#about">Giới thiệu</a></li><li><a href="http://localhost/#team">Đội ngũ</a></li><li><a href="http://localhost/#projects">Dự án</a></li></ul>    </div>
+        <div><h2>Hỗ trợ</h2>
+    <ul class="footer-menu"><li><a href="http://localhost/#blog">Tin tức</a></li><li><a href="http://localhost/#services">Dịch vụ</a></li><li><a href="http://localhost/#contact">Liên hệ</a></li></ul>    </div>
+        <div class="footer-contact"><h2>Liên hệ</h2><address>
+<p><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg><span>63 Phan Đăng Lưu Street, Hai Chau, Da Nang 550000, Viet Nam</span></p>
+<a href="mailto:info@nextcore.vn"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg><span>info@nextcore.vn</span></a>
+<a href="tel:+84378962625"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m7 3 3 5-3 3a16 16 0 0 0 6 6l3-3 5 3-1 4C10 23 1 14 3 4Z"/></svg><span>+84378962625</span></a>
+</address>
+
+</div>
+    <div><h2>Kết nối</h2><div class="social-links">
+            <a href="https://www.facebook.com/nextcore.software.jsc" aria-label="Facebook">Facebook</a>
+            <a href="https://www.tiktok.com/@nextcore.software.jsc" aria-label="TikTok">TikTok</a>
+        </div><p class="footer-motto">Build a<br />
+better tomorrow</p></div>
+    <small class="footer-copyright">&copy; 2026 Nextcore. All rights reserved.</small>
+</div>
+</footer>
+<template id="tp-language" data-tp-language="vi"></template>
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+<script id="nextcore-theme-switch-js" src="http://localhost/wp-content/themes/nextcore-theme/assets/js/theme-switch.js?ver=1789033322"></script>
+<script id="nextcore-navigation-js" src="http://localhost/wp-content/themes/nextcore-theme/assets/js/navigation.js?ver=1789090335"></script>
+<script id="nextcore-home-js" src="http://localhost/wp-content/themes/nextcore-theme/assets/js/home.js?ver=1789090285"></script>
+<script id="nextcore-testimonials-js" src="http://localhost/wp-content/themes/nextcore-theme/assets/js/testimonials.js?ver=1789090285"></script>
+
+
+</body>
+</html>
+
+

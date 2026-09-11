@@ -1,0 +1,408 @@
+[
+  {
+    "route": "/",
+    "http": 200,
+    "url": "http://localhost/",
+    "title": "Trang chủ | Nextcore",
+    "h1": [
+      "Công ty cổ phần Phần mềm Nextcore"
+    ],
+    "overflow": -15,
+    "hero": false,
+    "sidebar": false,
+    "cards": 0,
+    "shortcodes": null,
+    "login": false,
+    "builder": 0,
+    "errors": [],
+    "failed": []
+  },
+  {
+    "route": "/en/",
+    "http": 200,
+    "url": "http://localhost/en/",
+    "title": "Trang chủ | Nextcore",
+    "h1": [
+      "Công ty cổ phần Phần mềm Nextcore"
+    ],
+    "overflow": -15,
+    "hero": false,
+    "sidebar": false,
+    "cards": 0,
+    "shortcodes": null,
+    "login": false,
+    "builder": 0,
+    "errors": [],
+    "failed": []
+  },
+  {
+    "route": "/ve-chung-toi/",
+    "http": 200,
+    "url": "http://localhost/ve-chung-toi/",
+    "title": "Về chúng tôi | Nextcore",
+    "h1": [
+      "Về chúng tôi"
+    ],
+    "overflow": -15,
+    "hero": false,
+    "sidebar": false,
+    "cards": 0,
+    "shortcodes": [
+      "[section label=\"About\"] [row] [col span=\"6\" span__sm=\"12\"] [ux_image id=\"782\"] [/col] [col span=\"6\" span__sm=",
+      "[/col] [/row] [/section]"
+    ],
+    "login": false,
+    "builder": 1,
+    "errors": [],
+    "failed": []
+  },
+  {
+    "route": "/lien-he/",
+    "http": 200,
+    "url": "http://localhost/lien-he/",
+    "title": "Liên hệ | Nextcore",
+    "h1": [
+      "Liên hệ"
+    ],
+    "overflow": -15,
+    "hero": false,
+    "sidebar": false,
+    "cards": 0,
+    "shortcodes": null,
+    "login": false,
+    "builder": 1,
+    "errors": [],
+    "failed": []
+  },
+  {
+    "route": "/outsource/",
+    "http": 200,
+    "url": "http://localhost/outsource/",
+    "title": "Outsource | Nextcore",
+    "h1": [
+      "Outsource"
+    ],
+    "overflow": -15,
+    "hero": false,
+    "sidebar": false,
+    "cards": 0,
+    "shortcodes": null,
+    "login": false,
+    "builder": 1,
+    "errors": [],
+    "failed": []
+  },
+  {
+    "route": "/dich-vu/",
+    "http": 200,
+    "url": "http://localhost/dich-vu/",
+    "title": "Dịch vụ | Nextcore",
+    "h1": [
+      "Dịch vụ"
+    ],
+    "overflow": -15,
+    "hero": false,
+    "sidebar": false,
+    "cards": 0,
+    "shortcodes": null,
+    "login": false,
+    "builder": 1,
+    "errors": [],
+    "failed": []
+  },
+  {
+    "route": "/tin-tuc/",
+    "http": 200,
+    "url": "http://localhost/tin-tuc/",
+    "title": "Blog | Nextcore",
+    "h1": [
+      "Tin tức"
+    ],
+    "overflow": -15,
+    "hero": false,
+    "sidebar": false,
+    "cards": 5,
+    "shortcodes": null,
+    "login": false,
+    "builder": 0,
+    "errors": [],
+    "failed": []
+  },
+  {
+    "route": "/danh-muc-dich-vu/tu-van-doanh-nghiep/",
+    "http": 200,
+    "url": "http://localhost/danh-muc-dich-vu/tu-van-doanh-nghiep/",
+    "title": "Tư vấn doanh nghiệp | Nextcore",
+    "h1": [
+      "Danh mục dịch vụ: Tư vấn doanh nghiệp"
+    ],
+    "overflow": -15,
+    "hero": false,
+    "sidebar": false,
+    "cards": 4,
+    "shortcodes": null,
+    "login": false,
+    "builder": 0,
+    "errors": [],
+    "failed": []
+  },
+  {
+    "route": "/danh-muc-dich-vu/khach-hang-ca-nhan/",
+    "http": 200,
+    "url": "http://localhost/danh-muc-dich-vu/khach-hang-ca-nhan/",
+    "title": "Khách hàng cá nhân | Nextcore",
+    "h1": [
+      "Danh mục dịch vụ: Khách hàng cá nhân"
+    ],
+    "overflow": -15,
+    "hero": false,
+    "sidebar": false,
+    "cards": 3,
+    "shortcodes": null,
+    "login": false,
+    "builder": 0,
+    "errors": [],
+    "failed": []
+  },
+  {
+    "route": "/danh-muc-dich-vu/san-pham/",
+    "http": 200,
+    "url": "http://localhost/danh-muc-dich-vu/san-pham/",
+    "title": "Sản phẩm | Nextcore",
+    "h1": [
+      "Danh mục dịch vụ: Sản phẩm"
+    ],
+    "overflow": -15,
+    "hero": false,
+    "sidebar": false,
+    "cards": 5,
+    "shortcodes": null,
+    "login": false,
+    "builder": 0,
+    "errors": [],
+    "failed": []
+  },
+  {
+    "route": "/danh-muc-dich-vu/outsource/",
+    "http": 200,
+    "url": "http://localhost/danh-muc-dich-vu/outsource/",
+    "title": "Outsource | Nextcore",
+    "h1": [
+      "Danh mục dịch vụ: Outsource"
+    ],
+    "overflow": 0,
+    "hero": false,
+    "sidebar": false,
+    "cards": 0,
+    "shortcodes": null,
+    "login": false,
+    "builder": 0,
+    "errors": [],
+    "failed": []
+  },
+  {
+    "route": "/category/kien-thuc/",
+    "http": 200,
+    "url": "http://localhost/category/kien-thuc/",
+    "title": "Kiến thức | Nextcore",
+    "h1": [
+      "Danh mục: Kiến thức"
+    ],
+    "overflow": 0,
+    "hero": false,
+    "sidebar": false,
+    "cards": 2,
+    "shortcodes": null,
+    "login": false,
+    "builder": 0,
+    "errors": [],
+    "failed": []
+  },
+  {
+    "route": "/category/cong-ty/",
+    "http": 200,
+    "url": "http://localhost/category/cong-ty/",
+    "title": "Công ty | Nextcore",
+    "h1": [
+      "Danh mục: Công ty"
+    ],
+    "overflow": -15,
+    "hero": false,
+    "sidebar": false,
+    "cards": 3,
+    "shortcodes": null,
+    "login": false,
+    "builder": 0,
+    "errors": [],
+    "failed": []
+  },
+  {
+    "route": "/dich-vu/lark/",
+    "http": 200,
+    "url": "http://localhost/dich-vu/lark/",
+    "title": "Lark | Nextcore",
+    "h1": [
+      "Lark",
+      "CHUYỂN ĐỔI SỐ DOANH NGHIỆP VỚI LARKSUITE"
+    ],
+    "overflow": -15,
+    "hero": false,
+    "sidebar": false,
+    "cards": 0,
+    "shortcodes": null,
+    "login": false,
+    "builder": 0,
+    "errors": [],
+    "failed": []
+  },
+  {
+    "route": "/dich-vu/ung-dung-dat-san/",
+    "http": 200,
+    "url": "http://localhost/dich-vu/ung-dung-dat-san/",
+    "title": "Ứng dụng đặt sân | Nextcore",
+    "h1": [
+      "Ứng dụng đặt sân"
+    ],
+    "overflow": 20,
+    "hero": false,
+    "sidebar": false,
+    "cards": 0,
+    "shortcodes": null,
+    "login": false,
+    "builder": 1,
+    "errors": [],
+    "failed": []
+  },
+  {
+    "route": "/dich-vu/wordpress-aff-atv/",
+    "http": 200,
+    "url": "http://localhost/dich-vu/wordpress-aff-atv/",
+    "title": "Wordpress aff atv | Nextcore",
+    "h1": [
+      "WordPress aff atv"
+    ],
+    "overflow": 5,
+    "hero": false,
+    "sidebar": false,
+    "cards": 0,
+    "shortcodes": null,
+    "login": false,
+    "builder": 1,
+    "errors": [],
+    "failed": []
+  },
+  {
+    "route": "/dich-vu/viet-plugin-wordpress-chuyen-nghiep-tuy-bien-theo-yeu-cau/",
+    "http": 200,
+    "url": "http://localhost/dich-vu/viet-plugin-wordpress-chuyen-nghiep-tuy-bien-theo-yeu-cau/",
+    "title": "Viết Plugin WordPress Chuyên Nghiệp – Tùy Biến Theo Yêu Cầu | Nextcore",
+    "h1": [
+      "Viết Plugin WordPress Chuyên Nghiệp – Tùy Biến Theo Yêu Cầu"
+    ],
+    "overflow": -15,
+    "hero": false,
+    "sidebar": false,
+    "cards": 0,
+    "shortcodes": null,
+    "login": false,
+    "builder": 0,
+    "errors": [],
+    "failed": []
+  },
+  {
+    "route": "/wordpress-plugin-affiliate/",
+    "http": 200,
+    "url": "http://localhost/wordpress-plugin-affiliate/",
+    "title": "Wordpress Plugin - Affiliate | Nextcore",
+    "h1": [
+      "WordPress Plugin – Affiliate"
+    ],
+    "overflow": -15,
+    "hero": false,
+    "sidebar": false,
+    "cards": 0,
+    "shortcodes": null,
+    "login": false,
+    "builder": 0,
+    "errors": [],
+    "failed": []
+  },
+  {
+    "route": "/truong-doanh-nhan-top-olympia/",
+    "http": 200,
+    "url": "http://localhost/truong-doanh-nhan-top-olympia/",
+    "title": "Trường Doanh nhân Top Olympia | Nextcore",
+    "h1": [
+      "Trường Doanh nhân Top Olympia"
+    ],
+    "overflow": -15,
+    "hero": false,
+    "sidebar": false,
+    "cards": 0,
+    "shortcodes": null,
+    "login": false,
+    "builder": 0,
+    "errors": [],
+    "failed": []
+  },
+  {
+    "route": "/?s=wordpress",
+    "http": 200,
+    "url": "http://localhost/?s=wordpress",
+    "title": "Bạn đã tìm wordpress | Nextcore",
+    "h1": [
+      "Kết quả tìm kiếm: wordpress"
+    ],
+    "overflow": -15,
+    "hero": false,
+    "sidebar": false,
+    "cards": 4,
+    "shortcodes": null,
+    "login": false,
+    "builder": 0,
+    "errors": [],
+    "failed": []
+  },
+  {
+    "route": "/phase6-nonexistent-page-qa/",
+    "http": 404,
+    "url": "http://localhost/phase6-nonexistent-page-qa/",
+    "title": "Không tìm thấy trang | Nextcore",
+    "h1": [
+      "Không tìm thấy trang"
+    ],
+    "overflow": 0,
+    "hero": false,
+    "sidebar": false,
+    "cards": 0,
+    "shortcodes": null,
+    "login": false,
+    "builder": 0,
+    "errors": [],
+    "failed": [
+      {
+        "url": "http://localhost/phase6-nonexistent-page-qa/",
+        "status": 404
+      }
+    ]
+  },
+  {
+    "route": "/wp-admin/",
+    "http": 200,
+    "url": "http://localhost/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fwp-admin%2F&reauth=1",
+    "title": "Đăng nhập ‹ Nextcore — WordPress",
+    "h1": [
+      "Đăng nhập",
+      "Xây dựng bằng WordPress"
+    ],
+    "overflow": 0,
+    "hero": false,
+    "sidebar": false,
+    "cards": 0,
+    "shortcodes": null,
+    "login": true,
+    "builder": 0,
+    "errors": [],
+    "failed": []
+  }
+]

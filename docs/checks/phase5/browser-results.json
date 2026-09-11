@@ -1,0 +1,3369 @@
+{
+  "results": [
+    {
+      "width": 1440,
+      "mode": "dark",
+      "overflow": -15,
+      "sections": [
+        {
+          "id": "home",
+          "width": 1425,
+          "height": 900,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "about",
+          "width": 1425,
+          "height": 766,
+          "x": 0,
+          "y": 900
+        },
+        {
+          "id": "",
+          "width": 1425,
+          "height": 405,
+          "x": 0,
+          "y": 1666
+        },
+        {
+          "id": "services",
+          "width": 1280,
+          "height": 828,
+          "x": 72.5,
+          "y": 2071
+        },
+        {
+          "id": "technology",
+          "width": 1425,
+          "height": 405,
+          "x": 0,
+          "y": 2899
+        },
+        {
+          "id": "projects",
+          "width": 1280,
+          "height": 828,
+          "x": 72.5,
+          "y": 3304
+        },
+        {
+          "id": "partner",
+          "width": 1425,
+          "height": 829,
+          "x": 0,
+          "y": 4132
+        },
+        {
+          "id": "testimonials",
+          "width": 1425,
+          "height": 828,
+          "x": 0,
+          "y": 4961
+        },
+        {
+          "id": "team",
+          "width": 1425,
+          "height": 829,
+          "x": 0,
+          "y": 5789
+        },
+        {
+          "id": "blog",
+          "width": 1280,
+          "height": 828,
+          "x": 72.5,
+          "y": 6618
+        },
+        {
+          "id": "contact",
+          "width": 1425,
+          "height": 828,
+          "x": 0,
+          "y": 7446
+        }
+      ],
+      "font": "\"Be Vietnam Pro\", Arial, sans-serif",
+      "hero": "http://localhost/wp-content/uploads/2026/09/hero-corporate-v2.png",
+      "video": null,
+      "poster": "http://localhost/wp-content/uploads/2026/09/danang-poster.jpg",
+      "broken": [],
+      "menu": [
+        {
+          "text": "Giới thiệu",
+          "width": 51.828125,
+          "height": 41.046875,
+          "x": 510.171875,
+          "y": 20.46875
+        },
+        {
+          "text": "Dịch vụ",
+          "width": 39.734375,
+          "height": 41.046875,
+          "x": 578,
+          "y": 20.96875
+        },
+        {
+          "text": "Outsource",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Tư vấn doanh nghiệp",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Khách hàng cá nhân",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Sản phẩm",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Công nghệ",
+          "width": 57.4375,
+          "height": 41.046875,
+          "x": 652.734375,
+          "y": 20.46875
+        },
+        {
+          "text": "Sản phẩm / Dự án",
+          "width": 93.546875,
+          "height": 41.046875,
+          "x": 726.171875,
+          "y": 20.46875
+        },
+        {
+          "text": "Đội ngũ",
+          "width": 40.9375,
+          "height": 41.046875,
+          "x": 835.71875,
+          "y": 20.46875
+        },
+        {
+          "text": "Tin tức",
+          "width": 37.109375,
+          "height": 41.046875,
+          "x": 892.65625,
+          "y": 20.96875
+        },
+        {
+          "text": "Kiến thức",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Công ty",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Liên hệ",
+          "width": 38.515625,
+          "height": 41.046875,
+          "x": 964.765625,
+          "y": 20.46875
+        }
+      ],
+      "cards": {
+        "services": 3,
+        "projects": 3,
+        "team": 3,
+        "blog": 3
+      },
+      "contacts": [
+        "mailto:hiennv@nextcore.vn",
+        "tel:+84378962625",
+        "mailto:anhtd@nextcore.vn",
+        "tel:+84976748059",
+        "mailto:tupt@nextcore.vn",
+        "tel:+84979525694"
+      ],
+      "reference": [
+        {
+          "id": "home",
+          "width": 1425,
+          "height": 900,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "about",
+          "width": 1425,
+          "height": 766,
+          "x": 0,
+          "y": 900
+        },
+        {
+          "id": "",
+          "width": 1425,
+          "height": 405,
+          "x": 0,
+          "y": 1666
+        },
+        {
+          "id": "services",
+          "width": 1280,
+          "height": 828,
+          "x": 72.5,
+          "y": 2071
+        },
+        {
+          "id": "technology",
+          "width": 1425,
+          "height": 405,
+          "x": 0,
+          "y": 2899
+        },
+        {
+          "id": "projects",
+          "width": 1280,
+          "height": 828,
+          "x": 72.5,
+          "y": 3304
+        },
+        {
+          "id": "partner",
+          "width": 1425,
+          "height": 829,
+          "x": 0,
+          "y": 4132
+        },
+        {
+          "id": "testimonials",
+          "width": 1425,
+          "height": 828,
+          "x": 0,
+          "y": 4961
+        },
+        {
+          "id": "team",
+          "width": 1425,
+          "height": 829,
+          "x": 0,
+          "y": 5789
+        },
+        {
+          "id": "blog",
+          "width": 1280,
+          "height": 828,
+          "x": 72.5,
+          "y": 6618
+        },
+        {
+          "id": "contact",
+          "width": 1425,
+          "height": 828,
+          "x": 0,
+          "y": 7446
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "mode": "light",
+      "overflow": -15,
+      "sections": [
+        {
+          "id": "home",
+          "width": 1425,
+          "height": 900,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "about",
+          "width": 1425,
+          "height": 766,
+          "x": 0,
+          "y": 900
+        },
+        {
+          "id": "",
+          "width": 1425,
+          "height": 405,
+          "x": 0,
+          "y": 1666
+        },
+        {
+          "id": "services",
+          "width": 1280,
+          "height": 828,
+          "x": 72.5,
+          "y": 2071
+        },
+        {
+          "id": "technology",
+          "width": 1425,
+          "height": 405,
+          "x": 0,
+          "y": 2899
+        },
+        {
+          "id": "projects",
+          "width": 1280,
+          "height": 828,
+          "x": 72.5,
+          "y": 3304
+        },
+        {
+          "id": "partner",
+          "width": 1425,
+          "height": 829,
+          "x": 0,
+          "y": 4132
+        },
+        {
+          "id": "testimonials",
+          "width": 1425,
+          "height": 828,
+          "x": 0,
+          "y": 4961
+        },
+        {
+          "id": "team",
+          "width": 1425,
+          "height": 829,
+          "x": 0,
+          "y": 5789
+        },
+        {
+          "id": "blog",
+          "width": 1280,
+          "height": 828,
+          "x": 72.5,
+          "y": 6618
+        },
+        {
+          "id": "contact",
+          "width": 1425,
+          "height": 828,
+          "x": 0,
+          "y": 7446
+        }
+      ],
+      "font": "\"Be Vietnam Pro\", Arial, sans-serif",
+      "hero": "http://localhost/wp-content/uploads/2026/09/hero-corporate-light.png",
+      "video": null,
+      "poster": "http://localhost/wp-content/uploads/2026/09/cauronglight.png",
+      "broken": [],
+      "menu": [
+        {
+          "text": "Giới thiệu",
+          "width": 51.828125,
+          "height": 41.046875,
+          "x": 510.171875,
+          "y": 20.46875
+        },
+        {
+          "text": "Dịch vụ",
+          "width": 39.734375,
+          "height": 41.046875,
+          "x": 578,
+          "y": 20.96875
+        },
+        {
+          "text": "Outsource",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Tư vấn doanh nghiệp",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Khách hàng cá nhân",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Sản phẩm",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Công nghệ",
+          "width": 57.4375,
+          "height": 41.046875,
+          "x": 652.734375,
+          "y": 20.46875
+        },
+        {
+          "text": "Sản phẩm / Dự án",
+          "width": 93.546875,
+          "height": 41.046875,
+          "x": 726.171875,
+          "y": 20.46875
+        },
+        {
+          "text": "Đội ngũ",
+          "width": 40.9375,
+          "height": 41.046875,
+          "x": 835.71875,
+          "y": 20.46875
+        },
+        {
+          "text": "Tin tức",
+          "width": 37.109375,
+          "height": 41.046875,
+          "x": 892.65625,
+          "y": 20.96875
+        },
+        {
+          "text": "Kiến thức",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Công ty",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Liên hệ",
+          "width": 38.515625,
+          "height": 41.046875,
+          "x": 964.765625,
+          "y": 20.46875
+        }
+      ],
+      "cards": {
+        "services": 3,
+        "projects": 3,
+        "team": 3,
+        "blog": 3
+      },
+      "contacts": [
+        "mailto:hiennv@nextcore.vn",
+        "tel:+84378962625",
+        "mailto:anhtd@nextcore.vn",
+        "tel:+84976748059",
+        "mailto:tupt@nextcore.vn",
+        "tel:+84979525694"
+      ],
+      "reference": [
+        {
+          "id": "home",
+          "width": 1425,
+          "height": 900,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "about",
+          "width": 1425,
+          "height": 766,
+          "x": 0,
+          "y": 900
+        },
+        {
+          "id": "",
+          "width": 1425,
+          "height": 405,
+          "x": 0,
+          "y": 1666
+        },
+        {
+          "id": "services",
+          "width": 1280,
+          "height": 828,
+          "x": 72.5,
+          "y": 2071
+        },
+        {
+          "id": "technology",
+          "width": 1425,
+          "height": 405,
+          "x": 0,
+          "y": 2899
+        },
+        {
+          "id": "projects",
+          "width": 1280,
+          "height": 828,
+          "x": 72.5,
+          "y": 3304
+        },
+        {
+          "id": "partner",
+          "width": 1425,
+          "height": 829,
+          "x": 0,
+          "y": 4132
+        },
+        {
+          "id": "testimonials",
+          "width": 1425,
+          "height": 828,
+          "x": 0,
+          "y": 4961
+        },
+        {
+          "id": "team",
+          "width": 1425,
+          "height": 829,
+          "x": 0,
+          "y": 5789
+        },
+        {
+          "id": "blog",
+          "width": 1280,
+          "height": 828,
+          "x": 72.5,
+          "y": 6618
+        },
+        {
+          "id": "contact",
+          "width": 1425,
+          "height": 828,
+          "x": 0,
+          "y": 7446
+        }
+      ]
+    },
+    {
+      "width": 1200,
+      "mode": "dark",
+      "overflow": -15,
+      "sections": [
+        {
+          "id": "home",
+          "width": 1185,
+          "height": 900,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "about",
+          "width": 1185,
+          "height": 766,
+          "x": 0,
+          "y": 900
+        },
+        {
+          "id": "",
+          "width": 1185,
+          "height": 405,
+          "x": 0,
+          "y": 1666
+        },
+        {
+          "id": "services",
+          "width": 1121,
+          "height": 828,
+          "x": 32,
+          "y": 2071
+        },
+        {
+          "id": "technology",
+          "width": 1185,
+          "height": 405,
+          "x": 0,
+          "y": 2899
+        },
+        {
+          "id": "projects",
+          "width": 1121,
+          "height": 828,
+          "x": 32,
+          "y": 3304
+        },
+        {
+          "id": "partner",
+          "width": 1185,
+          "height": 829,
+          "x": 0,
+          "y": 4132
+        },
+        {
+          "id": "testimonials",
+          "width": 1185,
+          "height": 828,
+          "x": 0,
+          "y": 4961
+        },
+        {
+          "id": "team",
+          "width": 1185,
+          "height": 829,
+          "x": 0,
+          "y": 5789
+        },
+        {
+          "id": "blog",
+          "width": 1121,
+          "height": 828,
+          "x": 32,
+          "y": 6618
+        },
+        {
+          "id": "contact",
+          "width": 1185,
+          "height": 828,
+          "x": 0,
+          "y": 7446
+        }
+      ],
+      "font": "\"Be Vietnam Pro\", Arial, sans-serif",
+      "hero": "http://localhost/wp-content/uploads/2026/09/hero-corporate-v2.png",
+      "video": null,
+      "poster": "http://localhost/wp-content/uploads/2026/09/danang-poster.jpg",
+      "broken": [],
+      "menu": [
+        {
+          "text": "Giới thiệu",
+          "width": 51.828125,
+          "height": 41.046875,
+          "x": 310.671875,
+          "y": 20.46875
+        },
+        {
+          "text": "Dịch vụ",
+          "width": 39.734375,
+          "height": 41.046875,
+          "x": 378.5,
+          "y": 20.96875
+        },
+        {
+          "text": "Outsource",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Tư vấn doanh nghiệp",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Khách hàng cá nhân",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Sản phẩm",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Công nghệ",
+          "width": 57.4375,
+          "height": 41.046875,
+          "x": 453.234375,
+          "y": 20.46875
+        },
+        {
+          "text": "Sản phẩm / Dự án",
+          "width": 93.546875,
+          "height": 41.046875,
+          "x": 526.671875,
+          "y": 20.46875
+        },
+        {
+          "text": "Đội ngũ",
+          "width": 40.9375,
+          "height": 41.046875,
+          "x": 636.21875,
+          "y": 20.46875
+        },
+        {
+          "text": "Tin tức",
+          "width": 37.109375,
+          "height": 41.046875,
+          "x": 693.15625,
+          "y": 20.96875
+        },
+        {
+          "text": "Kiến thức",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Công ty",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Liên hệ",
+          "width": 38.515625,
+          "height": 41.046875,
+          "x": 765.265625,
+          "y": 20.46875
+        }
+      ],
+      "cards": {
+        "services": 3,
+        "projects": 3,
+        "team": 3,
+        "blog": 3
+      },
+      "contacts": [
+        "mailto:hiennv@nextcore.vn",
+        "tel:+84378962625",
+        "mailto:anhtd@nextcore.vn",
+        "tel:+84976748059",
+        "mailto:tupt@nextcore.vn",
+        "tel:+84979525694"
+      ],
+      "reference": [
+        {
+          "id": "home",
+          "width": 1185,
+          "height": 900,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "about",
+          "width": 1185,
+          "height": 766,
+          "x": 0,
+          "y": 900
+        },
+        {
+          "id": "",
+          "width": 1185,
+          "height": 405,
+          "x": 0,
+          "y": 1666
+        },
+        {
+          "id": "services",
+          "width": 1121,
+          "height": 828,
+          "x": 32,
+          "y": 2071
+        },
+        {
+          "id": "technology",
+          "width": 1185,
+          "height": 405,
+          "x": 0,
+          "y": 2899
+        },
+        {
+          "id": "projects",
+          "width": 1121,
+          "height": 828,
+          "x": 32,
+          "y": 3304
+        },
+        {
+          "id": "partner",
+          "width": 1185,
+          "height": 829,
+          "x": 0,
+          "y": 4132
+        },
+        {
+          "id": "testimonials",
+          "width": 1185,
+          "height": 828,
+          "x": 0,
+          "y": 4961
+        },
+        {
+          "id": "team",
+          "width": 1185,
+          "height": 829,
+          "x": 0,
+          "y": 5789
+        },
+        {
+          "id": "blog",
+          "width": 1121,
+          "height": 828,
+          "x": 32,
+          "y": 6618
+        },
+        {
+          "id": "contact",
+          "width": 1185,
+          "height": 828,
+          "x": 0,
+          "y": 7446
+        }
+      ]
+    },
+    {
+      "width": 1200,
+      "mode": "light",
+      "overflow": -15,
+      "sections": [
+        {
+          "id": "home",
+          "width": 1185,
+          "height": 900,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "about",
+          "width": 1185,
+          "height": 766,
+          "x": 0,
+          "y": 900
+        },
+        {
+          "id": "",
+          "width": 1185,
+          "height": 405,
+          "x": 0,
+          "y": 1666
+        },
+        {
+          "id": "services",
+          "width": 1121,
+          "height": 828,
+          "x": 32,
+          "y": 2071
+        },
+        {
+          "id": "technology",
+          "width": 1185,
+          "height": 405,
+          "x": 0,
+          "y": 2899
+        },
+        {
+          "id": "projects",
+          "width": 1121,
+          "height": 828,
+          "x": 32,
+          "y": 3304
+        },
+        {
+          "id": "partner",
+          "width": 1185,
+          "height": 829,
+          "x": 0,
+          "y": 4132
+        },
+        {
+          "id": "testimonials",
+          "width": 1185,
+          "height": 828,
+          "x": 0,
+          "y": 4961
+        },
+        {
+          "id": "team",
+          "width": 1185,
+          "height": 829,
+          "x": 0,
+          "y": 5789
+        },
+        {
+          "id": "blog",
+          "width": 1121,
+          "height": 828,
+          "x": 32,
+          "y": 6618
+        },
+        {
+          "id": "contact",
+          "width": 1185,
+          "height": 828,
+          "x": 0,
+          "y": 7446
+        }
+      ],
+      "font": "\"Be Vietnam Pro\", Arial, sans-serif",
+      "hero": "http://localhost/wp-content/uploads/2026/09/hero-corporate-light.png",
+      "video": null,
+      "poster": "http://localhost/wp-content/uploads/2026/09/cauronglight.png",
+      "broken": [],
+      "menu": [
+        {
+          "text": "Giới thiệu",
+          "width": 51.828125,
+          "height": 41.046875,
+          "x": 310.671875,
+          "y": 20.46875
+        },
+        {
+          "text": "Dịch vụ",
+          "width": 39.734375,
+          "height": 41.046875,
+          "x": 378.5,
+          "y": 20.96875
+        },
+        {
+          "text": "Outsource",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Tư vấn doanh nghiệp",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Khách hàng cá nhân",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Sản phẩm",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Công nghệ",
+          "width": 57.4375,
+          "height": 41.046875,
+          "x": 453.234375,
+          "y": 20.46875
+        },
+        {
+          "text": "Sản phẩm / Dự án",
+          "width": 93.546875,
+          "height": 41.046875,
+          "x": 526.671875,
+          "y": 20.46875
+        },
+        {
+          "text": "Đội ngũ",
+          "width": 40.9375,
+          "height": 41.046875,
+          "x": 636.21875,
+          "y": 20.46875
+        },
+        {
+          "text": "Tin tức",
+          "width": 37.109375,
+          "height": 41.046875,
+          "x": 693.15625,
+          "y": 20.96875
+        },
+        {
+          "text": "Kiến thức",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Công ty",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Liên hệ",
+          "width": 38.515625,
+          "height": 41.046875,
+          "x": 765.265625,
+          "y": 20.46875
+        }
+      ],
+      "cards": {
+        "services": 3,
+        "projects": 3,
+        "team": 3,
+        "blog": 3
+      },
+      "contacts": [
+        "mailto:hiennv@nextcore.vn",
+        "tel:+84378962625",
+        "mailto:anhtd@nextcore.vn",
+        "tel:+84976748059",
+        "mailto:tupt@nextcore.vn",
+        "tel:+84979525694"
+      ],
+      "reference": [
+        {
+          "id": "home",
+          "width": 1185,
+          "height": 900,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "about",
+          "width": 1185,
+          "height": 766,
+          "x": 0,
+          "y": 900
+        },
+        {
+          "id": "",
+          "width": 1185,
+          "height": 405,
+          "x": 0,
+          "y": 1666
+        },
+        {
+          "id": "services",
+          "width": 1121,
+          "height": 828,
+          "x": 32,
+          "y": 2071
+        },
+        {
+          "id": "technology",
+          "width": 1185,
+          "height": 405,
+          "x": 0,
+          "y": 2899
+        },
+        {
+          "id": "projects",
+          "width": 1121,
+          "height": 828,
+          "x": 32,
+          "y": 3304
+        },
+        {
+          "id": "partner",
+          "width": 1185,
+          "height": 829,
+          "x": 0,
+          "y": 4132
+        },
+        {
+          "id": "testimonials",
+          "width": 1185,
+          "height": 828,
+          "x": 0,
+          "y": 4961
+        },
+        {
+          "id": "team",
+          "width": 1185,
+          "height": 829,
+          "x": 0,
+          "y": 5789
+        },
+        {
+          "id": "blog",
+          "width": 1121,
+          "height": 828,
+          "x": 32,
+          "y": 6618
+        },
+        {
+          "id": "contact",
+          "width": 1185,
+          "height": 828,
+          "x": 0,
+          "y": 7446
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "mode": "dark",
+      "overflow": -15,
+      "sections": [
+        {
+          "id": "home",
+          "width": 1009,
+          "height": 900,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "about",
+          "width": 1009,
+          "height": 766,
+          "x": 0,
+          "y": 900
+        },
+        {
+          "id": "",
+          "width": 1009,
+          "height": 405,
+          "x": 0,
+          "y": 1666
+        },
+        {
+          "id": "services",
+          "width": 945,
+          "height": 828,
+          "x": 32,
+          "y": 2071
+        },
+        {
+          "id": "technology",
+          "width": 1009,
+          "height": 405,
+          "x": 0,
+          "y": 2899
+        },
+        {
+          "id": "projects",
+          "width": 945,
+          "height": 828,
+          "x": 32,
+          "y": 3304
+        },
+        {
+          "id": "partner",
+          "width": 1009,
+          "height": 829,
+          "x": 0,
+          "y": 4132
+        },
+        {
+          "id": "testimonials",
+          "width": 1009,
+          "height": 828,
+          "x": 0,
+          "y": 4961
+        },
+        {
+          "id": "team",
+          "width": 1009,
+          "height": 829,
+          "x": 0,
+          "y": 5789
+        },
+        {
+          "id": "blog",
+          "width": 945,
+          "height": 828,
+          "x": 32,
+          "y": 6618
+        },
+        {
+          "id": "contact",
+          "width": 1009,
+          "height": 828,
+          "x": 0,
+          "y": 7446
+        }
+      ],
+      "font": "\"Be Vietnam Pro\", Arial, sans-serif",
+      "hero": "http://localhost/wp-content/uploads/2026/09/hero-corporate-v2.png",
+      "video": null,
+      "poster": "http://localhost/wp-content/uploads/2026/09/danang-poster.jpg",
+      "broken": [],
+      "menu": [
+        {
+          "text": "Giới thiệu",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Dịch vụ",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Outsource",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Tư vấn doanh nghiệp",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Khách hàng cá nhân",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Sản phẩm",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Công nghệ",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Sản phẩm / Dự án",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Đội ngũ",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Tin tức",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Kiến thức",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Công ty",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Liên hệ",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "cards": {
+        "services": 3,
+        "projects": 3,
+        "team": 3,
+        "blog": 3
+      },
+      "contacts": [
+        "mailto:hiennv@nextcore.vn",
+        "tel:+84378962625",
+        "mailto:anhtd@nextcore.vn",
+        "tel:+84976748059",
+        "mailto:tupt@nextcore.vn",
+        "tel:+84979525694"
+      ],
+      "reference": [
+        {
+          "id": "home",
+          "width": 1009,
+          "height": 900,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "about",
+          "width": 1009,
+          "height": 766,
+          "x": 0,
+          "y": 900
+        },
+        {
+          "id": "",
+          "width": 1009,
+          "height": 405,
+          "x": 0,
+          "y": 1666
+        },
+        {
+          "id": "services",
+          "width": 945,
+          "height": 828,
+          "x": 32,
+          "y": 2071
+        },
+        {
+          "id": "technology",
+          "width": 1009,
+          "height": 405,
+          "x": 0,
+          "y": 2899
+        },
+        {
+          "id": "projects",
+          "width": 945,
+          "height": 828,
+          "x": 32,
+          "y": 3304
+        },
+        {
+          "id": "partner",
+          "width": 1009,
+          "height": 829,
+          "x": 0,
+          "y": 4132
+        },
+        {
+          "id": "testimonials",
+          "width": 1009,
+          "height": 828,
+          "x": 0,
+          "y": 4961
+        },
+        {
+          "id": "team",
+          "width": 1009,
+          "height": 829,
+          "x": 0,
+          "y": 5789
+        },
+        {
+          "id": "blog",
+          "width": 945,
+          "height": 828,
+          "x": 32,
+          "y": 6618
+        },
+        {
+          "id": "contact",
+          "width": 1009,
+          "height": 828,
+          "x": 0,
+          "y": 7446
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "mode": "light",
+      "overflow": -15,
+      "sections": [
+        {
+          "id": "home",
+          "width": 1009,
+          "height": 900,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "about",
+          "width": 1009,
+          "height": 766,
+          "x": 0,
+          "y": 900
+        },
+        {
+          "id": "",
+          "width": 1009,
+          "height": 405,
+          "x": 0,
+          "y": 1666
+        },
+        {
+          "id": "services",
+          "width": 945,
+          "height": 828,
+          "x": 32,
+          "y": 2071
+        },
+        {
+          "id": "technology",
+          "width": 1009,
+          "height": 405,
+          "x": 0,
+          "y": 2899
+        },
+        {
+          "id": "projects",
+          "width": 945,
+          "height": 828,
+          "x": 32,
+          "y": 3304
+        },
+        {
+          "id": "partner",
+          "width": 1009,
+          "height": 829,
+          "x": 0,
+          "y": 4132
+        },
+        {
+          "id": "testimonials",
+          "width": 1009,
+          "height": 828,
+          "x": 0,
+          "y": 4961
+        },
+        {
+          "id": "team",
+          "width": 1009,
+          "height": 829,
+          "x": 0,
+          "y": 5789
+        },
+        {
+          "id": "blog",
+          "width": 945,
+          "height": 828,
+          "x": 32,
+          "y": 6618
+        },
+        {
+          "id": "contact",
+          "width": 1009,
+          "height": 828,
+          "x": 0,
+          "y": 7446
+        }
+      ],
+      "font": "\"Be Vietnam Pro\", Arial, sans-serif",
+      "hero": "http://localhost/wp-content/uploads/2026/09/hero-corporate-light.png",
+      "video": null,
+      "poster": "http://localhost/wp-content/uploads/2026/09/cauronglight.png",
+      "broken": [],
+      "menu": [
+        {
+          "text": "Giới thiệu",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Dịch vụ",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Outsource",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Tư vấn doanh nghiệp",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Khách hàng cá nhân",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Sản phẩm",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Công nghệ",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Sản phẩm / Dự án",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Đội ngũ",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Tin tức",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Kiến thức",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Công ty",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Liên hệ",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "cards": {
+        "services": 3,
+        "projects": 3,
+        "team": 3,
+        "blog": 3
+      },
+      "contacts": [
+        "mailto:hiennv@nextcore.vn",
+        "tel:+84378962625",
+        "mailto:anhtd@nextcore.vn",
+        "tel:+84976748059",
+        "mailto:tupt@nextcore.vn",
+        "tel:+84979525694"
+      ],
+      "reference": [
+        {
+          "id": "home",
+          "width": 1009,
+          "height": 900,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "about",
+          "width": 1009,
+          "height": 766,
+          "x": 0,
+          "y": 900
+        },
+        {
+          "id": "",
+          "width": 1009,
+          "height": 405,
+          "x": 0,
+          "y": 1666
+        },
+        {
+          "id": "services",
+          "width": 945,
+          "height": 828,
+          "x": 32,
+          "y": 2071
+        },
+        {
+          "id": "technology",
+          "width": 1009,
+          "height": 405,
+          "x": 0,
+          "y": 2899
+        },
+        {
+          "id": "projects",
+          "width": 945,
+          "height": 828,
+          "x": 32,
+          "y": 3304
+        },
+        {
+          "id": "partner",
+          "width": 1009,
+          "height": 829,
+          "x": 0,
+          "y": 4132
+        },
+        {
+          "id": "testimonials",
+          "width": 1009,
+          "height": 828,
+          "x": 0,
+          "y": 4961
+        },
+        {
+          "id": "team",
+          "width": 1009,
+          "height": 829,
+          "x": 0,
+          "y": 5789
+        },
+        {
+          "id": "blog",
+          "width": 945,
+          "height": 828,
+          "x": 32,
+          "y": 6618
+        },
+        {
+          "id": "contact",
+          "width": 1009,
+          "height": 828,
+          "x": 0,
+          "y": 7446
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "mode": "dark",
+      "overflow": -15,
+      "sections": [
+        {
+          "id": "home",
+          "width": 753,
+          "height": 900,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "about",
+          "width": 753,
+          "height": 766,
+          "x": 0,
+          "y": 900
+        },
+        {
+          "id": "",
+          "width": 753,
+          "height": 405,
+          "x": 0,
+          "y": 1666
+        },
+        {
+          "id": "services",
+          "width": 689,
+          "height": 1303.078125,
+          "x": 32,
+          "y": 2071
+        },
+        {
+          "id": "technology",
+          "width": 753,
+          "height": 405,
+          "x": 0,
+          "y": 3374.078125
+        },
+        {
+          "id": "projects",
+          "width": 689,
+          "height": 1071.078125,
+          "x": 32,
+          "y": 3779.078125
+        },
+        {
+          "id": "partner",
+          "width": 753,
+          "height": 829,
+          "x": 0,
+          "y": 4850.15625
+        },
+        {
+          "id": "testimonials",
+          "width": 753,
+          "height": 828,
+          "x": 0,
+          "y": 5679.15625
+        },
+        {
+          "id": "team",
+          "width": 753,
+          "height": 1218.078125,
+          "x": 0,
+          "y": 6507.15625
+        },
+        {
+          "id": "blog",
+          "width": 689,
+          "height": 828,
+          "x": 32,
+          "y": 7725.234375
+        },
+        {
+          "id": "contact",
+          "width": 753,
+          "height": 828,
+          "x": 0,
+          "y": 8553.234375
+        }
+      ],
+      "font": "\"Be Vietnam Pro\", Arial, sans-serif",
+      "hero": "http://localhost/wp-content/uploads/2026/09/hero-corporate-v2.png",
+      "video": null,
+      "poster": "http://localhost/wp-content/uploads/2026/09/danang-poster.jpg",
+      "broken": [],
+      "menu": [
+        {
+          "text": "Giới thiệu",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Dịch vụ",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Outsource",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Tư vấn doanh nghiệp",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Khách hàng cá nhân",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Sản phẩm",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Công nghệ",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Sản phẩm / Dự án",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Đội ngũ",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Tin tức",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Kiến thức",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Công ty",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Liên hệ",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "cards": {
+        "services": 3,
+        "projects": 3,
+        "team": 3,
+        "blog": 3
+      },
+      "contacts": [
+        "mailto:hiennv@nextcore.vn",
+        "tel:+84378962625",
+        "mailto:anhtd@nextcore.vn",
+        "tel:+84976748059",
+        "mailto:tupt@nextcore.vn",
+        "tel:+84979525694"
+      ],
+      "reference": [
+        {
+          "id": "home",
+          "width": 753,
+          "height": 900,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "about",
+          "width": 753,
+          "height": 766,
+          "x": 0,
+          "y": 900
+        },
+        {
+          "id": "",
+          "width": 753,
+          "height": 405,
+          "x": 0,
+          "y": 1666
+        },
+        {
+          "id": "services",
+          "width": 689,
+          "height": 1303.078125,
+          "x": 32,
+          "y": 2071
+        },
+        {
+          "id": "technology",
+          "width": 753,
+          "height": 405,
+          "x": 0,
+          "y": 3374.078125
+        },
+        {
+          "id": "projects",
+          "width": 689,
+          "height": 1071.078125,
+          "x": 32,
+          "y": 3779.078125
+        },
+        {
+          "id": "partner",
+          "width": 753,
+          "height": 829,
+          "x": 0,
+          "y": 4850.15625
+        },
+        {
+          "id": "testimonials",
+          "width": 753,
+          "height": 828,
+          "x": 0,
+          "y": 5679.15625
+        },
+        {
+          "id": "team",
+          "width": 753,
+          "height": 1218.078125,
+          "x": 0,
+          "y": 6507.15625
+        },
+        {
+          "id": "blog",
+          "width": 689,
+          "height": 828,
+          "x": 32,
+          "y": 7725.234375
+        },
+        {
+          "id": "contact",
+          "width": 753,
+          "height": 828,
+          "x": 0,
+          "y": 8553.234375
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "mode": "light",
+      "overflow": -15,
+      "sections": [
+        {
+          "id": "home",
+          "width": 753,
+          "height": 900,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "about",
+          "width": 753,
+          "height": 766,
+          "x": 0,
+          "y": 900
+        },
+        {
+          "id": "",
+          "width": 753,
+          "height": 405,
+          "x": 0,
+          "y": 1666
+        },
+        {
+          "id": "services",
+          "width": 689,
+          "height": 1303.078125,
+          "x": 32,
+          "y": 2071
+        },
+        {
+          "id": "technology",
+          "width": 753,
+          "height": 405,
+          "x": 0,
+          "y": 3374.078125
+        },
+        {
+          "id": "projects",
+          "width": 689,
+          "height": 1071.078125,
+          "x": 32,
+          "y": 3779.078125
+        },
+        {
+          "id": "partner",
+          "width": 753,
+          "height": 829,
+          "x": 0,
+          "y": 4850.15625
+        },
+        {
+          "id": "testimonials",
+          "width": 753,
+          "height": 828,
+          "x": 0,
+          "y": 5679.15625
+        },
+        {
+          "id": "team",
+          "width": 753,
+          "height": 1218.078125,
+          "x": 0,
+          "y": 6507.15625
+        },
+        {
+          "id": "blog",
+          "width": 689,
+          "height": 828,
+          "x": 32,
+          "y": 7725.234375
+        },
+        {
+          "id": "contact",
+          "width": 753,
+          "height": 828,
+          "x": 0,
+          "y": 8553.234375
+        }
+      ],
+      "font": "\"Be Vietnam Pro\", Arial, sans-serif",
+      "hero": "http://localhost/wp-content/uploads/2026/09/hero-corporate-light.png",
+      "video": null,
+      "poster": "http://localhost/wp-content/uploads/2026/09/cauronglight.png",
+      "broken": [],
+      "menu": [
+        {
+          "text": "Giới thiệu",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Dịch vụ",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Outsource",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Tư vấn doanh nghiệp",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Khách hàng cá nhân",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Sản phẩm",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Công nghệ",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Sản phẩm / Dự án",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Đội ngũ",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Tin tức",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Kiến thức",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Công ty",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Liên hệ",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "cards": {
+        "services": 3,
+        "projects": 3,
+        "team": 3,
+        "blog": 3
+      },
+      "contacts": [
+        "mailto:hiennv@nextcore.vn",
+        "tel:+84378962625",
+        "mailto:anhtd@nextcore.vn",
+        "tel:+84976748059",
+        "mailto:tupt@nextcore.vn",
+        "tel:+84979525694"
+      ],
+      "reference": [
+        {
+          "id": "home",
+          "width": 753,
+          "height": 900,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "about",
+          "width": 753,
+          "height": 766,
+          "x": 0,
+          "y": 900
+        },
+        {
+          "id": "",
+          "width": 753,
+          "height": 405,
+          "x": 0,
+          "y": 1666
+        },
+        {
+          "id": "services",
+          "width": 689,
+          "height": 1303.078125,
+          "x": 32,
+          "y": 2071
+        },
+        {
+          "id": "technology",
+          "width": 753,
+          "height": 405,
+          "x": 0,
+          "y": 3374.078125
+        },
+        {
+          "id": "projects",
+          "width": 689,
+          "height": 1071.078125,
+          "x": 32,
+          "y": 3779.078125
+        },
+        {
+          "id": "partner",
+          "width": 753,
+          "height": 829,
+          "x": 0,
+          "y": 4850.15625
+        },
+        {
+          "id": "testimonials",
+          "width": 753,
+          "height": 828,
+          "x": 0,
+          "y": 5679.15625
+        },
+        {
+          "id": "team",
+          "width": 753,
+          "height": 1218.078125,
+          "x": 0,
+          "y": 6507.15625
+        },
+        {
+          "id": "blog",
+          "width": 689,
+          "height": 828,
+          "x": 32,
+          "y": 7725.234375
+        },
+        {
+          "id": "contact",
+          "width": 753,
+          "height": 828,
+          "x": 0,
+          "y": 8553.234375
+        }
+      ]
+    },
+    {
+      "width": 480,
+      "mode": "dark",
+      "overflow": -15,
+      "sections": [
+        {
+          "id": "home",
+          "width": 465,
+          "height": 900,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "about",
+          "width": 465,
+          "height": 811,
+          "x": 0,
+          "y": 900
+        },
+        {
+          "id": "",
+          "width": 465,
+          "height": 591.3125,
+          "x": 0,
+          "y": 1711
+        },
+        {
+          "id": "services",
+          "width": 425,
+          "height": 1734.6875,
+          "x": 20,
+          "y": 2302.3125
+        },
+        {
+          "id": "technology",
+          "width": 465,
+          "height": 298.078125,
+          "x": 0,
+          "y": 4037
+        },
+        {
+          "id": "projects",
+          "width": 425,
+          "height": 1388.203125,
+          "x": 20,
+          "y": 4335.078125
+        },
+        {
+          "id": "partner",
+          "width": 465,
+          "height": 406.046875,
+          "x": 0,
+          "y": 5723.28125
+        },
+        {
+          "id": "testimonials",
+          "width": 465,
+          "height": 719.9375,
+          "x": 0,
+          "y": 6129.328125
+        },
+        {
+          "id": "team",
+          "width": 465,
+          "height": 1573.9375,
+          "x": 0,
+          "y": 6849.265625
+        },
+        {
+          "id": "blog",
+          "width": 425,
+          "height": 1127.6875,
+          "x": 20,
+          "y": 8423.203125
+        },
+        {
+          "id": "contact",
+          "width": 465,
+          "height": 720,
+          "x": 0,
+          "y": 9550.890625
+        }
+      ],
+      "font": "\"Be Vietnam Pro\", Arial, sans-serif",
+      "hero": "http://localhost/wp-content/uploads/2026/09/hero-corporate-v2.png",
+      "video": null,
+      "poster": "http://localhost/wp-content/uploads/2026/09/danang-poster.jpg",
+      "broken": [],
+      "menu": [
+        {
+          "text": "Giới thiệu",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Dịch vụ",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Outsource",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Tư vấn doanh nghiệp",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Khách hàng cá nhân",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Sản phẩm",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Công nghệ",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Sản phẩm / Dự án",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Đội ngũ",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Tin tức",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Kiến thức",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Công ty",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Liên hệ",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "cards": {
+        "services": 3,
+        "projects": 3,
+        "team": 3,
+        "blog": 3
+      },
+      "contacts": [
+        "mailto:hiennv@nextcore.vn",
+        "tel:+84378962625",
+        "mailto:anhtd@nextcore.vn",
+        "tel:+84976748059",
+        "mailto:tupt@nextcore.vn",
+        "tel:+84979525694"
+      ],
+      "reference": [
+        {
+          "id": "home",
+          "width": 465,
+          "height": 900,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "about",
+          "width": 465,
+          "height": 811,
+          "x": 0,
+          "y": 900
+        },
+        {
+          "id": "",
+          "width": 465,
+          "height": 591.3125,
+          "x": 0,
+          "y": 1711
+        },
+        {
+          "id": "services",
+          "width": 425,
+          "height": 1734.6875,
+          "x": 20,
+          "y": 2302.3125
+        },
+        {
+          "id": "technology",
+          "width": 465,
+          "height": 298.078125,
+          "x": 0,
+          "y": 4037
+        },
+        {
+          "id": "projects",
+          "width": 425,
+          "height": 1388.203125,
+          "x": 20,
+          "y": 4335.078125
+        },
+        {
+          "id": "partner",
+          "width": 465,
+          "height": 406.046875,
+          "x": 0,
+          "y": 5723.28125
+        },
+        {
+          "id": "testimonials",
+          "width": 465,
+          "height": 719.9375,
+          "x": 0,
+          "y": 6129.328125
+        },
+        {
+          "id": "team",
+          "width": 465,
+          "height": 1573.9375,
+          "x": 0,
+          "y": 6849.265625
+        },
+        {
+          "id": "blog",
+          "width": 425,
+          "height": 1127.6875,
+          "x": 20,
+          "y": 8423.203125
+        },
+        {
+          "id": "contact",
+          "width": 465,
+          "height": 720,
+          "x": 0,
+          "y": 9550.890625
+        }
+      ]
+    },
+    {
+      "width": 480,
+      "mode": "light",
+      "overflow": -15,
+      "sections": [
+        {
+          "id": "home",
+          "width": 465,
+          "height": 900,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "about",
+          "width": 465,
+          "height": 811,
+          "x": 0,
+          "y": 900
+        },
+        {
+          "id": "",
+          "width": 465,
+          "height": 591.3125,
+          "x": 0,
+          "y": 1711
+        },
+        {
+          "id": "services",
+          "width": 425,
+          "height": 1734.6875,
+          "x": 20,
+          "y": 2302.3125
+        },
+        {
+          "id": "technology",
+          "width": 465,
+          "height": 298.078125,
+          "x": 0,
+          "y": 4037
+        },
+        {
+          "id": "projects",
+          "width": 425,
+          "height": 1388.203125,
+          "x": 20,
+          "y": 4335.078125
+        },
+        {
+          "id": "partner",
+          "width": 465,
+          "height": 406.046875,
+          "x": 0,
+          "y": 5723.28125
+        },
+        {
+          "id": "testimonials",
+          "width": 465,
+          "height": 719.9375,
+          "x": 0,
+          "y": 6129.328125
+        },
+        {
+          "id": "team",
+          "width": 465,
+          "height": 1573.9375,
+          "x": 0,
+          "y": 6849.265625
+        },
+        {
+          "id": "blog",
+          "width": 425,
+          "height": 1127.6875,
+          "x": 20,
+          "y": 8423.203125
+        },
+        {
+          "id": "contact",
+          "width": 465,
+          "height": 720,
+          "x": 0,
+          "y": 9550.890625
+        }
+      ],
+      "font": "\"Be Vietnam Pro\", Arial, sans-serif",
+      "hero": "http://localhost/wp-content/uploads/2026/09/hero-corporate-light.png",
+      "video": null,
+      "poster": "http://localhost/wp-content/uploads/2026/09/cauronglight.png",
+      "broken": [],
+      "menu": [
+        {
+          "text": "Giới thiệu",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Dịch vụ",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Outsource",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Tư vấn doanh nghiệp",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Khách hàng cá nhân",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Sản phẩm",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Công nghệ",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Sản phẩm / Dự án",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Đội ngũ",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Tin tức",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Kiến thức",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Công ty",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Liên hệ",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "cards": {
+        "services": 3,
+        "projects": 3,
+        "team": 3,
+        "blog": 3
+      },
+      "contacts": [
+        "mailto:hiennv@nextcore.vn",
+        "tel:+84378962625",
+        "mailto:anhtd@nextcore.vn",
+        "tel:+84976748059",
+        "mailto:tupt@nextcore.vn",
+        "tel:+84979525694"
+      ],
+      "reference": [
+        {
+          "id": "home",
+          "width": 465,
+          "height": 900,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "about",
+          "width": 465,
+          "height": 811,
+          "x": 0,
+          "y": 900
+        },
+        {
+          "id": "",
+          "width": 465,
+          "height": 591.3125,
+          "x": 0,
+          "y": 1711
+        },
+        {
+          "id": "services",
+          "width": 425,
+          "height": 1734.6875,
+          "x": 20,
+          "y": 2302.3125
+        },
+        {
+          "id": "technology",
+          "width": 465,
+          "height": 298.078125,
+          "x": 0,
+          "y": 4037
+        },
+        {
+          "id": "projects",
+          "width": 425,
+          "height": 1388.203125,
+          "x": 20,
+          "y": 4335.078125
+        },
+        {
+          "id": "partner",
+          "width": 465,
+          "height": 406.046875,
+          "x": 0,
+          "y": 5723.28125
+        },
+        {
+          "id": "testimonials",
+          "width": 465,
+          "height": 719.9375,
+          "x": 0,
+          "y": 6129.328125
+        },
+        {
+          "id": "team",
+          "width": 465,
+          "height": 1573.9375,
+          "x": 0,
+          "y": 6849.265625
+        },
+        {
+          "id": "blog",
+          "width": 425,
+          "height": 1127.6875,
+          "x": 20,
+          "y": 8423.203125
+        },
+        {
+          "id": "contact",
+          "width": 465,
+          "height": 720,
+          "x": 0,
+          "y": 9550.890625
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "mode": "dark",
+      "overflow": -15,
+      "sections": [
+        {
+          "id": "home",
+          "width": 360,
+          "height": 900,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "about",
+          "width": 360,
+          "height": 811,
+          "x": 0,
+          "y": 900
+        },
+        {
+          "id": "",
+          "width": 360,
+          "height": 591.3125,
+          "x": 0,
+          "y": 1711
+        },
+        {
+          "id": "services",
+          "width": 320,
+          "height": 1771.375,
+          "x": 20,
+          "y": 2302.3125
+        },
+        {
+          "id": "technology",
+          "width": 360,
+          "height": 358.078125,
+          "x": 0,
+          "y": 4073.6875
+        },
+        {
+          "id": "projects",
+          "width": 320,
+          "height": 1253.953125,
+          "x": 20,
+          "y": 4431.765625
+        },
+        {
+          "id": "partner",
+          "width": 360,
+          "height": 502.71875,
+          "x": 0,
+          "y": 5685.71875
+        },
+        {
+          "id": "testimonials",
+          "width": 360,
+          "height": 740.734375,
+          "x": 0,
+          "y": 6188.4375
+        },
+        {
+          "id": "team",
+          "width": 360,
+          "height": 1600.1875,
+          "x": 0,
+          "y": 6929.171875
+        },
+        {
+          "id": "blog",
+          "width": 320,
+          "height": 1161.28125,
+          "x": 20,
+          "y": 8529.359375
+        },
+        {
+          "id": "contact",
+          "width": 360,
+          "height": 720,
+          "x": 0,
+          "y": 9690.640625
+        }
+      ],
+      "font": "\"Be Vietnam Pro\", Arial, sans-serif",
+      "hero": "http://localhost/wp-content/uploads/2026/09/hero-corporate-v2.png",
+      "video": null,
+      "poster": "http://localhost/wp-content/uploads/2026/09/danang-poster.jpg",
+      "broken": [],
+      "menu": [
+        {
+          "text": "Giới thiệu",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Dịch vụ",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Outsource",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Tư vấn doanh nghiệp",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Khách hàng cá nhân",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Sản phẩm",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Công nghệ",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Sản phẩm / Dự án",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Đội ngũ",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Tin tức",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Kiến thức",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Công ty",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Liên hệ",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "cards": {
+        "services": 3,
+        "projects": 3,
+        "team": 3,
+        "blog": 3
+      },
+      "contacts": [
+        "mailto:hiennv@nextcore.vn",
+        "tel:+84378962625",
+        "mailto:anhtd@nextcore.vn",
+        "tel:+84976748059",
+        "mailto:tupt@nextcore.vn",
+        "tel:+84979525694"
+      ],
+      "reference": [
+        {
+          "id": "home",
+          "width": 360,
+          "height": 900,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "about",
+          "width": 360,
+          "height": 811,
+          "x": 0,
+          "y": 900
+        },
+        {
+          "id": "",
+          "width": 360,
+          "height": 591.3125,
+          "x": 0,
+          "y": 1711
+        },
+        {
+          "id": "services",
+          "width": 320,
+          "height": 1771.375,
+          "x": 20,
+          "y": 2302.3125
+        },
+        {
+          "id": "technology",
+          "width": 360,
+          "height": 358.078125,
+          "x": 0,
+          "y": 4073.6875
+        },
+        {
+          "id": "projects",
+          "width": 320,
+          "height": 1253.953125,
+          "x": 20,
+          "y": 4431.765625
+        },
+        {
+          "id": "partner",
+          "width": 360,
+          "height": 502.71875,
+          "x": 0,
+          "y": 5685.71875
+        },
+        {
+          "id": "testimonials",
+          "width": 360,
+          "height": 740.734375,
+          "x": 0,
+          "y": 6188.4375
+        },
+        {
+          "id": "team",
+          "width": 360,
+          "height": 1600.1875,
+          "x": 0,
+          "y": 6929.171875
+        },
+        {
+          "id": "blog",
+          "width": 320,
+          "height": 1161.28125,
+          "x": 20,
+          "y": 8529.359375
+        },
+        {
+          "id": "contact",
+          "width": 360,
+          "height": 720,
+          "x": 0,
+          "y": 9690.640625
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "mode": "light",
+      "overflow": -15,
+      "sections": [
+        {
+          "id": "home",
+          "width": 360,
+          "height": 900,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "about",
+          "width": 360,
+          "height": 811,
+          "x": 0,
+          "y": 900
+        },
+        {
+          "id": "",
+          "width": 360,
+          "height": 591.3125,
+          "x": 0,
+          "y": 1711
+        },
+        {
+          "id": "services",
+          "width": 320,
+          "height": 1771.375,
+          "x": 20,
+          "y": 2302.3125
+        },
+        {
+          "id": "technology",
+          "width": 360,
+          "height": 358.078125,
+          "x": 0,
+          "y": 4073.6875
+        },
+        {
+          "id": "projects",
+          "width": 320,
+          "height": 1253.953125,
+          "x": 20,
+          "y": 4431.765625
+        },
+        {
+          "id": "partner",
+          "width": 360,
+          "height": 502.71875,
+          "x": 0,
+          "y": 5685.71875
+        },
+        {
+          "id": "testimonials",
+          "width": 360,
+          "height": 740.734375,
+          "x": 0,
+          "y": 6188.4375
+        },
+        {
+          "id": "team",
+          "width": 360,
+          "height": 1600.1875,
+          "x": 0,
+          "y": 6929.171875
+        },
+        {
+          "id": "blog",
+          "width": 320,
+          "height": 1161.28125,
+          "x": 20,
+          "y": 8529.359375
+        },
+        {
+          "id": "contact",
+          "width": 360,
+          "height": 720,
+          "x": 0,
+          "y": 9690.640625
+        }
+      ],
+      "font": "\"Be Vietnam Pro\", Arial, sans-serif",
+      "hero": "http://localhost/wp-content/uploads/2026/09/hero-corporate-light.png",
+      "video": null,
+      "poster": "http://localhost/wp-content/uploads/2026/09/cauronglight.png",
+      "broken": [],
+      "menu": [
+        {
+          "text": "Giới thiệu",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Dịch vụ",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Outsource",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Tư vấn doanh nghiệp",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Khách hàng cá nhân",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Sản phẩm",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Công nghệ",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Sản phẩm / Dự án",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Đội ngũ",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Tin tức",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Kiến thức",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Công ty",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "text": "Liên hệ",
+          "width": 0,
+          "height": 0,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "cards": {
+        "services": 3,
+        "projects": 3,
+        "team": 3,
+        "blog": 3
+      },
+      "contacts": [
+        "mailto:hiennv@nextcore.vn",
+        "tel:+84378962625",
+        "mailto:anhtd@nextcore.vn",
+        "tel:+84976748059",
+        "mailto:tupt@nextcore.vn",
+        "tel:+84979525694"
+      ],
+      "reference": [
+        {
+          "id": "home",
+          "width": 360,
+          "height": 900,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "about",
+          "width": 360,
+          "height": 811,
+          "x": 0,
+          "y": 900
+        },
+        {
+          "id": "",
+          "width": 360,
+          "height": 591.3125,
+          "x": 0,
+          "y": 1711
+        },
+        {
+          "id": "services",
+          "width": 320,
+          "height": 1771.375,
+          "x": 20,
+          "y": 2302.3125
+        },
+        {
+          "id": "technology",
+          "width": 360,
+          "height": 358.078125,
+          "x": 0,
+          "y": 4073.6875
+        },
+        {
+          "id": "projects",
+          "width": 320,
+          "height": 1253.953125,
+          "x": 20,
+          "y": 4431.765625
+        },
+        {
+          "id": "partner",
+          "width": 360,
+          "height": 502.71875,
+          "x": 0,
+          "y": 5685.71875
+        },
+        {
+          "id": "testimonials",
+          "width": 360,
+          "height": 740.734375,
+          "x": 0,
+          "y": 6188.4375
+        },
+        {
+          "id": "team",
+          "width": 360,
+          "height": 1600.1875,
+          "x": 0,
+          "y": 6929.171875
+        },
+        {
+          "id": "blog",
+          "width": 320,
+          "height": 1161.28125,
+          "x": 20,
+          "y": 8529.359375
+        },
+        {
+          "id": "contact",
+          "width": 360,
+          "height": 720,
+          "x": 0,
+          "y": 9690.640625
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "requests": [
+    "http://localhost/docs/checks/phase5/rendered-plugins.html",
+    "http://localhost/wp-content/plugins/translatepress-multilingual/assets/css/trp-language-switcher.css?ver=2.8.7",
+    "http://localhost/wp-content/themes/nextcore-theme/assets/css/tokens.css?ver=1789034960",
+    "http://localhost/wp-content/themes/nextcore-theme/assets/css/base.css?ver=1789034960",
+    "http://localhost/wp-content/themes/nextcore-theme/assets/css/layout.css?ver=1789034960",
+    "http://localhost/wp-content/themes/nextcore-theme/assets/css/services.css?ver=1789034960",
+    "http://localhost/wp-content/themes/nextcore-theme/assets/css/team.css?ver=1789090876",
+    "http://localhost/wp-content/themes/nextcore-theme/assets/css/testimonials.css?ver=1789034960",
+    "http://localhost/wp-content/themes/nextcore-theme/assets/css/footer.css?ver=1789034960",
+    "http://localhost/wp-content/themes/nextcore-theme/assets/css/light.css?ver=1789034960",
+    "http://localhost/wp-content/themes/nextcore-theme/assets/css/content.css?ver=1789091714",
+    "http://localhost/wp-content/themes/nextcore-theme/assets/css/compatibility.css?ver=1789033322",
+    "http://localhost/wp-content/themes/nextcore-theme/assets/css/native.css?ver=1789091516",
+    "http://localhost/wp-content/themes/nextcore-theme/assets/images/nextcore-logo.png",
+    "http://localhost/wp-content/themes/nextcore-theme/assets/js/theme-switch.js?ver=1789033322",
+    "http://localhost/wp-content/themes/nextcore-theme/assets/js/navigation.js?ver=1789090335",
+    "http://localhost/wp-content/themes/nextcore-theme/assets/js/home.js?ver=1789090285",
+    "http://localhost/wp-content/themes/nextcore-theme/assets/js/testimonials.js?ver=1789090285",
+    "http://localhost/wp-content/uploads/2026/09/hero-corporate-v2.png",
+    "http://localhost/wp-content/uploads/2026/09/danang-poster.jpg",
+    "http://localhost/wp-content/uploads/2026/09/cta.png",
+    "http://localhost/wp-content/themes/nextcore-theme/assets/images/partner-waves.svg",
+    "http://localhost/wp-content/themes/nextcore-theme/assets/fonts/BeVietnamPro-Bold.ttf",
+    "http://localhost/wp-content/uploads/2026/09/service-outsource-640x800.png",
+    "http://localhost/wp-content/uploads/2026/09/service-consulting-640x800.png",
+    "http://localhost/wp-content/uploads/2026/09/service-personal-640x800.png",
+    "http://localhost/wp-content/uploads/2024/11/2024-11-18-10_16_32-Reports-Attendance-510x186.png",
+    "http://localhost/wp-content/uploads/2026/09/project-olympia.png",
+    "http://localhost/wp-content/uploads/2024/11/affiliate-510x257.png",
+    "http://localhost/wp-content/uploads/2025/12/logo-gm-492x400.png",
+    "http://localhost/wp-content/uploads/2025/02/logo-footer-2048x509-1-510x367.png",
+    "http://localhost/wp-content/uploads/2025/02/03-512-100x100.webp",
+    "http://localhost/wp-content/uploads/2025/02/91649367-profil-der-jungen-frau-cartoon-symbol-vektor-illustration-grafik-design-100x100.jpg",
+    "http://localhost/wp-content/uploads/2025/02/ybadien-tu.png",
+    "http://localhost/wp-content/uploads/2025/12/hiennv.jpg",
+    "http://localhost/wp-content/uploads/2024/10/TranDucAnh-280x280.jpg",
+    "http://localhost/wp-content/uploads/2024/10/PhanThanhTu-414x400.png",
+    "http://localhost/wp-content/uploads/2025/03/java_debug-711x400-1-510x287.png",
+    "http://localhost/wp-content/uploads/2024/11/Presentation2-510x287.png",
+    "http://localhost/wp-content/uploads/2024/11/top-510x233.png",
+    "http://localhost/wp-content/uploads/2025/12/logo-gm.png",
+    "http://localhost/wp-content/uploads/2025/02/logo-footer-2048x509-1.png",
+    "http://localhost/wp-content/uploads/2025/02/03-512.webp",
+    "http://localhost/wp-content/uploads/2025/02/91649367-profil-der-jungen-frau-cartoon-symbol-vektor-illustration-grafik-design.jpg",
+    "http://localhost/wp-content/uploads/2024/10/TranDucAnh.jpg",
+    "http://localhost/wp-content/uploads/2025/03/java_debug-711x400-1.png",
+    "http://localhost/wp-content/uploads/2024/11/Presentation2.png",
+    "http://localhost/wp-content/uploads/2024/11/2024-11-18-10_16_32-Reports-Attendance.png",
+    "http://localhost/wp-content/uploads/2024/11/affiliate.png",
+    "http://localhost/wp-content/uploads/2024/10/PhanThanhTu.png",
+    "http://localhost/wp-content/uploads/2024/11/top-1400x641.png",
+    "http://localhost/docs/checks/phase4/rendered-plugins-menu.html",
+    "http://localhost/wp-content/themes/nextcore-theme/assets/images/hero-corporate-v2.png",
+    "http://localhost/wp-content/themes/nextcore-theme/assets/images/danang-poster.jpg",
+    "http://localhost/wp-content/themes/nextcore-theme/assets/images/cta.png",
+    "http://localhost/wp-content/uploads/2026/09/hero-corporate-light.png",
+    "http://localhost/wp-content/uploads/2026/09/cauronglight.png",
+    "http://localhost/wp-content/uploads/2026/09/cta-light.png",
+    "http://localhost/wp-content/themes/nextcore-theme/assets/images/hero-corporate-light.png",
+    "http://localhost/wp-content/themes/nextcore-theme/assets/images/cauronglight.png",
+    "http://localhost/wp-content/themes/nextcore-theme/assets/images/cta-light.png"
+  ],
+  "blocked": []
+}

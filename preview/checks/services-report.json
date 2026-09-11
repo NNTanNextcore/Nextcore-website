@@ -1,0 +1,136 @@
+{
+  "results": [
+    {
+      "name": "desktop",
+      "overflow": false,
+      "columns": "409.328px 409.328px 409.344px",
+      "cards": [
+        {
+          "title": "Outsource CNTT",
+          "height": 500,
+          "image": true,
+          "link": true
+        },
+        {
+          "title": "Tư vấn doanh nghiệp",
+          "height": 500,
+          "image": true,
+          "link": true
+        },
+        {
+          "title": "Giải pháp cá nhân",
+          "height": 500,
+          "image": true,
+          "link": true
+        }
+      ],
+      "overlay": "linear-gradient(rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.4) 30%, rgba(5, 10, 14, 0.7) 64%, rgba(5, 10, 14, 0.96) 100%)"
+    },
+    {
+      "name": "compact-desktop",
+      "overflow": false,
+      "columns": "297.656px 297.672px 297.656px",
+      "cards": [
+        {
+          "title": "Outsource CNTT",
+          "height": 500,
+          "image": true,
+          "link": true
+        },
+        {
+          "title": "Tư vấn doanh nghiệp",
+          "height": 500,
+          "image": true,
+          "link": true
+        },
+        {
+          "title": "Giải pháp cá nhân",
+          "height": 500,
+          "image": true,
+          "link": true
+        }
+      ],
+      "overlay": "linear-gradient(rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.4) 30%, rgba(5, 10, 14, 0.7) 64%, rgba(5, 10, 14, 0.96) 100%)"
+    },
+    {
+      "name": "tablet",
+      "overflow": false,
+      "columns": "331.5px 331.5px",
+      "cards": [
+        {
+          "title": "Outsource CNTT",
+          "height": 500,
+          "image": true,
+          "link": true
+        },
+        {
+          "title": "Tư vấn doanh nghiệp",
+          "height": 500,
+          "image": true,
+          "link": true
+        },
+        {
+          "title": "Giải pháp cá nhân",
+          "height": 500,
+          "image": true,
+          "link": true
+        }
+      ],
+      "overlay": "linear-gradient(rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.4) 30%, rgba(5, 10, 14, 0.7) 64%, rgba(5, 10, 14, 0.96) 100%)"
+    },
+    {
+      "name": "mobile",
+      "overflow": false,
+      "columns": "335px",
+      "cards": [
+        {
+          "title": "Outsource CNTT",
+          "height": 480,
+          "image": true,
+          "link": true
+        },
+        {
+          "title": "Tư vấn doanh nghiệp",
+          "height": 480,
+          "image": true,
+          "link": true
+        },
+        {
+          "title": "Giải pháp cá nhân",
+          "height": 480,
+          "image": true,
+          "link": true
+        }
+      ],
+      "overlay": "linear-gradient(rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.4) 30%, rgba(5, 10, 14, 0.7) 64%, rgba(5, 10, 14, 0.96) 100%)"
+    },
+    {
+      "name": "small-mobile",
+      "overflow": false,
+      "columns": "265px",
+      "cards": [
+        {
+          "title": "Outsource CNTT",
+          "height": 480,
+          "image": true,
+          "link": true
+        },
+        {
+          "title": "Tư vấn doanh nghiệp",
+          "height": 480,
+          "image": true,
+          "link": true
+        },
+        {
+          "title": "Giải pháp cá nhân",
+          "height": 480,
+          "image": true,
+          "link": true
+        }
+      ],
+      "overlay": "linear-gradient(rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.4) 30%, rgba(5, 10, 14, 0.7) 64%, rgba(5, 10, 14, 0.96) 100%)"
+    }
+  ],
+  "reducedMotion": "0s",
+  "errors": []
+}

@@ -1,0 +1,191 @@
+{
+    "key": "group_nc_integrations",
+    "title": "G15 — Tích hợp — Chưa bật triển khai",
+    "fields": [
+        {
+            "key": "field_nc_contact_integration_owner",
+            "label": "Đơn vị quản lý tiện ích liên hệ",
+            "name": "nc_contact_integration_owner",
+            "type": "select",
+            "instructions": "Chỉ lưu cấu hình; triển khai vẫn tắt trong Phase 5. Không nhập API key, mật khẩu hoặc mã script.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "theme": "Theme (chưa bật)",
+                "plugin": "Plugin hiện hữu"
+            },
+            "default_value": false,
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 1
+        },
+        {
+            "key": "field_nc_messenger_url",
+            "label": "Đường dẫn Messenger",
+            "name": "nc_messenger_url",
+            "type": "url",
+            "instructions": "Chỉ lưu cấu hình; triển khai vẫn tắt trong Phase 5. Không nhập API key, mật khẩu hoặc mã script.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_nc_contact_integration_owner",
+                        "operator": "==",
+                        "value": "theme"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_nc_zalo_oa_id",
+            "label": "Mã OA Zalo công khai",
+            "name": "nc_zalo_oa_id",
+            "type": "text",
+            "instructions": "Chỉ lưu cấu hình; triển khai vẫn tắt trong Phase 5. Không nhập API key, mật khẩu hoặc mã script.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_nc_contact_integration_owner",
+                        "operator": "==",
+                        "value": "theme"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_nc_zalo_welcome",
+            "label": "Lời chào Zalo",
+            "name": "nc_zalo_welcome",
+            "type": "text",
+            "instructions": "Chỉ lưu cấu hình; triển khai vẫn tắt trong Phase 5. Không nhập API key, mật khẩu hoặc mã script.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_nc_contact_integration_owner",
+                        "operator": "==",
+                        "value": "theme"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_nc_analytics_owner",
+            "label": "Đơn vị quản lý phân tích",
+            "name": "nc_analytics_owner",
+            "type": "select",
+            "instructions": "Chỉ lưu cấu hình; triển khai vẫn tắt trong Phase 5. Không nhập API key, mật khẩu hoặc mã script.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "theme": "Theme (chưa bật)",
+                "external": "Bên ngoài"
+            },
+            "default_value": false,
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 1
+        },
+        {
+            "key": "field_nc_umami_script_url",
+            "label": "Đường dẫn script Umami",
+            "name": "nc_umami_script_url",
+            "type": "url",
+            "instructions": "Chỉ lưu cấu hình; triển khai vẫn tắt trong Phase 5. Không nhập API key, mật khẩu hoặc mã script.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_nc_analytics_owner",
+                        "operator": "==",
+                        "value": "theme"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_nc_umami_website_id",
+            "label": "Mã website Umami công khai",
+            "name": "nc_umami_website_id",
+            "type": "text",
+            "instructions": "Chỉ lưu cấu hình; triển khai vẫn tắt trong Phase 5. Không nhập API key, mật khẩu hoặc mã script.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_nc_analytics_owner",
+                        "operator": "==",
+                        "value": "theme"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "nextcore-settings"
+            }
+        ]
+    ],
+    "menu_order": 15,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [],
+    "active": true,
+    "description": "Cấu hình được lưu riêng; mọi SDK, analytics và cụm liên hệ vẫn bị vô hiệu hóa.",
+    "show_in_rest": 0,
+    "modified": 1789084800
+}

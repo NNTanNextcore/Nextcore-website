@@ -1,0 +1,259 @@
+{
+    "key": "group_nc_footer",
+    "title": "G12 — Toàn site — Footer và liên hệ",
+    "fields": [
+        {
+            "key": "field_nc_contact_address",
+            "label": "Địa chỉ",
+            "name": "nc_contact_address",
+            "type": "textarea",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "rows": 4,
+            "new_lines": ""
+        },
+        {
+            "key": "field_nc_contact_email",
+            "label": "Email",
+            "name": "nc_contact_email",
+            "type": "email",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_nc_contact_phone",
+            "label": "Điện thoại quốc tế",
+            "name": "nc_contact_phone",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_nc_contact_page",
+            "label": "Trang liên hệ",
+            "name": "nc_contact_page",
+            "type": "post_object",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "page"
+            ],
+            "post_status": [
+                "publish"
+            ],
+            "taxonomy": [],
+            "return_format": "id",
+            "multiple": 0,
+            "allow_null": 1,
+            "ui": 1
+        },
+        {
+            "key": "field_nc_footer_description",
+            "label": "Mô tả",
+            "name": "nc_footer_description",
+            "type": "textarea",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "rows": 4,
+            "new_lines": ""
+        },
+        {
+            "key": "field_nc_footer_about_heading",
+            "label": "Tiêu đề cột giới thiệu",
+            "name": "nc_footer_about_heading",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_nc_footer_support_heading",
+            "label": "Tiêu đề cột hỗ trợ",
+            "name": "nc_footer_support_heading",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_nc_footer_contact_heading",
+            "label": "Tiêu đề cột liên hệ",
+            "name": "nc_footer_contact_heading",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_nc_footer_social_heading",
+            "label": "Tiêu đề cột kết nối",
+            "name": "nc_footer_social_heading",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_nc_footer_motto",
+            "label": "Thông điệp",
+            "name": "nc_footer_motto",
+            "type": "textarea",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "rows": 4,
+            "new_lines": ""
+        },
+        {
+            "key": "field_nc_social_links",
+            "label": "Mạng xã hội đã xác minh",
+            "name": "nc_social_links",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "button_label": "Thêm dòng",
+            "sub_fields": [
+                {
+                    "key": "field_nc_social_links_platform",
+                    "label": "Nền tảng",
+                    "name": "platform",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "facebook": "Facebook",
+                        "linkedin": "LinkedIn",
+                        "youtube": "YouTube",
+                        "tiktok": "TikTok"
+                    },
+                    "default_value": false,
+                    "return_format": "value",
+                    "multiple": 0,
+                    "allow_null": 0,
+                    "ui": 1
+                },
+                {
+                    "key": "field_nc_social_links_url",
+                    "label": "Đường dẫn",
+                    "name": "url",
+                    "type": "url",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "nextcore-settings"
+            }
+        ]
+    ],
+    "menu_order": 12,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [],
+    "active": true,
+    "description": "Dữ liệu nguồn dùng chung cho sáng/tối và VI/EN. Bản dịch quản lý qua TranslatePress.",
+    "show_in_rest": 0,
+    "modified": 1789084800
+}

@@ -1,0 +1,140 @@
+{
+    "key": "group_nc_partner",
+    "title": "G07 — Trang chủ — Đối tác chiến lược",
+    "fields": [
+        {
+            "key": "field_nc_partner_eyebrow",
+            "label": "Nhãn đầu mục",
+            "name": "nc_partner_eyebrow",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_nc_partner_name",
+            "label": "Tên",
+            "name": "nc_partner_name",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_nc_partner_logo",
+            "label": "Logo đối tác",
+            "name": "nc_partner_logo",
+            "type": "image",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "id",
+            "library": "all",
+            "mime_types": "jpg,jpeg,png,webp",
+            "preview_size": "medium"
+        },
+        {
+            "key": "field_nc_partner_description",
+            "label": "Mô tả",
+            "name": "nc_partner_description",
+            "type": "textarea",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "rows": 4,
+            "new_lines": ""
+        },
+        {
+            "key": "field_nc_partner_motto",
+            "label": "Thông điệp",
+            "name": "nc_partner_motto",
+            "type": "textarea",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "rows": 4,
+            "new_lines": ""
+        },
+        {
+            "key": "field_nc_partner_link_label",
+            "label": "Nhãn liên kết",
+            "name": "nc_partner_link_label",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_nc_partner_link",
+            "label": "Liên kết đối tác",
+            "name": "nc_partner_link",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_type",
+                "operator": "==",
+                "value": "front_page"
+            }
+        ]
+    ],
+    "menu_order": 7,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [],
+    "active": true,
+    "description": "Dữ liệu nguồn dùng chung cho sáng/tối và VI/EN. Bản dịch quản lý qua TranslatePress.",
+    "show_in_rest": 0,
+    "modified": 1789084800
+}

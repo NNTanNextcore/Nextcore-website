@@ -1,0 +1,195 @@
+{
+    "key": "group_nc_projects",
+    "title": "G06 — Trang chủ — Dự án nổi bật",
+    "fields": [
+        {
+            "key": "field_nc_projects_eyebrow",
+            "label": "Nhãn đầu mục",
+            "name": "nc_projects_eyebrow",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_nc_projects_heading",
+            "label": "Tiêu đề",
+            "name": "nc_projects_heading",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_nc_projects_contact_label",
+            "label": "Nhãn liên hệ",
+            "name": "nc_projects_contact_label",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_nc_featured_projects",
+            "label": "Ba dự án nổi bật",
+            "name": "nc_featured_projects",
+            "type": "repeater",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "pagination": 0,
+            "min": 3,
+            "max": 3,
+            "button_label": "Thêm dòng",
+            "sub_fields": [
+                {
+                    "key": "field_nc_featured_projects_object",
+                    "label": "Bài viết hoặc dịch vụ đã xuất bản",
+                    "name": "object",
+                    "type": "post_object",
+                    "instructions": "Portal được để trống khi chưa có đối tượng local đã xuất bản được xác minh. Hai dự án còn lại bắt buộc chọn đối tượng hợp lệ.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "post_type": [
+                        "post",
+                        "dich-vu"
+                    ],
+                    "post_status": [
+                        "publish"
+                    ],
+                    "taxonomy": [],
+                    "return_format": "id",
+                    "multiple": 0,
+                    "allow_null": 1,
+                    "ui": 1
+                },
+                {
+                    "key": "field_nc_featured_projects_visual_variant",
+                    "label": "Kiểu trình bày",
+                    "name": "visual_variant",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "portal": "Portal",
+                        "olympia": "Olympia",
+                        "affiliate": "Affiliate"
+                    },
+                    "default_value": false,
+                    "return_format": "value",
+                    "multiple": 0,
+                    "allow_null": 0,
+                    "ui": 1
+                },
+                {
+                    "key": "field_nc_featured_projects_card_label",
+                    "label": "Tiêu đề ghi đè trên thẻ",
+                    "name": "card_label",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_nc_featured_projects_card_summary",
+                    "label": "Tóm tắt ghi đè trên thẻ",
+                    "name": "card_summary",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "rows": 4,
+                    "new_lines": ""
+                },
+                {
+                    "key": "field_nc_featured_projects_card_image",
+                    "label": "Ảnh ghi đè trên thẻ",
+                    "name": "card_image",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "id",
+                    "library": "all",
+                    "mime_types": "jpg,jpeg,png,webp",
+                    "preview_size": "medium"
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_type",
+                "operator": "==",
+                "value": "front_page"
+            }
+        ]
+    ],
+    "menu_order": 6,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [],
+    "active": true,
+    "description": "Dữ liệu nguồn dùng chung cho sáng/tối và VI/EN. Bản dịch quản lý qua TranslatePress.",
+    "show_in_rest": 0,
+    "modified": 1789084800
+}

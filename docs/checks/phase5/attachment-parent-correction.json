@@ -1,0 +1,12 @@
+[
+    {
+        "attachment_id": 1541,
+        "restored_columns": {
+            "comment_status": "",
+            "post_modified": "2024-11-18 03:48:36",
+            "post_modified_gmt": "2024-11-18 03:48:36",
+            "post_parent": "0"
+        },
+        "reason": "Preserve existing attachment parent, timestamps and comment status."
+    }
+]

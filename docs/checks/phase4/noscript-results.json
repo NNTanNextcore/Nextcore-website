@@ -1,0 +1,42 @@
+[
+  {
+    "width": 1440,
+    "mode": "light",
+    "overflow": false,
+    "rootMode": null,
+    "poster": "http://localhost/wp-content/themes/nextcore-theme/assets/images/hero-corporate-light.png",
+    "video": null,
+    "heroVisible": "visible",
+    "headerPosition": "relative"
+  },
+  {
+    "width": 1440,
+    "mode": "dark",
+    "overflow": false,
+    "rootMode": null,
+    "poster": "http://localhost/wp-content/themes/nextcore-theme/assets/images/hero-corporate-v2.png",
+    "video": null,
+    "heroVisible": "visible",
+    "headerPosition": "relative"
+  },
+  {
+    "width": 375,
+    "mode": "light",
+    "overflow": false,
+    "rootMode": null,
+    "poster": "http://localhost/wp-content/themes/nextcore-theme/assets/images/hero-corporate-light.png",
+    "video": null,
+    "heroVisible": "visible",
+    "headerPosition": "relative"
+  },
+  {
+    "width": 375,
+    "mode": "dark",
+    "overflow": false,
+    "rootMode": null,
+    "poster": "http://localhost/wp-content/themes/nextcore-theme/assets/images/hero-corporate-v2.png",
+    "video": null,
+    "heroVisible": "visible",
+    "headerPosition": "relative"
+  }
+]

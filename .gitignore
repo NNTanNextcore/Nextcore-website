@@ -1,0 +1,38 @@
+# Local configuration and secrets
+/wp-config.php
+/.htaccess
+/.env
+/.env.*
+!/.env.example
+
+# Credentials, private keys, and database exports
+*.pem
+*.key
+*.p12
+*.pfx
+*.sql
+*.sql.gz
+auth.json
+
+# Backups and logs may contain database data or customer information
+/wp-content/backups-dup-pro/
+/wp-content/uploads/wc-logs/
+/wp-content/debug.log
+*.log
+
+# Local browser profiles can contain cookies and sessions
+/preview/checks/chrome-video-profile/
+
+# Temporary WordPress files
+/wp-content/upgrade/
+/wp-content/upgrade-temp-backup/
+
+# Local editor and operating-system files
+/.idea/
+/.vscode/
+.DS_Store
+Thumbs.db
+
+# Media uploads are intentionally tracked in this repository.
+!/wp-content/uploads/
+

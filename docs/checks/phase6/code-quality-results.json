@@ -1,0 +1,422 @@
+{
+  "php": [
+    {
+      "file": "404.php",
+      "pass": true
+    },
+    {
+      "file": "archive.php",
+      "pass": true
+    },
+    {
+      "file": "category.php",
+      "pass": true
+    },
+    {
+      "file": "comments.php",
+      "pass": true
+    },
+    {
+      "file": "footer.php",
+      "pass": true
+    },
+    {
+      "file": "front-page.php",
+      "pass": true
+    },
+    {
+      "file": "functions.php",
+      "pass": true
+    },
+    {
+      "file": "header.php",
+      "pass": true
+    },
+    {
+      "file": "home.php",
+      "pass": true
+    },
+    {
+      "file": "inc/acf.php",
+      "pass": true
+    },
+    {
+      "file": "inc/compatibility.php",
+      "pass": true
+    },
+    {
+      "file": "inc/enqueue.php",
+      "pass": true
+    },
+    {
+      "file": "inc/helpers.php",
+      "pass": true
+    },
+    {
+      "file": "inc/home-data.php",
+      "pass": true
+    },
+    {
+      "file": "inc/inner.php",
+      "pass": true
+    },
+    {
+      "file": "inc/integrations.php",
+      "pass": true
+    },
+    {
+      "file": "inc/multilingual.php",
+      "pass": true
+    },
+    {
+      "file": "inc/setup.php",
+      "pass": true
+    },
+    {
+      "file": "index.php",
+      "pass": true
+    },
+    {
+      "file": "page-custom.php",
+      "pass": true
+    },
+    {
+      "file": "page-outsource.php",
+      "pass": true
+    },
+    {
+      "file": "page-slide_left_custom.php",
+      "pass": true
+    },
+    {
+      "file": "page.php",
+      "pass": true
+    },
+    {
+      "file": "search.php",
+      "pass": true
+    },
+    {
+      "file": "searchform.php",
+      "pass": true
+    },
+    {
+      "file": "sidebar.php",
+      "pass": true
+    },
+    {
+      "file": "single-dich-vu.php",
+      "pass": true
+    },
+    {
+      "file": "single.php",
+      "pass": true
+    },
+    {
+      "file": "taxonomy-danh-muc-dich-vu.php",
+      "pass": true
+    },
+    {
+      "file": "template-parts/content/archive-heading.php",
+      "pass": true
+    },
+    {
+      "file": "template-parts/content/builder.php",
+      "pass": true
+    },
+    {
+      "file": "template-parts/content/card.php",
+      "pass": true
+    },
+    {
+      "file": "template-parts/content/gallery.php",
+      "pass": true
+    },
+    {
+      "file": "template-parts/content/listing.php",
+      "pass": true
+    },
+    {
+      "file": "template-parts/content/none.php",
+      "pass": true
+    },
+    {
+      "file": "template-parts/content/page.php",
+      "pass": true
+    },
+    {
+      "file": "template-parts/content/post.php",
+      "pass": true
+    },
+    {
+      "file": "template-parts/global/breadcrumbs.php",
+      "pass": true
+    },
+    {
+      "file": "template-parts/global/contact-details.php",
+      "pass": true
+    },
+    {
+      "file": "template-parts/global/floating-contact.php",
+      "pass": true
+    },
+    {
+      "file": "template-parts/global/footer-columns.php",
+      "pass": true
+    },
+    {
+      "file": "template-parts/global/icons.php",
+      "pass": true
+    },
+    {
+      "file": "template-parts/global/language-switch.php",
+      "pass": true
+    },
+    {
+      "file": "template-parts/global/navigation.php",
+      "pass": true
+    },
+    {
+      "file": "template-parts/global/page-title.php",
+      "pass": true
+    },
+    {
+      "file": "template-parts/global/theme-switch.php",
+      "pass": true
+    },
+    {
+      "file": "template-parts/home/about-video.php",
+      "pass": true
+    },
+    {
+      "file": "template-parts/home/blog.php",
+      "pass": true
+    },
+    {
+      "file": "template-parts/home/cta.php",
+      "pass": true
+    },
+    {
+      "file": "template-parts/home/hero.php",
+      "pass": true
+    },
+    {
+      "file": "template-parts/home/partner.php",
+      "pass": true
+    },
+    {
+      "file": "template-parts/home/projects.php",
+      "pass": true
+    },
+    {
+      "file": "template-parts/home/services.php",
+      "pass": true
+    },
+    {
+      "file": "template-parts/home/stats.php",
+      "pass": true
+    },
+    {
+      "file": "template-parts/home/team.php",
+      "pass": true
+    },
+    {
+      "file": "template-parts/home/technology.php",
+      "pass": true
+    },
+    {
+      "file": "template-parts/home/testimonials.php",
+      "pass": true
+    },
+    {
+      "file": "template-parts/service/card.php",
+      "pass": true
+    },
+    {
+      "file": "template-parts/service/detail.php",
+      "pass": true
+    },
+    {
+      "file": "template-parts/service/lark-content.php",
+      "pass": true
+    }
+  ],
+  "js": [
+    {
+      "file": "assets/js/home.js",
+      "pass": true
+    },
+    {
+      "file": "assets/js/integrations.js",
+      "pass": true
+    },
+    {
+      "file": "assets/js/media.js",
+      "pass": true
+    },
+    {
+      "file": "assets/js/navigation.js",
+      "pass": true
+    },
+    {
+      "file": "assets/js/testimonials.js",
+      "pass": true
+    },
+    {
+      "file": "assets/js/theme-init.js",
+      "pass": true
+    },
+    {
+      "file": "assets/js/theme-switch.js",
+      "pass": true
+    }
+  ],
+  "forbidden": [],
+  "changed": [
+    {
+      "file": "404.php",
+      "action": "modified"
+    },
+    {
+      "file": "archive.php",
+      "action": "modified"
+    },
+    {
+      "file": "assets/css/inner.css",
+      "action": "added"
+    },
+    {
+      "file": "assets/css/lark.css",
+      "action": "added"
+    },
+    {
+      "file": "assets/js/navigation.js",
+      "action": "modified"
+    },
+    {
+      "file": "category.php",
+      "action": "modified"
+    },
+    {
+      "file": "functions.php",
+      "action": "modified"
+    },
+    {
+      "file": "home.php",
+      "action": "modified"
+    },
+    {
+      "file": "inc/compatibility.php",
+      "action": "modified"
+    },
+    {
+      "file": "inc/inner.php",
+      "action": "added"
+    },
+    {
+      "file": "page-slide_left_custom.php",
+      "action": "modified"
+    },
+    {
+      "file": "search.php",
+      "action": "modified"
+    },
+    {
+      "file": "sidebar.php",
+      "action": "modified"
+    },
+    {
+      "file": "single-dich-vu.php",
+      "action": "modified"
+    },
+    {
+      "file": "single.php",
+      "action": "modified"
+    },
+    {
+      "file": "taxonomy-danh-muc-dich-vu.php",
+      "action": "modified"
+    },
+    {
+      "file": "template-parts/content/card.php",
+      "action": "modified"
+    },
+    {
+      "file": "template-parts/content/gallery.php",
+      "action": "modified"
+    },
+    {
+      "file": "template-parts/content/listing.php",
+      "action": "added"
+    },
+    {
+      "file": "template-parts/content/page.php",
+      "action": "modified"
+    },
+    {
+      "file": "template-parts/content/post.php",
+      "action": "modified"
+    },
+    {
+      "file": "template-parts/global/breadcrumbs.php",
+      "action": "modified"
+    },
+    {
+      "file": "template-parts/global/page-title.php",
+      "action": "modified"
+    },
+    {
+      "file": "template-parts/home/about-video.php",
+      "action": "modified"
+    },
+    {
+      "file": "template-parts/home/hero.php",
+      "action": "modified"
+    },
+    {
+      "file": "template-parts/home/partner.php",
+      "action": "modified"
+    },
+    {
+      "file": "template-parts/home/technology.php",
+      "action": "modified"
+    },
+    {
+      "file": "template-parts/service/lark-content.php",
+      "action": "modified"
+    }
+  ],
+  "optional": {
+    "isolated_plugins": [],
+    "checks": [
+      {
+        "route": "/",
+        "template": "front-page.php",
+        "no_fatal": true,
+        "bytes": 64417,
+        "breadcrumb_fallback": false
+      },
+      {
+        "route": "/danh-muc-dich-vu/tu-van-doanh-nghiep/",
+        "template": "taxonomy-danh-muc-dich-vu.php",
+        "no_fatal": true,
+        "bytes": 3116,
+        "breadcrumb_fallback": true
+      },
+      {
+        "route": "/ve-chung-toi/",
+        "template": "page.php",
+        "no_fatal": true,
+        "bytes": 16043,
+        "breadcrumb_fallback": true
+      },
+      {
+        "route": "/phase6-optional-404/",
+        "template": "404.php",
+        "no_fatal": true,
+        "bytes": 908,
+        "breadcrumb_fallback": true
+      }
+    ]
+  }
+}

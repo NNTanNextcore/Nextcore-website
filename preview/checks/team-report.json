@@ -1,0 +1,166 @@
+{
+  "results": [
+    {
+      "name": "desktop",
+      "overflow": false,
+      "columns": "408px 408px 408px",
+      "cards": [
+        {
+          "title": "Nguyễn Văn Hiền",
+          "height": 434,
+          "image": true,
+          "contacts": 2,
+          "background": "rgb(255, 255, 255)",
+          "role": "Chief Executive Officer"
+        },
+        {
+          "title": "Trần Đức Anh",
+          "height": 434,
+          "image": true,
+          "contacts": 2,
+          "background": "rgb(255, 255, 255)",
+          "role": "Chief Technology Officer"
+        },
+        {
+          "title": "Phan Thanh Tú",
+          "height": 434,
+          "image": true,
+          "contacts": 2,
+          "background": "rgb(255, 255, 255)",
+          "role": "Project Manager"
+        }
+      ],
+      "overlay": "none"
+    },
+    {
+      "name": "compact-desktop",
+      "overflow": false,
+      "columns": "296.328px 296.328px 296.344px",
+      "cards": [
+        {
+          "title": "Nguyễn Văn Hiền",
+          "height": 430,
+          "image": true,
+          "contacts": 2,
+          "background": "rgb(255, 255, 255)",
+          "role": "Chief Executive Officer"
+        },
+        {
+          "title": "Trần Đức Anh",
+          "height": 430,
+          "image": true,
+          "contacts": 2,
+          "background": "rgb(255, 255, 255)",
+          "role": "Chief Technology Officer"
+        },
+        {
+          "title": "Phan Thanh Tú",
+          "height": 430,
+          "image": true,
+          "contacts": 2,
+          "background": "rgb(255, 255, 255)",
+          "role": "Project Manager"
+        }
+      ],
+      "overlay": "none"
+    },
+    {
+      "name": "tablet",
+      "overflow": false,
+      "columns": "330.5px 330.5px",
+      "cards": [
+        {
+          "title": "Nguyễn Văn Hiền",
+          "height": 430,
+          "image": true,
+          "contacts": 2,
+          "background": "rgb(255, 255, 255)",
+          "role": "Chief Executive Officer"
+        },
+        {
+          "title": "Trần Đức Anh",
+          "height": 430,
+          "image": true,
+          "contacts": 2,
+          "background": "rgb(255, 255, 255)",
+          "role": "Chief Technology Officer"
+        },
+        {
+          "title": "Phan Thanh Tú",
+          "height": 430,
+          "image": true,
+          "contacts": 2,
+          "background": "rgb(255, 255, 255)",
+          "role": "Project Manager"
+        }
+      ],
+      "overlay": "none"
+    },
+    {
+      "name": "mobile",
+      "overflow": false,
+      "columns": "335px",
+      "cards": [
+        {
+          "title": "Nguyễn Văn Hiền",
+          "height": 410,
+          "image": true,
+          "contacts": 2,
+          "background": "rgb(255, 255, 255)",
+          "role": "Chief Executive Officer"
+        },
+        {
+          "title": "Trần Đức Anh",
+          "height": 410,
+          "image": true,
+          "contacts": 2,
+          "background": "rgb(255, 255, 255)",
+          "role": "Chief Technology Officer"
+        },
+        {
+          "title": "Phan Thanh Tú",
+          "height": 410,
+          "image": true,
+          "contacts": 2,
+          "background": "rgb(255, 255, 255)",
+          "role": "Project Manager"
+        }
+      ],
+      "overlay": "none"
+    },
+    {
+      "name": "small-mobile",
+      "overflow": false,
+      "columns": "265px",
+      "cards": [
+        {
+          "title": "Nguyễn Văn Hiền",
+          "height": 410,
+          "image": true,
+          "contacts": 2,
+          "background": "rgb(255, 255, 255)",
+          "role": "Chief Executive Officer"
+        },
+        {
+          "title": "Trần Đức Anh",
+          "height": 410,
+          "image": true,
+          "contacts": 2,
+          "background": "rgb(255, 255, 255)",
+          "role": "Chief Technology Officer"
+        },
+        {
+          "title": "Phan Thanh Tú",
+          "height": 410,
+          "image": true,
+          "contacts": 2,
+          "background": "rgb(255, 255, 255)",
+          "role": "Project Manager"
+        }
+      ],
+      "overlay": "none"
+    }
+  ],
+  "reducedMotion": "0s",
+  "errors": []
+}

@@ -1,0 +1,73 @@
+{
+  "video": {
+    "width": 1920,
+    "height": 1072,
+    "duration": 3.041667
+  },
+  "results": [
+    {
+      "name": "desktop",
+      "playing": true,
+      "paused": false,
+      "muted": true,
+      "loop": true,
+      "playsInline": true,
+      "controls": false,
+      "height": 766,
+      "overflow": false,
+      "order": [
+        "home",
+        "about",
+        "stats"
+      ],
+      "reducedMotion": {
+        "paused": true,
+        "posterVisible": true
+      }
+    },
+    {
+      "name": "mobile",
+      "playing": true,
+      "paused": false,
+      "muted": true,
+      "loop": true,
+      "playsInline": true,
+      "controls": false,
+      "height": 761,
+      "overflow": false,
+      "order": [
+        "home",
+        "about",
+        "stats"
+      ],
+      "reducedMotion": {
+        "paused": true,
+        "posterVisible": true
+      }
+    },
+    {
+      "name": "small-mobile",
+      "playing": true,
+      "paused": false,
+      "muted": true,
+      "loop": true,
+      "playsInline": true,
+      "controls": false,
+      "height": 725,
+      "overflow": false,
+      "order": [
+        "home",
+        "about",
+        "stats"
+      ],
+      "reducedMotion": {
+        "paused": true,
+        "posterVisible": true
+      }
+    }
+  ],
+  "blockedAutoplay": {
+    "posterVisible": true,
+    "height": 725
+  }
+}

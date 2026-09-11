@@ -1,0 +1,69 @@
+{
+  "checks": {
+    "authenticated": true,
+    "options_groups": true,
+    "image_controls": true,
+    "video_controls": true,
+    "required_validation": true,
+    "frontend_changed": true,
+    "frontend_restored": true,
+    "image_picker_open": false,
+    "video_picker_open": true,
+    "homepage_groups": true,
+    "repeater": true,
+    "relationships": true,
+    "portal_empty": true
+  },
+  "writes": [
+    {
+      "source": "options_nc_header_contact_label",
+      "old": "Liên hệ ngay",
+      "new": "Liên hệ ngay · QA",
+      "method": "WordPress Admin form"
+    },
+    {
+      "source": "options_nc_header_contact_label",
+      "old": "Liên hệ ngay · QA",
+      "new": "Liên hệ ngay",
+      "method": "WordPress Admin form restore"
+    }
+  ],
+  "option_groups": [
+    "Publish",
+    "G11 — Toàn site — Header",
+    "G12 — Toàn site — Footer và liên hệ",
+    "G13 — Toàn site — Media sáng/tối",
+    "G15 — Tích hợp — Chưa bật triển khai"
+  ],
+  "home_groups": [
+    "Xuất bản",
+    "Thuộc tính trang",
+    "Slider Revolution",
+    "Ảnh đại diện",
+    "Yoast SEO",
+    "Giao diện tìm kiếm",
+    "Phân tích SEO Nhập một cụm từ khóa chính để tính điểm SEO",
+    "Nội dung quan trọng",
+    "Nâng cao",
+    "Thống kê",
+    "Giao diện mạng xã hội",
+    "Giao diện X",
+    "G01 — Trang chủ — Hero",
+    "G02 — Trang chủ — Giới thiệu và video",
+    "G03 — Trang chủ — Số liệu",
+    "G04 — Trang chủ — Dịch vụ",
+    "G05 — Trang chủ — Công nghệ",
+    "G06 — Trang chủ — Dự án nổi bật",
+    "G07 — Trang chủ — Đối tác chiến lược",
+    "G08 — Trang chủ — Đánh giá khách hàng",
+    "G09 — Trang chủ — Đội ngũ",
+    "G10 — Trang chủ — Lời mời liên hệ",
+    "G14 — Trang chủ — Tiêu đề tin tức",
+    "Lịch sử sửa",
+    "Bình luận",
+    "Bình luận",
+    "Đường dẫn",
+    "Tác giả"
+  ],
+  "errors": []
+}

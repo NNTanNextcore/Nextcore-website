@@ -1,0 +1,141 @@
+/* Approved three-service composition. All rules scoped to this section. */
+#services .section-heading { margin-bottom: 42px; }
+#services .eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 14px;
+  letter-spacing: 1.1px;
+}
+#services .eyebrow::before {
+  content: '';
+  width: 4px;
+  height: 19px;
+  background: #ed1523;
+}
+#services .text-link { font-size: 16px; }
+#services .services-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 26px;
+}
+#services .service-card {
+  min-height: 500px;
+  padding: 90px 32px 32px;
+  border: 1px solid rgba(255, 255, 255, .15);
+  border-radius: 16px;
+  background: #10171c;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  isolation: isolate;
+  overflow: hidden;
+  position: relative;
+  transition: opacity .6s ease, border-color .25s ease, transform .45s ease;
+}
+#services .service-card::before { content: none; }
+#services .service-card::after {
+  background: linear-gradient(180deg, rgba(0, 0, 0, .35) 0%, rgba(0, 0, 0, .4) 30%, rgba(5, 10, 14, .7) 64%, rgba(5, 10, 14, .96) 100%);
+}
+#services .service-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: -2;
+  filter: contrast(1.06) saturate(1.08);
+  transition: transform .45s ease, filter .45s ease;
+}
+#services .service-card:hover,
+#services .service-card:focus-visible {
+  transform: translateY(-3px);
+  border-color: rgba(239, 30, 43, .65);
+  box-shadow: none;
+}
+#services .service-card:hover .service-image,
+#services .service-card:focus-visible .service-image {
+  transform: scale(1.04);
+  filter: contrast(1.06) saturate(1.08) brightness(1.1);
+}
+#services .service-icon {
+  display: grid;
+  place-items: center;
+  width: 64px;
+  height: 64px;
+  border: 2px solid #ff1426;
+  border-radius: 14px;
+  background: rgba(7, 11, 13, .32);
+}
+#services .service-icon .line-icon { color: #ff1426; width: 40px; height: 40px; }
+#services .service-card h3 {
+  font-size: clamp(23px, 1.9vw, 28px);
+  font-weight: 700;
+  line-height: 1.25;
+  margin-top: 34px;
+  color: #fff;
+}
+#services .service-card p {
+  color: #d7dce0;
+  font-size: 17px;
+  line-height: 1.65;
+  margin: 18px 0 30px;
+}
+#services .service-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+  margin-top: auto;
+}
+#services .service-card .circle {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #ff1426;
+  color: #fff;
+  font-size: 30px;
+  margin: 0;
+  flex-shrink: 0;
+}
+#services .service-micro {
+  position: relative;
+  color: #a7afb6;
+  font-size: 11px;
+  line-height: 1.55;
+  letter-spacing: 1px;
+}
+#services .service-micro::before {
+  content: '';
+  position: absolute;
+  bottom: 3px;
+  left: -35px;
+  width: 23px;
+  height: 2px;
+  background: #ff1426;
+}
+@media (max-width: 1023px) {
+  #services .services-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  #services .service-card { padding-inline: 26px; }
+}
+@media (min-width: 1024px) and (max-width: 1200px) {
+  #services .service-card { padding: 80px 22px 28px; }
+  #services .service-card h3 { font-size: 22px; margin-top: 28px; }
+  #services .service-card p { font-size: 16px; margin-bottom: 24px; }
+}
+@media (max-width: 639px) {
+  #services .section-heading { margin-bottom: 30px; }
+  #services .services-grid { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+  #services .text-link { font-size: 14px; }
+  #services .service-card { min-height: 480px; padding: 90px 26px 28px; }
+  #services .service-card h3 { font-size: 24px; min-height: 0; }
+  #services .service-card p { font-size: 16px; min-height: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  #services .service-card,
+  #services .service-image { transition: none; }
+  #services .service-card:hover,
+  #services .service-card:focus-visible,
+  #services .service-card:hover .service-image,
+  #services .service-card:focus-visible .service-image { transform: none; }
+}

@@ -1,0 +1,806 @@
+[
+  {
+    "id": 1,
+    "source": "Software development company",
+    "translation": "Software Development Company",
+    "context": "`nc_hero_eyebrow`"
+  },
+  {
+    "id": 2,
+    "source": "Công ty cổ phần Phần",
+    "translation": "Nextcore Software Joint Stock Company",
+    "context": "`nc_hero_line_one`"
+  },
+  {
+    "id": 3,
+    "source": "mềm",
+    "translation": "Nextcore Software Joint Stock Company",
+    "context": "`nc_hero_line_two_prefix`"
+  },
+  {
+    "id": 4,
+    "source": "Nextcore",
+    "translation": "Nextcore",
+    "context": "`nc_hero_brand`"
+  },
+  {
+    "id": 5,
+    "source": "BUILD TRUST, CREATE VALUE",
+    "translation": "BUILD TRUST, CREATE VALUE",
+    "context": "`nc_hero_slogan`"
+  },
+  {
+    "id": 6,
+    "source": "Giải pháp phần mềm cho doanh nghiệp hiện đại.",
+    "translation": "Software solutions for modern businesses.",
+    "context": "`nc_hero_description`"
+  },
+  {
+    "id": 7,
+    "source": "Liên hệ ngay",
+    "translation": "Get in touch",
+    "context": "`nc_hero_contact_label`, `nc_cta_button_label`, `nc_header_contact_label`"
+  },
+  {
+    "id": 8,
+    "source": "Xem năng lực",
+    "translation": "Explore our expertise",
+    "context": "`nc_hero_secondary_label`"
+  },
+  {
+    "id": 9,
+    "source": "Về Nextcore",
+    "translation": "About Nextcore",
+    "context": "`nc_about_eyebrow`, `nc_footer_about_heading`"
+  },
+  {
+    "id": 10,
+    "source": "Công ty Cổ phần",
+    "translation": "Nextcore Software",
+    "context": "`nc_about_heading_line_one`"
+  },
+  {
+    "id": 11,
+    "source": "Phần mềm Nextcore",
+    "translation": "Joint Stock Company",
+    "context": "`nc_about_heading_line_two`"
+  },
+  {
+    "id": 12,
+    "source": "<p>Chuyên thực hiện phát triển, bảo trì các dự án CNTT cho các đối tác outsource.</p>\n            <p>Đối tác của Công ty là các Công ty outsource lớn-vừa-nhỏ ở Việt Nam ở cả 3 thị trường nói tiếng Anh-Nhật-Việt.</p>\n            <p>Không ngừng nỗ lực để giải quyết các vấn đề là <strong>Nỗi đau</strong> và tạo giá trị <strong>hữu ích</strong> cho khách hàng để trở thành đối tác tin cậy và lâu dài.</p>",
+    "translation": "<p>We develop and maintain IT projects for outsourcing partners.</p>\n<p>We work with outsourcing companies of all sizes in Vietnam, serving English-, Japanese- and Vietnamese-speaking markets.</p>\n<p>We continuously work to address customer <strong>pain points</strong> and deliver <strong>meaningful value</strong>, building trusted, long-term partnerships.</p>",
+    "context": "`nc_about_body`"
+  },
+  {
+    "id": 13,
+    "source": "Tìm hiểu thêm",
+    "translation": "Learn more",
+    "context": "`nc_about_link_label`, `nc_partner_link_label`"
+  },
+  {
+    "id": 14,
+    "source": "Dự án triển khai",
+    "translation": "Projects delivered",
+    "context": "`nc_stats[0].label`"
+  },
+  {
+    "id": 15,
+    "source": "Khách hàng tin tưởng",
+    "translation": "Trusted clients",
+    "context": "`nc_stats[1].label`"
+  },
+  {
+    "id": 16,
+    "source": "Nhân viên",
+    "translation": "Employees",
+    "context": "`nc_stats[2].label`"
+  },
+  {
+    "id": 17,
+    "source": "Dịch vụ",
+    "translation": "Services",
+    "context": "`nc_services_eyebrow`, `home_primary`, `home_mobile`"
+  },
+  {
+    "id": 18,
+    "source": "Năng lực cốt lõi",
+    "translation": "Our core expertise",
+    "context": "`nc_services_heading`"
+  },
+  {
+    "id": 19,
+    "source": "Trao đổi nhu cầu ",
+    "translation": "Let's discuss your needs ",
+    "context": "`nc_services_contact_label`"
+  },
+  {
+    "id": 20,
+    "source": "Outsource CNTT",
+    "translation": "IT Outsourcing",
+    "context": "`nc_service_cards[0].title`"
+  },
+  {
+    "id": 21,
+    "source": "Phát triển và bảo trì dự án CNTT cho đối tác outsource.",
+    "translation": "IT project development and maintenance for outsourcing partners.",
+    "context": "`nc_service_cards[0].description`"
+  },
+  {
+    "id": 22,
+    "source": "CODE\nSOLVE\nTOGETHER",
+    "translation": "CODE\nSOLVE\nTOGETHER",
+    "context": "`nc_service_cards[0].micro_text`"
+  },
+  {
+    "id": 23,
+    "source": "Tư vấn doanh nghiệp",
+    "translation": "Business Consulting",
+    "context": "`nc_service_cards[1].title`, `home_primary`, `home_mobile`"
+  },
+  {
+    "id": 24,
+    "source": "Đồng hành tối ưu hoạt động và xây dựng giải pháp phù hợp.",
+    "translation": "Helping you optimize operations and develop solutions that fit your business.",
+    "context": "`nc_service_cards[1].description`"
+  },
+  {
+    "id": 25,
+    "source": "PEOPLE\nSTRATEGY\nGROWTH",
+    "translation": "PEOPLE\nSTRATEGY\nGROWTH",
+    "context": "`nc_service_cards[1].micro_text`"
+  },
+  {
+    "id": 26,
+    "source": "Giải pháp cá nhân",
+    "translation": "Solutions for Individuals",
+    "context": "`nc_service_cards[2].title`"
+  },
+  {
+    "id": 27,
+    "source": "Hỗ trợ các nhu cầu công nghệ linh hoạt cho khách hàng cá nhân.",
+    "translation": "Flexible technology support for individual customers.",
+    "context": "`nc_service_cards[2].description`"
+  },
+  {
+    "id": 28,
+    "source": "SIMPLE\nFLEXIBLE\nFOR YOU",
+    "translation": "SIMPLE\nFLEXIBLE\nFOR YOU",
+    "context": "`nc_service_cards[2].micro_text`"
+  },
+  {
+    "id": 29,
+    "source": "Công nghệ",
+    "translation": "Technology",
+    "context": "`nc_technology_eyebrow`, `home_primary`, `home_mobile`"
+  },
+  {
+    "id": 30,
+    "source": "Nền tảng\n tạo nên khác biệt",
+    "translation": "The foundation\n that sets us apart",
+    "context": "`nc_technology_heading`"
+  },
+  {
+    "id": 31,
+    "source": "React",
+    "translation": "React",
+    "context": "`nc_technology_items[0].label`"
+  },
+  {
+    "id": 32,
+    "source": "Laravel",
+    "translation": "Laravel",
+    "context": "`nc_technology_items[1].label`"
+  },
+  {
+    "id": 33,
+    "source": "node.js",
+    "translation": "node.js",
+    "context": "`nc_technology_items[2].label`"
+  },
+  {
+    "id": 34,
+    "source": "aws",
+    "translation": "aws",
+    "context": "`nc_technology_items[3].label`"
+  },
+  {
+    "id": 35,
+    "source": "MySQL",
+    "translation": "MySQL",
+    "context": "`nc_technology_items[4].label`"
+  },
+  {
+    "id": 36,
+    "source": "docker",
+    "translation": "docker",
+    "context": "`nc_technology_items[5].label`"
+  },
+  {
+    "id": 37,
+    "source": "Figma",
+    "translation": "Figma",
+    "context": "`nc_technology_items[6].label`"
+  },
+  {
+    "id": 38,
+    "source": "CI/CD",
+    "translation": "CI/CD",
+    "context": "`nc_technology_items[7].label`"
+  },
+  {
+    "id": 39,
+    "source": "Sản phẩm nổi bật",
+    "translation": "Featured Products",
+    "context": "`nc_projects_eyebrow`"
+  },
+  {
+    "id": 40,
+    "source": "Giải pháp được tin chọn",
+    "translation": "Solutions our clients trust",
+    "context": "`nc_projects_heading`"
+  },
+  {
+    "id": 41,
+    "source": "Trao đổi về dự án ",
+    "translation": "Let's discuss your project ",
+    "context": "`nc_projects_contact_label`"
+  },
+  {
+    "id": 42,
+    "source": "Nextcore Portal",
+    "translation": "Nextcore Portal",
+    "context": "`nc_featured_projects[0].card_label`"
+  },
+  {
+    "id": 43,
+    "source": "Hệ thống quản lý doanh nghiệp thông minh.",
+    "translation": "An intelligent business management system.",
+    "context": "`nc_featured_projects[0].card_summary`"
+  },
+  {
+    "id": 44,
+    "source": "Trường Doanh nhân Top Olympia",
+    "translation": "Trường Doanh nhân Top Olympia",
+    "context": "`nc_featured_projects[1].card_label`"
+  },
+  {
+    "id": 45,
+    "source": "Website đào tạo doanh nhân.",
+    "translation": "A digital platform for business education.",
+    "context": "`nc_featured_projects[1].card_summary`"
+  },
+  {
+    "id": 46,
+    "source": "WordPress Plugin - Affiliate",
+    "translation": "WordPress Plugin - Affiliate",
+    "context": "`nc_featured_projects[2].card_label`"
+  },
+  {
+    "id": 47,
+    "source": "Giải pháp tiếp thị liên kết hiệu quả.",
+    "translation": "An effective affiliate marketing solution.",
+    "context": "`nc_featured_projects[2].card_summary`"
+  },
+  {
+    "id": 48,
+    "source": "Đối tác chiến lược",
+    "translation": "Strategic Partner",
+    "context": "`nc_partner_eyebrow`"
+  },
+  {
+    "id": 49,
+    "source": "GM Solutions",
+    "translation": "GM Solutions",
+    "context": "`nc_partner_name`"
+  },
+  {
+    "id": 50,
+    "source": "Cùng nhau kiến tạo\nnhững giá trị bền vững.",
+    "translation": "Creating lasting\nvalue together.",
+    "context": "`nc_partner_description`"
+  },
+  {
+    "id": 51,
+    "source": "Stronger\n together\n for a brighter\n tomorrow",
+    "translation": "Stronger\n together\n for a brighter\n tomorrow",
+    "context": "`nc_partner_motto`"
+  },
+  {
+    "id": 52,
+    "source": "KHÁCH HÀNG NÓI VỀ NEXTCORE",
+    "translation": "WHAT OUR CLIENTS SAY ABOUT NEXTCORE",
+    "context": "`nc_testimonials_eyebrow`"
+  },
+  {
+    "id": 53,
+    "source": "Đánh giá từ khách hàng",
+    "translation": "Client testimonials",
+    "context": "`nc_testimonials_heading`"
+  },
+  {
+    "id": 54,
+    "source": "Những chia sẻ thực tế từ khách hàng đang đồng hành cùng Nextcore.",
+    "translation": "Real experiences shared by clients working with Nextcore.",
+    "context": "`nc_testimonials_intro`"
+  },
+  {
+    "id": 55,
+    "source": "Công ty An Tâm Việt",
+    "translation": "Công ty An Tâm Việt",
+    "context": "`nc_testimonials[0].name`"
+  },
+  {
+    "id": 56,
+    "source": "Dự án Plugin Affiliate",
+    "translation": "Affiliate Plugin Project",
+    "context": "`nc_testimonials[0].project_label`"
+  },
+  {
+    "id": 57,
+    "source": "Nextcore để lại ấn tượng mạnh mẽ với đội ngũ hỗ trợ chuyên nghiệp, luôn đồng hành từ khâu tư vấn ban đầu đến việc sắp xếp kế hoạch và triển khai dự án. Phản hồi nhanh chóng, thông tin rõ ràng giúp chúng tôi hoàn toàn yên tâm khi làm việc cùng họ. Đặc biệt, sự uy tín và cam kết trách nhiệm với deadline của Nextcore là yếu tố nổi bật. Không thể không nhắc đến anh Tú, Project Manager của đội, người luôn tận tâm tư vấn và hỗ trợ nhiệt tình, mang đến trải nghiệm làm việc tuyệt vời.\nNextcore không chỉ là một đối tác, mà còn là một người bạn đồng hành đáng tin cậy trên hành trình phát triển của chúng tôi!",
+    "translation": "Nextcore made a strong impression with its professional support team, guiding us from the initial consultation through planning and project delivery. Their prompt responses and clear communication gave us complete confidence in working with them. Their reliability and commitment to meeting deadlines stood out in particular. We must also mention Tú, the team’s Project Manager, whose thoughtful advice and dedicated support made the experience excellent.\nNextcore is more than a partner — they are a trusted companion on our journey of growth!",
+    "context": "`nc_testimonials[0].quote`"
+  },
+  {
+    "id": 58,
+    "source": "Phạm Việt Hùng",
+    "translation": "Phạm Việt Hùng",
+    "context": "`nc_testimonials[1].name`"
+  },
+  {
+    "id": 59,
+    "source": "Dự án Tạo template ebook",
+    "translation": "Ebook Template Project",
+    "context": "`nc_testimonials[1].project_label`"
+  },
+  {
+    "id": 60,
+    "source": "Hoàn thành công việc nhanh và chất lượng. Nhiệt tình hỗ trợ sau khi hoàn thành công việc",
+    "translation": "The work was completed quickly and to a high standard, with dedicated support even after completion.",
+    "context": "`nc_testimonials[1].quote`"
+  },
+  {
+    "id": 61,
+    "source": "Nguyễn Phương Trà My",
+    "translation": "Nguyễn Phương Trà My",
+    "context": "`nc_testimonials[2].name`"
+  },
+  {
+    "id": 62,
+    "source": "Dự án Convert nghiệp vụ sang sơ đồ khối",
+    "translation": "Business Process-to-Flowchart Project",
+    "context": "`nc_testimonials[2].project_label`"
+  },
+  {
+    "id": 63,
+    "source": "Công ty Phần mềm Next Core làm dự án của tôi rất chuyên nghiệp, thực hiện đúng yêu cầu của khách hàng và hoàn thành công việc sớm hơn thời gian quy định, đảm bảo chất lượng. Các bạn dev của Công ty hỗ trợ tôi rất nhiệt tình trong thời gian thực hiện yêu cầu của tôi. Highly recommend cho các khách hàng trong lĩnh vực IT, phần mềm, design.",
+    "translation": "Next Core handled my project very professionally, met my requirements and completed the work ahead of schedule while maintaining quality. The company’s developers were very helpful throughout the project. I highly recommend them to clients looking for IT, software and design services.",
+    "context": "`nc_testimonials[2].quote`"
+  },
+  {
+    "id": 64,
+    "source": "Bé khỏe bé vui",
+    "translation": "Bé khỏe bé vui",
+    "context": "`nc_testimonials[3].name`"
+  },
+  {
+    "id": 65,
+    "source": "Dự án phục hồi website bị tấn công",
+    "translation": "Hacked Website Recovery Project",
+    "context": "`nc_testimonials[3].project_label`"
+  },
+  {
+    "id": 66,
+    "source": "Highly appreciate your working spirit. I am pleased to choose you as partners. We will continue to cooperate in the future when there are new projects.",
+    "translation": "Highly appreciate your working spirit. I am pleased to choose you as partners. We will continue to cooperate in the future when there are new projects.",
+    "context": "`nc_testimonials[3].quote`"
+  },
+  {
+    "id": 67,
+    "source": "ĐỘI NGŨ",
+    "translation": "OUR TEAM",
+    "context": "`nc_team_eyebrow`"
+  },
+  {
+    "id": 68,
+    "source": "Đội ngũ",
+    "translation": "Our team",
+    "context": "`nc_team_heading`, `home_primary`, `home_mobile`"
+  },
+  {
+    "id": 69,
+    "source": "Đội ngũ chuyên môn cao, tận tâm và luôn sẵn sàng đồng hành.",
+    "translation": "A skilled, dedicated team ready to grow with you.",
+    "context": "`nc_team_intro`"
+  },
+  {
+    "id": 70,
+    "source": "Nguyễn Văn Hiền",
+    "translation": "Nguyễn Văn Hiền",
+    "context": "`nc_team_members[0].name`"
+  },
+  {
+    "id": 71,
+    "source": "Chief Executive Officer",
+    "translation": "Chief Executive Officer",
+    "context": "`nc_team_members[0].role`"
+  },
+  {
+    "id": 72,
+    "source": "Trần Đức Anh",
+    "translation": "Trần Đức Anh",
+    "context": "`nc_team_members[1].name`"
+  },
+  {
+    "id": 73,
+    "source": "Chief Technology Officer",
+    "translation": "Chief Technology Officer",
+    "context": "`nc_team_members[1].role`"
+  },
+  {
+    "id": 74,
+    "source": "Phan Thanh Tú",
+    "translation": "Phan Thanh Tú",
+    "context": "`nc_team_members[2].name`"
+  },
+  {
+    "id": 75,
+    "source": "Project Manager",
+    "translation": "Project Manager",
+    "context": "`nc_team_members[2].role`"
+  },
+  {
+    "id": 76,
+    "source": "Sẵn sàng bắt đầu dự án của bạn?",
+    "translation": "Ready to start your project?",
+    "context": "`nc_cta_heading`"
+  },
+  {
+    "id": 77,
+    "source": "Hãy để Nextcore đồng hành cùng bạn trên hành trình chuyển đổi số.",
+    "translation": "Let Nextcore support you on your digital transformation journey.",
+    "context": "`nc_cta_description`"
+  },
+  {
+    "id": 78,
+    "source": "New\nideas.\nHigher\npossibilities.",
+    "translation": "New\nideas.\nHigher\npossibilities.",
+    "context": "`nc_cta_motto`"
+  },
+  {
+    "id": 79,
+    "source": "63 Phan Đăng Lưu Street, Hai Chau, Da Nang 550000, Viet Nam",
+    "translation": "63 Phan Đăng Lưu Street, Hai Chau, Da Nang 550000, Viet Nam",
+    "context": "`nc_contact_address`"
+  },
+  {
+    "id": 80,
+    "source": "Giải pháp công nghệ cho doanh nghiệp.",
+    "translation": "Technology solutions for businesses.",
+    "context": "`nc_footer_description`"
+  },
+  {
+    "id": 81,
+    "source": "Hỗ trợ",
+    "translation": "Support",
+    "context": "`nc_footer_support_heading`"
+  },
+  {
+    "id": 82,
+    "source": "Liên hệ",
+    "translation": "Contact",
+    "context": "`nc_footer_contact_heading`, `home_primary`, `home_mobile`"
+  },
+  {
+    "id": 83,
+    "source": "Kết nối",
+    "translation": "Connect",
+    "context": "`nc_footer_social_heading`"
+  },
+  {
+    "id": 84,
+    "source": "Build a\nbetter tomorrow",
+    "translation": "Build a\nbetter tomorrow",
+    "context": "`nc_footer_motto`"
+  },
+  {
+    "id": 85,
+    "source": "Tin tức",
+    "translation": "News",
+    "context": "`nc_blog_eyebrow`, `home_primary`, `home_mobile`"
+  },
+  {
+    "id": 86,
+    "source": "Cập nhật mới nhất",
+    "translation": "Latest updates",
+    "context": "`nc_blog_heading`"
+  },
+  {
+    "id": 87,
+    "source": "Góc nhìn & kiến thức",
+    "translation": "Insights & knowledge",
+    "context": "`nc_blog_note`"
+  },
+  {
+    "id": 88,
+    "source": "Giới thiệu",
+    "translation": "About us",
+    "context": "`home_primary`, `home_mobile`"
+  },
+  {
+    "id": 89,
+    "source": "Outsource",
+    "translation": "Outsourcing",
+    "context": "`home_primary`, `home_mobile`"
+  },
+  {
+    "id": 90,
+    "source": "Khách hàng cá nhân",
+    "translation": "Individual Clients",
+    "context": "`home_primary`, `home_mobile`"
+  },
+  {
+    "id": 91,
+    "source": "Sản phẩm",
+    "translation": "Products",
+    "context": "`home_primary`, `home_mobile`"
+  },
+  {
+    "id": 92,
+    "source": "Sản phẩm / Dự án",
+    "translation": "Products / Projects",
+    "context": "`home_primary`, `home_mobile`"
+  },
+  {
+    "id": 93,
+    "source": "Kiến thức",
+    "translation": "Knowledge",
+    "context": "`home_primary`, `home_mobile`"
+  },
+  {
+    "id": 94,
+    "source": "Công ty",
+    "translation": "Company",
+    "context": "`home_primary`, `home_mobile`"
+  },
+  {
+    "id": 95,
+    "source": "Đối tác",
+    "translation": "Partners",
+    "context": "`home_mobile`"
+  },
+  {
+    "id": 96,
+    "source": "Đánh giá",
+    "translation": "Testimonials",
+    "context": "`home_mobile`"
+  },
+  {
+    "id": 97,
+    "source": "Chuyển đến nội dung",
+    "translation": "Skip to content",
+    "context": "`UI / accessibility`"
+  },
+  {
+    "id": 98,
+    "source": "Nextcore — Trang chủ",
+    "translation": "Nextcore — Home",
+    "context": "`UI / accessibility`"
+  },
+  {
+    "id": 99,
+    "source": "Điều hướng chính",
+    "translation": "Main navigation",
+    "context": "`UI / accessibility`"
+  },
+  {
+    "id": 100,
+    "source": "Tìm kiếm",
+    "translation": "Search",
+    "context": "`UI / accessibility`"
+  },
+  {
+    "id": 101,
+    "source": "Menu",
+    "translation": "Menu",
+    "context": "`UI / accessibility`"
+  },
+  {
+    "id": 102,
+    "source": "Điều hướng di động",
+    "translation": "Mobile navigation",
+    "context": "`UI / accessibility`"
+  },
+  {
+    "id": 103,
+    "source": "Đóng tìm kiếm",
+    "translation": "Close search",
+    "context": "`UI / accessibility`"
+  },
+  {
+    "id": 104,
+    "source": "Bạn đang tìm gì?",
+    "translation": "What are you looking for?",
+    "context": "`UI / accessibility`"
+  },
+  {
+    "id": 105,
+    "source": "Tìm",
+    "translation": "Search",
+    "context": "`UI / accessibility`"
+  },
+  {
+    "id": 106,
+    "source": "Ngôn ngữ",
+    "translation": "Language",
+    "context": "`UI / accessibility`"
+  },
+  {
+    "id": 107,
+    "source": "Chế độ tối",
+    "translation": "Dark mode",
+    "context": "`UI / accessibility`"
+  },
+  {
+    "id": 108,
+    "source": "Mở menu con: %s",
+    "translation": "Open submenu: %s",
+    "context": "`UI / accessibility`"
+  },
+  {
+    "id": 109,
+    "source": "Thành lập vào",
+    "translation": "Founded on",
+    "context": "`UI / accessibility`"
+  },
+  {
+    "id": 110,
+    "source": "j \\t\\h\\g n, Y",
+    "translation": "F j, Y",
+    "context": "`UI / accessibility`"
+  },
+  {
+    "id": 111,
+    "source": "Khám phá",
+    "translation": "Explore",
+    "context": "`UI / accessibility`"
+  },
+  {
+    "id": 112,
+    "source": "Các công nghệ",
+    "translation": "Technologies",
+    "context": "`UI / accessibility`"
+  },
+  {
+    "id": 113,
+    "source": "Tạm dừng chuyển động công nghệ",
+    "translation": "Pause technology animation",
+    "context": "`UI / accessibility`"
+  },
+  {
+    "id": 114,
+    "source": "Băng chuyền",
+    "translation": "Carousel",
+    "context": "`UI / accessibility`"
+  },
+  {
+    "id": 115,
+    "source": "Đánh giá trước",
+    "translation": "Previous testimonial",
+    "context": "`UI / accessibility`"
+  },
+  {
+    "id": 116,
+    "source": "Vuốt để xem các đánh giá",
+    "translation": "Swipe to browse testimonials",
+    "context": "`UI / accessibility`"
+  },
+  {
+    "id": 117,
+    "source": "Xem thêm",
+    "translation": "Read more",
+    "context": "`UI / accessibility`"
+  },
+  {
+    "id": 118,
+    "source": "Đánh giá tiếp theo",
+    "translation": "Next testimonial",
+    "context": "`UI / accessibility`"
+  },
+  {
+    "id": 119,
+    "source": "Chọn nhóm đánh giá",
+    "translation": "Choose a testimonial group",
+    "context": "`UI / accessibility`"
+  },
+  {
+    "id": 120,
+    "source": "Đóng đánh giá",
+    "translation": "Close testimonial",
+    "context": "`UI / accessibility`"
+  },
+  {
+    "id": 121,
+    "source": "Email %s",
+    "translation": "Email %s",
+    "context": "`UI / accessibility`"
+  },
+  {
+    "id": 122,
+    "source": "Gọi %s",
+    "translation": "Call %s",
+    "context": "`UI / accessibility`"
+  },
+  {
+    "id": 123,
+    "source": "Nextcore. All rights reserved.",
+    "translation": "Nextcore. All rights reserved.",
+    "context": "`UI / accessibility`"
+  },
+  {
+    "id": 124,
+    "source": "Dự án",
+    "translation": "Projects",
+    "context": "`UI / accessibility`"
+  },
+  {
+    "id": 125,
+    "source": "Facebook",
+    "translation": "Facebook",
+    "context": "`UI / accessibility`"
+  },
+  {
+    "id": 126,
+    "source": "TikTok",
+    "translation": "TikTok",
+    "context": "`UI / accessibility`"
+  },
+  {
+    "id": 127,
+    "source": "VI",
+    "translation": "VI",
+    "context": "`UI / accessibility`"
+  },
+  {
+    "id": 128,
+    "source": "EN",
+    "translation": "EN",
+    "context": "`UI / accessibility`"
+  },
+  {
+    "id": 129,
+    "source": "Ba đồng nghiệp mặc polo đen có logo N đỏ cùng làm việc bên laptop trong văn phòng hiện đại",
+    "translation": "Three colleagues wearing black polo shirts with a red N logo work together at a laptop in a modern office",
+    "context": "`UI / accessibility`"
+  },
+  {
+    "id": 130,
+    "source": "Người chinh phục đỉnh núi nhìn về chân trời",
+    "translation": "A mountaineer looks toward the horizon from a summit",
+    "context": "`UI / accessibility`"
+  },
+  {
+    "id": 131,
+    "source": "Vietnamese",
+    "translation": "Vietnamese",
+    "context": "Language switch: TranslatePress language_name"
+  },
+  {
+    "id": 132,
+    "source": "English",
+    "translation": "English",
+    "context": "Language switch: TranslatePress language_name"
+  },
+  {
+    "id": 133,
+    "source": "Top Olympia",
+    "translation": "Top Olympia",
+    "context": "Project screen label registry: olympia"
+  },
+  {
+    "id": 134,
+    "source": "Affiliate",
+    "translation": "Affiliate",
+    "context": "Project screen label registry: affiliate"
+  }
+]

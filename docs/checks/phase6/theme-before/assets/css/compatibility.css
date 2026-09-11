@@ -1,0 +1,3 @@
+/* Preserve builder-authored presentation. No inversion or descendant reset. */
+.legacy-content { color-scheme: light; }
+

@@ -1,0 +1,50 @@
+{
+  "checks": {
+    "authenticated": true,
+    "image_picker_open": true,
+    "post_object_dropdown_open": true,
+    "taxonomy_dropdown_open": true
+  },
+  "image_before": "\n<div class=\"acf-image-uploader has-value\" data-preview_size=\"medium\" data-library=\"all\" data-mime_types=\"jpg,jpeg,png,webp\" data-uploader=\"wp\">\n\t\t\t<input type=\"hidden\" name=\"acf[field_nc_hero_image_light]\" value=\"1822\">\t<div class=\"show-if-value image-wrap\" style=\"max-width: 800px\">\n\t\t<img src=\"http://localhost/wp-content/uploads/2026/09/hero-corporate-light-711x400.png\" alt=\"\" data-name=\"image\" style=\"max-height: 400px;\">\n\t\t<div class=\"acf-actions -hover\">\n\t\t\t\t\t\t<a class=\"acf-icon -pencil dark\" data-name=\"edit\" href=\"#\" title=\"Chỉnh sửa\"></a>\n\t\t\t\t\t\t<a class=\"acf-icon -cancel dark\" data-name=\"remove\" href=\"#\" title=\"Xóa\"></a>\n\t\t</div>\n\t</div>\n\t<div class=\"hide-if-value\">\n\t\t\t\t\t\t<p>Không có hình ảnh được chọn <a data-name=\"add\" class=\"acf-button button\" href=\"#\">Thêm hình ảnh</a></p>\n\t\t\t</div>\n</div>\n\t\t\t",
+  "tabs": [],
+  "image_dialog": "Đóng hộp thoại\nChỉnh sửa hình ảnh\nDanh sách tập tin\nhero-corporate-light.png\n11 Tháng 9, 2026\n2 MB\n1672 dài và rộng 941 pixel\nSửa với Elementor AI\nSửa ảnh\nXóa vĩnh viễn\nVăn bản thay thế\n\nXem cách mô tả nội dung ảnh\n(mở trong cửa sổ mới)\n. Để trống nếu ảnh chỉ dùng làm hiệu ứng trang trí.\n\nTiêu đề\nImage Caption\nMiêu tả\nURL tệp:\nSao chép liên kết\nHành động cho các media đã được chọn\nCập nhật hình ảnh",
+  "post_object": {
+    "value": "",
+    "options": [
+      {
+        "value": "",
+        "text": "- Lựa chọn -"
+      }
+    ],
+    "results": [
+      "Bài viếtCông ty CPPM NextCore đón sinh nhật 2 tuổi tại Bạch Mã Village ở tỉnh Thừa Thiên HuếCông ty CPPM Nextcore tổ chức picnic tại Enjoy Camping Hòa Bắc, Đà NẵngHướng dẫn cách “Debug SpringBoot với Visual code” một cách dễ dàngTrường Doanh nhân Top OlympiaWordPress Plugin – Affiliate",
+      "Công ty CPPM NextCore đón sinh nhật 2 tuổi tại Bạch Mã Village ở tỉnh Thừa Thiên Huế",
+      "Công ty CPPM Nextcore tổ chức picnic tại Enjoy Camping Hòa Bắc, Đà Nẵng",
+      "Hướng dẫn cách “Debug SpringBoot với Visual code” một cách dễ dàng",
+      "Trường Doanh nhân Top Olympia",
+      "WordPress Plugin – Affiliate",
+      "Dịch vụHệ thống chấm công bằng gương mặt – tích hợp với LarkLarkỨng dụng đặt sânViết Extension – Tăng Cường Hiệu Suất và Tính Năng Cho Trình Duyệt Của BạnViết Plugin WordPress Chuyên Nghiệp – Tùy Biến Theo Yêu CầuWordPress aff atv",
+      "Hệ thống chấm công bằng gương mặt – tích hợp với Lark",
+      "Lark",
+      "Ứng dụng đặt sân",
+      "Viết Extension – Tăng Cường Hiệu Suất và Tính Năng Cho Trình Duyệt Của Bạn",
+      "Viết Plugin WordPress Chuyên Nghiệp – Tùy Biến Theo Yêu Cầu"
+    ]
+  },
+  "taxonomy": {
+    "value": "",
+    "options": [
+      {
+        "value": "",
+        "text": "- Lựa chọn -"
+      }
+    ],
+    "results": [
+      "Khách hàng cá nhân",
+      "Outsource",
+      "Sản phẩm",
+      "Tư vấn doanh nghiệp"
+    ]
+  },
+  "errors": []
+}

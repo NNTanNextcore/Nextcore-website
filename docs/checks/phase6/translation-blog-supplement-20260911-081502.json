@@ -1,0 +1,53 @@
+{
+    "mode": "apply-local",
+    "approval": "User approved four proposals in docs\/phase6-blog-en-supplement-review.md",
+    "before_count": 1639,
+    "writes": [
+        {
+            "review_id": "BLOG-01",
+            "source": "Hướng dẫn cách &#8220;Debug SpringBoot với Visual code&#8221; một cách dễ dàng",
+            "old_translation": "",
+            "new_translation": "A simple guide to debugging Spring Boot in Visual Studio Code",
+            "table": "nxt_trp_dictionary_vi_en_us",
+            "type": "regular",
+            "row_id": "1065",
+            "action": "apply-approved-blog-supplement",
+            "verified": true
+        },
+        {
+            "review_id": "BLOG-02",
+            "source": "Debugging là một kỹ năng quan trọng đối với bất kỳ lập trình viên nào, đặc biệt khi làm việc với các ứng dụng phức tạp&hellip;",
+            "old_translation": "",
+            "new_translation": "Debugging is an essential skill for any developer, especially when working with complex applications…",
+            "table": "nxt_trp_dictionary_vi_en_us",
+            "type": "regular",
+            "row_id": "1562",
+            "action": "apply-approved-blog-supplement",
+            "verified": true
+        },
+        {
+            "review_id": "BLOG-03",
+            "source": "Affiliate marketing là một hình thức tiếp thị trong đó một doanh nghiệp thưởng cho một hoặc nhiều người (được gọi là &quot;đối tác liên kết&quot;&hellip;",
+            "old_translation": "",
+            "new_translation": "Affiliate marketing is a form of marketing in which a business rewards one or more people, known as affiliates…",
+            "table": "nxt_trp_dictionary_vi_en_us",
+            "type": "regular",
+            "row_id": "1563",
+            "action": "apply-approved-blog-supplement",
+            "verified": true
+        },
+        {
+            "review_id": "BLOG-04",
+            "source": "Trong lĩnh vực giáo dục, việc cung cấp một trang web chất lượng và thân thiện với người dùng là điều vô cùng quan trọng. Trang&hellip;",
+            "old_translation": "",
+            "new_translation": "In education, providing a high-quality, user-friendly website is essential. The website…",
+            "table": "nxt_trp_dictionary_vi_en_us",
+            "type": "regular",
+            "row_id": "1564",
+            "action": "apply-approved-blog-supplement",
+            "verified": true
+        }
+    ],
+    "conflicts": [],
+    "after_count": 1639
+}

@@ -1,0 +1,844 @@
+[
+  {
+    "route": "/",
+    "checks": {
+      "arrow_down_focus": true,
+      "escape_focus": true,
+      "hover": true,
+      "pointer_transfer": true,
+      "click_close": true,
+      "search_escape": true,
+      "switch_theme": true,
+      "mobile_open": true,
+      "mobile_accordion": true,
+      "mobile_escape_focus": true,
+      "testimonial_escape": true,
+      "testimonial_next": true
+    },
+    "search": {
+      "open": true,
+      "label": "Bạn đang tìm gì?",
+      "action": "http://localhost/",
+      "input": ""
+    },
+    "links": [
+      {
+        "text": "Giới thiệu",
+        "href": "http://localhost/#about"
+      },
+      {
+        "text": "Dịch vụ",
+        "href": "http://localhost/#services"
+      },
+      {
+        "text": "Outsource",
+        "href": "http://localhost/outsource/"
+      },
+      {
+        "text": "Tư vấn doanh nghiệp",
+        "href": "http://localhost/danh-muc-dich-vu/tu-van-doanh-nghiep/"
+      },
+      {
+        "text": "Khách hàng cá nhân",
+        "href": "http://localhost/danh-muc-dich-vu/khach-hang-ca-nhan/"
+      },
+      {
+        "text": "Sản phẩm",
+        "href": "http://localhost/danh-muc-dich-vu/san-pham/"
+      },
+      {
+        "text": "Công nghệ",
+        "href": "http://localhost/#technology"
+      },
+      {
+        "text": "Sản phẩm / Dự án",
+        "href": "http://localhost/#projects"
+      },
+      {
+        "text": "Đội ngũ",
+        "href": "http://localhost/#team"
+      },
+      {
+        "text": "Tin tức",
+        "href": "http://localhost/#blog"
+      },
+      {
+        "text": "Kiến thức",
+        "href": "http://localhost/category/kien-thuc/"
+      },
+      {
+        "text": "Công ty",
+        "href": "http://localhost/category/cong-ty/"
+      },
+      {
+        "text": "Liên hệ",
+        "href": "http://localhost/#contact"
+      }
+    ],
+    "languages": [
+      {
+        "text": "Vietnamese",
+        "href": "http://localhost/"
+      },
+      {
+        "text": "English",
+        "href": "http://localhost/en/"
+      }
+    ],
+    "mobile": {
+      "links": [
+        {
+          "text": "Giới thiệu",
+          "href": "http://localhost/#about"
+        },
+        {
+          "text": "Dịch vụ",
+          "href": "http://localhost/#services"
+        },
+        {
+          "text": "Outsource",
+          "href": "http://localhost/outsource/"
+        },
+        {
+          "text": "Tư vấn doanh nghiệp",
+          "href": "http://localhost/danh-muc-dich-vu/tu-van-doanh-nghiep/"
+        },
+        {
+          "text": "Khách hàng cá nhân",
+          "href": "http://localhost/danh-muc-dich-vu/khach-hang-ca-nhan/"
+        },
+        {
+          "text": "Sản phẩm",
+          "href": "http://localhost/danh-muc-dich-vu/san-pham/"
+        },
+        {
+          "text": "Công nghệ",
+          "href": "http://localhost/#technology"
+        },
+        {
+          "text": "Sản phẩm / Dự án",
+          "href": "http://localhost/#projects"
+        },
+        {
+          "text": "Đối tác",
+          "href": "http://localhost/#partner"
+        },
+        {
+          "text": "Đánh giá",
+          "href": "http://localhost/#testimonials"
+        },
+        {
+          "text": "Đội ngũ",
+          "href": "http://localhost/#team"
+        },
+        {
+          "text": "Tin tức",
+          "href": "http://localhost/#blog"
+        },
+        {
+          "text": "Kiến thức",
+          "href": "http://localhost/category/kien-thuc/"
+        },
+        {
+          "text": "Công ty",
+          "href": "http://localhost/category/cong-ty/"
+        },
+        {
+          "text": "Liên hệ",
+          "href": "http://localhost/#contact"
+        },
+        {
+          "text": "Vietnamese",
+          "href": "http://localhost/"
+        },
+        {
+          "text": "English",
+          "href": "http://localhost/en/"
+        }
+      ],
+      "themeSwitches": 1,
+      "languages": 1
+    },
+    "testimonial": {
+      "open": true,
+      "text": "×\nCông ty An Tâm Việt\n\nDự án Plugin Affiliate\n\nNextcore để lại ấn tượng mạnh mẽ với đội ngũ hỗ trợ chuyên nghiệp, luôn đồng hành từ khâu tư vấn ban đầu đến việc sắp xếp kế hoạch và triển khai dự án. Phản hồi nhanh chóng, thông tin rõ ràng giúp chúng tôi hoàn toàn yên tâm khi làm việc cùng họ. Đặc biệt, sự uy tín và cam kết trách nhiệm với deadline của Nextcore là yếu tố nổi bật. Không thể không nhắc đến anh Tú, Project Manager của đội, người luôn tận tâm tư vấn và hỗ trợ nhiệt tình, mang đến trải nghiệm làm việc tuyệt vời.\nNextcore không chỉ là một đối tác, mà còn là một người bạn đồng hành đáng tin cậy trên hành trình phát triển của chúng tôi!"
+    },
+    "errors": []
+  },
+  {
+    "route": "/en/",
+    "checks": {
+      "arrow_down_focus": true,
+      "escape_focus": true,
+      "hover": true,
+      "pointer_transfer": true,
+      "click_close": true,
+      "search_escape": true,
+      "switch_theme": true,
+      "mobile_open": true,
+      "mobile_accordion": true,
+      "mobile_escape_focus": true,
+      "testimonial_escape": true,
+      "testimonial_next": true
+    },
+    "search": {
+      "open": true,
+      "label": "What are you looking for?",
+      "action": "http://localhost/en/",
+      "input": ""
+    },
+    "links": [
+      {
+        "text": "About us",
+        "href": "http://localhost/en/#about"
+      },
+      {
+        "text": "Services",
+        "href": "http://localhost/en/#services"
+      },
+      {
+        "text": "Outsourcing",
+        "href": "http://localhost/en/outsource/"
+      },
+      {
+        "text": "Business Consulting",
+        "href": "http://localhost/en/danh-muc-dich-vu/tu-van-doanh-nghiep/"
+      },
+      {
+        "text": "Individual Clients",
+        "href": "http://localhost/en/danh-muc-dich-vu/khach-hang-ca-nhan/"
+      },
+      {
+        "text": "Products",
+        "href": "http://localhost/en/danh-muc-dich-vu/san-pham/"
+      },
+      {
+        "text": "Technology",
+        "href": "http://localhost/en/#technology"
+      },
+      {
+        "text": "Products / Projects",
+        "href": "http://localhost/en/#projects"
+      },
+      {
+        "text": "Our team",
+        "href": "http://localhost/en/#team"
+      },
+      {
+        "text": "News",
+        "href": "http://localhost/en/#blog"
+      },
+      {
+        "text": "Knowledge",
+        "href": "http://localhost/en/category/kien-thuc/"
+      },
+      {
+        "text": "Company",
+        "href": "http://localhost/en/category/cong-ty/"
+      },
+      {
+        "text": "Contact",
+        "href": "http://localhost/en/#contact"
+      }
+    ],
+    "languages": [
+      {
+        "text": "Vietnamese",
+        "href": "http://localhost/"
+      },
+      {
+        "text": "English",
+        "href": "http://localhost/en/"
+      }
+    ],
+    "mobile": {
+      "links": [
+        {
+          "text": "About us",
+          "href": "http://localhost/en/#about"
+        },
+        {
+          "text": "Services",
+          "href": "http://localhost/en/#services"
+        },
+        {
+          "text": "Outsourcing",
+          "href": "http://localhost/en/outsource/"
+        },
+        {
+          "text": "Business Consulting",
+          "href": "http://localhost/en/danh-muc-dich-vu/tu-van-doanh-nghiep/"
+        },
+        {
+          "text": "Individual Clients",
+          "href": "http://localhost/en/danh-muc-dich-vu/khach-hang-ca-nhan/"
+        },
+        {
+          "text": "Products",
+          "href": "http://localhost/en/danh-muc-dich-vu/san-pham/"
+        },
+        {
+          "text": "Technology",
+          "href": "http://localhost/en/#technology"
+        },
+        {
+          "text": "Products / Projects",
+          "href": "http://localhost/en/#projects"
+        },
+        {
+          "text": "Partners",
+          "href": "http://localhost/en/#partner"
+        },
+        {
+          "text": "Testimonials",
+          "href": "http://localhost/en/#testimonials"
+        },
+        {
+          "text": "Our team",
+          "href": "http://localhost/en/#team"
+        },
+        {
+          "text": "News",
+          "href": "http://localhost/en/#blog"
+        },
+        {
+          "text": "Knowledge",
+          "href": "http://localhost/en/category/kien-thuc/"
+        },
+        {
+          "text": "Company",
+          "href": "http://localhost/en/category/cong-ty/"
+        },
+        {
+          "text": "Contact",
+          "href": "http://localhost/en/#contact"
+        },
+        {
+          "text": "Vietnamese",
+          "href": "http://localhost/"
+        },
+        {
+          "text": "English",
+          "href": "http://localhost/en/"
+        }
+      ],
+      "themeSwitches": 1,
+      "languages": 1
+    },
+    "testimonial": {
+      "open": true,
+      "text": "×\nCông ty An Tâm Việt\n\nAffiliate Plugin Project\n\nNextcore made a strong impression with its professional support team, guiding us from the initial consultation through planning and project delivery. Their prompt responses and clear communication gave us complete confidence in working with them. Their reliability and commitment to meeting deadlines stood out in particular. We must also mention Tú, the team’s Project Manager, whose thoughtful advice and dedicated support made the experience excellent.\nNextcore is more than a partner — they are a trusted companion on our journey of growth!"
+    },
+    "errors": []
+  },
+  {
+    "route": "/danh-muc-dich-vu/tu-van-doanh-nghiep/",
+    "checks": {
+      "arrow_down_focus": true,
+      "escape_focus": true,
+      "hover": true,
+      "pointer_transfer": true,
+      "click_close": true,
+      "search_escape": true,
+      "switch_theme": true,
+      "mobile_open": true,
+      "mobile_accordion": true,
+      "mobile_escape_focus": true
+    },
+    "search": {
+      "open": true,
+      "label": "Bạn đang tìm gì?",
+      "action": "http://localhost/",
+      "input": ""
+    },
+    "links": [
+      {
+        "text": "Giới thiệu",
+        "href": "http://localhost/#about"
+      },
+      {
+        "text": "Dịch vụ",
+        "href": "http://localhost/#services"
+      },
+      {
+        "text": "Outsource",
+        "href": "http://localhost/outsource/"
+      },
+      {
+        "text": "Tư vấn doanh nghiệp",
+        "href": "http://localhost/danh-muc-dich-vu/tu-van-doanh-nghiep/"
+      },
+      {
+        "text": "Khách hàng cá nhân",
+        "href": "http://localhost/danh-muc-dich-vu/khach-hang-ca-nhan/"
+      },
+      {
+        "text": "Sản phẩm",
+        "href": "http://localhost/danh-muc-dich-vu/san-pham/"
+      },
+      {
+        "text": "Công nghệ",
+        "href": "http://localhost/#technology"
+      },
+      {
+        "text": "Sản phẩm / Dự án",
+        "href": "http://localhost/#projects"
+      },
+      {
+        "text": "Đội ngũ",
+        "href": "http://localhost/#team"
+      },
+      {
+        "text": "Tin tức",
+        "href": "http://localhost/#blog"
+      },
+      {
+        "text": "Kiến thức",
+        "href": "http://localhost/category/kien-thuc/"
+      },
+      {
+        "text": "Công ty",
+        "href": "http://localhost/category/cong-ty/"
+      },
+      {
+        "text": "Liên hệ",
+        "href": "http://localhost/#contact"
+      }
+    ],
+    "languages": [
+      {
+        "text": "Vietnamese",
+        "href": "http://localhost/danh-muc-dich-vu/tu-van-doanh-nghiep/"
+      },
+      {
+        "text": "English",
+        "href": "http://localhost/en/danh-muc-dich-vu/tu-van-doanh-nghiep/"
+      }
+    ],
+    "mobile": {
+      "links": [
+        {
+          "text": "Giới thiệu",
+          "href": "http://localhost/#about"
+        },
+        {
+          "text": "Dịch vụ",
+          "href": "http://localhost/#services"
+        },
+        {
+          "text": "Outsource",
+          "href": "http://localhost/outsource/"
+        },
+        {
+          "text": "Tư vấn doanh nghiệp",
+          "href": "http://localhost/danh-muc-dich-vu/tu-van-doanh-nghiep/"
+        },
+        {
+          "text": "Khách hàng cá nhân",
+          "href": "http://localhost/danh-muc-dich-vu/khach-hang-ca-nhan/"
+        },
+        {
+          "text": "Sản phẩm",
+          "href": "http://localhost/danh-muc-dich-vu/san-pham/"
+        },
+        {
+          "text": "Công nghệ",
+          "href": "http://localhost/#technology"
+        },
+        {
+          "text": "Sản phẩm / Dự án",
+          "href": "http://localhost/#projects"
+        },
+        {
+          "text": "Đối tác",
+          "href": "http://localhost/#partner"
+        },
+        {
+          "text": "Đánh giá",
+          "href": "http://localhost/#testimonials"
+        },
+        {
+          "text": "Đội ngũ",
+          "href": "http://localhost/#team"
+        },
+        {
+          "text": "Tin tức",
+          "href": "http://localhost/#blog"
+        },
+        {
+          "text": "Kiến thức",
+          "href": "http://localhost/category/kien-thuc/"
+        },
+        {
+          "text": "Công ty",
+          "href": "http://localhost/category/cong-ty/"
+        },
+        {
+          "text": "Liên hệ",
+          "href": "http://localhost/#contact"
+        },
+        {
+          "text": "Vietnamese",
+          "href": "http://localhost/danh-muc-dich-vu/tu-van-doanh-nghiep/"
+        },
+        {
+          "text": "English",
+          "href": "http://localhost/en/danh-muc-dich-vu/tu-van-doanh-nghiep/"
+        }
+      ],
+      "themeSwitches": 1,
+      "languages": 1
+    },
+    "errors": []
+  },
+  {
+    "route": "/en/danh-muc-dich-vu/tu-van-doanh-nghiep/",
+    "checks": {
+      "arrow_down_focus": true,
+      "escape_focus": true,
+      "hover": true,
+      "pointer_transfer": true,
+      "click_close": true,
+      "search_escape": true,
+      "switch_theme": true,
+      "mobile_open": true,
+      "mobile_accordion": true,
+      "mobile_escape_focus": true
+    },
+    "search": {
+      "open": true,
+      "label": "What are you looking for?",
+      "action": "http://localhost/en/",
+      "input": ""
+    },
+    "links": [
+      {
+        "text": "About us",
+        "href": "http://localhost/en/#about"
+      },
+      {
+        "text": "Services",
+        "href": "http://localhost/en/#services"
+      },
+      {
+        "text": "Outsourcing",
+        "href": "http://localhost/en/outsource/"
+      },
+      {
+        "text": "Business Consulting",
+        "href": "http://localhost/en/danh-muc-dich-vu/tu-van-doanh-nghiep/"
+      },
+      {
+        "text": "Individual Clients",
+        "href": "http://localhost/en/danh-muc-dich-vu/khach-hang-ca-nhan/"
+      },
+      {
+        "text": "Products",
+        "href": "http://localhost/en/danh-muc-dich-vu/san-pham/"
+      },
+      {
+        "text": "Technology",
+        "href": "http://localhost/en/#technology"
+      },
+      {
+        "text": "Products / Projects",
+        "href": "http://localhost/en/#projects"
+      },
+      {
+        "text": "Our team",
+        "href": "http://localhost/en/#team"
+      },
+      {
+        "text": "News",
+        "href": "http://localhost/en/#blog"
+      },
+      {
+        "text": "Knowledge",
+        "href": "http://localhost/en/category/kien-thuc/"
+      },
+      {
+        "text": "Company",
+        "href": "http://localhost/en/category/cong-ty/"
+      },
+      {
+        "text": "Contact",
+        "href": "http://localhost/en/#contact"
+      }
+    ],
+    "languages": [
+      {
+        "text": "Vietnamese",
+        "href": "http://localhost/danh-muc-dich-vu/tu-van-doanh-nghiep/"
+      },
+      {
+        "text": "English",
+        "href": "http://localhost/en/danh-muc-dich-vu/tu-van-doanh-nghiep/"
+      }
+    ],
+    "mobile": {
+      "links": [
+        {
+          "text": "About us",
+          "href": "http://localhost/en/#about"
+        },
+        {
+          "text": "Services",
+          "href": "http://localhost/en/#services"
+        },
+        {
+          "text": "Outsourcing",
+          "href": "http://localhost/en/outsource/"
+        },
+        {
+          "text": "Business Consulting",
+          "href": "http://localhost/en/danh-muc-dich-vu/tu-van-doanh-nghiep/"
+        },
+        {
+          "text": "Individual Clients",
+          "href": "http://localhost/en/danh-muc-dich-vu/khach-hang-ca-nhan/"
+        },
+        {
+          "text": "Products",
+          "href": "http://localhost/en/danh-muc-dich-vu/san-pham/"
+        },
+        {
+          "text": "Technology",
+          "href": "http://localhost/en/#technology"
+        },
+        {
+          "text": "Products / Projects",
+          "href": "http://localhost/en/#projects"
+        },
+        {
+          "text": "Partners",
+          "href": "http://localhost/en/#partner"
+        },
+        {
+          "text": "Testimonials",
+          "href": "http://localhost/en/#testimonials"
+        },
+        {
+          "text": "Our team",
+          "href": "http://localhost/en/#team"
+        },
+        {
+          "text": "News",
+          "href": "http://localhost/en/#blog"
+        },
+        {
+          "text": "Knowledge",
+          "href": "http://localhost/en/category/kien-thuc/"
+        },
+        {
+          "text": "Company",
+          "href": "http://localhost/en/category/cong-ty/"
+        },
+        {
+          "text": "Contact",
+          "href": "http://localhost/en/#contact"
+        },
+        {
+          "text": "Vietnamese",
+          "href": "http://localhost/danh-muc-dich-vu/tu-van-doanh-nghiep/"
+        },
+        {
+          "text": "English",
+          "href": "http://localhost/en/danh-muc-dich-vu/tu-van-doanh-nghiep/"
+        }
+      ],
+      "themeSwitches": 1,
+      "languages": 1
+    },
+    "errors": []
+  },
+  {
+    "route": "/dich-vu/ung-dung-dat-san/",
+    "builder": true,
+    "widgets": [
+      "image-carousel.default",
+      "heading.default",
+      "text-editor.default",
+      "heading.default",
+      "button.default",
+      "image.default",
+      "image.default",
+      "image.default",
+      "animated-headline.default",
+      "icon-box.default",
+      "icon-box.default",
+      "icon-box.default",
+      "animated-headline.default",
+      "divider.default",
+      "heading.default",
+      "image.default",
+      "image.default",
+      "image.default",
+      "heading.default",
+      "spacer.default",
+      "animated-headline.default",
+      "icon-box.default",
+      "icon-box.default",
+      "icon-box.default",
+      "image.default",
+      "animated-headline.default",
+      "counter.default",
+      "counter.default",
+      "animated-headline.default",
+      "image-box.default",
+      "image-box.default",
+      "image-box.default",
+      "animated-headline.default",
+      "text-editor.default",
+      "gallery.default",
+      "gallery.default",
+      "animated-headline.default",
+      "text-editor.default",
+      "animated-headline.default",
+      "text-editor.default",
+      "gallery.default"
+    ],
+    "swipers": [
+      {
+        "initialized": true,
+        "slides": 7,
+        "index": 1
+      }
+    ],
+    "carousel": {
+      "method": "swiper-slideNext (no visible arrow)",
+      "before": 1,
+      "after": 2
+    },
+    "toggle": null,
+    "lightboxLink": "http://localhost/wp-content/uploads/2025/03/shopow11.png",
+    "lightboxOpened": true,
+    "errors": []
+  },
+  {
+    "route": "/dich-vu/wordpress-aff-atv/",
+    "builder": true,
+    "widgets": [
+      "heading.default",
+      "heading.default",
+      "heading.default",
+      "heading.default",
+      "text-editor.default",
+      "heading.default",
+      "text-editor.default",
+      "heading.default",
+      "text-editor.default",
+      "heading.default",
+      "text-editor.default",
+      "heading.default",
+      "text-editor.default",
+      "heading.default",
+      "text-editor.default",
+      "image.default",
+      "heading.default",
+      "text-editor.default",
+      "image.default",
+      "image.default",
+      "heading.default",
+      "text-editor.default",
+      "image.default",
+      "heading.default",
+      "toggle.default",
+      "heading.default",
+      "heading.default",
+      "text-editor.default",
+      "heading.default",
+      "text-editor.default",
+      "heading.default",
+      "text-editor.default",
+      "heading.default",
+      "media-carousel.default"
+    ],
+    "swipers": [
+      {
+        "initialized": true,
+        "slides": 18,
+        "index": 6
+      },
+      {
+        "initialized": true,
+        "slides": 18,
+        "index": 6
+      }
+    ],
+    "carousel": {
+      "method": "swiper-slideNext (no visible arrow)",
+      "before": 6,
+      "after": 7
+    },
+    "toggle": {
+      "before": "false",
+      "after": "true"
+    },
+    "lightboxLink": null,
+    "lightboxOpened": false,
+    "errors": []
+  },
+  {
+    "route": "/outsource/",
+    "builder": true,
+    "widgets": [
+      "animated-headline.default",
+      "html.default",
+      "image.default",
+      "animated-headline.default",
+      "icon-box.default",
+      "icon-box.default",
+      "icon-box.default",
+      "animated-headline.default",
+      "eae-timeline.skin1",
+      "animated-headline.default",
+      "icon-box.default",
+      "icon-box.default",
+      "icon-box.default"
+    ],
+    "swipers": [],
+    "carousel": null,
+    "toggle": null,
+    "lightboxLink": null,
+    "lightboxOpened": false,
+    "errors": []
+  },
+  {
+    "route": "/ve-chung-toi/",
+    "builder": true,
+    "widgets": [
+      "shortcode.default",
+      "testimonial-carousel.default",
+      "html.default",
+      "html.default",
+      "html.default",
+      "html.default",
+      "html.default",
+      "html.default",
+      "html.default",
+      "counter.default",
+      "counter.default",
+      "counter.default",
+      "html.default",
+      "link-in-bio.default",
+      "link-in-bio.default",
+      "link-in-bio.default"
+    ],
+    "swipers": [
+      {
+        "initialized": true,
+        "slides": 5,
+        "index": 1
+      }
+    ],
+    "carousel": {
+      "method": "arrow-click",
+      "before": 1,
+      "after": 2
+    },
+    "toggle": null,
+    "lightboxLink": null,
+    "lightboxOpened": false,
+    "errors": []
+  }
+]

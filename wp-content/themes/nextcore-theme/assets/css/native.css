@@ -1,0 +1,61 @@
+/* WordPress controls added to the approved preview structure. */
+.nextcore-native [hidden] { display: none !important; }
+.nextcore-native .nextcore-menu, .nextcore-native .sub-menu, .nextcore-native .footer-menu { margin: 0; padding: 0; list-style: none; }
+.nextcore-desktop-nav > .nextcore-menu { display: flex; align-items: center; gap: 16px; }
+.nextcore-desktop-nav .nextcore-menu li { position: relative; }
+.nextcore-native .nextcore-menu a { display: inline-block; }
+.nextcore-native .nextcore-submenu-toggle { background: none; color: inherit; border: 0; padding: 8px 3px; }
+.nextcore-desktop-nav .sub-menu { position: absolute; left: 0; top: 100%; min-width: 240px; background: var(--panel); border: 1px solid var(--border); box-shadow: 0 12px 30px #0002; }
+.nextcore-desktop-nav .sub-menu a { white-space: normal; padding: 12px 16px; }
+.nextcore-desktop-nav .sub-menu .sub-menu { top: 0; left: 100%; }
+.nextcore-desktop-actions, .nextcore-mobile-actions, .nextcore-language-switch { display: flex; align-items: center; gap: 8px; }
+.nextcore-language-switch a { font-size: 11px; }
+.nextcore-native .header-inner { gap: 18px; }
+.nextcore-native .header-actions { gap: 5px; }
+.nextcore-native .nextcore-theme-switch { font-size: 23px; width: 32px; }
+.nextcore-native .icon-button { flex-shrink: 0; }
+.nextcore-native .main-nav { gap: 0; }
+.nextcore-mobile-panel { width: 100%; }
+.nextcore-mobile-panel .nextcore-menu a { padding: 10px 8px; }
+.nextcore-mobile-panel .sub-menu { padding-left: 18px; }
+.nextcore-mobile-panel { background: var(--bg); color: var(--text); max-height: calc(100svh - 82px); overflow-y: auto; padding: 12px 24px; }
+.nextcore-native .company-video-poster { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center; z-index: -2; }
+.nextcore-native .mode-image:not([src]) { visibility: hidden; }
+.nextcore-native .company-video { background-image: none; }
+.nextcore-native .company-video-media { z-index: -2; }
+.nextcore-native .team-contacts a { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; color: #333; border: 1px solid #ddd; border-radius: 50%; background: #fff; }
+.nextcore-native .team-contacts a:hover { color: #df0000; border-color: #df0000; }
+.nextcore-native .project-card[href] { display: block; }
+.nextcore-native .testimonial-card { position: relative; }
+.nextcore-native .round-button { display: inline-grid; place-items: center; }
+.nextcore-native .blog-excerpt { margin-top: 12px; font-size: 13px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.nextcore-native .blog-image-link { display: block; }
+.nextcore-native .blog-card h3 a::after { content: ''; position: absolute; inset: 0; }
+.nextcore-native .social-links a { font-size: 12px; width: auto; padding-inline: 8px; }
+.nextcore-native .tech-mark { display: contents; }
+:root:not([data-theme]) .nextcore-site-header { position: relative; }
+.nextcore-native .final-cta picture img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; }
+.nextcore-native .nextcore-search-form { display: grid; gap: 16px; margin-top: 24px; }
+.nextcore-native .nextcore-search-form label { display: grid; gap: 8px; }
+.nextcore-native .nextcore-search-form input { width: 100%; padding: 12px; color: var(--text); background: var(--panel); border: 1px solid var(--border); }
+.nextcore-native .nextcore-search-form button { padding: 12px; background: var(--red); color: white; border: 0; }
+.nextcore-skip-link { position: fixed; top: -100px; left: 20px; z-index: 100; background: white; color: black; padding: 12px; }
+.nextcore-skip-link:focus { top: 10px; }
+body:not(.nextcore-homepage) .nextcore-site-header { position: relative; background: var(--bg); }
+body.admin-bar .nextcore-site-header { top: 32px; }
+@media (max-width: 782px) { body.admin-bar .nextcore-site-header { top: 46px; } }
+@media (min-width: 1200px) { .nextcore-native .nextcore-mobile-toggle, .nextcore-native .nextcore-mobile-panel { display: none !important; } }
+@media (max-width: 1199px) {
+    .nextcore-native .nextcore-desktop-nav, .nextcore-native .nextcore-desktop-actions { display: none; }
+    .nextcore-native .header-inner { flex-wrap: wrap; }
+    .nextcore-native .header-actions { margin-left: auto; }
+    .nextcore-native .menu-toggle { display: flex; flex-direction: column; justify-content: center; gap: 5px; width: 44px; height: 44px; border: 1px solid var(--border); border-radius: 5px; background: transparent; order: 3; }
+    .nextcore-native .menu-toggle span { display: block; width: 20px; height: 1px; background: var(--text); margin-inline: auto; }
+    .nextcore-native .nextcore-mobile-panel { flex-basis: 100%; }
+}
+@media (max-width: 480px) { .nextcore-native .nextcore-header-cta { display: none; } }
+@media (prefers-reduced-motion: reduce) {
+    .nextcore-native .marquee-track { transform: none; animation: none; }
+    .nextcore-native .tech-list[aria-hidden="true"] { display: none; }
+    .nextcore-native .tech-list { flex-wrap: wrap; }
+}

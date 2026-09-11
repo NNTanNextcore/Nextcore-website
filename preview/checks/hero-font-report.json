@@ -1,0 +1,98 @@
+[
+  {
+    "theme": "index.html",
+    "width": 1440,
+    "font": "\"Be Vietnam Pro\", Arial, sans-serif",
+    "weight": "700",
+    "loaded": true,
+    "fits": true
+  },
+  {
+    "theme": "index.html",
+    "width": 1200,
+    "font": "\"Be Vietnam Pro\", Arial, sans-serif",
+    "weight": "700",
+    "loaded": true,
+    "fits": true
+  },
+  {
+    "theme": "index.html",
+    "width": 1024,
+    "font": "\"Be Vietnam Pro\", Arial, sans-serif",
+    "weight": "700",
+    "loaded": true,
+    "fits": true
+  },
+  {
+    "theme": "index.html",
+    "width": 768,
+    "font": "\"Be Vietnam Pro\", Arial, sans-serif",
+    "weight": "700",
+    "loaded": true,
+    "fits": true
+  },
+  {
+    "theme": "index.html",
+    "width": 480,
+    "font": "\"Be Vietnam Pro\", Arial, sans-serif",
+    "weight": "700",
+    "loaded": true,
+    "fits": true
+  },
+  {
+    "theme": "index.html",
+    "width": 375,
+    "font": "\"Be Vietnam Pro\", Arial, sans-serif",
+    "weight": "700",
+    "loaded": true,
+    "fits": true
+  },
+  {
+    "theme": "index-light.html",
+    "width": 1440,
+    "font": "\"Be Vietnam Pro\", Arial, sans-serif",
+    "weight": "700",
+    "loaded": true,
+    "fits": true
+  },
+  {
+    "theme": "index-light.html",
+    "width": 1200,
+    "font": "\"Be Vietnam Pro\", Arial, sans-serif",
+    "weight": "700",
+    "loaded": true,
+    "fits": true
+  },
+  {
+    "theme": "index-light.html",
+    "width": 1024,
+    "font": "\"Be Vietnam Pro\", Arial, sans-serif",
+    "weight": "700",
+    "loaded": true,
+    "fits": true
+  },
+  {
+    "theme": "index-light.html",
+    "width": 768,
+    "font": "\"Be Vietnam Pro\", Arial, sans-serif",
+    "weight": "700",
+    "loaded": true,
+    "fits": true
+  },
+  {
+    "theme": "index-light.html",
+    "width": 480,
+    "font": "\"Be Vietnam Pro\", Arial, sans-serif",
+    "weight": "700",
+    "loaded": true,
+    "fits": true
+  },
+  {
+    "theme": "index-light.html",
+    "width": 375,
+    "font": "\"Be Vietnam Pro\", Arial, sans-serif",
+    "weight": "700",
+    "loaded": true,
+    "fits": true
+  }
+]

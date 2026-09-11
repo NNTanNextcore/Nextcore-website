@@ -1,0 +1,82 @@
+{
+    "before": {
+        "home_primary": 84,
+        "home_mobile": 85,
+        "primary": 69,
+        "primary_mobile": 69
+    },
+    "menus": {
+        "footer_about": {
+            "id": 86,
+            "items": [
+                {
+                    "id": 1857,
+                    "args": {
+                        "menu-item-title": "Giới thiệu",
+                        "menu-item-type": "custom",
+                        "menu-item-url": "#about",
+                        "menu-item-status": "publish"
+                    }
+                },
+                {
+                    "id": 1858,
+                    "args": {
+                        "menu-item-title": "Đội ngũ",
+                        "menu-item-type": "custom",
+                        "menu-item-url": "#team",
+                        "menu-item-status": "publish"
+                    }
+                },
+                {
+                    "id": 1859,
+                    "args": {
+                        "menu-item-title": "Dự án",
+                        "menu-item-type": "custom",
+                        "menu-item-url": "#projects",
+                        "menu-item-status": "publish"
+                    }
+                }
+            ]
+        },
+        "footer_support": {
+            "id": 87,
+            "items": [
+                {
+                    "id": 1860,
+                    "args": {
+                        "menu-item-title": "Tin tức",
+                        "menu-item-type": "custom",
+                        "menu-item-url": "#blog",
+                        "menu-item-status": "publish"
+                    }
+                },
+                {
+                    "id": 1861,
+                    "args": {
+                        "menu-item-title": "Dịch vụ",
+                        "menu-item-type": "custom",
+                        "menu-item-url": "#services",
+                        "menu-item-status": "publish"
+                    }
+                },
+                {
+                    "id": 1862,
+                    "args": {
+                        "menu-item-title": "Liên hệ",
+                        "menu-item-type": "custom",
+                        "menu-item-url": "#contact",
+                        "menu-item-status": "publish"
+                    }
+                }
+            ]
+        }
+    },
+    "after": {
+        "home_primary": 84,
+        "home_mobile": 85,
+        "primary": 84,
+        "primary_mobile": 85,
+        "footer_about": 86,
+        "footer_support": 87
+    }
+}
