@@ -4,6 +4,7 @@
     --red: #df0000; --red-text: #ff4949; --border: rgba(255,255,255,.1); --container: 1280px;
     --nc-bg: var(--bg); --nc-surface: var(--panel); --nc-text: var(--text);
     --nc-muted: var(--muted); --nc-border: var(--border); --nc-accent: var(--red);
+    --primary-color: var(--red);
 }
 :root[data-theme="light"] { color-scheme: light; --bg: #fff; --panel: #f5f5f5; --text: #151515; --muted: #5a5a5a; --red-text: #ce0010; --border: #e8e8e8; }
 @media (prefers-color-scheme: light) {
