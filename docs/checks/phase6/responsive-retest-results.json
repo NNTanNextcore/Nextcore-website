@@ -1,38 +1,21 @@
 [
   {
-    "route": "/",
+    "route": "/ve-chung-toi/",
     "http": 200,
     "requestedWidth": 1440,
-    "url": "http://localhost/",
+    "url": "http://localhost/nextcore-website/ve-chung-toi/",
     "mode": "light",
     "width": 1440,
     "overflow": 0,
-    "height": 8615,
+    "height": 4762,
     "h1": [
-      "Công ty cổ phần Phần\nmềm Nextcore"
+      "Về chúng tôi"
     ],
-    "date": "Thành lập vào 15 thg 6, 2022",
-    "companyColor": "rgb(239, 39, 45)",
+    "companyColor": null,
     "headings": [
-      "Software development company",
-      "Công ty Cổ phần Phần mềm Nextcore",
-      "Dịch vụ",
-      "Năng lực cốt lõi",
-      "Công nghệ",
-      "Nền tảng\n tạo nên khác biệt",
-      "Sản phẩm nổi bật",
-      "Giải pháp được tin chọn",
-      "Đối tác chiến lược",
-      "GM Solutions",
-      "KHÁCH HÀNG NÓI VỀ NEXTCORE",
-      "Đánh giá từ khách hàng",
-      "",
-      "ĐỘI NGŨ",
-      "Đội ngũ",
-      "Tin tức",
-      "Cập nhật mới nhất",
-      "Góc nhìn & kiến thức",
-      "Sẵn sàng bắt đầu dự án của bạn?"
+      "Nguyễn Văn Hiền",
+      "Trần Đức Anh",
+      "Phan Thanh Tú"
     ],
     "duplicateIds": [],
     "brokenImages": [],
@@ -46,74 +29,77 @@
     "integrations": [],
     "overflowElements": [
       {
-        "tag": "ARTICLE",
-        "cls": "testimonial-card",
-        "right": 1701
+        "tag": "DIV",
+        "cls": "swiper-slide swiper-slide-next",
+        "right": 2518
       },
       {
         "tag": "DIV",
-        "cls": "testimonial-person",
-        "right": 1674
+        "cls": "elementor-testimonial",
+        "right": 2498
       },
       {
         "tag": "DIV",
-        "cls": "",
-        "right": 1635
+        "cls": "elementor-testimonial__content",
+        "right": 2498
+      },
+      {
+        "tag": "DIV",
+        "cls": "elementor-testimonial__text",
+        "right": 2498
       },
       {
         "tag": "H3",
         "cls": "",
-        "right": 1635
+        "right": 2498
       },
       {
-        "tag": "P",
+        "tag": "UL",
         "cls": "",
-        "right": 1635
+        "right": 2498
       },
       {
-        "tag": "BLOCKQUOTE",
+        "tag": "LI",
         "cls": "",
-        "right": 1674
+        "right": 2498
+      },
+      {
+        "tag": "I",
+        "cls": "fa fa-check",
+        "right": 1622
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "right": 2119
+      },
+      {
+        "tag": "LI",
+        "cls": "",
+        "right": 2498
       }
     ],
-    "screenshot": "visual/0-1440-light.png",
+    "screenshot": "visual/2-1440-light.png",
     "errors": [],
     "failed": []
   },
   {
-    "route": "/",
+    "route": "/ve-chung-toi/",
     "http": 200,
     "requestedWidth": 1440,
-    "url": "http://localhost/",
+    "url": "http://localhost/nextcore-website/ve-chung-toi/",
     "mode": "dark",
     "width": 1440,
     "overflow": 0,
-    "height": 8615,
+    "height": 4762,
     "h1": [
-      "Công ty cổ phần Phần\nmềm Nextcore"
+      "Về chúng tôi"
     ],
-    "date": "Thành lập vào 15 thg 6, 2022",
-    "companyColor": "rgb(239, 39, 45)",
+    "companyColor": null,
     "headings": [
-      "Software development company",
-      "Công ty Cổ phần Phần mềm Nextcore",
-      "Dịch vụ",
-      "Năng lực cốt lõi",
-      "Công nghệ",
-      "Nền tảng\n tạo nên khác biệt",
-      "Sản phẩm nổi bật",
-      "Giải pháp được tin chọn",
-      "Đối tác chiến lược",
-      "GM Solutions",
-      "KHÁCH HÀNG NÓI VỀ NEXTCORE",
-      "Đánh giá từ khách hàng",
-      "",
-      "ĐỘI NGŨ",
-      "Đội ngũ",
-      "Tin tức",
-      "Cập nhật mới nhất",
-      "Góc nhìn & kiến thức",
-      "Sẵn sàng bắt đầu dự án của bạn?"
+      "Nguyễn Văn Hiền",
+      "Trần Đức Anh",
+      "Phan Thanh Tú"
     ],
     "duplicateIds": [],
     "brokenImages": [],
@@ -127,74 +113,77 @@
     "integrations": [],
     "overflowElements": [
       {
-        "tag": "ARTICLE",
-        "cls": "testimonial-card",
-        "right": 1701
+        "tag": "DIV",
+        "cls": "swiper-slide swiper-slide-next",
+        "right": 2518
       },
       {
         "tag": "DIV",
-        "cls": "testimonial-person",
-        "right": 1674
+        "cls": "elementor-testimonial",
+        "right": 2498
       },
       {
         "tag": "DIV",
-        "cls": "",
-        "right": 1635
+        "cls": "elementor-testimonial__content",
+        "right": 2498
+      },
+      {
+        "tag": "DIV",
+        "cls": "elementor-testimonial__text",
+        "right": 2498
       },
       {
         "tag": "H3",
         "cls": "",
-        "right": 1635
+        "right": 2498
       },
       {
-        "tag": "P",
+        "tag": "UL",
         "cls": "",
-        "right": 1635
+        "right": 2498
       },
       {
-        "tag": "BLOCKQUOTE",
+        "tag": "LI",
         "cls": "",
-        "right": 1674
+        "right": 2498
+      },
+      {
+        "tag": "I",
+        "cls": "fa fa-check",
+        "right": 1622
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "right": 2119
+      },
+      {
+        "tag": "LI",
+        "cls": "",
+        "right": 2498
       }
     ],
-    "screenshot": "visual/0-1440-dark.png",
+    "screenshot": "visual/2-1440-dark.png",
     "errors": [],
     "failed": []
   },
   {
-    "route": "/",
+    "route": "/ve-chung-toi/",
     "http": 200,
     "requestedWidth": 1200,
-    "url": "http://localhost/",
+    "url": "http://localhost/nextcore-website/ve-chung-toi/",
     "mode": "light",
     "width": 1200,
     "overflow": 0,
-    "height": 8615,
+    "height": 4641,
     "h1": [
-      "Công ty cổ phần Phần\nmềm Nextcore"
+      "Về chúng tôi"
     ],
-    "date": "Thành lập vào 15 thg 6, 2022",
-    "companyColor": "rgb(239, 39, 45)",
+    "companyColor": null,
     "headings": [
-      "Software development company",
-      "Công ty Cổ phần Phần mềm Nextcore",
-      "Dịch vụ",
-      "Năng lực cốt lõi",
-      "Công nghệ",
-      "Nền tảng\n tạo nên khác biệt",
-      "Sản phẩm nổi bật",
-      "Giải pháp được tin chọn",
-      "Đối tác chiến lược",
-      "GM Solutions",
-      "KHÁCH HÀNG NÓI VỀ NEXTCORE",
-      "Đánh giá từ khách hàng",
-      "",
-      "ĐỘI NGŨ",
-      "Đội ngũ",
-      "Tin tức",
-      "Cập nhật mới nhất",
-      "Góc nhìn & kiến thức",
-      "Sẵn sàng bắt đầu dự án của bạn?"
+      "Nguyễn Văn Hiền",
+      "Trần Đức Anh",
+      "Phan Thanh Tú"
     ],
     "duplicateIds": [],
     "brokenImages": [],
@@ -208,84 +197,77 @@
     "integrations": [],
     "overflowElements": [
       {
-        "tag": "ARTICLE",
-        "cls": "testimonial-card",
-        "right": 1449
+        "tag": "DIV",
+        "cls": "swiper-slide swiper-slide-next",
+        "right": 2263
       },
       {
         "tag": "DIV",
-        "cls": "testimonial-person",
-        "right": 1422
-      },
-      {
-        "tag": "IMG",
-        "cls": "",
-        "right": 1218
+        "cls": "elementor-testimonial",
+        "right": 2243
       },
       {
         "tag": "DIV",
-        "cls": "",
-        "right": 1422
+        "cls": "elementor-testimonial__content",
+        "right": 2243
+      },
+      {
+        "tag": "DIV",
+        "cls": "elementor-testimonial__text",
+        "right": 2243
       },
       {
         "tag": "H3",
         "cls": "",
-        "right": 1422
+        "right": 2243
       },
       {
-        "tag": "P",
+        "tag": "UL",
         "cls": "",
-        "right": 1422
+        "right": 2243
       },
       {
-        "tag": "BLOCKQUOTE",
+        "tag": "LI",
         "cls": "",
-        "right": 1422
+        "right": 2243
       },
       {
-        "tag": "BUTTON",
-        "cls": "testimonial-more",
-        "right": 1222
+        "tag": "I",
+        "cls": "fa fa-check",
+        "right": 1457
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "right": 1954
+      },
+      {
+        "tag": "LI",
+        "cls": "",
+        "right": 2243
       }
     ],
-    "screenshot": "visual/0-1200-light.png",
+    "screenshot": null,
     "errors": [],
     "failed": []
   },
   {
-    "route": "/",
+    "route": "/ve-chung-toi/",
     "http": 200,
     "requestedWidth": 1200,
-    "url": "http://localhost/",
+    "url": "http://localhost/nextcore-website/ve-chung-toi/",
     "mode": "dark",
     "width": 1200,
     "overflow": 0,
-    "height": 8615,
+    "height": 4641,
     "h1": [
-      "Công ty cổ phần Phần\nmềm Nextcore"
+      "Về chúng tôi"
     ],
-    "date": "Thành lập vào 15 thg 6, 2022",
-    "companyColor": "rgb(239, 39, 45)",
+    "companyColor": null,
     "headings": [
-      "Software development company",
-      "Công ty Cổ phần Phần mềm Nextcore",
-      "Dịch vụ",
-      "Năng lực cốt lõi",
-      "Công nghệ",
-      "Nền tảng\n tạo nên khác biệt",
-      "Sản phẩm nổi bật",
-      "Giải pháp được tin chọn",
-      "Đối tác chiến lược",
-      "GM Solutions",
-      "KHÁCH HÀNG NÓI VỀ NEXTCORE",
-      "Đánh giá từ khách hàng",
-      "",
-      "ĐỘI NGŨ",
-      "Đội ngũ",
-      "Tin tức",
-      "Cập nhật mới nhất",
-      "Góc nhìn & kiến thức",
-      "Sẵn sàng bắt đầu dự án của bạn?"
+      "Nguyễn Văn Hiền",
+      "Trần Đức Anh",
+      "Phan Thanh Tú"
     ],
     "duplicateIds": [],
     "brokenImages": [],
@@ -299,84 +281,77 @@
     "integrations": [],
     "overflowElements": [
       {
-        "tag": "ARTICLE",
-        "cls": "testimonial-card",
-        "right": 1449
+        "tag": "DIV",
+        "cls": "swiper-slide swiper-slide-next",
+        "right": 2263
       },
       {
         "tag": "DIV",
-        "cls": "testimonial-person",
-        "right": 1422
-      },
-      {
-        "tag": "IMG",
-        "cls": "",
-        "right": 1218
+        "cls": "elementor-testimonial",
+        "right": 2243
       },
       {
         "tag": "DIV",
-        "cls": "",
-        "right": 1422
+        "cls": "elementor-testimonial__content",
+        "right": 2243
+      },
+      {
+        "tag": "DIV",
+        "cls": "elementor-testimonial__text",
+        "right": 2243
       },
       {
         "tag": "H3",
         "cls": "",
-        "right": 1422
+        "right": 2243
       },
       {
-        "tag": "P",
+        "tag": "UL",
         "cls": "",
-        "right": 1422
+        "right": 2243
       },
       {
-        "tag": "BLOCKQUOTE",
+        "tag": "LI",
         "cls": "",
-        "right": 1422
+        "right": 2243
       },
       {
-        "tag": "BUTTON",
-        "cls": "testimonial-more",
-        "right": 1222
+        "tag": "I",
+        "cls": "fa fa-check",
+        "right": 1457
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "right": 1954
+      },
+      {
+        "tag": "LI",
+        "cls": "",
+        "right": 2243
       }
     ],
-    "screenshot": "visual/0-1200-dark.png",
+    "screenshot": null,
     "errors": [],
     "failed": []
   },
   {
-    "route": "/",
+    "route": "/ve-chung-toi/",
     "http": 200,
     "requestedWidth": 1024,
-    "url": "http://localhost/",
+    "url": "http://localhost/nextcore-website/ve-chung-toi/",
     "mode": "light",
     "width": 1024,
     "overflow": 0,
-    "height": 8735,
+    "height": 5092,
     "h1": [
-      "Công ty cổ phần Phần\nmềm Nextcore"
+      "Về chúng tôi"
     ],
-    "date": "Thành lập vào 15 thg 6, 2022",
-    "companyColor": "rgb(239, 39, 45)",
+    "companyColor": null,
     "headings": [
-      "Software development company",
-      "Công ty Cổ phần Phần mềm Nextcore",
-      "Dịch vụ",
-      "Năng lực cốt lõi",
-      "Công nghệ",
-      "Nền tảng\n tạo nên khác biệt",
-      "Sản phẩm nổi bật",
-      "Giải pháp được tin chọn",
-      "Đối tác chiến lược",
-      "GM Solutions",
-      "KHÁCH HÀNG NÓI VỀ NEXTCORE",
-      "Đánh giá từ khách hàng",
-      "",
-      "ĐỘI NGŨ",
-      "Đội ngũ",
-      "Tin tức",
-      "Cập nhật mới nhất",
-      "Góc nhìn & kiến thức",
-      "Sẵn sàng bắt đầu dự án của bạn?"
+      "Nguyễn Văn Hiền",
+      "Trần Đức Anh",
+      "Phan Thanh Tú"
     ],
     "duplicateIds": [],
     "brokenImages": [],
@@ -390,84 +365,77 @@
     "integrations": [],
     "overflowElements": [
       {
-        "tag": "ARTICLE",
-        "cls": "testimonial-card",
-        "right": 1214
+        "tag": "DIV",
+        "cls": "swiper-slide swiper-slide-next",
+        "right": 1925
       },
       {
         "tag": "DIV",
-        "cls": "testimonial-person",
-        "right": 1187
-      },
-      {
-        "tag": "IMG",
-        "cls": "",
-        "right": 1042
+        "cls": "elementor-testimonial",
+        "right": 1905
       },
       {
         "tag": "DIV",
-        "cls": "",
-        "right": 1187
+        "cls": "elementor-testimonial__content",
+        "right": 1905
+      },
+      {
+        "tag": "DIV",
+        "cls": "elementor-testimonial__text",
+        "right": 1905
       },
       {
         "tag": "H3",
         "cls": "",
-        "right": 1187
+        "right": 1905
       },
       {
-        "tag": "P",
+        "tag": "UL",
         "cls": "",
-        "right": 1187
+        "right": 1905
       },
       {
-        "tag": "BLOCKQUOTE",
+        "tag": "LI",
         "cls": "",
-        "right": 1187
+        "right": 1905
       },
       {
-        "tag": "BUTTON",
-        "cls": "testimonial-more",
-        "right": 1046
+        "tag": "I",
+        "cls": "fa fa-check",
+        "right": 1286
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "right": 1783
+      },
+      {
+        "tag": "LI",
+        "cls": "",
+        "right": 1905
       }
     ],
-    "screenshot": "visual/0-1024-light.png",
+    "screenshot": null,
     "errors": [],
     "failed": []
   },
   {
-    "route": "/",
+    "route": "/ve-chung-toi/",
     "http": 200,
     "requestedWidth": 1024,
-    "url": "http://localhost/",
+    "url": "http://localhost/nextcore-website/ve-chung-toi/",
     "mode": "dark",
     "width": 1024,
     "overflow": 0,
-    "height": 8735,
+    "height": 5092,
     "h1": [
-      "Công ty cổ phần Phần\nmềm Nextcore"
+      "Về chúng tôi"
     ],
-    "date": "Thành lập vào 15 thg 6, 2022",
-    "companyColor": "rgb(239, 39, 45)",
+    "companyColor": null,
     "headings": [
-      "Software development company",
-      "Công ty Cổ phần Phần mềm Nextcore",
-      "Dịch vụ",
-      "Năng lực cốt lõi",
-      "Công nghệ",
-      "Nền tảng\n tạo nên khác biệt",
-      "Sản phẩm nổi bật",
-      "Giải pháp được tin chọn",
-      "Đối tác chiến lược",
-      "GM Solutions",
-      "KHÁCH HÀNG NÓI VỀ NEXTCORE",
-      "Đánh giá từ khách hàng",
-      "",
-      "ĐỘI NGŨ",
-      "Đội ngũ",
-      "Tin tức",
-      "Cập nhật mới nhất",
-      "Góc nhìn & kiến thức",
-      "Sẵn sàng bắt đầu dự án của bạn?"
+      "Nguyễn Văn Hiền",
+      "Trần Đức Anh",
+      "Phan Thanh Tú"
     ],
     "duplicateIds": [],
     "brokenImages": [],
@@ -481,84 +449,77 @@
     "integrations": [],
     "overflowElements": [
       {
-        "tag": "ARTICLE",
-        "cls": "testimonial-card",
-        "right": 1214
+        "tag": "DIV",
+        "cls": "swiper-slide swiper-slide-next",
+        "right": 1925
       },
       {
         "tag": "DIV",
-        "cls": "testimonial-person",
-        "right": 1187
-      },
-      {
-        "tag": "IMG",
-        "cls": "",
-        "right": 1042
+        "cls": "elementor-testimonial",
+        "right": 1905
       },
       {
         "tag": "DIV",
-        "cls": "",
-        "right": 1187
+        "cls": "elementor-testimonial__content",
+        "right": 1905
+      },
+      {
+        "tag": "DIV",
+        "cls": "elementor-testimonial__text",
+        "right": 1905
       },
       {
         "tag": "H3",
         "cls": "",
-        "right": 1187
+        "right": 1905
       },
       {
-        "tag": "P",
+        "tag": "UL",
         "cls": "",
-        "right": 1187
+        "right": 1905
       },
       {
-        "tag": "BLOCKQUOTE",
+        "tag": "LI",
         "cls": "",
-        "right": 1187
+        "right": 1905
       },
       {
-        "tag": "BUTTON",
-        "cls": "testimonial-more",
-        "right": 1046
+        "tag": "I",
+        "cls": "fa fa-check",
+        "right": 1286
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "right": 1783
+      },
+      {
+        "tag": "LI",
+        "cls": "",
+        "right": 1905
       }
     ],
-    "screenshot": "visual/0-1024-dark.png",
+    "screenshot": null,
     "errors": [],
     "failed": []
   },
   {
-    "route": "/",
+    "route": "/ve-chung-toi/",
     "http": 200,
     "requestedWidth": 768,
-    "url": "http://localhost/",
+    "url": "http://localhost/nextcore-website/ve-chung-toi/",
     "mode": "light",
     "width": 768,
     "overflow": 0,
-    "height": 9843,
+    "height": 5304,
     "h1": [
-      "Công ty cổ phần Phần\nmềm Nextcore"
+      "Về chúng tôi"
     ],
-    "date": "Thành lập vào 15 thg 6, 2022",
-    "companyColor": "rgb(239, 39, 45)",
+    "companyColor": null,
     "headings": [
-      "Software development company",
-      "Công ty Cổ phần Phần mềm Nextcore",
-      "Dịch vụ",
-      "Năng lực cốt lõi",
-      "Công nghệ",
-      "Nền tảng\n tạo nên khác biệt",
-      "Sản phẩm nổi bật",
-      "Giải pháp được tin chọn",
-      "Đối tác chiến lược",
-      "GM Solutions",
-      "KHÁCH HÀNG NÓI VỀ NEXTCORE",
-      "Đánh giá từ khách hàng",
-      "",
-      "ĐỘI NGŨ",
-      "Đội ngũ",
-      "Tin tức",
-      "Cập nhật mới nhất",
-      "Góc nhìn & kiến thức",
-      "Sẵn sàng bắt đầu dự án của bạn?"
+      "Nguyễn Văn Hiền",
+      "Trần Đức Anh",
+      "Phan Thanh Tú"
     ],
     "duplicateIds": [],
     "brokenImages": [],
@@ -572,94 +533,77 @@
     "integrations": [],
     "overflowElements": [
       {
-        "tag": "ARTICLE",
-        "cls": "testimonial-card",
-        "right": 975
+        "tag": "DIV",
+        "cls": "swiper-slide swiper-slide-next",
+        "right": 1430
       },
       {
         "tag": "DIV",
-        "cls": "testimonial-person",
-        "right": 952
-      },
-      {
-        "tag": "IMG",
-        "cls": "",
-        "right": 782
+        "cls": "elementor-testimonial",
+        "right": 1410
       },
       {
         "tag": "DIV",
-        "cls": "",
-        "right": 952
+        "cls": "elementor-testimonial__content",
+        "right": 1410
+      },
+      {
+        "tag": "DIV",
+        "cls": "elementor-testimonial__text",
+        "right": 1410
       },
       {
         "tag": "H3",
         "cls": "",
-        "right": 952
+        "right": 1410
       },
       {
-        "tag": "P",
+        "tag": "UL",
         "cls": "",
-        "right": 952
+        "right": 1410
       },
       {
-        "tag": "BLOCKQUOTE",
+        "tag": "LI",
         "cls": "",
-        "right": 952
+        "right": 1410
       },
       {
-        "tag": "BUTTON",
-        "cls": "testimonial-more",
-        "right": 786
+        "tag": "I",
+        "cls": "fa fa-check",
+        "right": 1035
       },
       {
-        "tag": "ARTICLE",
-        "cls": "testimonial-card",
-        "right": 1280
+        "tag": "SPAN",
+        "cls": "",
+        "right": 1379
       },
       {
-        "tag": "DIV",
-        "cls": "testimonial-person",
-        "right": 1257
+        "tag": "LI",
+        "cls": "",
+        "right": 1410
       }
     ],
-    "screenshot": "visual/0-768-light.png",
+    "screenshot": null,
     "errors": [],
     "failed": []
   },
   {
-    "route": "/",
+    "route": "/ve-chung-toi/",
     "http": 200,
     "requestedWidth": 768,
-    "url": "http://localhost/",
+    "url": "http://localhost/nextcore-website/ve-chung-toi/",
     "mode": "dark",
     "width": 768,
     "overflow": 0,
-    "height": 9843,
+    "height": 5304,
     "h1": [
-      "Công ty cổ phần Phần\nmềm Nextcore"
+      "Về chúng tôi"
     ],
-    "date": "Thành lập vào 15 thg 6, 2022",
-    "companyColor": "rgb(239, 39, 45)",
+    "companyColor": null,
     "headings": [
-      "Software development company",
-      "Công ty Cổ phần Phần mềm Nextcore",
-      "Dịch vụ",
-      "Năng lực cốt lõi",
-      "Công nghệ",
-      "Nền tảng\n tạo nên khác biệt",
-      "Sản phẩm nổi bật",
-      "Giải pháp được tin chọn",
-      "Đối tác chiến lược",
-      "GM Solutions",
-      "KHÁCH HÀNG NÓI VỀ NEXTCORE",
-      "Đánh giá từ khách hàng",
-      "",
-      "ĐỘI NGŨ",
-      "Đội ngũ",
-      "Tin tức",
-      "Cập nhật mới nhất",
-      "Góc nhìn & kiến thức",
-      "Sẵn sàng bắt đầu dự án của bạn?"
+      "Nguyễn Văn Hiền",
+      "Trần Đức Anh",
+      "Phan Thanh Tú"
     ],
     "duplicateIds": [],
     "brokenImages": [],
@@ -673,94 +617,77 @@
     "integrations": [],
     "overflowElements": [
       {
-        "tag": "ARTICLE",
-        "cls": "testimonial-card",
-        "right": 975
+        "tag": "DIV",
+        "cls": "swiper-slide swiper-slide-next",
+        "right": 1430
       },
       {
         "tag": "DIV",
-        "cls": "testimonial-person",
-        "right": 952
-      },
-      {
-        "tag": "IMG",
-        "cls": "",
-        "right": 782
+        "cls": "elementor-testimonial",
+        "right": 1410
       },
       {
         "tag": "DIV",
-        "cls": "",
-        "right": 952
+        "cls": "elementor-testimonial__content",
+        "right": 1410
+      },
+      {
+        "tag": "DIV",
+        "cls": "elementor-testimonial__text",
+        "right": 1410
       },
       {
         "tag": "H3",
         "cls": "",
-        "right": 952
+        "right": 1410
       },
       {
-        "tag": "P",
+        "tag": "UL",
         "cls": "",
-        "right": 952
+        "right": 1410
       },
       {
-        "tag": "BLOCKQUOTE",
+        "tag": "LI",
         "cls": "",
-        "right": 952
+        "right": 1410
       },
       {
-        "tag": "BUTTON",
-        "cls": "testimonial-more",
-        "right": 786
+        "tag": "I",
+        "cls": "fa fa-check",
+        "right": 1035
       },
       {
-        "tag": "ARTICLE",
-        "cls": "testimonial-card",
-        "right": 1280
+        "tag": "SPAN",
+        "cls": "",
+        "right": 1379
       },
       {
-        "tag": "DIV",
-        "cls": "testimonial-person",
-        "right": 1257
+        "tag": "LI",
+        "cls": "",
+        "right": 1410
       }
     ],
-    "screenshot": "visual/0-768-dark.png",
+    "screenshot": null,
     "errors": [],
     "failed": []
   },
   {
-    "route": "/",
+    "route": "/ve-chung-toi/",
     "http": 200,
     "requestedWidth": 480,
-    "url": "http://localhost/",
+    "url": "http://localhost/nextcore-website/ve-chung-toi/",
     "mode": "light",
     "width": 480,
     "overflow": 0,
-    "height": 11051,
+    "height": 11484,
     "h1": [
-      "Công ty cổ phần Phần\nmềm Nextcore"
+      "Về chúng tôi"
     ],
-    "date": "Thành lập vào 15 thg 6, 2022",
-    "companyColor": "rgb(239, 39, 45)",
+    "companyColor": null,
     "headings": [
-      "Software development company",
-      "Công ty Cổ phần Phần mềm Nextcore",
-      "Dịch vụ",
-      "Năng lực cốt lõi",
-      "Công nghệ",
-      "Nền tảng\n tạo nên khác biệt",
-      "Sản phẩm nổi bật",
-      "Giải pháp được tin chọn",
-      "Đối tác chiến lược",
-      "GM Solutions",
-      "KHÁCH HÀNG NÓI VỀ NEXTCORE",
-      "Đánh giá từ khách hàng",
-      "",
-      "ĐỘI NGŨ",
-      "Đội ngũ",
-      "Tin tức",
-      "Cập nhật mới nhất",
-      "Góc nhìn & kiến thức",
-      "Sẵn sàng bắt đầu dự án của bạn?"
+      "Nguyễn Văn Hiền",
+      "Trần Đức Anh",
+      "Phan Thanh Tú"
     ],
     "duplicateIds": [],
     "brokenImages": [],
@@ -774,94 +701,77 @@
     "integrations": [],
     "overflowElements": [
       {
-        "tag": "ARTICLE",
-        "cls": "testimonial-card",
-        "right": 794
+        "tag": "DIV",
+        "cls": "swiper-slide swiper-slide-next",
+        "right": 877
       },
       {
         "tag": "DIV",
-        "cls": "testimonial-person",
-        "right": 771
-      },
-      {
-        "tag": "IMG",
-        "cls": "",
-        "right": 524
+        "cls": "elementor-testimonial",
+        "right": 857
       },
       {
         "tag": "DIV",
-        "cls": "",
-        "right": 614
+        "cls": "elementor-testimonial__content",
+        "right": 857
+      },
+      {
+        "tag": "DIV",
+        "cls": "elementor-testimonial__text",
+        "right": 857
       },
       {
         "tag": "H3",
         "cls": "",
-        "right": 614
+        "right": 857
       },
       {
-        "tag": "P",
+        "tag": "UL",
         "cls": "",
-        "right": 614
+        "right": 857
       },
       {
-        "tag": "BLOCKQUOTE",
+        "tag": "LI",
         "cls": "",
-        "right": 771
+        "right": 857
       },
       {
-        "tag": "BUTTON",
-        "cls": "testimonial-more",
-        "right": 528
+        "tag": "I",
+        "cls": "fa fa-check",
+        "right": 755
       },
       {
-        "tag": "ARTICLE",
-        "cls": "testimonial-card",
-        "right": 1177
+        "tag": "SPAN",
+        "cls": "",
+        "right": 850
       },
       {
-        "tag": "DIV",
-        "cls": "testimonial-person",
-        "right": 1154
+        "tag": "LI",
+        "cls": "",
+        "right": 857
       }
     ],
-    "screenshot": "visual/0-480-light.png",
+    "screenshot": null,
     "errors": [],
     "failed": []
   },
   {
-    "route": "/",
+    "route": "/ve-chung-toi/",
     "http": 200,
     "requestedWidth": 480,
-    "url": "http://localhost/",
+    "url": "http://localhost/nextcore-website/ve-chung-toi/",
     "mode": "dark",
     "width": 480,
     "overflow": 0,
-    "height": 11051,
+    "height": 11484,
     "h1": [
-      "Công ty cổ phần Phần\nmềm Nextcore"
+      "Về chúng tôi"
     ],
-    "date": "Thành lập vào 15 thg 6, 2022",
-    "companyColor": "rgb(239, 39, 45)",
+    "companyColor": null,
     "headings": [
-      "Software development company",
-      "Công ty Cổ phần Phần mềm Nextcore",
-      "Dịch vụ",
-      "Năng lực cốt lõi",
-      "Công nghệ",
-      "Nền tảng\n tạo nên khác biệt",
-      "Sản phẩm nổi bật",
-      "Giải pháp được tin chọn",
-      "Đối tác chiến lược",
-      "GM Solutions",
-      "KHÁCH HÀNG NÓI VỀ NEXTCORE",
-      "Đánh giá từ khách hàng",
-      "",
-      "ĐỘI NGŨ",
-      "Đội ngũ",
-      "Tin tức",
-      "Cập nhật mới nhất",
-      "Góc nhìn & kiến thức",
-      "Sẵn sàng bắt đầu dự án của bạn?"
+      "Nguyễn Văn Hiền",
+      "Trần Đức Anh",
+      "Phan Thanh Tú"
     ],
     "duplicateIds": [],
     "brokenImages": [],
@@ -875,94 +785,77 @@
     "integrations": [],
     "overflowElements": [
       {
-        "tag": "ARTICLE",
-        "cls": "testimonial-card",
-        "right": 794
+        "tag": "DIV",
+        "cls": "swiper-slide swiper-slide-next",
+        "right": 877
       },
       {
         "tag": "DIV",
-        "cls": "testimonial-person",
-        "right": 771
-      },
-      {
-        "tag": "IMG",
-        "cls": "",
-        "right": 524
+        "cls": "elementor-testimonial",
+        "right": 857
       },
       {
         "tag": "DIV",
-        "cls": "",
-        "right": 614
+        "cls": "elementor-testimonial__content",
+        "right": 857
+      },
+      {
+        "tag": "DIV",
+        "cls": "elementor-testimonial__text",
+        "right": 857
       },
       {
         "tag": "H3",
         "cls": "",
-        "right": 614
+        "right": 857
       },
       {
-        "tag": "P",
+        "tag": "UL",
         "cls": "",
-        "right": 614
+        "right": 857
       },
       {
-        "tag": "BLOCKQUOTE",
+        "tag": "LI",
         "cls": "",
-        "right": 771
+        "right": 857
       },
       {
-        "tag": "BUTTON",
-        "cls": "testimonial-more",
-        "right": 528
+        "tag": "I",
+        "cls": "fa fa-check",
+        "right": 755
       },
       {
-        "tag": "ARTICLE",
-        "cls": "testimonial-card",
-        "right": 1177
+        "tag": "SPAN",
+        "cls": "",
+        "right": 850
       },
       {
-        "tag": "DIV",
-        "cls": "testimonial-person",
-        "right": 1154
+        "tag": "LI",
+        "cls": "",
+        "right": 857
       }
     ],
-    "screenshot": "visual/0-480-dark.png",
+    "screenshot": null,
     "errors": [],
     "failed": []
   },
   {
-    "route": "/",
+    "route": "/ve-chung-toi/",
     "http": 200,
     "requestedWidth": 375,
-    "url": "http://localhost/",
+    "url": "http://localhost/nextcore-website/ve-chung-toi/",
     "mode": "light",
     "width": 375,
     "overflow": 0,
-    "height": 11191,
+    "height": 11371,
     "h1": [
-      "Công ty cổ phần Phần\nmềm Nextcore"
+      "Về chúng tôi"
     ],
-    "date": "Thành lập vào 15 thg 6, 2022",
-    "companyColor": "rgb(239, 39, 45)",
+    "companyColor": null,
     "headings": [
-      "Software development company",
-      "Công ty Cổ phần Phần mềm Nextcore",
-      "Dịch vụ",
-      "Năng lực cốt lõi",
-      "Công nghệ",
-      "Nền tảng\n tạo nên khác biệt",
-      "Sản phẩm nổi bật",
-      "Giải pháp được tin chọn",
-      "Đối tác chiến lược",
-      "GM Solutions",
-      "KHÁCH HÀNG NÓI VỀ NEXTCORE",
-      "Đánh giá từ khách hàng",
-      "",
-      "ĐỘI NGŨ",
-      "Đội ngũ",
-      "Tin tức",
-      "Cập nhật mới nhất",
-      "Góc nhìn & kiến thức",
-      "Sẵn sàng bắt đầu dự án của bạn?"
+      "Nguyễn Văn Hiền",
+      "Trần Đức Anh",
+      "Phan Thanh Tú"
     ],
     "duplicateIds": [],
     "brokenImages": [],
@@ -976,94 +869,77 @@
     "integrations": [],
     "overflowElements": [
       {
-        "tag": "ARTICLE",
-        "cls": "testimonial-card",
-        "right": 584
+        "tag": "DIV",
+        "cls": "swiper-slide swiper-slide-next",
+        "right": 675
       },
       {
         "tag": "DIV",
-        "cls": "testimonial-person",
-        "right": 561
-      },
-      {
-        "tag": "IMG",
-        "cls": "",
-        "right": 419
+        "cls": "elementor-testimonial",
+        "right": 655
       },
       {
         "tag": "DIV",
-        "cls": "",
-        "right": 509
+        "cls": "elementor-testimonial__content",
+        "right": 655
+      },
+      {
+        "tag": "DIV",
+        "cls": "elementor-testimonial__text",
+        "right": 655
       },
       {
         "tag": "H3",
         "cls": "",
-        "right": 509
+        "right": 655
       },
       {
-        "tag": "P",
+        "tag": "UL",
         "cls": "",
-        "right": 509
+        "right": 655
       },
       {
-        "tag": "BLOCKQUOTE",
+        "tag": "LI",
         "cls": "",
-        "right": 561
+        "right": 655
       },
       {
-        "tag": "BUTTON",
-        "cls": "testimonial-more",
-        "right": 423
+        "tag": "I",
+        "cls": "fa fa-check",
+        "right": 611
       },
       {
-        "tag": "ARTICLE",
-        "cls": "testimonial-card",
-        "right": 862
+        "tag": "SPAN",
+        "cls": "",
+        "right": 643
       },
       {
-        "tag": "DIV",
-        "cls": "testimonial-person",
-        "right": 839
+        "tag": "LI",
+        "cls": "",
+        "right": 655
       }
     ],
-    "screenshot": "visual/0-375-light.png",
+    "screenshot": "visual/2-375-light.png",
     "errors": [],
     "failed": []
   },
   {
-    "route": "/",
+    "route": "/ve-chung-toi/",
     "http": 200,
     "requestedWidth": 375,
-    "url": "http://localhost/",
+    "url": "http://localhost/nextcore-website/ve-chung-toi/",
     "mode": "dark",
     "width": 375,
     "overflow": 0,
-    "height": 11191,
+    "height": 11599,
     "h1": [
-      "Công ty cổ phần Phần\nmềm Nextcore"
+      "Về chúng tôi"
     ],
-    "date": "Thành lập vào 15 thg 6, 2022",
-    "companyColor": "rgb(239, 39, 45)",
+    "companyColor": null,
     "headings": [
-      "Software development company",
-      "Công ty Cổ phần Phần mềm Nextcore",
-      "Dịch vụ",
-      "Năng lực cốt lõi",
-      "Công nghệ",
-      "Nền tảng\n tạo nên khác biệt",
-      "Sản phẩm nổi bật",
-      "Giải pháp được tin chọn",
-      "Đối tác chiến lược",
-      "GM Solutions",
-      "KHÁCH HÀNG NÓI VỀ NEXTCORE",
-      "Đánh giá từ khách hàng",
-      "",
-      "ĐỘI NGŨ",
-      "Đội ngũ",
-      "Tin tức",
-      "Cập nhật mới nhất",
-      "Góc nhìn & kiến thức",
-      "Sẵn sàng bắt đầu dự án của bạn?"
+      "Nguyễn Văn Hiền",
+      "Trần Đức Anh",
+      "Phan Thanh Tú"
     ],
     "duplicateIds": [],
     "brokenImages": [],
@@ -1077,95 +953,74 @@
     "integrations": [],
     "overflowElements": [
       {
-        "tag": "ARTICLE",
-        "cls": "testimonial-card",
-        "right": 584
+        "tag": "DIV",
+        "cls": "swiper-slide swiper-slide-next",
+        "right": 703
       },
       {
         "tag": "DIV",
-        "cls": "testimonial-person",
-        "right": 561
-      },
-      {
-        "tag": "IMG",
-        "cls": "",
-        "right": 419
+        "cls": "elementor-testimonial",
+        "right": 683
       },
       {
         "tag": "DIV",
-        "cls": "",
-        "right": 509
+        "cls": "elementor-testimonial__content",
+        "right": 683
+      },
+      {
+        "tag": "DIV",
+        "cls": "elementor-testimonial__text",
+        "right": 683
       },
       {
         "tag": "H3",
         "cls": "",
-        "right": 509
+        "right": 683
       },
       {
-        "tag": "P",
+        "tag": "UL",
         "cls": "",
-        "right": 509
+        "right": 683
       },
       {
-        "tag": "BLOCKQUOTE",
+        "tag": "LI",
         "cls": "",
-        "right": 561
+        "right": 683
       },
       {
-        "tag": "BUTTON",
-        "cls": "testimonial-more",
-        "right": 423
+        "tag": "I",
+        "cls": "fa fa-check",
+        "right": 640
       },
       {
-        "tag": "ARTICLE",
-        "cls": "testimonial-card",
-        "right": 862
+        "tag": "SPAN",
+        "cls": "",
+        "right": 671
       },
       {
-        "tag": "DIV",
-        "cls": "testimonial-person",
-        "right": 839
+        "tag": "LI",
+        "cls": "",
+        "right": 683
       }
     ],
-    "screenshot": "visual/0-375-dark.png",
+    "screenshot": "visual/2-375-dark.png",
     "errors": [],
     "failed": []
   },
   {
-    "route": "/en/",
+    "route": "/outsource/",
     "http": 200,
     "requestedWidth": 1440,
-    "url": "http://localhost/en/",
+    "url": "http://localhost/nextcore-website/outsource/",
     "mode": "light",
     "width": 1440,
     "overflow": 0,
-    "height": 8615,
+    "height": 4209,
     "h1": [
-      "Nextcore Software\nJoint Stock Company"
+      "Outsource"
     ],
-    "date": "Founded on June 15, 2022",
-    "companyColor": "rgb(239, 39, 45)",
-    "headings": [
-      "Software Development Company",
-      "Nextcore Software Joint Stock Company",
-      "Services",
-      "Our core expertise",
-      "Technology",
-      "The foundation\n that sets us apart",
-      "Featured Products",
-      "Solutions our clients trust",
-      "Strategic Partner",
-      "GM Solutions",
-      "WHAT OUR CLIENTS SAY ABOUT NEXTCORE",
-      "Client testimonials",
-      "",
-      "OUR TEAM",
-      "Our team",
-      "News",
-      "Latest updates",
-      "Insights & knowledge",
-      "Ready to start your project?"
-    ],
+    "companyColor": null,
+    "headings": [],
     "duplicateIds": [],
     "brokenImages": [],
     "rawShortcodes": null,
@@ -1176,82 +1031,25 @@
     "pagination": [],
     "cf7": 0,
     "integrations": [],
-    "overflowElements": [
-      {
-        "tag": "ARTICLE",
-        "cls": "testimonial-card",
-        "right": 1701
-      },
-      {
-        "tag": "DIV",
-        "cls": "testimonial-person",
-        "right": 1674
-      },
-      {
-        "tag": "DIV",
-        "cls": "",
-        "right": 1628
-      },
-      {
-        "tag": "H3",
-        "cls": "",
-        "right": 1628
-      },
-      {
-        "tag": "P",
-        "cls": "",
-        "right": 1628
-      },
-      {
-        "tag": "BLOCKQUOTE",
-        "cls": "",
-        "right": 1674
-      },
-      {
-        "tag": "BUTTON",
-        "cls": "testimonial-more",
-        "right": 1428
-      }
-    ],
-    "screenshot": "visual/1-1440-light.png",
+    "overflowElements": [],
+    "screenshot": "visual/4-1440-light.png",
     "errors": [],
     "failed": []
   },
   {
-    "route": "/en/",
+    "route": "/outsource/",
     "http": 200,
     "requestedWidth": 1440,
-    "url": "http://localhost/en/",
+    "url": "http://localhost/nextcore-website/outsource/",
     "mode": "dark",
     "width": 1440,
     "overflow": 0,
-    "height": 8615,
+    "height": 4209,
     "h1": [
-      "Nextcore Software\nJoint Stock Company"
+      "Outsource"
     ],
-    "date": "Founded on June 15, 2022",
-    "companyColor": "rgb(239, 39, 45)",
-    "headings": [
-      "Software Development Company",
-      "Nextcore Software Joint Stock Company",
-      "Services",
-      "Our core expertise",
-      "Technology",
-      "The foundation\n that sets us apart",
-      "Featured Products",
-      "Solutions our clients trust",
-      "Strategic Partner",
-      "GM Solutions",
-      "WHAT OUR CLIENTS SAY ABOUT NEXTCORE",
-      "Client testimonials",
-      "",
-      "OUR TEAM",
-      "Our team",
-      "News",
-      "Latest updates",
-      "Insights & knowledge",
-      "Ready to start your project?"
-    ],
+    "companyColor": null,
+    "headings": [],
     "duplicateIds": [],
     "brokenImages": [],
     "rawShortcodes": null,
@@ -1262,82 +1060,25 @@
     "pagination": [],
     "cf7": 0,
     "integrations": [],
-    "overflowElements": [
-      {
-        "tag": "ARTICLE",
-        "cls": "testimonial-card",
-        "right": 1701
-      },
-      {
-        "tag": "DIV",
-        "cls": "testimonial-person",
-        "right": 1674
-      },
-      {
-        "tag": "DIV",
-        "cls": "",
-        "right": 1628
-      },
-      {
-        "tag": "H3",
-        "cls": "",
-        "right": 1628
-      },
-      {
-        "tag": "P",
-        "cls": "",
-        "right": 1628
-      },
-      {
-        "tag": "BLOCKQUOTE",
-        "cls": "",
-        "right": 1674
-      },
-      {
-        "tag": "BUTTON",
-        "cls": "testimonial-more",
-        "right": 1428
-      }
-    ],
-    "screenshot": "visual/1-1440-dark.png",
+    "overflowElements": [],
+    "screenshot": "visual/4-1440-dark.png",
     "errors": [],
     "failed": []
   },
   {
-    "route": "/en/",
+    "route": "/outsource/",
     "http": 200,
     "requestedWidth": 1200,
-    "url": "http://localhost/en/",
+    "url": "http://localhost/nextcore-website/outsource/",
     "mode": "light",
     "width": 1200,
     "overflow": 0,
-    "height": 8615,
+    "height": 4332,
     "h1": [
-      "Nextcore Software\nJoint Stock Company"
+      "Outsource"
     ],
-    "date": "Founded on June 15, 2022",
-    "companyColor": "rgb(239, 39, 45)",
-    "headings": [
-      "Software Development Company",
-      "Nextcore Software Joint Stock Company",
-      "Services",
-      "Our core expertise",
-      "Technology",
-      "The foundation\n that sets us apart",
-      "Featured Products",
-      "Solutions our clients trust",
-      "Strategic Partner",
-      "GM Solutions",
-      "WHAT OUR CLIENTS SAY ABOUT NEXTCORE",
-      "Client testimonials",
-      "",
-      "OUR TEAM",
-      "Our team",
-      "News",
-      "Latest updates",
-      "Insights & knowledge",
-      "Ready to start your project?"
-    ],
+    "companyColor": null,
+    "headings": [],
     "duplicateIds": [],
     "brokenImages": [],
     "rawShortcodes": null,
@@ -1348,87 +1089,25 @@
     "pagination": [],
     "cf7": 0,
     "integrations": [],
-    "overflowElements": [
-      {
-        "tag": "ARTICLE",
-        "cls": "testimonial-card",
-        "right": 1449
-      },
-      {
-        "tag": "DIV",
-        "cls": "testimonial-person",
-        "right": 1422
-      },
-      {
-        "tag": "IMG",
-        "cls": "",
-        "right": 1218
-      },
-      {
-        "tag": "DIV",
-        "cls": "",
-        "right": 1422
-      },
-      {
-        "tag": "H3",
-        "cls": "",
-        "right": 1422
-      },
-      {
-        "tag": "P",
-        "cls": "",
-        "right": 1422
-      },
-      {
-        "tag": "BLOCKQUOTE",
-        "cls": "",
-        "right": 1422
-      },
-      {
-        "tag": "BUTTON",
-        "cls": "testimonial-more",
-        "right": 1228
-      }
-    ],
-    "screenshot": "visual/1-1200-light.png",
+    "overflowElements": [],
+    "screenshot": null,
     "errors": [],
     "failed": []
   },
   {
-    "route": "/en/",
+    "route": "/outsource/",
     "http": 200,
     "requestedWidth": 1200,
-    "url": "http://localhost/en/",
+    "url": "http://localhost/nextcore-website/outsource/",
     "mode": "dark",
     "width": 1200,
     "overflow": 0,
-    "height": 8615,
+    "height": 4332,
     "h1": [
-      "Nextcore Software\nJoint Stock Company"
+      "Outsource"
     ],
-    "date": "Founded on June 15, 2022",
-    "companyColor": "rgb(239, 39, 45)",
-    "headings": [
-      "Software Development Company",
-      "Nextcore Software Joint Stock Company",
-      "Services",
-      "Our core expertise",
-      "Technology",
-      "The foundation\n that sets us apart",
-      "Featured Products",
-      "Solutions our clients trust",
-      "Strategic Partner",
-      "GM Solutions",
-      "WHAT OUR CLIENTS SAY ABOUT NEXTCORE",
-      "Client testimonials",
-      "",
-      "OUR TEAM",
-      "Our team",
-      "News",
-      "Latest updates",
-      "Insights & knowledge",
-      "Ready to start your project?"
-    ],
+    "companyColor": null,
+    "headings": [],
     "duplicateIds": [],
     "brokenImages": [],
     "rawShortcodes": null,
@@ -1439,87 +1118,25 @@
     "pagination": [],
     "cf7": 0,
     "integrations": [],
-    "overflowElements": [
-      {
-        "tag": "ARTICLE",
-        "cls": "testimonial-card",
-        "right": 1449
-      },
-      {
-        "tag": "DIV",
-        "cls": "testimonial-person",
-        "right": 1422
-      },
-      {
-        "tag": "IMG",
-        "cls": "",
-        "right": 1218
-      },
-      {
-        "tag": "DIV",
-        "cls": "",
-        "right": 1422
-      },
-      {
-        "tag": "H3",
-        "cls": "",
-        "right": 1422
-      },
-      {
-        "tag": "P",
-        "cls": "",
-        "right": 1422
-      },
-      {
-        "tag": "BLOCKQUOTE",
-        "cls": "",
-        "right": 1422
-      },
-      {
-        "tag": "BUTTON",
-        "cls": "testimonial-more",
-        "right": 1228
-      }
-    ],
-    "screenshot": "visual/1-1200-dark.png",
+    "overflowElements": [],
+    "screenshot": null,
     "errors": [],
     "failed": []
   },
   {
-    "route": "/en/",
+    "route": "/outsource/",
     "http": 200,
     "requestedWidth": 1024,
-    "url": "http://localhost/en/",
+    "url": "http://localhost/nextcore-website/outsource/",
     "mode": "light",
     "width": 1024,
     "overflow": 0,
-    "height": 8735,
+    "height": 4782,
     "h1": [
-      "Nextcore Software\nJoint Stock Company"
+      "Outsource"
     ],
-    "date": "Founded on June 15, 2022",
-    "companyColor": "rgb(239, 39, 45)",
-    "headings": [
-      "Software Development Company",
-      "Nextcore Software Joint Stock Company",
-      "Services",
-      "Our core expertise",
-      "Technology",
-      "The foundation\n that sets us apart",
-      "Featured Products",
-      "Solutions our clients trust",
-      "Strategic Partner",
-      "GM Solutions",
-      "WHAT OUR CLIENTS SAY ABOUT NEXTCORE",
-      "Client testimonials",
-      "",
-      "OUR TEAM",
-      "Our team",
-      "News",
-      "Latest updates",
-      "Insights & knowledge",
-      "Ready to start your project?"
-    ],
+    "companyColor": null,
+    "headings": [],
     "duplicateIds": [],
     "brokenImages": [],
     "rawShortcodes": null,
@@ -1530,87 +1147,25 @@
     "pagination": [],
     "cf7": 0,
     "integrations": [],
-    "overflowElements": [
-      {
-        "tag": "ARTICLE",
-        "cls": "testimonial-card",
-        "right": 1214
-      },
-      {
-        "tag": "DIV",
-        "cls": "testimonial-person",
-        "right": 1187
-      },
-      {
-        "tag": "IMG",
-        "cls": "",
-        "right": 1042
-      },
-      {
-        "tag": "DIV",
-        "cls": "",
-        "right": 1187
-      },
-      {
-        "tag": "H3",
-        "cls": "",
-        "right": 1187
-      },
-      {
-        "tag": "P",
-        "cls": "",
-        "right": 1187
-      },
-      {
-        "tag": "BLOCKQUOTE",
-        "cls": "",
-        "right": 1187
-      },
-      {
-        "tag": "BUTTON",
-        "cls": "testimonial-more",
-        "right": 1052
-      }
-    ],
-    "screenshot": "visual/1-1024-light.png",
+    "overflowElements": [],
+    "screenshot": null,
     "errors": [],
     "failed": []
   },
   {
-    "route": "/en/",
+    "route": "/outsource/",
     "http": 200,
     "requestedWidth": 1024,
-    "url": "http://localhost/en/",
+    "url": "http://localhost/nextcore-website/outsource/",
     "mode": "dark",
     "width": 1024,
     "overflow": 0,
-    "height": 8735,
+    "height": 4782,
     "h1": [
-      "Nextcore Software\nJoint Stock Company"
+      "Outsource"
     ],
-    "date": "Founded on June 15, 2022",
-    "companyColor": "rgb(239, 39, 45)",
-    "headings": [
-      "Software Development Company",
-      "Nextcore Software Joint Stock Company",
-      "Services",
-      "Our core expertise",
-      "Technology",
-      "The foundation\n that sets us apart",
-      "Featured Products",
-      "Solutions our clients trust",
-      "Strategic Partner",
-      "GM Solutions",
-      "WHAT OUR CLIENTS SAY ABOUT NEXTCORE",
-      "Client testimonials",
-      "",
-      "OUR TEAM",
-      "Our team",
-      "News",
-      "Latest updates",
-      "Insights & knowledge",
-      "Ready to start your project?"
-    ],
+    "companyColor": null,
+    "headings": [],
     "duplicateIds": [],
     "brokenImages": [],
     "rawShortcodes": null,
@@ -1621,87 +1176,25 @@
     "pagination": [],
     "cf7": 0,
     "integrations": [],
-    "overflowElements": [
-      {
-        "tag": "ARTICLE",
-        "cls": "testimonial-card",
-        "right": 1214
-      },
-      {
-        "tag": "DIV",
-        "cls": "testimonial-person",
-        "right": 1187
-      },
-      {
-        "tag": "IMG",
-        "cls": "",
-        "right": 1042
-      },
-      {
-        "tag": "DIV",
-        "cls": "",
-        "right": 1187
-      },
-      {
-        "tag": "H3",
-        "cls": "",
-        "right": 1187
-      },
-      {
-        "tag": "P",
-        "cls": "",
-        "right": 1187
-      },
-      {
-        "tag": "BLOCKQUOTE",
-        "cls": "",
-        "right": 1187
-      },
-      {
-        "tag": "BUTTON",
-        "cls": "testimonial-more",
-        "right": 1052
-      }
-    ],
-    "screenshot": "visual/1-1024-dark.png",
+    "overflowElements": [],
+    "screenshot": null,
     "errors": [],
     "failed": []
   },
   {
-    "route": "/en/",
+    "route": "/outsource/",
     "http": 200,
     "requestedWidth": 768,
-    "url": "http://localhost/en/",
+    "url": "http://localhost/nextcore-website/outsource/",
     "mode": "light",
     "width": 768,
     "overflow": 0,
-    "height": 9843,
+    "height": 4941,
     "h1": [
-      "Nextcore Software\nJoint Stock Company"
+      "Outsource"
     ],
-    "date": "Founded on June 15, 2022",
-    "companyColor": "rgb(239, 39, 45)",
-    "headings": [
-      "Software Development Company",
-      "Nextcore Software Joint Stock Company",
-      "Services",
-      "Our core expertise",
-      "Technology",
-      "The foundation\n that sets us apart",
-      "Featured Products",
-      "Solutions our clients trust",
-      "Strategic Partner",
-      "GM Solutions",
-      "WHAT OUR CLIENTS SAY ABOUT NEXTCORE",
-      "Client testimonials",
-      "",
-      "OUR TEAM",
-      "Our team",
-      "News",
-      "Latest updates",
-      "Insights & knowledge",
-      "Ready to start your project?"
-    ],
+    "companyColor": null,
+    "headings": [],
     "duplicateIds": [],
     "brokenImages": [],
     "rawShortcodes": null,
@@ -1712,97 +1205,25 @@
     "pagination": [],
     "cf7": 0,
     "integrations": [],
-    "overflowElements": [
-      {
-        "tag": "ARTICLE",
-        "cls": "testimonial-card",
-        "right": 975
-      },
-      {
-        "tag": "DIV",
-        "cls": "testimonial-person",
-        "right": 952
-      },
-      {
-        "tag": "IMG",
-        "cls": "",
-        "right": 782
-      },
-      {
-        "tag": "DIV",
-        "cls": "",
-        "right": 952
-      },
-      {
-        "tag": "H3",
-        "cls": "",
-        "right": 952
-      },
-      {
-        "tag": "P",
-        "cls": "",
-        "right": 952
-      },
-      {
-        "tag": "BLOCKQUOTE",
-        "cls": "",
-        "right": 952
-      },
-      {
-        "tag": "BUTTON",
-        "cls": "testimonial-more",
-        "right": 792
-      },
-      {
-        "tag": "ARTICLE",
-        "cls": "testimonial-card",
-        "right": 1280
-      },
-      {
-        "tag": "DIV",
-        "cls": "testimonial-person",
-        "right": 1257
-      }
-    ],
-    "screenshot": "visual/1-768-light.png",
+    "overflowElements": [],
+    "screenshot": null,
     "errors": [],
     "failed": []
   },
   {
-    "route": "/en/",
+    "route": "/outsource/",
     "http": 200,
     "requestedWidth": 768,
-    "url": "http://localhost/en/",
+    "url": "http://localhost/nextcore-website/outsource/",
     "mode": "dark",
     "width": 768,
     "overflow": 0,
-    "height": 9843,
+    "height": 4941,
     "h1": [
-      "Nextcore Software\nJoint Stock Company"
+      "Outsource"
     ],
-    "date": "Founded on June 15, 2022",
-    "companyColor": "rgb(239, 39, 45)",
-    "headings": [
-      "Software Development Company",
-      "Nextcore Software Joint Stock Company",
-      "Services",
-      "Our core expertise",
-      "Technology",
-      "The foundation\n that sets us apart",
-      "Featured Products",
-      "Solutions our clients trust",
-      "Strategic Partner",
-      "GM Solutions",
-      "WHAT OUR CLIENTS SAY ABOUT NEXTCORE",
-      "Client testimonials",
-      "",
-      "OUR TEAM",
-      "Our team",
-      "News",
-      "Latest updates",
-      "Insights & knowledge",
-      "Ready to start your project?"
-    ],
+    "companyColor": null,
+    "headings": [],
     "duplicateIds": [],
     "brokenImages": [],
     "rawShortcodes": null,
@@ -1813,97 +1234,25 @@
     "pagination": [],
     "cf7": 0,
     "integrations": [],
-    "overflowElements": [
-      {
-        "tag": "ARTICLE",
-        "cls": "testimonial-card",
-        "right": 975
-      },
-      {
-        "tag": "DIV",
-        "cls": "testimonial-person",
-        "right": 952
-      },
-      {
-        "tag": "IMG",
-        "cls": "",
-        "right": 782
-      },
-      {
-        "tag": "DIV",
-        "cls": "",
-        "right": 952
-      },
-      {
-        "tag": "H3",
-        "cls": "",
-        "right": 952
-      },
-      {
-        "tag": "P",
-        "cls": "",
-        "right": 952
-      },
-      {
-        "tag": "BLOCKQUOTE",
-        "cls": "",
-        "right": 952
-      },
-      {
-        "tag": "BUTTON",
-        "cls": "testimonial-more",
-        "right": 792
-      },
-      {
-        "tag": "ARTICLE",
-        "cls": "testimonial-card",
-        "right": 1280
-      },
-      {
-        "tag": "DIV",
-        "cls": "testimonial-person",
-        "right": 1257
-      }
-    ],
-    "screenshot": "visual/1-768-dark.png",
+    "overflowElements": [],
+    "screenshot": null,
     "errors": [],
     "failed": []
   },
   {
-    "route": "/en/",
+    "route": "/outsource/",
     "http": 200,
     "requestedWidth": 480,
-    "url": "http://localhost/en/",
+    "url": "http://localhost/nextcore-website/outsource/",
     "mode": "light",
     "width": 480,
     "overflow": 0,
-    "height": 11064,
+    "height": 6614,
     "h1": [
-      "Nextcore Software\nJoint Stock Company"
+      "Outsource"
     ],
-    "date": "Founded on June 15, 2022",
-    "companyColor": "rgb(239, 39, 45)",
-    "headings": [
-      "Software Development Company",
-      "Nextcore Software Joint Stock Company",
-      "Services",
-      "Our core expertise",
-      "Technology",
-      "The foundation\n that sets us apart",
-      "Featured Products",
-      "Solutions our clients trust",
-      "Strategic Partner",
-      "GM Solutions",
-      "WHAT OUR CLIENTS SAY ABOUT NEXTCORE",
-      "Client testimonials",
-      "",
-      "OUR TEAM",
-      "Our team",
-      "News",
-      "Latest updates",
-      "Insights & knowledge",
-      "Ready to start your project?"
-    ],
+    "companyColor": null,
+    "headings": [],
     "duplicateIds": [],
     "brokenImages": [],
     "rawShortcodes": null,
@@ -1914,97 +1263,25 @@
     "pagination": [],
     "cf7": 0,
     "integrations": [],
-    "overflowElements": [
-      {
-        "tag": "ARTICLE",
-        "cls": "testimonial-card",
-        "right": 794
-      },
-      {
-        "tag": "DIV",
-        "cls": "testimonial-person",
-        "right": 771
-      },
-      {
-        "tag": "IMG",
-        "cls": "",
-        "right": 524
-      },
-      {
-        "tag": "DIV",
-        "cls": "",
-        "right": 597
-      },
-      {
-        "tag": "H3",
-        "cls": "",
-        "right": 597
-      },
-      {
-        "tag": "P",
-        "cls": "",
-        "right": 597
-      },
-      {
-        "tag": "BLOCKQUOTE",
-        "cls": "",
-        "right": 771
-      },
-      {
-        "tag": "BUTTON",
-        "cls": "testimonial-more",
-        "right": 534
-      },
-      {
-        "tag": "ARTICLE",
-        "cls": "testimonial-card",
-        "right": 1177
-      },
-      {
-        "tag": "DIV",
-        "cls": "testimonial-person",
-        "right": 1154
-      }
-    ],
-    "screenshot": "visual/1-480-light.png",
+    "overflowElements": [],
+    "screenshot": null,
     "errors": [],
     "failed": []
   },
   {
-    "route": "/en/",
+    "route": "/outsource/",
     "http": 200,
     "requestedWidth": 480,
-    "url": "http://localhost/en/",
+    "url": "http://localhost/nextcore-website/outsource/",
     "mode": "dark",
     "width": 480,
     "overflow": 0,
-    "height": 11064,
+    "height": 6614,
     "h1": [
-      "Nextcore Software\nJoint Stock Company"
+      "Outsource"
     ],
-    "date": "Founded on June 15, 2022",
-    "companyColor": "rgb(239, 39, 45)",
-    "headings": [
-      "Software Development Company",
-      "Nextcore Software Joint Stock Company",
-      "Services",
-      "Our core expertise",
-      "Technology",
-      "The foundation\n that sets us apart",
-      "Featured Products",
-      "Solutions our clients trust",
-      "Strategic Partner",
-      "GM Solutions",
-      "WHAT OUR CLIENTS SAY ABOUT NEXTCORE",
-      "Client testimonials",
-      "",
-      "OUR TEAM",
-      "Our team",
-      "News",
-      "Latest updates",
-      "Insights & knowledge",
-      "Ready to start your project?"
-    ],
+    "companyColor": null,
+    "headings": [],
     "duplicateIds": [],
     "brokenImages": [],
     "rawShortcodes": null,
@@ -2015,97 +1292,25 @@
     "pagination": [],
     "cf7": 0,
     "integrations": [],
-    "overflowElements": [
-      {
-        "tag": "ARTICLE",
-        "cls": "testimonial-card",
-        "right": 794
-      },
-      {
-        "tag": "DIV",
-        "cls": "testimonial-person",
-        "right": 771
-      },
-      {
-        "tag": "IMG",
-        "cls": "",
-        "right": 524
-      },
-      {
-        "tag": "DIV",
-        "cls": "",
-        "right": 597
-      },
-      {
-        "tag": "H3",
-        "cls": "",
-        "right": 597
-      },
-      {
-        "tag": "P",
-        "cls": "",
-        "right": 597
-      },
-      {
-        "tag": "BLOCKQUOTE",
-        "cls": "",
-        "right": 771
-      },
-      {
-        "tag": "BUTTON",
-        "cls": "testimonial-more",
-        "right": 534
-      },
-      {
-        "tag": "ARTICLE",
-        "cls": "testimonial-card",
-        "right": 1177
-      },
-      {
-        "tag": "DIV",
-        "cls": "testimonial-person",
-        "right": 1154
-      }
-    ],
-    "screenshot": "visual/1-480-dark.png",
+    "overflowElements": [],
+    "screenshot": null,
     "errors": [],
     "failed": []
   },
   {
-    "route": "/en/",
+    "route": "/outsource/",
     "http": 200,
     "requestedWidth": 375,
-    "url": "http://localhost/en/",
+    "url": "http://localhost/nextcore-website/outsource/",
     "mode": "light",
     "width": 375,
     "overflow": 0,
-    "height": 11238,
+    "height": 7131,
     "h1": [
-      "Nextcore Software\nJoint Stock Company"
+      "Outsource"
     ],
-    "date": "Founded on June 15, 2022",
-    "companyColor": "rgb(239, 39, 45)",
-    "headings": [
-      "Software Development Company",
-      "Nextcore Software Joint Stock Company",
-      "Services",
-      "Our core expertise",
-      "Technology",
-      "The foundation\n that sets us apart",
-      "Featured Products",
-      "Solutions our clients trust",
-      "Strategic Partner",
-      "GM Solutions",
-      "WHAT OUR CLIENTS SAY ABOUT NEXTCORE",
-      "Client testimonials",
-      "",
-      "OUR TEAM",
-      "Our team",
-      "News",
-      "Latest updates",
-      "Insights & knowledge",
-      "Ready to start your project?"
-    ],
+    "companyColor": null,
+    "headings": [],
     "duplicateIds": [],
     "brokenImages": [],
     "rawShortcodes": null,
@@ -2116,97 +1321,25 @@
     "pagination": [],
     "cf7": 0,
     "integrations": [],
-    "overflowElements": [
-      {
-        "tag": "ARTICLE",
-        "cls": "testimonial-card",
-        "right": 584
-      },
-      {
-        "tag": "DIV",
-        "cls": "testimonial-person",
-        "right": 561
-      },
-      {
-        "tag": "IMG",
-        "cls": "",
-        "right": 419
-      },
-      {
-        "tag": "DIV",
-        "cls": "",
-        "right": 492
-      },
-      {
-        "tag": "H3",
-        "cls": "",
-        "right": 492
-      },
-      {
-        "tag": "P",
-        "cls": "",
-        "right": 492
-      },
-      {
-        "tag": "BLOCKQUOTE",
-        "cls": "",
-        "right": 561
-      },
-      {
-        "tag": "BUTTON",
-        "cls": "testimonial-more",
-        "right": 429
-      },
-      {
-        "tag": "ARTICLE",
-        "cls": "testimonial-card",
-        "right": 862
-      },
-      {
-        "tag": "DIV",
-        "cls": "testimonial-person",
-        "right": 839
-      }
-    ],
-    "screenshot": "visual/1-375-light.png",
+    "overflowElements": [],
+    "screenshot": "visual/4-375-light.png",
     "errors": [],
     "failed": []
   },
   {
-    "route": "/en/",
+    "route": "/outsource/",
     "http": 200,
     "requestedWidth": 375,
-    "url": "http://localhost/en/",
+    "url": "http://localhost/nextcore-website/outsource/",
     "mode": "dark",
     "width": 375,
     "overflow": 0,
-    "height": 11238,
+    "height": 7025,
     "h1": [
-      "Nextcore Software\nJoint Stock Company"
+      "Outsource"
     ],
-    "date": "Founded on June 15, 2022",
-    "companyColor": "rgb(239, 39, 45)",
-    "headings": [
-      "Software Development Company",
-      "Nextcore Software Joint Stock Company",
-      "Services",
-      "Our core expertise",
-      "Technology",
-      "The foundation\n that sets us apart",
-      "Featured Products",
-      "Solutions our clients trust",
-      "Strategic Partner",
-      "GM Solutions",
-      "WHAT OUR CLIENTS SAY ABOUT NEXTCORE",
-      "Client testimonials",
-      "",
-      "OUR TEAM",
-      "Our team",
-      "News",
-      "Latest updates",
-      "Insights & knowledge",
-      "Ready to start your project?"
-    ],
+    "companyColor": null,
+    "headings": [],
     "duplicateIds": [],
     "brokenImages": [],
     "rawShortcodes": null,
@@ -2217,91 +1350,78 @@
     "pagination": [],
     "cf7": 0,
     "integrations": [],
-    "overflowElements": [
-      {
-        "tag": "ARTICLE",
-        "cls": "testimonial-card",
-        "right": 584
-      },
-      {
-        "tag": "DIV",
-        "cls": "testimonial-person",
-        "right": 561
-      },
-      {
-        "tag": "IMG",
-        "cls": "",
-        "right": 419
-      },
-      {
-        "tag": "DIV",
-        "cls": "",
-        "right": 492
-      },
-      {
-        "tag": "H3",
-        "cls": "",
-        "right": 492
-      },
-      {
-        "tag": "P",
-        "cls": "",
-        "right": 492
-      },
-      {
-        "tag": "BLOCKQUOTE",
-        "cls": "",
-        "right": 561
-      },
-      {
-        "tag": "BUTTON",
-        "cls": "testimonial-more",
-        "right": 429
-      },
-      {
-        "tag": "ARTICLE",
-        "cls": "testimonial-card",
-        "right": 862
-      },
-      {
-        "tag": "DIV",
-        "cls": "testimonial-person",
-        "right": 839
-      }
-    ],
-    "screenshot": "visual/1-375-dark.png",
+    "overflowElements": [],
+    "screenshot": "visual/4-375-dark.png",
     "errors": [],
     "failed": []
   },
   {
-    "route": "/dich-vu/wordpress-aff-atv/",
+    "route": "/dich-vu/lark/",
     "http": 200,
     "requestedWidth": 1440,
-    "url": "http://localhost/dich-vu/wordpress-aff-atv/",
+    "url": "http://localhost/nextcore-website/dich-vu/lark/",
     "mode": "light",
     "width": 1440,
     "overflow": 0,
-    "height": 4696,
+    "height": 5515,
     "h1": [
-      "WordPress aff atv"
+      "Lark",
+      "CHUYỂN ĐỔI SỐ DOANH NGHIỆP VỚI LARKSUITE"
     ],
     "companyColor": null,
     "headings": [
-      "Plugin Affiliate: Giải pháp tối ưu cho hệ thống Affiliate của bạn",
-      "Tăng trưởng doanh thu, quản lý hiệu quả, và mở rộng mạng lưới cộng tác viên với Plugin Affiliate.",
-      "Quản lý ví tiền tệ toàn diện",
-      "Quản lý gói và quyền truy cập",
-      "Sơ đồ cây hệ thống Cộng tác viên",
-      "Lịch sử giao dịch chi tiết",
-      "Thống Kê",
-      "Đơn hàng",
-      "Lượt truy cập",
-      "Hoa hồng",
-      "Hình ảnh về plugin  Affiliate",
+      "Lark suite là gì?",
+      "Tìm hiểu các tính năng nổi bật của Lark Suite.",
+      "Tích hợp toàn diện",
+      "Lark Suite phù hợp với ai?",
+      "Những tính năng nổi bật của phần mềm Lark suite",
+      "Tại sao nên sử dụng dịch vụ tại\nNextcore",
       "Sẵn sàng bắt đầu dự án của bạn?"
     ],
     "duplicateIds": [],
-    "brokenImages": [],
+    "brokenImages": [
+      "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-approval.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-base.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-wiki.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-openplatform.svg",
+      "http://localhost/wp-content/uploads/2024/11/what_is_larksuite.jpg",
+      "http://localhost/wp-content/uploads/2024/11/feature.jpg",
+      "http://localhost/wp-content/uploads/2024/11/c2E6cb6Bt0fZgWIohUD6.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-1.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-3.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-3.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-4.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-5.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-6.png",
+      "http://localhost/wp-content/uploads/2024/11/whoneedlarksuite-partner.png",
+      "http://localhost/wp-content/uploads/2024/11/20241108-131334.jpg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+      "http://localhost/wp-content/uploads/2024/11/chat-every-thing.webp",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-approval.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-base.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-wiki.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-openplatform.svg",
+      "http://localhost/wp-content/uploads/2024/11/why-use_2.svg",
+      "http://localhost/wp-content/uploads/2024/11/why-use_3.svg",
+      "http://localhost/wp-content/uploads/2024/11/why-use_4.svg"
+    ],
     "rawShortcodes": null,
     "markerLeak": false,
     "header": true,
@@ -2310,91 +1430,191 @@
     "pagination": [],
     "cf7": 0,
     "integrations": [],
-    "overflowElements": [
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide swiper-slide-active",
-        "right": 1868
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 1868
-      },
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide swiper-slide-next",
-        "right": 3027
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 3027
-      },
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide",
-        "right": 4186
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 4186
-      },
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide swiper-slide-duplicate",
-        "right": 5345
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 5345
-      },
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide swiper-slide-duplicate",
-        "right": 6504
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 6504
-      }
-    ],
-    "screenshot": "visual/15-1440-light.png",
+    "overflowElements": [],
+    "screenshot": "visual/13-1440-light.png",
     "errors": [],
-    "failed": []
+    "failed": [
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-approval.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-wiki.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-base.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-openplatform.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/feature.jpg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/what_is_larksuite.jpg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/c2E6cb6Bt0fZgWIohUD6.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-1.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-3.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-4.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-5.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-6.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/whoneedlarksuite-partner.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/20241108-131334.jpg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/chat-every-thing.webp",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/why-use_2.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/why-use_3.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/why-use_4.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-banner.mp4",
+        "status": 404
+      }
+    ]
   },
   {
-    "route": "/dich-vu/wordpress-aff-atv/",
+    "route": "/dich-vu/lark/",
     "http": 200,
     "requestedWidth": 1440,
-    "url": "http://localhost/dich-vu/wordpress-aff-atv/",
+    "url": "http://localhost/nextcore-website/dich-vu/lark/",
     "mode": "dark",
     "width": 1440,
     "overflow": 0,
-    "height": 4696,
+    "height": 5515,
     "h1": [
-      "WordPress aff atv"
+      "Lark",
+      "CHUYỂN ĐỔI SỐ DOANH NGHIỆP VỚI LARKSUITE"
     ],
     "companyColor": null,
     "headings": [
-      "Plugin Affiliate: Giải pháp tối ưu cho hệ thống Affiliate của bạn",
-      "Tăng trưởng doanh thu, quản lý hiệu quả, và mở rộng mạng lưới cộng tác viên với Plugin Affiliate.",
-      "Quản lý ví tiền tệ toàn diện",
-      "Quản lý gói và quyền truy cập",
-      "Sơ đồ cây hệ thống Cộng tác viên",
-      "Lịch sử giao dịch chi tiết",
-      "Thống Kê",
-      "Đơn hàng",
-      "Lượt truy cập",
-      "Hoa hồng",
-      "Hình ảnh về plugin  Affiliate",
+      "Lark suite là gì?",
+      "Tìm hiểu các tính năng nổi bật của Lark Suite.",
+      "Tích hợp toàn diện",
+      "Lark Suite phù hợp với ai?",
+      "Những tính năng nổi bật của phần mềm Lark suite",
+      "Tại sao nên sử dụng dịch vụ tại\nNextcore",
       "Sẵn sàng bắt đầu dự án của bạn?"
     ],
     "duplicateIds": [],
-    "brokenImages": [],
+    "brokenImages": [
+      "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-approval.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-base.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-wiki.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-openplatform.svg",
+      "http://localhost/wp-content/uploads/2024/11/what_is_larksuite.jpg",
+      "http://localhost/wp-content/uploads/2024/11/feature.jpg",
+      "http://localhost/wp-content/uploads/2024/11/c2E6cb6Bt0fZgWIohUD6.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-1.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-3.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-3.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-4.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-5.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-6.png",
+      "http://localhost/wp-content/uploads/2024/11/whoneedlarksuite-partner.png",
+      "http://localhost/wp-content/uploads/2024/11/20241108-131334.jpg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+      "http://localhost/wp-content/uploads/2024/11/chat-every-thing.webp",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-approval.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-base.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-wiki.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-openplatform.svg",
+      "http://localhost/wp-content/uploads/2024/11/why-use_2.svg",
+      "http://localhost/wp-content/uploads/2024/11/why-use_3.svg",
+      "http://localhost/wp-content/uploads/2024/11/why-use_4.svg"
+    ],
     "rawShortcodes": null,
     "markerLeak": false,
     "header": true,
@@ -2403,91 +1623,191 @@
     "pagination": [],
     "cf7": 0,
     "integrations": [],
-    "overflowElements": [
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide swiper-slide-active",
-        "right": 1868
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 1868
-      },
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide swiper-slide-next",
-        "right": 3027
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 3027
-      },
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide",
-        "right": 4186
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 4186
-      },
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide swiper-slide-duplicate",
-        "right": 5345
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 5345
-      },
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide swiper-slide-duplicate",
-        "right": 6504
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 6504
-      }
-    ],
-    "screenshot": "visual/15-1440-dark.png",
+    "overflowElements": [],
+    "screenshot": "visual/13-1440-dark.png",
     "errors": [],
-    "failed": []
+    "failed": [
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-approval.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-wiki.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-base.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-openplatform.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/feature.jpg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/what_is_larksuite.jpg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/c2E6cb6Bt0fZgWIohUD6.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-1.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-3.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-4.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-5.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-6.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/whoneedlarksuite-partner.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/20241108-131334.jpg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/chat-every-thing.webp",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/why-use_2.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/why-use_3.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/why-use_4.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-banner.mp4",
+        "status": 404
+      }
+    ]
   },
   {
-    "route": "/dich-vu/wordpress-aff-atv/",
+    "route": "/dich-vu/lark/",
     "http": 200,
     "requestedWidth": 1200,
-    "url": "http://localhost/dich-vu/wordpress-aff-atv/",
+    "url": "http://localhost/nextcore-website/dich-vu/lark/",
     "mode": "light",
     "width": 1200,
     "overflow": 0,
-    "height": 4574,
+    "height": 5539,
     "h1": [
-      "WordPress aff atv"
+      "Lark",
+      "CHUYỂN ĐỔI SỐ DOANH NGHIỆP VỚI LARKSUITE"
     ],
     "companyColor": null,
     "headings": [
-      "Plugin Affiliate: Giải pháp tối ưu cho hệ thống Affiliate của bạn",
-      "Tăng trưởng doanh thu, quản lý hiệu quả, và mở rộng mạng lưới cộng tác viên với Plugin Affiliate.",
-      "Quản lý ví tiền tệ toàn diện",
-      "Quản lý gói và quyền truy cập",
-      "Sơ đồ cây hệ thống Cộng tác viên",
-      "Lịch sử giao dịch chi tiết",
-      "Thống Kê",
-      "Đơn hàng",
-      "Lượt truy cập",
-      "Hoa hồng",
-      "Hình ảnh về plugin  Affiliate",
+      "Lark suite là gì?",
+      "Tìm hiểu các tính năng nổi bật của Lark Suite.",
+      "Tích hợp toàn diện",
+      "Lark Suite phù hợp với ai?",
+      "Những tính năng nổi bật của phần mềm Lark suite",
+      "Tại sao nên sử dụng dịch vụ tại\nNextcore",
       "Sẵn sàng bắt đầu dự án của bạn?"
     ],
     "duplicateIds": [],
-    "brokenImages": [],
+    "brokenImages": [
+      "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-approval.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-base.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-wiki.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-openplatform.svg",
+      "http://localhost/wp-content/uploads/2024/11/what_is_larksuite.jpg",
+      "http://localhost/wp-content/uploads/2024/11/feature.jpg",
+      "http://localhost/wp-content/uploads/2024/11/c2E6cb6Bt0fZgWIohUD6.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-1.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-3.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-3.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-4.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-5.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-6.png",
+      "http://localhost/wp-content/uploads/2024/11/whoneedlarksuite-partner.png",
+      "http://localhost/wp-content/uploads/2024/11/20241108-131334.jpg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+      "http://localhost/wp-content/uploads/2024/11/chat-every-thing.webp",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-approval.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-base.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-wiki.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-openplatform.svg",
+      "http://localhost/wp-content/uploads/2024/11/why-use_2.svg",
+      "http://localhost/wp-content/uploads/2024/11/why-use_3.svg",
+      "http://localhost/wp-content/uploads/2024/11/why-use_4.svg"
+    ],
     "rawShortcodes": null,
     "markerLeak": false,
     "header": true,
@@ -2496,91 +1816,191 @@
     "pagination": [],
     "cf7": 0,
     "integrations": [],
-    "overflowElements": [
-      {
-        "tag": "DIV",
-        "cls": "has_eae_slider elementor-element elementor-element-1d74315 e-con-full e-flex e-con e-child",
-        "right": 1205
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-element elementor-element-1835d2e elementor-widget elementor-widget-image",
-        "right": 1195
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-widget-container",
-        "right": 1195
-      },
-      {
-        "tag": "IMG",
-        "cls": "attachment-large size-large wp-image-1769",
-        "right": 1195
-      },
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide swiper-slide-next",
-        "right": 2200
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 2200
-      },
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide",
-        "right": 3274
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 3274
-      },
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide swiper-slide-duplicate",
-        "right": 4348
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 4348
-      }
-    ],
+    "overflowElements": [],
     "screenshot": null,
     "errors": [],
-    "failed": []
+    "failed": [
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-approval.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-wiki.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-base.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-openplatform.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/feature.jpg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/what_is_larksuite.jpg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/c2E6cb6Bt0fZgWIohUD6.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-1.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-3.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-4.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-5.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-6.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/whoneedlarksuite-partner.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/20241108-131334.jpg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/chat-every-thing.webp",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/why-use_2.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/why-use_3.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/why-use_4.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-banner.mp4",
+        "status": 404
+      }
+    ]
   },
   {
-    "route": "/dich-vu/wordpress-aff-atv/",
+    "route": "/dich-vu/lark/",
     "http": 200,
     "requestedWidth": 1200,
-    "url": "http://localhost/dich-vu/wordpress-aff-atv/",
+    "url": "http://localhost/nextcore-website/dich-vu/lark/",
     "mode": "dark",
     "width": 1200,
     "overflow": 0,
-    "height": 4574,
+    "height": 5539,
     "h1": [
-      "WordPress aff atv"
+      "Lark",
+      "CHUYỂN ĐỔI SỐ DOANH NGHIỆP VỚI LARKSUITE"
     ],
     "companyColor": null,
     "headings": [
-      "Plugin Affiliate: Giải pháp tối ưu cho hệ thống Affiliate của bạn",
-      "Tăng trưởng doanh thu, quản lý hiệu quả, và mở rộng mạng lưới cộng tác viên với Plugin Affiliate.",
-      "Quản lý ví tiền tệ toàn diện",
-      "Quản lý gói và quyền truy cập",
-      "Sơ đồ cây hệ thống Cộng tác viên",
-      "Lịch sử giao dịch chi tiết",
-      "Thống Kê",
-      "Đơn hàng",
-      "Lượt truy cập",
-      "Hoa hồng",
-      "Hình ảnh về plugin  Affiliate",
+      "Lark suite là gì?",
+      "Tìm hiểu các tính năng nổi bật của Lark Suite.",
+      "Tích hợp toàn diện",
+      "Lark Suite phù hợp với ai?",
+      "Những tính năng nổi bật của phần mềm Lark suite",
+      "Tại sao nên sử dụng dịch vụ tại\nNextcore",
       "Sẵn sàng bắt đầu dự án của bạn?"
     ],
     "duplicateIds": [],
-    "brokenImages": [],
+    "brokenImages": [
+      "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-approval.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-base.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-wiki.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-openplatform.svg",
+      "http://localhost/wp-content/uploads/2024/11/what_is_larksuite.jpg",
+      "http://localhost/wp-content/uploads/2024/11/feature.jpg",
+      "http://localhost/wp-content/uploads/2024/11/c2E6cb6Bt0fZgWIohUD6.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-1.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-3.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-3.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-4.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-5.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-6.png",
+      "http://localhost/wp-content/uploads/2024/11/whoneedlarksuite-partner.png",
+      "http://localhost/wp-content/uploads/2024/11/20241108-131334.jpg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+      "http://localhost/wp-content/uploads/2024/11/chat-every-thing.webp",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-approval.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-base.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-wiki.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-openplatform.svg",
+      "http://localhost/wp-content/uploads/2024/11/why-use_2.svg",
+      "http://localhost/wp-content/uploads/2024/11/why-use_3.svg",
+      "http://localhost/wp-content/uploads/2024/11/why-use_4.svg"
+    ],
     "rawShortcodes": null,
     "markerLeak": false,
     "header": true,
@@ -2589,91 +2009,191 @@
     "pagination": [],
     "cf7": 0,
     "integrations": [],
-    "overflowElements": [
-      {
-        "tag": "DIV",
-        "cls": "has_eae_slider elementor-element elementor-element-1d74315 e-con-full e-flex e-con e-child",
-        "right": 1205
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-element elementor-element-1835d2e elementor-widget elementor-widget-image",
-        "right": 1195
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-widget-container",
-        "right": 1195
-      },
-      {
-        "tag": "IMG",
-        "cls": "attachment-large size-large wp-image-1769",
-        "right": 1195
-      },
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide swiper-slide-next",
-        "right": 2200
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 2200
-      },
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide",
-        "right": 3274
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 3274
-      },
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide swiper-slide-duplicate",
-        "right": 4348
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 4348
-      }
-    ],
+    "overflowElements": [],
     "screenshot": null,
     "errors": [],
-    "failed": []
+    "failed": [
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-approval.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-wiki.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-base.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-openplatform.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/feature.jpg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/what_is_larksuite.jpg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/c2E6cb6Bt0fZgWIohUD6.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-1.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-3.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-4.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-5.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-6.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/whoneedlarksuite-partner.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/20241108-131334.jpg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/chat-every-thing.webp",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/why-use_2.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/why-use_3.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/why-use_4.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-banner.mp4",
+        "status": 404
+      }
+    ]
   },
   {
-    "route": "/dich-vu/wordpress-aff-atv/",
+    "route": "/dich-vu/lark/",
     "http": 200,
     "requestedWidth": 1024,
-    "url": "http://localhost/dich-vu/wordpress-aff-atv/",
+    "url": "http://localhost/nextcore-website/dich-vu/lark/",
     "mode": "light",
     "width": 1024,
     "overflow": 0,
-    "height": 5012,
+    "height": 5743,
     "h1": [
-      "WordPress aff atv"
+      "Lark",
+      "CHUYỂN ĐỔI SỐ DOANH NGHIỆP VỚI LARKSUITE"
     ],
     "companyColor": null,
     "headings": [
-      "Plugin Affiliate: Giải pháp tối ưu cho hệ thống Affiliate của bạn",
-      "Tăng trưởng doanh thu, quản lý hiệu quả, và mở rộng mạng lưới cộng tác viên với Plugin Affiliate.",
-      "Quản lý ví tiền tệ toàn diện",
-      "Quản lý gói và quyền truy cập",
-      "Sơ đồ cây hệ thống Cộng tác viên",
-      "Lịch sử giao dịch chi tiết",
-      "Thống Kê",
-      "Đơn hàng",
-      "Lượt truy cập",
-      "Hoa hồng",
-      "Hình ảnh về plugin  Affiliate",
+      "Lark suite là gì?",
+      "Tìm hiểu các tính năng nổi bật của Lark Suite.",
+      "Tích hợp toàn diện",
+      "Lark Suite phù hợp với ai?",
+      "Những tính năng nổi bật của phần mềm Lark suite",
+      "Tại sao nên sử dụng dịch vụ tại\nNextcore",
       "Sẵn sàng bắt đầu dự án của bạn?"
     ],
     "duplicateIds": [],
-    "brokenImages": [],
+    "brokenImages": [
+      "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-approval.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-base.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-wiki.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-openplatform.svg",
+      "http://localhost/wp-content/uploads/2024/11/what_is_larksuite.jpg",
+      "http://localhost/wp-content/uploads/2024/11/feature.jpg",
+      "http://localhost/wp-content/uploads/2024/11/c2E6cb6Bt0fZgWIohUD6.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-1.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-3.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-3.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-4.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-5.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-6.png",
+      "http://localhost/wp-content/uploads/2024/11/whoneedlarksuite-partner.png",
+      "http://localhost/wp-content/uploads/2024/11/20241108-131334.jpg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+      "http://localhost/wp-content/uploads/2024/11/chat-every-thing.webp",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-approval.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-base.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-wiki.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-openplatform.svg",
+      "http://localhost/wp-content/uploads/2024/11/why-use_2.svg",
+      "http://localhost/wp-content/uploads/2024/11/why-use_3.svg",
+      "http://localhost/wp-content/uploads/2024/11/why-use_4.svg"
+    ],
     "rawShortcodes": null,
     "markerLeak": false,
     "header": true,
@@ -2682,91 +2202,191 @@
     "pagination": [],
     "cf7": 0,
     "integrations": [],
-    "overflowElements": [
-      {
-        "tag": "DIV",
-        "cls": "has_eae_slider elementor-element elementor-element-1d74315 e-con-full e-flex e-con e-child",
-        "right": 1029
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-element elementor-element-1835d2e elementor-widget elementor-widget-image",
-        "right": 1019
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-widget-container",
-        "right": 1019
-      },
-      {
-        "tag": "IMG",
-        "cls": "attachment-large size-large wp-image-1769",
-        "right": 1019
-      },
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide swiper-slide-next",
-        "right": 1873
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 1873
-      },
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide",
-        "right": 2788
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 2788
-      },
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide swiper-slide-duplicate",
-        "right": 3703
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 3703
-      }
-    ],
+    "overflowElements": [],
     "screenshot": null,
     "errors": [],
-    "failed": []
+    "failed": [
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-approval.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-wiki.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-base.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-openplatform.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/feature.jpg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/what_is_larksuite.jpg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/c2E6cb6Bt0fZgWIohUD6.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-1.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-3.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-4.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-5.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-6.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/whoneedlarksuite-partner.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/20241108-131334.jpg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/chat-every-thing.webp",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/why-use_2.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/why-use_3.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/why-use_4.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-banner.mp4",
+        "status": 404
+      }
+    ]
   },
   {
-    "route": "/dich-vu/wordpress-aff-atv/",
+    "route": "/dich-vu/lark/",
     "http": 200,
     "requestedWidth": 1024,
-    "url": "http://localhost/dich-vu/wordpress-aff-atv/",
+    "url": "http://localhost/nextcore-website/dich-vu/lark/",
     "mode": "dark",
     "width": 1024,
     "overflow": 0,
-    "height": 5012,
+    "height": 5743,
     "h1": [
-      "WordPress aff atv"
+      "Lark",
+      "CHUYỂN ĐỔI SỐ DOANH NGHIỆP VỚI LARKSUITE"
     ],
     "companyColor": null,
     "headings": [
-      "Plugin Affiliate: Giải pháp tối ưu cho hệ thống Affiliate của bạn",
-      "Tăng trưởng doanh thu, quản lý hiệu quả, và mở rộng mạng lưới cộng tác viên với Plugin Affiliate.",
-      "Quản lý ví tiền tệ toàn diện",
-      "Quản lý gói và quyền truy cập",
-      "Sơ đồ cây hệ thống Cộng tác viên",
-      "Lịch sử giao dịch chi tiết",
-      "Thống Kê",
-      "Đơn hàng",
-      "Lượt truy cập",
-      "Hoa hồng",
-      "Hình ảnh về plugin  Affiliate",
+      "Lark suite là gì?",
+      "Tìm hiểu các tính năng nổi bật của Lark Suite.",
+      "Tích hợp toàn diện",
+      "Lark Suite phù hợp với ai?",
+      "Những tính năng nổi bật của phần mềm Lark suite",
+      "Tại sao nên sử dụng dịch vụ tại\nNextcore",
       "Sẵn sàng bắt đầu dự án của bạn?"
     ],
     "duplicateIds": [],
-    "brokenImages": [],
+    "brokenImages": [
+      "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-approval.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-base.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-wiki.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-openplatform.svg",
+      "http://localhost/wp-content/uploads/2024/11/what_is_larksuite.jpg",
+      "http://localhost/wp-content/uploads/2024/11/feature.jpg",
+      "http://localhost/wp-content/uploads/2024/11/c2E6cb6Bt0fZgWIohUD6.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-1.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-3.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-3.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-4.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-5.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-6.png",
+      "http://localhost/wp-content/uploads/2024/11/whoneedlarksuite-partner.png",
+      "http://localhost/wp-content/uploads/2024/11/20241108-131334.jpg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+      "http://localhost/wp-content/uploads/2024/11/chat-every-thing.webp",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-approval.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-base.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-wiki.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-openplatform.svg",
+      "http://localhost/wp-content/uploads/2024/11/why-use_2.svg",
+      "http://localhost/wp-content/uploads/2024/11/why-use_3.svg",
+      "http://localhost/wp-content/uploads/2024/11/why-use_4.svg"
+    ],
     "rawShortcodes": null,
     "markerLeak": false,
     "header": true,
@@ -2775,91 +2395,191 @@
     "pagination": [],
     "cf7": 0,
     "integrations": [],
-    "overflowElements": [
-      {
-        "tag": "DIV",
-        "cls": "has_eae_slider elementor-element elementor-element-1d74315 e-con-full e-flex e-con e-child",
-        "right": 1029
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-element elementor-element-1835d2e elementor-widget elementor-widget-image",
-        "right": 1019
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-widget-container",
-        "right": 1019
-      },
-      {
-        "tag": "IMG",
-        "cls": "attachment-large size-large wp-image-1769",
-        "right": 1019
-      },
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide swiper-slide-next",
-        "right": 1873
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 1873
-      },
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide",
-        "right": 2788
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 2788
-      },
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide swiper-slide-duplicate",
-        "right": 3703
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 3703
-      }
-    ],
+    "overflowElements": [],
     "screenshot": null,
     "errors": [],
-    "failed": []
+    "failed": [
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-approval.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-wiki.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-base.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-openplatform.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/feature.jpg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/what_is_larksuite.jpg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/c2E6cb6Bt0fZgWIohUD6.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-1.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-3.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-4.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-5.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-6.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/whoneedlarksuite-partner.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/20241108-131334.jpg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/chat-every-thing.webp",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/why-use_2.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/why-use_3.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/why-use_4.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-banner.mp4",
+        "status": 404
+      }
+    ]
   },
   {
-    "route": "/dich-vu/wordpress-aff-atv/",
+    "route": "/dich-vu/lark/",
     "http": 200,
     "requestedWidth": 768,
-    "url": "http://localhost/dich-vu/wordpress-aff-atv/",
+    "url": "http://localhost/nextcore-website/dich-vu/lark/",
     "mode": "light",
     "width": 768,
     "overflow": 0,
-    "height": 4757,
+    "height": 6844,
     "h1": [
-      "WordPress aff atv"
+      "Lark",
+      "CHUYỂN ĐỔI SỐ DOANH NGHIỆP VỚI LARKSUITE"
     ],
     "companyColor": null,
     "headings": [
-      "Plugin Affiliate: Giải pháp tối ưu cho hệ thống Affiliate của bạn",
-      "Tăng trưởng doanh thu, quản lý hiệu quả, và mở rộng mạng lưới cộng tác viên với Plugin Affiliate.",
-      "Quản lý ví tiền tệ toàn diện",
-      "Quản lý gói và quyền truy cập",
-      "Sơ đồ cây hệ thống Cộng tác viên",
-      "Lịch sử giao dịch chi tiết",
-      "Thống Kê",
-      "Đơn hàng",
-      "Lượt truy cập",
-      "Hoa hồng",
-      "Hình ảnh về plugin  Affiliate",
+      "Lark suite là gì?",
+      "Tìm hiểu các tính năng nổi bật của Lark Suite.",
+      "Tích hợp toàn diện",
+      "Lark Suite phù hợp với ai?",
+      "Những tính năng nổi bật của phần mềm Lark suite",
+      "Tại sao nên sử dụng dịch vụ tại\nNextcore",
       "Sẵn sàng bắt đầu dự án của bạn?"
     ],
     "duplicateIds": [],
-    "brokenImages": [],
+    "brokenImages": [
+      "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-approval.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-base.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-wiki.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-openplatform.svg",
+      "http://localhost/wp-content/uploads/2024/11/what_is_larksuite.jpg",
+      "http://localhost/wp-content/uploads/2024/11/feature.jpg",
+      "http://localhost/wp-content/uploads/2024/11/c2E6cb6Bt0fZgWIohUD6.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-1.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-3.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-3.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-4.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-5.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-6.png",
+      "http://localhost/wp-content/uploads/2024/11/whoneedlarksuite-partner.png",
+      "http://localhost/wp-content/uploads/2024/11/20241108-131334.jpg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+      "http://localhost/wp-content/uploads/2024/11/chat-every-thing.webp",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-approval.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-base.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-wiki.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-openplatform.svg",
+      "http://localhost/wp-content/uploads/2024/11/why-use_2.svg",
+      "http://localhost/wp-content/uploads/2024/11/why-use_3.svg",
+      "http://localhost/wp-content/uploads/2024/11/why-use_4.svg"
+    ],
     "rawShortcodes": null,
     "markerLeak": false,
     "header": true,
@@ -2868,91 +2588,191 @@
     "pagination": [],
     "cf7": 0,
     "integrations": [],
-    "overflowElements": [
-      {
-        "tag": "DIV",
-        "cls": "has_eae_slider elementor-element elementor-element-1d74315 e-con-full e-flex e-con e-child",
-        "right": 773
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-element elementor-element-1835d2e elementor-widget elementor-widget-image",
-        "right": 763
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-widget-container",
-        "right": 763
-      },
-      {
-        "tag": "IMG",
-        "cls": "attachment-large size-large wp-image-1769",
-        "right": 763
-      },
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide swiper-slide-active",
-        "right": 890
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 890
-      },
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide swiper-slide-next",
-        "right": 1575
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 1575
-      },
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide",
-        "right": 2260
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 2260
-      }
-    ],
+    "overflowElements": [],
     "screenshot": null,
     "errors": [],
-    "failed": []
+    "failed": [
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-approval.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-wiki.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-base.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-openplatform.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/feature.jpg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/what_is_larksuite.jpg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/c2E6cb6Bt0fZgWIohUD6.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-1.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-3.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-4.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-5.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-6.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/whoneedlarksuite-partner.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/20241108-131334.jpg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/chat-every-thing.webp",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/why-use_2.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/why-use_3.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/why-use_4.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-banner.mp4",
+        "status": 404
+      }
+    ]
   },
   {
-    "route": "/dich-vu/wordpress-aff-atv/",
+    "route": "/dich-vu/lark/",
     "http": 200,
     "requestedWidth": 768,
-    "url": "http://localhost/dich-vu/wordpress-aff-atv/",
+    "url": "http://localhost/nextcore-website/dich-vu/lark/",
     "mode": "dark",
     "width": 768,
     "overflow": 0,
-    "height": 4757,
+    "height": 6844,
     "h1": [
-      "WordPress aff atv"
+      "Lark",
+      "CHUYỂN ĐỔI SỐ DOANH NGHIỆP VỚI LARKSUITE"
     ],
     "companyColor": null,
     "headings": [
-      "Plugin Affiliate: Giải pháp tối ưu cho hệ thống Affiliate của bạn",
-      "Tăng trưởng doanh thu, quản lý hiệu quả, và mở rộng mạng lưới cộng tác viên với Plugin Affiliate.",
-      "Quản lý ví tiền tệ toàn diện",
-      "Quản lý gói và quyền truy cập",
-      "Sơ đồ cây hệ thống Cộng tác viên",
-      "Lịch sử giao dịch chi tiết",
-      "Thống Kê",
-      "Đơn hàng",
-      "Lượt truy cập",
-      "Hoa hồng",
-      "Hình ảnh về plugin  Affiliate",
+      "Lark suite là gì?",
+      "Tìm hiểu các tính năng nổi bật của Lark Suite.",
+      "Tích hợp toàn diện",
+      "Lark Suite phù hợp với ai?",
+      "Những tính năng nổi bật của phần mềm Lark suite",
+      "Tại sao nên sử dụng dịch vụ tại\nNextcore",
       "Sẵn sàng bắt đầu dự án của bạn?"
     ],
     "duplicateIds": [],
-    "brokenImages": [],
+    "brokenImages": [
+      "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-approval.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-base.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-wiki.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-openplatform.svg",
+      "http://localhost/wp-content/uploads/2024/11/what_is_larksuite.jpg",
+      "http://localhost/wp-content/uploads/2024/11/feature.jpg",
+      "http://localhost/wp-content/uploads/2024/11/c2E6cb6Bt0fZgWIohUD6.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-1.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-3.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-3.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-4.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-5.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-6.png",
+      "http://localhost/wp-content/uploads/2024/11/whoneedlarksuite-partner.png",
+      "http://localhost/wp-content/uploads/2024/11/20241108-131334.jpg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+      "http://localhost/wp-content/uploads/2024/11/chat-every-thing.webp",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-approval.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-base.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-wiki.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-openplatform.svg",
+      "http://localhost/wp-content/uploads/2024/11/why-use_2.svg",
+      "http://localhost/wp-content/uploads/2024/11/why-use_3.svg",
+      "http://localhost/wp-content/uploads/2024/11/why-use_4.svg"
+    ],
     "rawShortcodes": null,
     "markerLeak": false,
     "header": true,
@@ -2961,91 +2781,191 @@
     "pagination": [],
     "cf7": 0,
     "integrations": [],
-    "overflowElements": [
-      {
-        "tag": "DIV",
-        "cls": "has_eae_slider elementor-element elementor-element-1d74315 e-con-full e-flex e-con e-child",
-        "right": 773
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-element elementor-element-1835d2e elementor-widget elementor-widget-image",
-        "right": 763
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-widget-container",
-        "right": 763
-      },
-      {
-        "tag": "IMG",
-        "cls": "attachment-large size-large wp-image-1769",
-        "right": 763
-      },
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide swiper-slide-active",
-        "right": 890
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 890
-      },
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide swiper-slide-next",
-        "right": 1575
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 1575
-      },
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide",
-        "right": 2260
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 2260
-      }
-    ],
+    "overflowElements": [],
     "screenshot": null,
     "errors": [],
-    "failed": []
+    "failed": [
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-approval.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-wiki.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-base.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-openplatform.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/feature.jpg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/what_is_larksuite.jpg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/c2E6cb6Bt0fZgWIohUD6.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-1.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-3.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-4.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-5.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-6.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/whoneedlarksuite-partner.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/20241108-131334.jpg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/chat-every-thing.webp",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/why-use_2.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/why-use_3.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/why-use_4.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-banner.mp4",
+        "status": 404
+      }
+    ]
   },
   {
-    "route": "/dich-vu/wordpress-aff-atv/",
+    "route": "/dich-vu/lark/",
     "http": 200,
     "requestedWidth": 480,
-    "url": "http://localhost/dich-vu/wordpress-aff-atv/",
+    "url": "http://localhost/nextcore-website/dich-vu/lark/",
     "mode": "light",
     "width": 480,
     "overflow": 0,
-    "height": 7489,
+    "height": 8017,
     "h1": [
-      "WordPress aff atv"
+      "Lark",
+      "CHUYỂN ĐỔI SỐ DOANH NGHIỆP VỚI LARKSUITE"
     ],
     "companyColor": null,
     "headings": [
-      "Plugin Affiliate: Giải pháp tối ưu cho hệ thống Affiliate của bạn",
-      "Tăng trưởng doanh thu, quản lý hiệu quả, và mở rộng mạng lưới cộng tác viên với Plugin Affiliate.",
-      "Quản lý ví tiền tệ toàn diện",
-      "Quản lý gói và quyền truy cập",
-      "Sơ đồ cây hệ thống Cộng tác viên",
-      "Lịch sử giao dịch chi tiết",
-      "Thống Kê",
-      "Đơn hàng",
-      "Lượt truy cập",
-      "Hoa hồng",
-      "Hình ảnh về plugin  Affiliate",
+      "Lark suite là gì?",
+      "Tìm hiểu các tính năng nổi bật của Lark Suite.",
+      "Tích hợp toàn diện",
+      "Lark Suite phù hợp với ai?",
+      "Những tính năng nổi bật của phần mềm Lark suite",
+      "Tại sao nên sử dụng dịch vụ tại\nNextcore",
       "Sẵn sàng bắt đầu dự án của bạn?"
     ],
     "duplicateIds": [],
-    "brokenImages": [],
+    "brokenImages": [
+      "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-approval.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-base.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-wiki.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-openplatform.svg",
+      "http://localhost/wp-content/uploads/2024/11/what_is_larksuite.jpg",
+      "http://localhost/wp-content/uploads/2024/11/feature.jpg",
+      "http://localhost/wp-content/uploads/2024/11/c2E6cb6Bt0fZgWIohUD6.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-1.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-3.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-3.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-4.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-5.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-6.png",
+      "http://localhost/wp-content/uploads/2024/11/whoneedlarksuite-partner.png",
+      "http://localhost/wp-content/uploads/2024/11/20241108-131334.jpg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+      "http://localhost/wp-content/uploads/2024/11/chat-every-thing.webp",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-approval.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-base.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-wiki.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-openplatform.svg",
+      "http://localhost/wp-content/uploads/2024/11/why-use_2.svg",
+      "http://localhost/wp-content/uploads/2024/11/why-use_3.svg",
+      "http://localhost/wp-content/uploads/2024/11/why-use_4.svg"
+    ],
     "rawShortcodes": null,
     "markerLeak": false,
     "header": true,
@@ -3054,91 +2974,191 @@
     "pagination": [],
     "cf7": 0,
     "integrations": [],
-    "overflowElements": [
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide swiper-slide-duplicate swiper-slide-active",
-        "right": 652
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 652
-      },
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide swiper-slide-next",
-        "right": 1096
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 1096
-      },
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide",
-        "right": 1540
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 1540
-      },
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide",
-        "right": 1984
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 1984
-      },
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide",
-        "right": 2428
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 2428
-      }
-    ],
+    "overflowElements": [],
     "screenshot": null,
     "errors": [],
-    "failed": []
+    "failed": [
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-approval.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-wiki.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-base.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-openplatform.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/feature.jpg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/what_is_larksuite.jpg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/c2E6cb6Bt0fZgWIohUD6.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-1.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-3.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-4.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-5.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-6.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/whoneedlarksuite-partner.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/20241108-131334.jpg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/chat-every-thing.webp",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/why-use_2.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/why-use_3.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/why-use_4.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-banner.mp4",
+        "status": 404
+      }
+    ]
   },
   {
-    "route": "/dich-vu/wordpress-aff-atv/",
+    "route": "/dich-vu/lark/",
     "http": 200,
     "requestedWidth": 480,
-    "url": "http://localhost/dich-vu/wordpress-aff-atv/",
+    "url": "http://localhost/nextcore-website/dich-vu/lark/",
     "mode": "dark",
     "width": 480,
     "overflow": 0,
-    "height": 7489,
+    "height": 8017,
     "h1": [
-      "WordPress aff atv"
+      "Lark",
+      "CHUYỂN ĐỔI SỐ DOANH NGHIỆP VỚI LARKSUITE"
     ],
     "companyColor": null,
     "headings": [
-      "Plugin Affiliate: Giải pháp tối ưu cho hệ thống Affiliate của bạn",
-      "Tăng trưởng doanh thu, quản lý hiệu quả, và mở rộng mạng lưới cộng tác viên với Plugin Affiliate.",
-      "Quản lý ví tiền tệ toàn diện",
-      "Quản lý gói và quyền truy cập",
-      "Sơ đồ cây hệ thống Cộng tác viên",
-      "Lịch sử giao dịch chi tiết",
-      "Thống Kê",
-      "Đơn hàng",
-      "Lượt truy cập",
-      "Hoa hồng",
-      "Hình ảnh về plugin  Affiliate",
+      "Lark suite là gì?",
+      "Tìm hiểu các tính năng nổi bật của Lark Suite.",
+      "Tích hợp toàn diện",
+      "Lark Suite phù hợp với ai?",
+      "Những tính năng nổi bật của phần mềm Lark suite",
+      "Tại sao nên sử dụng dịch vụ tại\nNextcore",
       "Sẵn sàng bắt đầu dự án của bạn?"
     ],
     "duplicateIds": [],
-    "brokenImages": [],
+    "brokenImages": [
+      "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-approval.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-base.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-wiki.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-openplatform.svg",
+      "http://localhost/wp-content/uploads/2024/11/what_is_larksuite.jpg",
+      "http://localhost/wp-content/uploads/2024/11/feature.jpg",
+      "http://localhost/wp-content/uploads/2024/11/c2E6cb6Bt0fZgWIohUD6.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-1.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-3.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-3.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-4.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-5.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-6.png",
+      "http://localhost/wp-content/uploads/2024/11/whoneedlarksuite-partner.png",
+      "http://localhost/wp-content/uploads/2024/11/20241108-131334.jpg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+      "http://localhost/wp-content/uploads/2024/11/chat-every-thing.webp",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-approval.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-base.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-wiki.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-openplatform.svg",
+      "http://localhost/wp-content/uploads/2024/11/why-use_2.svg",
+      "http://localhost/wp-content/uploads/2024/11/why-use_3.svg",
+      "http://localhost/wp-content/uploads/2024/11/why-use_4.svg"
+    ],
     "rawShortcodes": null,
     "markerLeak": false,
     "header": true,
@@ -3147,91 +3167,191 @@
     "pagination": [],
     "cf7": 0,
     "integrations": [],
-    "overflowElements": [
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide swiper-slide-duplicate swiper-slide-active",
-        "right": 652
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 652
-      },
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide swiper-slide-next",
-        "right": 1096
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 1096
-      },
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide",
-        "right": 1540
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 1540
-      },
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide",
-        "right": 1984
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 1984
-      },
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide",
-        "right": 2428
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 2428
-      }
-    ],
+    "overflowElements": [],
     "screenshot": null,
     "errors": [],
-    "failed": []
+    "failed": [
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-approval.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-wiki.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-base.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-openplatform.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/feature.jpg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/what_is_larksuite.jpg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/c2E6cb6Bt0fZgWIohUD6.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-1.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-3.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-4.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-5.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-6.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/whoneedlarksuite-partner.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/20241108-131334.jpg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/chat-every-thing.webp",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/why-use_2.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/why-use_3.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/why-use_4.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-banner.mp4",
+        "status": 404
+      }
+    ]
   },
   {
-    "route": "/dich-vu/wordpress-aff-atv/",
+    "route": "/dich-vu/lark/",
     "http": 200,
     "requestedWidth": 375,
-    "url": "http://localhost/dich-vu/wordpress-aff-atv/",
+    "url": "http://localhost/nextcore-website/dich-vu/lark/",
     "mode": "light",
     "width": 375,
     "overflow": 0,
-    "height": 7153,
+    "height": 8942,
     "h1": [
-      "WordPress aff atv"
+      "Lark",
+      "CHUYỂN ĐỔI SỐ DOANH NGHIỆP VỚI LARKSUITE"
     ],
     "companyColor": null,
     "headings": [
-      "Plugin Affiliate: Giải pháp tối ưu cho hệ thống Affiliate của bạn",
-      "Tăng trưởng doanh thu, quản lý hiệu quả, và mở rộng mạng lưới cộng tác viên với Plugin Affiliate.",
-      "Quản lý ví tiền tệ toàn diện",
-      "Quản lý gói và quyền truy cập",
-      "Sơ đồ cây hệ thống Cộng tác viên",
-      "Lịch sử giao dịch chi tiết",
-      "Thống Kê",
-      "Đơn hàng",
-      "Lượt truy cập",
-      "Hoa hồng",
-      "Hình ảnh về plugin  Affiliate",
+      "Lark suite là gì?",
+      "Tìm hiểu các tính năng nổi bật của Lark Suite.",
+      "Tích hợp toàn diện",
+      "Lark Suite phù hợp với ai?",
+      "Những tính năng nổi bật của phần mềm Lark suite",
+      "Tại sao nên sử dụng dịch vụ tại\nNextcore",
       "Sẵn sàng bắt đầu dự án của bạn?"
     ],
     "duplicateIds": [],
-    "brokenImages": [],
+    "brokenImages": [
+      "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-approval.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-base.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-wiki.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-openplatform.svg",
+      "http://localhost/wp-content/uploads/2024/11/what_is_larksuite.jpg",
+      "http://localhost/wp-content/uploads/2024/11/feature.jpg",
+      "http://localhost/wp-content/uploads/2024/11/c2E6cb6Bt0fZgWIohUD6.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-1.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-3.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-3.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-4.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-5.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-6.png",
+      "http://localhost/wp-content/uploads/2024/11/whoneedlarksuite-partner.png",
+      "http://localhost/wp-content/uploads/2024/11/20241108-131334.jpg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+      "http://localhost/wp-content/uploads/2024/11/chat-every-thing.webp",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-approval.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-base.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-wiki.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-openplatform.svg",
+      "http://localhost/wp-content/uploads/2024/11/why-use_2.svg",
+      "http://localhost/wp-content/uploads/2024/11/why-use_3.svg",
+      "http://localhost/wp-content/uploads/2024/11/why-use_4.svg"
+    ],
     "rawShortcodes": null,
     "markerLeak": false,
     "header": true,
@@ -3240,91 +3360,191 @@
     "pagination": [],
     "cf7": 0,
     "integrations": [],
-    "overflowElements": [
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide swiper-slide-next",
-        "right": 694
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 694
-      },
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide",
-        "right": 1039
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 1039
-      },
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide",
-        "right": 1384
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 1384
-      },
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide",
-        "right": 1729
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 1729
-      },
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide swiper-slide-duplicate-prev",
-        "right": 2074
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 2074
-      }
-    ],
-    "screenshot": "visual/15-375-light.png",
+    "overflowElements": [],
+    "screenshot": "visual/13-375-light.png",
     "errors": [],
-    "failed": []
+    "failed": [
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-approval.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-wiki.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-base.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-openplatform.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/feature.jpg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/what_is_larksuite.jpg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/c2E6cb6Bt0fZgWIohUD6.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-1.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-3.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-4.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-5.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-6.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/whoneedlarksuite-partner.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/20241108-131334.jpg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/chat-every-thing.webp",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/why-use_2.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/why-use_3.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/why-use_4.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-banner.mp4",
+        "status": 404
+      }
+    ]
   },
   {
-    "route": "/dich-vu/wordpress-aff-atv/",
+    "route": "/dich-vu/lark/",
     "http": 200,
     "requestedWidth": 375,
-    "url": "http://localhost/dich-vu/wordpress-aff-atv/",
+    "url": "http://localhost/nextcore-website/dich-vu/lark/",
     "mode": "dark",
     "width": 375,
     "overflow": 0,
-    "height": 7247,
+    "height": 8739,
     "h1": [
-      "WordPress aff atv"
+      "Lark",
+      "CHUYỂN ĐỔI SỐ DOANH NGHIỆP VỚI LARKSUITE"
     ],
     "companyColor": null,
     "headings": [
-      "Plugin Affiliate: Giải pháp tối ưu cho hệ thống Affiliate của bạn",
-      "Tăng trưởng doanh thu, quản lý hiệu quả, và mở rộng mạng lưới cộng tác viên với Plugin Affiliate.",
-      "Quản lý ví tiền tệ toàn diện",
-      "Quản lý gói và quyền truy cập",
-      "Sơ đồ cây hệ thống Cộng tác viên",
-      "Lịch sử giao dịch chi tiết",
-      "Thống Kê",
-      "Đơn hàng",
-      "Lượt truy cập",
-      "Hoa hồng",
-      "Hình ảnh về plugin  Affiliate",
+      "Lark suite là gì?",
+      "Tìm hiểu các tính năng nổi bật của Lark Suite.",
+      "Tích hợp toàn diện",
+      "Lark Suite phù hợp với ai?",
+      "Những tính năng nổi bật của phần mềm Lark suite",
+      "Tại sao nên sử dụng dịch vụ tại\nNextcore",
       "Sẵn sàng bắt đầu dự án của bạn?"
     ],
     "duplicateIds": [],
-    "brokenImages": [],
+    "brokenImages": [
+      "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-approval.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-base.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-wiki.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-openplatform.svg",
+      "http://localhost/wp-content/uploads/2024/11/what_is_larksuite.jpg",
+      "http://localhost/wp-content/uploads/2024/11/feature.jpg",
+      "http://localhost/wp-content/uploads/2024/11/c2E6cb6Bt0fZgWIohUD6.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-1.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-3.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-3.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-4.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-5.png",
+      "http://localhost/wp-content/uploads/2024/11/rating-app-6.png",
+      "http://localhost/wp-content/uploads/2024/11/whoneedlarksuite-partner.png",
+      "http://localhost/wp-content/uploads/2024/11/20241108-131334.jpg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+      "http://localhost/wp-content/uploads/2024/11/chat-every-thing.webp",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-approval.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-base.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-wiki.svg",
+      "http://localhost/wp-content/uploads/2024/11/larksuite-openplatform.svg",
+      "http://localhost/wp-content/uploads/2024/11/why-use_2.svg",
+      "http://localhost/wp-content/uploads/2024/11/why-use_3.svg",
+      "http://localhost/wp-content/uploads/2024/11/why-use_4.svg"
+    ],
     "rawShortcodes": null,
     "markerLeak": false,
     "header": true,
@@ -3333,60 +3553,122 @@
     "pagination": [],
     "cf7": 0,
     "integrations": [],
-    "overflowElements": [
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide swiper-slide-next",
-        "right": 724
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 724
-      },
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide",
-        "right": 1084
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 1084
-      },
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide",
-        "right": 1444
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 1444
-      },
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide",
-        "right": 1804
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 1804
-      },
-      {
-        "tag": "DIV",
-        "cls": "swiper-slide swiper-slide-duplicate-prev",
-        "right": 2164
-      },
-      {
-        "tag": "DIV",
-        "cls": "elementor-carousel-image",
-        "right": 2164
-      }
-    ],
-    "screenshot": "visual/15-375-dark.png",
+    "overflowElements": [],
+    "screenshot": "visual/13-375-dark.png",
     "errors": [],
-    "failed": []
+    "failed": [
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-minutes.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-calendar.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-email.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-approval.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-wiki.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-base.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-openplatform.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/feature.jpg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/what_is_larksuite.jpg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/c2E6cb6Bt0fZgWIohUD6.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-1.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-3.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-4.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-5.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/rating-app-6.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/whoneedlarksuite-partner.png",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/20241108-131334.jpg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/chat-every-thing.webp",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/why-use_2.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/why-use_3.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/why-use_4.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-messenger.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-meetings.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-docs.svg",
+        "status": 404
+      },
+      {
+        "url": "http://localhost/wp-content/uploads/2024/11/larksuite-banner.mp4",
+        "status": 404
+      }
+    ]
   }
 ]

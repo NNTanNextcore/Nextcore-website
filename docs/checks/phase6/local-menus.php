@@ -32,5 +32,7 @@ try {
 } finally { $GLOBALS['nc6_menu_write'] = false; }
 $report['after'] = get_theme_mod('nav_menu_locations');
 while(ob_get_level()){ob_end_clean();}
-file_put_contents(__DIR__.'/menu-write.json',wp_json_encode($report,JSON_PRETTY_PRINT|JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES));
+$path = __DIR__ . '/menu-write-' . gmdate('Ymd-His') . '.json';
+$report['journal'] = basename($path);
+file_put_contents($path,wp_json_encode($report,JSON_PRETTY_PRINT|JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES));
 echo wp_json_encode($report,JSON_PRETTY_PRINT|JSON_UNESCAPED_UNICODE);

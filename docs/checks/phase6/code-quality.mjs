@@ -17,6 +17,10 @@ for(const file of files) {
   if(before!==text)report.changed.push({file:rel,action:before===null?'added':'modified'});
  }
 }
-try{report.optional=JSON.parse(execFileSync('C:/xampp/php/php.exe',['docs/checks/phase6/optional-plugins-qa.php'],{encoding:'utf8'}))}catch(e){report.optional={error:e.message}}
+try{
+ const output=execFileSync('C:/xampp/php/php.exe',['docs/checks/phase6/optional-plugins-qa.php'],{encoding:'utf8'});
+ const jsonStart=output.indexOf('{');
+ report.optional=JSON.parse(jsonStart>=0?output.slice(jsonStart):output);
+}catch(e){report.optional={error:e.message}}
 await writeFile(new URL('./code-quality-results.json',import.meta.url),JSON.stringify(report,null,2));
 console.log(JSON.stringify({php:report.php.length,js:report.js.length,failed:[...report.php,...report.js].filter(r=>!r.pass),forbidden:report.forbidden,changed:report.changed,optional:report.optional},null,2));

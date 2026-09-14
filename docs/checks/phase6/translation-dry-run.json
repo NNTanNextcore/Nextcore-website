@@ -4,12 +4,12 @@
         {
             "review_id": 1,
             "source": "Software development company",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Software Development Company",
             "table": "nxt_trp_dictionary_vi_en_us",
             "type": "regular",
             "action": "translate",
-            "row_id": "1480"
+            "row_id": null
         },
         {
             "review_id": 2,
@@ -38,7 +38,7 @@
             "new_translation": "Nextcore",
             "table": "nxt_trp_gettext_en_us",
             "type": "gettext nextcore-theme",
-            "action": "apply-reviewed",
+            "action": "create",
             "row_id": null
         },
         {
@@ -54,12 +54,12 @@
         {
             "review_id": 6,
             "source": "Giải pháp phần mềm cho doanh nghiệp hiện đại.",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Software solutions for modern businesses.",
             "table": "nxt_trp_dictionary_vi_en_us",
             "type": "regular",
             "action": "translate",
-            "row_id": "1483"
+            "row_id": null
         },
         {
             "review_id": 7,
@@ -74,22 +74,22 @@
         {
             "review_id": 8,
             "source": "Xem năng lực",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Explore our expertise",
             "table": "nxt_trp_dictionary_vi_en_us",
             "type": "regular",
             "action": "translate",
-            "row_id": "1485"
+            "row_id": null
         },
         {
             "review_id": 9,
             "source": "Về Nextcore",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "About Nextcore",
             "table": "nxt_trp_dictionary_vi_en_us",
             "type": "regular",
             "action": "translate",
-            "row_id": "1487"
+            "row_id": null
         },
         {
             "review_id": 9,
@@ -98,28 +98,28 @@
             "new_translation": "About Nextcore",
             "table": "nxt_trp_gettext_en_us",
             "type": "gettext nextcore-theme",
-            "action": "apply-reviewed",
+            "action": "create",
             "row_id": null
         },
         {
             "review_id": 10,
             "source": "Công ty Cổ phần",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Nextcore Software",
             "table": "nxt_trp_dictionary_vi_en_us",
             "type": "regular",
             "action": "translate",
-            "row_id": "1488"
+            "row_id": null
         },
         {
             "review_id": 11,
             "source": "Phần mềm Nextcore",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Joint Stock Company",
             "table": "nxt_trp_dictionary_vi_en_us",
             "type": "regular",
             "action": "translate",
-            "row_id": "1489"
+            "row_id": null
         },
         {
             "review_id": 12,
@@ -134,32 +134,32 @@
         {
             "review_id": 13,
             "source": "Tìm hiểu thêm",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Learn more",
             "table": "nxt_trp_dictionary_vi_en_us",
             "type": "regular",
             "action": "translate",
-            "row_id": "1493"
+            "row_id": null
         },
         {
             "review_id": 14,
             "source": "Dự án triển khai",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Projects delivered",
             "table": "nxt_trp_dictionary_vi_en_us",
             "type": "regular",
             "action": "translate",
-            "row_id": "1495"
+            "row_id": null
         },
         {
             "review_id": 15,
             "source": "Khách hàng tin tưởng",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Trusted clients",
             "table": "nxt_trp_dictionary_vi_en_us",
             "type": "regular",
             "action": "translate",
-            "row_id": "1496"
+            "row_id": null
         },
         {
             "review_id": 17,
@@ -178,48 +178,48 @@
             "new_translation": "Services",
             "table": "nxt_trp_gettext_en_us",
             "type": "gettext nextcore-theme",
-            "action": "apply-reviewed",
+            "action": "create",
             "row_id": null
         },
         {
             "review_id": 18,
             "source": "Năng lực cốt lõi",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Our core expertise",
             "table": "nxt_trp_dictionary_vi_en_us",
             "type": "regular",
             "action": "translate",
-            "row_id": "1497"
+            "row_id": null
         },
         {
             "review_id": 19,
             "source": "Trao đổi nhu cầu",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Let's discuss your needs ",
             "table": "nxt_trp_dictionary_vi_en_us",
             "type": "regular",
             "action": "translate",
-            "row_id": "1498"
+            "row_id": null
         },
         {
             "review_id": 20,
             "source": "Outsource CNTT",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "IT Outsourcing",
             "table": "nxt_trp_dictionary_vi_en_us",
             "type": "regular",
             "action": "translate",
-            "row_id": "1499"
+            "row_id": null
         },
         {
             "review_id": 21,
             "source": "Phát triển và bảo trì dự án CNTT cho đối tác outsource.",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "IT project development and maintenance for outsourcing partners.",
             "table": "nxt_trp_dictionary_vi_en_us",
             "type": "regular",
             "action": "translate",
-            "row_id": "1500"
+            "row_id": null
         },
         {
             "review_id": 23,
@@ -234,32 +234,32 @@
         {
             "review_id": 24,
             "source": "Đồng hành tối ưu hoạt động và xây dựng giải pháp phù hợp.",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Helping you optimize operations and develop solutions that fit your business.",
             "table": "nxt_trp_dictionary_vi_en_us",
             "type": "regular",
             "action": "translate",
-            "row_id": "1504"
+            "row_id": null
         },
         {
             "review_id": 26,
             "source": "Giải pháp cá nhân",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Solutions for Individuals",
             "table": "nxt_trp_dictionary_vi_en_us",
             "type": "regular",
             "action": "translate",
-            "row_id": "1508"
+            "row_id": null
         },
         {
             "review_id": 27,
             "source": "Hỗ trợ các nhu cầu công nghệ linh hoạt cho khách hàng cá nhân.",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Flexible technology support for individual customers.",
             "table": "nxt_trp_dictionary_vi_en_us",
             "type": "regular",
             "action": "translate",
-            "row_id": "1509"
+            "row_id": null
         },
         {
             "review_id": 29,
@@ -268,7 +268,7 @@
             "new_translation": "Technology",
             "table": "nxt_trp_gettext_en_us",
             "type": "gettext nextcore-theme",
-            "action": "apply-reviewed",
+            "action": "create",
             "row_id": null
         },
         {
@@ -282,114 +282,44 @@
             "row_id": null
         },
         {
-            "review_id": 31,
-            "source": "React",
-            "old_translation": "",
-            "new_translation": "React",
-            "table": "nxt_trp_dictionary_vi_en_us",
-            "type": "regular",
-            "action": "translate",
-            "row_id": "1516"
-        },
-        {
-            "review_id": 32,
-            "source": "Laravel",
-            "old_translation": "",
-            "new_translation": "Laravel",
-            "table": "nxt_trp_dictionary_vi_en_us",
-            "type": "regular",
-            "action": "translate",
-            "row_id": "1518"
-        },
-        {
-            "review_id": 34,
-            "source": "aws",
-            "old_translation": "",
-            "new_translation": "aws",
-            "table": "nxt_trp_dictionary_vi_en_us",
-            "type": "regular",
-            "action": "translate",
-            "row_id": "1521"
-        },
-        {
-            "review_id": 36,
-            "source": "docker",
-            "old_translation": "",
-            "new_translation": "docker",
-            "table": "nxt_trp_dictionary_vi_en_us",
-            "type": "regular",
-            "action": "translate",
-            "row_id": "1525"
-        },
-        {
-            "review_id": 37,
-            "source": "Figma",
-            "old_translation": "",
-            "new_translation": "Figma",
-            "table": "nxt_trp_dictionary_vi_en_us",
-            "type": "regular",
-            "action": "translate",
-            "row_id": "1526"
-        },
-        {
-            "review_id": 38,
-            "source": "CI/CD",
-            "old_translation": "",
-            "new_translation": "CI/CD",
-            "table": "nxt_trp_dictionary_vi_en_us",
-            "type": "regular",
-            "action": "translate",
-            "row_id": "1528"
-        },
-        {
             "review_id": 39,
             "source": "Sản phẩm nổi bật",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Featured Products",
             "table": "nxt_trp_dictionary_vi_en_us",
             "type": "regular",
             "action": "translate",
-            "row_id": "1530"
+            "row_id": null
         },
         {
             "review_id": 40,
             "source": "Giải pháp được tin chọn",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Solutions our clients trust",
             "table": "nxt_trp_dictionary_vi_en_us",
             "type": "regular",
             "action": "translate",
-            "row_id": "1531"
+            "row_id": null
         },
         {
             "review_id": 41,
             "source": "Trao đổi về dự án",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Let's discuss your project ",
             "table": "nxt_trp_dictionary_vi_en_us",
             "type": "regular",
             "action": "translate",
-            "row_id": "1532"
-        },
-        {
-            "review_id": 42,
-            "source": "Nextcore Portal",
-            "old_translation": "",
-            "new_translation": "Nextcore Portal",
-            "table": "nxt_trp_dictionary_vi_en_us",
-            "type": "regular",
-            "action": "translate",
-            "row_id": "1533"
+            "row_id": null
         },
         {
             "review_id": 43,
             "source": "Hệ thống quản lý doanh nghiệp thông minh.",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "An intelligent business management system.",
             "table": "nxt_trp_dictionary_vi_en_us",
             "type": "regular",
             "action": "translate",
-            "row_id": "1534"
+            "row_id": null
         },
         {
             "review_id": 44,
@@ -404,42 +334,22 @@
         {
             "review_id": 45,
             "source": "Website đào tạo doanh nhân.",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "A digital platform for business education.",
             "table": "nxt_trp_dictionary_vi_en_us",
             "type": "regular",
             "action": "translate",
-            "row_id": "1536"
-        },
-        {
-            "review_id": 46,
-            "source": "WordPress Plugin - Affiliate",
-            "old_translation": "",
-            "new_translation": "WordPress Plugin - Affiliate",
-            "table": "nxt_trp_dictionary_vi_en_us",
-            "type": "regular",
-            "action": "translate",
-            "row_id": "1538"
+            "row_id": null
         },
         {
             "review_id": 47,
             "source": "Giải pháp tiếp thị liên kết hiệu quả.",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "An effective affiliate marketing solution.",
             "table": "nxt_trp_dictionary_vi_en_us",
             "type": "regular",
             "action": "translate",
-            "row_id": "1539"
-        },
-        {
-            "review_id": 49,
-            "source": "GM Solutions",
-            "old_translation": "",
-            "new_translation": "GM Solutions",
-            "table": "nxt_trp_dictionary_vi_en_us",
-            "type": "regular",
-            "action": "translate",
-            "row_id": "1540"
+            "row_id": null
         },
         {
             "review_id": 50,
@@ -454,42 +364,42 @@
         {
             "review_id": 52,
             "source": "KHÁCH HÀNG NÓI VỀ NEXTCORE",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "WHAT OUR CLIENTS SAY ABOUT NEXTCORE",
             "table": "nxt_trp_dictionary_vi_en_us",
             "type": "regular",
             "action": "translate",
-            "row_id": "1547"
+            "row_id": null
         },
         {
             "review_id": 53,
             "source": "Đánh giá từ khách hàng",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Client testimonials",
             "table": "nxt_trp_dictionary_vi_en_us",
             "type": "regular",
             "action": "translate",
-            "row_id": "1548"
+            "row_id": null
         },
         {
             "review_id": 53,
             "source": "Đánh giá từ khách hàng",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Client testimonials",
             "table": "nxt_trp_gettext_en_us",
             "type": "gettext nextcore-theme",
-            "action": "apply-reviewed",
-            "row_id": "3570"
+            "action": "create",
+            "row_id": null
         },
         {
             "review_id": 54,
             "source": "Những chia sẻ thực tế từ khách hàng đang đồng hành cùng Nextcore.",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Real experiences shared by clients working with Nextcore.",
             "table": "nxt_trp_dictionary_vi_en_us",
             "type": "regular",
             "action": "translate",
-            "row_id": "1549"
+            "row_id": null
         },
         {
             "review_id": 55,
@@ -514,12 +424,12 @@
         {
             "review_id": 57,
             "source": "Nextcore để lại ấn tượng mạnh mẽ với đội ngũ hỗ trợ chuyên nghiệp, luôn đồng hành từ khâu tư vấn ban đầu đến việc sắp xếp kế hoạch và triển khai dự án. Phản hồi nhanh chóng, thông tin rõ ràng giúp chúng tôi hoàn toàn yên tâm khi làm việc cùng họ. Đặc biệt, sự uy tín và cam kết trách nhiệm với deadline của Nextcore là yếu tố nổi bật. Không thể không nhắc đến anh Tú, Project Manager của đội, người luôn tận tâm tư vấn và hỗ trợ nhiệt tình, mang đến trải nghiệm làm việc tuyệt vời.\nNextcore không chỉ là một đối tác, mà còn là một người bạn đồng hành đáng tin cậy trên hành trình phát triển của chúng tôi!",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Nextcore made a strong impression with its professional support team, guiding us from the initial consultation through planning and project delivery. Their prompt responses and clear communication gave us complete confidence in working with them. Their reliability and commitment to meeting deadlines stood out in particular. We must also mention Tú, the team’s Project Manager, whose thoughtful advice and dedicated support made the experience excellent.\nNextcore is more than a partner — they are a trusted companion on our journey of growth!",
             "table": "nxt_trp_dictionary_vi_en_us",
             "type": "regular",
             "action": "translate",
-            "row_id": "1551"
+            "row_id": null
         },
         {
             "review_id": 58,
@@ -574,12 +484,12 @@
         {
             "review_id": 63,
             "source": "Công ty Phần mềm Next Core làm dự án của tôi rất chuyên nghiệp, thực hiện đúng yêu cầu của khách hàng và hoàn thành công việc sớm hơn thời gian quy định, đảm bảo chất lượng. Các bạn dev của Công ty hỗ trợ tôi rất nhiệt tình trong thời gian thực hiện yêu cầu của tôi. Highly recommend cho các khách hàng trong lĩnh vực IT, phần mềm, design.",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Next Core handled my project very professionally, met my requirements and completed the work ahead of schedule while maintaining quality. The company’s developers were very helpful throughout the project. I highly recommend them to clients looking for IT, software and design services.",
             "table": "nxt_trp_dictionary_vi_en_us",
             "type": "regular",
             "action": "translate",
-            "row_id": "1554"
+            "row_id": null
         },
         {
             "review_id": 64,
@@ -602,24 +512,14 @@
             "row_id": "914"
         },
         {
-            "review_id": 66,
-            "source": "Highly appreciate your working spirit. I am pleased to choose you as partners. We will continue to cooperate in the future when there are new projects.",
-            "old_translation": "",
-            "new_translation": "Highly appreciate your working spirit. I am pleased to choose you as partners. We will continue to cooperate in the future when there are new projects.",
-            "table": "nxt_trp_dictionary_vi_en_us",
-            "type": "regular",
-            "action": "translate",
-            "row_id": "1556"
-        },
-        {
             "review_id": 67,
             "source": "ĐỘI NGŨ",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "OUR TEAM",
             "table": "nxt_trp_dictionary_vi_en_us",
             "type": "regular",
             "action": "translate",
-            "row_id": "1558"
+            "row_id": null
         },
         {
             "review_id": 68,
@@ -638,18 +538,18 @@
             "new_translation": "Our team",
             "table": "nxt_trp_gettext_en_us",
             "type": "gettext nextcore-theme",
-            "action": "apply-reviewed",
+            "action": "create",
             "row_id": null
         },
         {
             "review_id": 69,
             "source": "Đội ngũ chuyên môn cao, tận tâm và luôn sẵn sàng đồng hành.",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "A skilled, dedicated team ready to grow with you.",
             "table": "nxt_trp_dictionary_vi_en_us",
             "type": "regular",
             "action": "translate",
-            "row_id": "1559"
+            "row_id": null
         },
         {
             "review_id": 70,
@@ -714,52 +614,42 @@
         {
             "review_id": 76,
             "source": "Sẵn sàng bắt đầu dự án của bạn?",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Ready to start your project?",
             "table": "nxt_trp_dictionary_vi_en_us",
             "type": "regular",
             "action": "translate",
-            "row_id": "1565"
+            "row_id": null
         },
         {
             "review_id": 77,
             "source": "Hãy để Nextcore đồng hành cùng bạn trên hành trình chuyển đổi số.",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Let Nextcore support you on your digital transformation journey.",
             "table": "nxt_trp_dictionary_vi_en_us",
             "type": "regular",
             "action": "translate",
-            "row_id": "1566"
-        },
-        {
-            "review_id": 79,
-            "source": "63 Phan Đăng Lưu Street, Hai Chau, Da Nang 550000, Viet Nam",
-            "old_translation": "",
-            "new_translation": "63 Phan Đăng Lưu Street, Hai Chau, Da Nang 550000, Viet Nam",
-            "table": "nxt_trp_dictionary_vi_en_us",
-            "type": "regular",
-            "action": "translate",
-            "row_id": "1573"
+            "row_id": null
         },
         {
             "review_id": 80,
             "source": "Giải pháp công nghệ cho doanh nghiệp.",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Technology solutions for businesses.",
             "table": "nxt_trp_dictionary_vi_en_us",
             "type": "regular",
             "action": "translate",
-            "row_id": "1571"
+            "row_id": null
         },
         {
             "review_id": 81,
             "source": "Hỗ trợ",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Support",
             "table": "nxt_trp_dictionary_vi_en_us",
             "type": "regular",
             "action": "translate",
-            "row_id": "1572"
+            "row_id": null
         },
         {
             "review_id": 81,
@@ -768,7 +658,7 @@
             "new_translation": "Support",
             "table": "nxt_trp_gettext_en_us",
             "type": "gettext nextcore-theme",
-            "action": "apply-reviewed",
+            "action": "create",
             "row_id": null
         },
         {
@@ -778,18 +668,18 @@
             "new_translation": "Contact",
             "table": "nxt_trp_gettext_en_us",
             "type": "gettext nextcore-theme",
-            "action": "apply-reviewed",
+            "action": "create",
             "row_id": null
         },
         {
             "review_id": 83,
             "source": "Kết nối",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Connect",
             "table": "nxt_trp_dictionary_vi_en_us",
             "type": "regular",
             "action": "translate",
-            "row_id": "1574"
+            "row_id": null
         },
         {
             "review_id": 83,
@@ -798,7 +688,7 @@
             "new_translation": "Connect",
             "table": "nxt_trp_gettext_en_us",
             "type": "gettext nextcore-theme",
-            "action": "apply-reviewed",
+            "action": "create",
             "row_id": null
         },
         {
@@ -818,18 +708,18 @@
             "new_translation": "News",
             "table": "nxt_trp_gettext_en_us",
             "type": "gettext nextcore-theme",
-            "action": "apply-reviewed",
+            "action": "create",
             "row_id": null
         },
         {
             "review_id": 86,
             "source": "Cập nhật mới nhất",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Latest updates",
             "table": "nxt_trp_dictionary_vi_en_us",
             "type": "regular",
             "action": "translate",
-            "row_id": "1560"
+            "row_id": null
         },
         {
             "review_id": 87,
@@ -844,12 +734,12 @@
         {
             "review_id": 88,
             "source": "Giới thiệu",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "About us",
             "table": "nxt_trp_dictionary_vi_en_us",
             "type": "regular",
             "action": "translate",
-            "row_id": "1472"
+            "row_id": null
         },
         {
             "review_id": 88,
@@ -858,7 +748,7 @@
             "new_translation": "About us",
             "table": "nxt_trp_gettext_en_us",
             "type": "gettext nextcore-theme",
-            "action": "apply-reviewed",
+            "action": "create",
             "row_id": null
         },
         {
@@ -894,12 +784,12 @@
         {
             "review_id": 92,
             "source": "Sản phẩm / Dự án",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Products / Projects",
             "table": "nxt_trp_dictionary_vi_en_us",
             "type": "regular",
             "action": "translate",
-            "row_id": "1474"
+            "row_id": null
         },
         {
             "review_id": 92,
@@ -908,18 +798,18 @@
             "new_translation": "Products / Projects",
             "table": "nxt_trp_gettext_en_us",
             "type": "gettext nextcore-theme",
-            "action": "apply-reviewed",
+            "action": "create",
             "row_id": null
         },
         {
             "review_id": 95,
             "source": "Đối tác",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Partners",
             "table": "nxt_trp_dictionary_vi_en_us",
             "type": "regular",
             "action": "translate",
-            "row_id": "1477"
+            "row_id": null
         },
         {
             "review_id": 95,
@@ -928,18 +818,18 @@
             "new_translation": "Partners",
             "table": "nxt_trp_gettext_en_us",
             "type": "gettext nextcore-theme",
-            "action": "apply-reviewed",
+            "action": "create",
             "row_id": null
         },
         {
             "review_id": 96,
             "source": "Đánh giá",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Testimonials",
             "table": "nxt_trp_dictionary_vi_en_us",
             "type": "regular",
             "action": "translate",
-            "row_id": "1478"
+            "row_id": null
         },
         {
             "review_id": 96,
@@ -948,7 +838,7 @@
             "new_translation": "Testimonials",
             "table": "nxt_trp_gettext_en_us",
             "type": "gettext nextcore-theme",
-            "action": "apply-reviewed",
+            "action": "create",
             "row_id": null
         },
         {
@@ -964,12 +854,12 @@
         {
             "review_id": 97,
             "source": "Chuyển đến nội dung",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Skip to content",
             "table": "nxt_trp_gettext_en_us",
             "type": "gettext nextcore-theme",
-            "action": "apply-reviewed",
-            "row_id": "3550"
+            "action": "create",
+            "row_id": null
         },
         {
             "review_id": 98,
@@ -984,12 +874,12 @@
         {
             "review_id": 98,
             "source": "Nextcore — Trang chủ",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Nextcore — Home",
             "table": "nxt_trp_gettext_en_us",
             "type": "gettext nextcore-theme",
-            "action": "apply-reviewed",
-            "row_id": "3551"
+            "action": "create",
+            "row_id": null
         },
         {
             "review_id": 99,
@@ -1004,12 +894,12 @@
         {
             "review_id": 99,
             "source": "Điều hướng chính",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Main navigation",
             "table": "nxt_trp_gettext_en_us",
             "type": "gettext nextcore-theme",
-            "action": "apply-reviewed",
-            "row_id": "3552"
+            "action": "create",
+            "row_id": null
         },
         {
             "review_id": 100,
@@ -1024,12 +914,12 @@
         {
             "review_id": 100,
             "source": "Tìm kiếm",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Search",
             "table": "nxt_trp_gettext_en_us",
             "type": "gettext nextcore-theme",
-            "action": "apply-reviewed",
-            "row_id": "3555"
+            "action": "create",
+            "row_id": null
         },
         {
             "review_id": 101,
@@ -1044,12 +934,12 @@
         {
             "review_id": 101,
             "source": "Menu",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Menu",
             "table": "nxt_trp_gettext_en_us",
             "type": "gettext nextcore-theme",
-            "action": "apply-reviewed",
-            "row_id": "3558"
+            "action": "create",
+            "row_id": null
         },
         {
             "review_id": 102,
@@ -1064,12 +954,12 @@
         {
             "review_id": 102,
             "source": "Điều hướng di động",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Mobile navigation",
             "table": "nxt_trp_gettext_en_us",
             "type": "gettext nextcore-theme",
-            "action": "apply-reviewed",
-            "row_id": "3559"
+            "action": "create",
+            "row_id": null
         },
         {
             "review_id": 103,
@@ -1084,12 +974,12 @@
         {
             "review_id": 103,
             "source": "Đóng tìm kiếm",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Close search",
             "table": "nxt_trp_gettext_en_us",
             "type": "gettext nextcore-theme",
-            "action": "apply-reviewed",
-            "row_id": "3560"
+            "action": "create",
+            "row_id": null
         },
         {
             "review_id": 104,
@@ -1104,12 +994,12 @@
         {
             "review_id": 104,
             "source": "Bạn đang tìm gì?",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "What are you looking for?",
             "table": "nxt_trp_gettext_en_us",
             "type": "gettext nextcore-theme",
-            "action": "apply-reviewed",
-            "row_id": "3561"
+            "action": "create",
+            "row_id": null
         },
         {
             "review_id": 105,
@@ -1124,12 +1014,12 @@
         {
             "review_id": 105,
             "source": "Tìm",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Search",
             "table": "nxt_trp_gettext_en_us",
             "type": "gettext nextcore-theme",
-            "action": "apply-reviewed",
-            "row_id": "3562"
+            "action": "create",
+            "row_id": null
         },
         {
             "review_id": 106,
@@ -1144,12 +1034,12 @@
         {
             "review_id": 106,
             "source": "Ngôn ngữ",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Language",
             "table": "nxt_trp_gettext_en_us",
             "type": "gettext nextcore-theme",
-            "action": "apply-reviewed",
-            "row_id": "3556"
+            "action": "create",
+            "row_id": null
         },
         {
             "review_id": 107,
@@ -1164,12 +1054,12 @@
         {
             "review_id": 107,
             "source": "Chế độ tối",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Dark mode",
             "table": "nxt_trp_gettext_en_us",
             "type": "gettext nextcore-theme",
-            "action": "apply-reviewed",
-            "row_id": "3557"
+            "action": "create",
+            "row_id": null
         },
         {
             "review_id": 108,
@@ -1184,12 +1074,12 @@
         {
             "review_id": 108,
             "source": "Mở menu con: %s",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Open submenu: %s",
             "table": "nxt_trp_gettext_en_us",
             "type": "gettext nextcore-theme",
-            "action": "apply-reviewed",
-            "row_id": "3554"
+            "action": "create",
+            "row_id": null
         },
         {
             "review_id": 109,
@@ -1204,12 +1094,12 @@
         {
             "review_id": 109,
             "source": "Thành lập vào",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Founded on",
             "table": "nxt_trp_gettext_en_us",
             "type": "gettext nextcore-theme",
-            "action": "apply-reviewed",
-            "row_id": "3564"
+            "action": "create",
+            "row_id": null
         },
         {
             "review_id": 110,
@@ -1224,12 +1114,12 @@
         {
             "review_id": 110,
             "source": "j \\t\\h\\g n, Y",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "F j, Y",
             "table": "nxt_trp_gettext_en_us",
             "type": "gettext nextcore-theme",
-            "action": "apply-reviewed",
-            "row_id": "3565"
+            "action": "create",
+            "row_id": null
         },
         {
             "review_id": 111,
@@ -1244,12 +1134,12 @@
         {
             "review_id": 111,
             "source": "Khám phá",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Explore",
             "table": "nxt_trp_gettext_en_us",
             "type": "gettext nextcore-theme",
-            "action": "apply-reviewed",
-            "row_id": "3563"
+            "action": "create",
+            "row_id": null
         },
         {
             "review_id": 112,
@@ -1264,12 +1154,12 @@
         {
             "review_id": 112,
             "source": "Các công nghệ",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Technologies",
             "table": "nxt_trp_gettext_en_us",
             "type": "gettext nextcore-theme",
-            "action": "apply-reviewed",
-            "row_id": "3567"
+            "action": "create",
+            "row_id": null
         },
         {
             "review_id": 113,
@@ -1284,12 +1174,12 @@
         {
             "review_id": 113,
             "source": "Tạm dừng chuyển động công nghệ",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Pause technology animation",
             "table": "nxt_trp_gettext_en_us",
             "type": "gettext nextcore-theme",
-            "action": "apply-reviewed",
-            "row_id": "3568"
+            "action": "create",
+            "row_id": null
         },
         {
             "review_id": 114,
@@ -1304,12 +1194,12 @@
         {
             "review_id": 114,
             "source": "Băng chuyền",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Carousel",
             "table": "nxt_trp_gettext_en_us",
             "type": "gettext nextcore-theme",
-            "action": "apply-reviewed",
-            "row_id": "3569"
+            "action": "create",
+            "row_id": null
         },
         {
             "review_id": 115,
@@ -1324,12 +1214,12 @@
         {
             "review_id": 115,
             "source": "Đánh giá trước",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Previous testimonial",
             "table": "nxt_trp_gettext_en_us",
             "type": "gettext nextcore-theme",
-            "action": "apply-reviewed",
-            "row_id": "3571"
+            "action": "create",
+            "row_id": null
         },
         {
             "review_id": 116,
@@ -1344,12 +1234,12 @@
         {
             "review_id": 116,
             "source": "Vuốt để xem các đánh giá",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Swipe to browse testimonials",
             "table": "nxt_trp_gettext_en_us",
             "type": "gettext nextcore-theme",
-            "action": "apply-reviewed",
-            "row_id": "3572"
+            "action": "create",
+            "row_id": null
         },
         {
             "review_id": 117,
@@ -1364,12 +1254,12 @@
         {
             "review_id": 117,
             "source": "Xem thêm",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Read more",
             "table": "nxt_trp_gettext_en_us",
             "type": "gettext nextcore-theme",
-            "action": "apply-reviewed",
-            "row_id": "3573"
+            "action": "create",
+            "row_id": null
         },
         {
             "review_id": 118,
@@ -1384,12 +1274,12 @@
         {
             "review_id": 118,
             "source": "Đánh giá tiếp theo",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Next testimonial",
             "table": "nxt_trp_gettext_en_us",
             "type": "gettext nextcore-theme",
-            "action": "apply-reviewed",
-            "row_id": "3574"
+            "action": "create",
+            "row_id": null
         },
         {
             "review_id": 119,
@@ -1404,12 +1294,12 @@
         {
             "review_id": 119,
             "source": "Chọn nhóm đánh giá",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Choose a testimonial group",
             "table": "nxt_trp_gettext_en_us",
             "type": "gettext nextcore-theme",
-            "action": "apply-reviewed",
-            "row_id": "3575"
+            "action": "create",
+            "row_id": null
         },
         {
             "review_id": 120,
@@ -1424,12 +1314,12 @@
         {
             "review_id": 120,
             "source": "Đóng đánh giá",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Close testimonial",
             "table": "nxt_trp_gettext_en_us",
             "type": "gettext nextcore-theme",
-            "action": "apply-reviewed",
-            "row_id": "3576"
+            "action": "create",
+            "row_id": null
         },
         {
             "review_id": 121,
@@ -1444,12 +1334,12 @@
         {
             "review_id": 121,
             "source": "Email %s",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Email %s",
             "table": "nxt_trp_gettext_en_us",
             "type": "gettext nextcore-theme",
-            "action": "apply-reviewed",
-            "row_id": "3577"
+            "action": "create",
+            "row_id": null
         },
         {
             "review_id": 122,
@@ -1464,12 +1354,12 @@
         {
             "review_id": 122,
             "source": "Gọi %s",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Call %s",
             "table": "nxt_trp_gettext_en_us",
             "type": "gettext nextcore-theme",
-            "action": "apply-reviewed",
-            "row_id": "3578"
+            "action": "create",
+            "row_id": null
         },
         {
             "review_id": 123,
@@ -1484,12 +1374,12 @@
         {
             "review_id": 123,
             "source": "Nextcore. All rights reserved.",
-            "old_translation": "",
+            "old_translation": null,
             "new_translation": "Nextcore. All rights reserved.",
             "table": "nxt_trp_gettext_en_us",
             "type": "gettext nextcore-theme",
-            "action": "apply-reviewed",
-            "row_id": "3579"
+            "action": "create",
+            "row_id": null
         },
         {
             "review_id": 124,
@@ -1498,7 +1388,7 @@
             "new_translation": "Projects",
             "table": "nxt_trp_gettext_en_us",
             "type": "gettext nextcore-theme",
-            "action": "apply-reviewed",
+            "action": "create",
             "row_id": null
         },
         {
@@ -1510,16 +1400,6 @@
             "type": "regular",
             "action": "translate",
             "row_id": "111"
-        },
-        {
-            "review_id": 126,
-            "source": "TikTok",
-            "old_translation": "",
-            "new_translation": "TikTok",
-            "table": "nxt_trp_dictionary_vi_en_us",
-            "type": "regular",
-            "action": "translate",
-            "row_id": "1575"
         },
         {
             "review_id": 129,
@@ -1540,16 +1420,6 @@
             "type": "regular",
             "action": "translate",
             "row_id": null
-        },
-        {
-            "review_id": 133,
-            "source": "Top Olympia",
-            "old_translation": "",
-            "new_translation": "Top Olympia",
-            "table": "nxt_trp_dictionary_vi_en_us",
-            "type": "regular",
-            "action": "translate",
-            "row_id": "1535"
         },
         {
             "review_id": 134,
@@ -1580,7 +1450,19 @@
             "reason": "Unchanged proper name or existing English source."
         },
         {
+            "id": 31,
+            "reason": "Unchanged proper name or existing English source."
+        },
+        {
+            "id": 32,
+            "reason": "Unchanged proper name or existing English source."
+        },
+        {
             "id": 33,
+            "reason": "Unchanged proper name or existing English source."
+        },
+        {
+            "id": 34,
             "reason": "Unchanged proper name or existing English source."
         },
         {
@@ -1588,7 +1470,35 @@
             "reason": "Unchanged proper name or existing English source."
         },
         {
+            "id": 36,
+            "reason": "Unchanged proper name or existing English source."
+        },
+        {
+            "id": 37,
+            "reason": "Unchanged proper name or existing English source."
+        },
+        {
+            "id": 38,
+            "reason": "Unchanged proper name or existing English source."
+        },
+        {
+            "id": 42,
+            "reason": "Unchanged proper name or existing English source."
+        },
+        {
+            "id": 46,
+            "reason": "Unchanged proper name or existing English source."
+        },
+        {
+            "id": 49,
+            "reason": "Unchanged proper name or existing English source."
+        },
+        {
             "id": 51,
+            "reason": "Unchanged proper name or existing English source."
+        },
+        {
+            "id": 66,
             "reason": "Unchanged proper name or existing English source."
         },
         {
@@ -1596,7 +1506,15 @@
             "reason": "Unchanged proper name or existing English source."
         },
         {
+            "id": 79,
+            "reason": "Unchanged proper name or existing English source."
+        },
+        {
             "id": 84,
+            "reason": "Unchanged proper name or existing English source."
+        },
+        {
+            "id": 126,
             "reason": "Unchanged proper name or existing English source."
         },
         {
@@ -1614,29 +1532,33 @@
         {
             "id": 132,
             "reason": "Unchanged proper name or existing English source."
+        },
+        {
+            "id": 133,
+            "reason": "Unchanged proper name or existing English source."
         }
     ],
     "conflicts": [],
     "before_counts": {
-        "nxt_trp_dictionary_vi_en_us": 1594,
+        "nxt_trp_dictionary_vi_en_us": 1471,
         "nxt_trp_dictionary_vi_ja": 112,
-        "nxt_trp_gettext_en_us": 3579,
+        "nxt_trp_gettext_en_us": 3549,
         "nxt_trp_gettext_ja": 849,
         "nxt_trp_gettext_original_meta": 0,
-        "nxt_trp_gettext_original_strings": 5988,
-        "nxt_trp_gettext_vi": 5652,
+        "nxt_trp_gettext_original_strings": 5904,
+        "nxt_trp_gettext_vi": 5568,
         "nxt_trp_original_meta": 950,
-        "nxt_trp_original_strings": 1605
+        "nxt_trp_original_strings": 1482
     },
     "after_counts": {
-        "nxt_trp_dictionary_vi_en_us": 1594,
+        "nxt_trp_dictionary_vi_en_us": 1471,
         "nxt_trp_dictionary_vi_ja": 112,
-        "nxt_trp_gettext_en_us": 3579,
+        "nxt_trp_gettext_en_us": 3549,
         "nxt_trp_gettext_ja": 849,
         "nxt_trp_gettext_original_meta": 0,
-        "nxt_trp_gettext_original_strings": 5988,
-        "nxt_trp_gettext_vi": 5652,
+        "nxt_trp_gettext_original_strings": 5905,
+        "nxt_trp_gettext_vi": 5569,
         "nxt_trp_original_meta": 950,
-        "nxt_trp_original_strings": 1605
+        "nxt_trp_original_strings": 1482
     }
 }

@@ -1,5 +1,14 @@
 import {setTimeout as delay} from 'node:timers/promises';
 export {delay};
+const configuredBase=process.env.PHASE6_BASE_URL||'http://localhost/nextcore-website/';
+export const baseUrl=new URL(configuredBase.endsWith('/')?configuredBase:configuredBase+'/');
+export function urlFor(route='/') {
+ const value=String(route||'/');
+ if(/^https?:\/\//i.test(value))return value;
+ if(value==='/')return baseUrl.href;
+ if(value.startsWith('/?'))return new URL(value.slice(1),baseUrl).href;
+ return new URL(value.replace(/^\/+/,''),baseUrl).href;
+}
 export async function browser(port=9223) {
  const endpoint='http://127.0.0.1:'+port;
  const target=await (await fetch(endpoint+'/json/new?about:blank',{method:'PUT'})).json();

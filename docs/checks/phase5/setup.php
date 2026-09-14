@@ -5,6 +5,7 @@
  */
 require __DIR__ . '/bootstrap.php';
 $apply = in_array('--apply-local', $argv, true);
+$restore_reviewed = in_array('--restore-reviewed', $argv, true);
 // Seeding a reference must not re-parent an existing Media Library attachment.
 add_filter('acf/connect_attachment_to_post', '__return_false');
 $report = array('mode' => $apply ? 'apply-local' : 'dry-run', 'started_utc' => gmdate('c'), 'media' => array(), 'acf' => array(), 'menus' => array());
@@ -278,7 +279,12 @@ foreach (array('home_primary' => 'Nextcore Homepage Desktop', 'home_mobile' => '
         $item_ids[$key] = $id;
         $report['menus'][$location]['items'][] = array('id' => $id, 'action' => $action, 'args' => $args);
     }
-    if (!empty($locations[$location]) && (int) $locations[$location] !== (int) $menu_id) { throw new RuntimeException('Existing location assignment differs; refusing overwrite.'); }
+    if (!empty($locations[$location]) && (int) $locations[$location] !== (int) $menu_id) {
+        $legacy_location = $location === 'home_primary' ? 'primary' : 'primary_mobile';
+        $matches_reviewed_reset = $restore_reviewed && (int) $locations[$location] === (int) ($locations[$legacy_location] ?? 0);
+        if (!$matches_reviewed_reset) { throw new RuntimeException('Existing location assignment differs; refusing overwrite.'); }
+        $report['menus'][$location]['restored_from_reset_menu'] = (int) $locations[$location];
+    }
     if ($menu_id) { $locations[$location] = (int) $menu_id; }
 }
 if ($apply && get_theme_mod('nav_menu_locations', array()) !== $locations) {

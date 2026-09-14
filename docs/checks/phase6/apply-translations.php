@@ -20,7 +20,7 @@ $old_review=json_decode(file_get_contents(dirname(__DIR__).'/phase5/translation-
 $report=array('mode'=>$apply?'apply-local':'dry-run','writes'=>array(),'skipped'=>array(),'conflicts'=>array());
 $counts=function()use($wpdb){$out=array();foreach($wpdb->get_col("SHOW TABLES LIKE '{$wpdb->prefix}trp_%'") as $t){$out[$t]=(int)$wpdb->get_var("SELECT COUNT(*) FROM $t");}return $out;};
 $report['before_counts']=$counts();
-$html=file_get_contents('http://localhost/');
+$html=file_get_contents(home_url('/'));
 $block=function($pattern)use($html){if(!preg_match($pattern,$html,$m)){throw new RuntimeException('Missing translation block.');}return trp_full_trim($m[1]);};
 $blocks=array(
     2=>array($block('~<h1[^>]*id="hero-title"[^>]*>(.*?)</h1>~s'),'<span class="company-line"><span class="company-name">Nextcore</span> Software</span> <span class="company-line">Joint Stock Company</span>'),

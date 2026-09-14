@@ -1,5 +1,5 @@
 import {readFile,writeFile,mkdir} from 'node:fs/promises';
-import {browser,delay} from './cdp.mjs';
+import {browser,delay,urlFor} from './cdp.mjs';
 const widths=[1440,1200,1024,768,480,375];
 const existing=JSON.parse(await readFile(new URL('./after-native-routes.json',import.meta.url)));
 const routes=existing.filter(r=>r.route!='/wp-admin/').map(r=>r.route);
@@ -11,7 +11,7 @@ try {
  await b.send('Emulation.setEmulatedMedia',{features:[{name:'prefers-reduced-motion',value:'reduce'}]});
  for(let i=0;i<routes.length;i++) {
   if(process.argv[2]&&!process.argv[2].split(',').map(Number).includes(i))continue;
-  const route=routes[i],url='http://localhost'+route;
+  const route=routes[i],url=urlFor(route);
   const response=await fetch(url),html=await response.text();
   await writeFile(new URL('./final-'+i+'.html',import.meta.url),html);
   b.errors.length=0;b.failed.length=0;b.requests.length=0;

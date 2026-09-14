@@ -1,0 +1,1145 @@
+{
+    "mode": "apply-local",
+    "started_utc": "2026-09-14T02:40:18+00:00",
+    "media": {
+        "images/gm-solutions.png": {
+            "sha256": "5a0b2b0e2777d59f61f3f57977f92cae3faf52a74c563071040561ae374fd1e9",
+            "filename": "gm-solutions.png",
+            "action": "reuse",
+            "attachment_id": 1789
+        },
+        "images/service-outsource.png": {
+            "sha256": "77b8de3f5b38cd737c220d2e58c899ccae2c2b65f6673021fa264ae5d8f5872e",
+            "filename": "service-outsource.png",
+            "action": "reuse",
+            "attachment_id": 1811
+        },
+        "images/service-consulting.png": {
+            "sha256": "84d7b13490e34550b4276eef4c36310130f7f69af2c485e8783ff41f28ce18b8",
+            "filename": "service-consulting.png",
+            "action": "reuse",
+            "attachment_id": 1812
+        },
+        "images/service-personal.png": {
+            "sha256": "141bd2a14537130f585b63cec11cd344a5f4126db5cf347f53f2c9106b9ed723",
+            "filename": "service-personal.png",
+            "action": "reuse",
+            "attachment_id": 1813
+        },
+        "images/project-portal.png": {
+            "sha256": "e3944995f225390c66f1e3e956ccf7b6f1c3a0ff0b9f9ec0f48b0a5387e66bff",
+            "filename": "project-portal.png",
+            "action": "reuse",
+            "attachment_id": 1535
+        },
+        "images/project-olympia.png": {
+            "sha256": "0982e0ecb7a86f313919078a8374bc7457629410528a4582df0dbcc0f1e2da6b",
+            "filename": "project-olympia.png",
+            "action": "reuse",
+            "attachment_id": 1814
+        },
+        "images/project-affiliate.png": {
+            "sha256": "535675302269de041dac0336cc0c69e6de75ee864153e0edc16b8505dd8cf3bd",
+            "filename": "project-affiliate.png",
+            "action": "reuse",
+            "attachment_id": 1541
+        },
+        "images/testimonial-1.png": {
+            "sha256": "711d57fa008e20380f6f8474c6d7a391d32cefeba505bbd4e91e68e8439d054e",
+            "filename": "testimonial-1.png",
+            "action": "reuse",
+            "attachment_id": 1578
+        },
+        "images/testimonial-2.webp": {
+            "sha256": "ef314a553b01e0cf1befb611bca07bcd8d3b104c2e2a658bec643c0fe5ab56ad",
+            "filename": "testimonial-2.webp",
+            "action": "reuse",
+            "attachment_id": 1580
+        },
+        "images/testimonial-3.jpg": {
+            "sha256": "0c552ff36ce3d04555b0dc42e9f6c5566898c5542634b869e582d39320101a67",
+            "filename": "testimonial-3.jpg",
+            "action": "reuse",
+            "attachment_id": 1581
+        },
+        "images/testimonial-4.png": {
+            "sha256": "d09c603f7d1de2bb6d75f30b13f81dc3228c3d64cb6addf9e2aaada6a299e463",
+            "filename": "testimonial-4.png",
+            "action": "reuse",
+            "attachment_id": 1579
+        },
+        "images/team-hien.jpg": {
+            "sha256": "3fbc912b13077a5dc3898ffb3e984c36e2ad414a850360b93799129a904b81b9",
+            "filename": "team-hien.jpg",
+            "action": "reuse",
+            "attachment_id": 1799
+        },
+        "images/team-anh.jpg": {
+            "sha256": "de30c4093c19fa58d724f9d8e455af463cb58edc66cec3901cf8537c4575efc1",
+            "filename": "team-anh.jpg",
+            "action": "reuse",
+            "attachment_id": 527
+        },
+        "images/team-tu.png": {
+            "sha256": "6a873dadf5d51d22d144ad0dfa014579f2e80d19d381c88a238f6b3ce92f19c6",
+            "filename": "team-tu.png",
+            "action": "reuse",
+            "attachment_id": 526
+        },
+        "images/hero-corporate-v2.png": {
+            "sha256": "19e8217e50c093387d3bef899f1229b14e3d078ae1dc80f59b92b119ab2eada2",
+            "filename": "hero-corporate-v2.png",
+            "action": "reuse",
+            "attachment_id": 1815
+        },
+        "images/hero-corporate-light.png": {
+            "sha256": "cb5bb373cda6aae3cd0af6d365a0292e2e110e880e75c226ff6c97924f915964",
+            "filename": "hero-corporate-light.png",
+            "action": "reuse",
+            "attachment_id": 1816
+        },
+        "video/nextcore-danang.mp4": {
+            "sha256": "d155e068ee37bf853c30f96dd1d1edc17a30f0a20f81d65633da7a173d6857a8",
+            "filename": "nextcore-danang.mp4",
+            "action": "reuse",
+            "attachment_id": 1817
+        },
+        "video/caurongquay-light-video.mp4": {
+            "sha256": "84e196ef6dd4320381f53e55030b49bd7dad7ca9bf71bc5a2e1802815bf4f450",
+            "filename": "caurongquay-light-video.mp4",
+            "action": "reuse",
+            "attachment_id": 1818
+        },
+        "images/danang-poster.jpg": {
+            "sha256": "c27897a641aafeacff95e0758ef40728e658ab5c3c6970fa12767eba2cdb4fd0",
+            "filename": "danang-poster.jpg",
+            "action": "reuse",
+            "attachment_id": 1819
+        },
+        "images/cauronglight.png": {
+            "sha256": "6100f6f0f23c82cfaea31e2afbdd244fb7e27c87402e5aa30aa552fbc3985df4",
+            "filename": "cauronglight.png",
+            "action": "reuse",
+            "attachment_id": 1820
+        },
+        "images/cta.png": {
+            "sha256": "9b1f1acd83d2ac1a1899308a87bcd20665c20e06a80ba56fe205a739c42780ec",
+            "filename": "cta.png",
+            "action": "reuse",
+            "attachment_id": 1821
+        },
+        "images/cta-light.png": {
+            "sha256": "0e5333e23556309bbefe391f2b8deb4693a1718820e6fae1b5f1e1e510403dc5",
+            "filename": "cta-light.png",
+            "action": "reuse",
+            "attachment_id": 1822
+        }
+    },
+    "acf": {
+        "nc_hero_eyebrow": {
+            "context": 312,
+            "field_key": "field_nc_hero_eyebrow",
+            "action": "preserve-existing",
+            "value": "Software development company"
+        },
+        "nc_hero_line_one": {
+            "context": 312,
+            "field_key": "field_nc_hero_line_one",
+            "action": "preserve-existing",
+            "value": "Công ty cổ phần Phần"
+        },
+        "nc_hero_line_two_prefix": {
+            "context": 312,
+            "field_key": "field_nc_hero_line_two_prefix",
+            "action": "preserve-existing",
+            "value": "mềm"
+        },
+        "nc_hero_brand": {
+            "context": 312,
+            "field_key": "field_nc_hero_brand",
+            "action": "preserve-existing",
+            "value": "Nextcore"
+        },
+        "nc_hero_slogan": {
+            "context": 312,
+            "field_key": "field_nc_hero_slogan",
+            "action": "preserve-existing",
+            "value": "BUILD TRUST, CREATE VALUE"
+        },
+        "nc_hero_description": {
+            "context": 312,
+            "field_key": "field_nc_hero_description",
+            "action": "preserve-existing",
+            "value": "Giải pháp phần mềm cho doanh nghiệp hiện đại."
+        },
+        "nc_hero_contact_label": {
+            "context": 312,
+            "field_key": "field_nc_hero_contact_label",
+            "action": "preserve-existing",
+            "value": "Liên hệ ngay"
+        },
+        "nc_hero_secondary_label": {
+            "context": 312,
+            "field_key": "field_nc_hero_secondary_label",
+            "action": "preserve-existing",
+            "value": "Xem năng lực"
+        },
+        "nc_about_eyebrow": {
+            "context": 312,
+            "field_key": "field_nc_about_eyebrow",
+            "action": "preserve-existing",
+            "value": "Về Nextcore"
+        },
+        "nc_about_heading_line_one": {
+            "context": 312,
+            "field_key": "field_nc_about_heading_line_one",
+            "action": "preserve-existing",
+            "value": "Công ty Cổ phần"
+        },
+        "nc_about_heading_line_two": {
+            "context": 312,
+            "field_key": "field_nc_about_heading_line_two",
+            "action": "preserve-existing",
+            "value": "Phần mềm Nextcore"
+        },
+        "nc_about_founded_date": {
+            "context": 312,
+            "field_key": "field_nc_about_founded_date",
+            "action": "preserve-existing",
+            "value": "2022-06-15"
+        },
+        "nc_about_body": {
+            "context": 312,
+            "field_key": "field_nc_about_body",
+            "action": "preserve-existing",
+            "value": "<p>Chuyên thực hiện phát triển, bảo trì các dự án CNTT cho các đối tác outsource.</p>\n<p>Đối tác của Công ty là các Công ty outsource lớn-vừa-nhỏ ở Việt Nam ở cả 3 thị trường nói tiếng Anh-Nhật-Việt.</p>\n<p>Không ngừng nỗ lực để giải quyết các vấn đề là <strong>Nỗi đau</strong> và tạo giá trị <strong>hữu ích</strong> cho khách hàng để trở thành đối tác tin cậy và lâu dài.</p>\n"
+        },
+        "nc_about_link_label": {
+            "context": 312,
+            "field_key": "field_nc_about_link_label",
+            "action": "preserve-existing",
+            "value": "Tìm hiểu thêm"
+        },
+        "nc_stats": {
+            "context": 312,
+            "field_key": "field_nc_stats",
+            "action": "preserve-existing",
+            "value": [
+                {
+                    "metric": "projects",
+                    "value": "35",
+                    "suffix": "+",
+                    "label": "Dự án triển khai"
+                },
+                {
+                    "metric": "clients",
+                    "value": "25",
+                    "suffix": "+",
+                    "label": "Khách hàng tin tưởng"
+                },
+                {
+                    "metric": "employees",
+                    "value": "20",
+                    "suffix": "+",
+                    "label": "Nhân viên"
+                }
+            ]
+        },
+        "nc_services_eyebrow": {
+            "context": 312,
+            "field_key": "field_nc_services_eyebrow",
+            "action": "preserve-existing",
+            "value": "Dịch vụ"
+        },
+        "nc_services_heading": {
+            "context": 312,
+            "field_key": "field_nc_services_heading",
+            "action": "preserve-existing",
+            "value": "Năng lực cốt lõi"
+        },
+        "nc_services_contact_label": {
+            "context": 312,
+            "field_key": "field_nc_services_contact_label",
+            "action": "preserve-existing",
+            "value": "Trao đổi nhu cầu "
+        },
+        "nc_service_cards": {
+            "context": 312,
+            "field_key": "field_nc_service_cards",
+            "action": "preserve-existing",
+            "value": [
+                {
+                    "title": "Outsource CNTT",
+                    "description": "Phát triển và bảo trì dự án CNTT cho đối tác outsource.",
+                    "image": 1811,
+                    "icon": "code",
+                    "micro_text": "CODE\nSOLVE\nTOGETHER",
+                    "target_kind": "page",
+                    "target_page": 1133,
+                    "target_term": false
+                },
+                {
+                    "title": "Tư vấn doanh nghiệp",
+                    "description": "Đồng hành tối ưu hoạt động và xây dựng giải pháp phù hợp.",
+                    "image": 1812,
+                    "icon": "strategy",
+                    "micro_text": "PEOPLE\nSTRATEGY\nGROWTH",
+                    "target_kind": "term",
+                    "target_page": false,
+                    "target_term": 74
+                },
+                {
+                    "title": "Giải pháp cá nhân",
+                    "description": "Hỗ trợ các nhu cầu công nghệ linh hoạt cho khách hàng cá nhân.",
+                    "image": 1813,
+                    "icon": "user",
+                    "micro_text": "SIMPLE\nFLEXIBLE\nFOR YOU",
+                    "target_kind": "term",
+                    "target_page": false,
+                    "target_term": 75
+                }
+            ]
+        },
+        "nc_technology_eyebrow": {
+            "context": 312,
+            "field_key": "field_nc_technology_eyebrow",
+            "action": "preserve-existing",
+            "value": "Công nghệ"
+        },
+        "nc_technology_heading": {
+            "context": 312,
+            "field_key": "field_nc_technology_heading",
+            "action": "preserve-existing",
+            "value": "Nền tảng\n tạo nên khác biệt"
+        },
+        "nc_technology_items": {
+            "context": 312,
+            "field_key": "field_nc_technology_items",
+            "action": "preserve-existing",
+            "value": [
+                {
+                    "mark": "react",
+                    "label": "React"
+                },
+                {
+                    "mark": "laravel",
+                    "label": "Laravel"
+                },
+                {
+                    "mark": "node",
+                    "label": "node.js"
+                },
+                {
+                    "mark": "aws",
+                    "label": "aws"
+                },
+                {
+                    "mark": "mysql",
+                    "label": "MySQL"
+                },
+                {
+                    "mark": "docker",
+                    "label": "docker"
+                },
+                {
+                    "mark": "figma",
+                    "label": "Figma"
+                },
+                {
+                    "mark": "cicd",
+                    "label": "CI/CD"
+                }
+            ]
+        },
+        "nc_projects_eyebrow": {
+            "context": 312,
+            "field_key": "field_nc_projects_eyebrow",
+            "action": "preserve-existing",
+            "value": "Sản phẩm nổi bật"
+        },
+        "nc_projects_heading": {
+            "context": 312,
+            "field_key": "field_nc_projects_heading",
+            "action": "preserve-existing",
+            "value": "Giải pháp được tin chọn"
+        },
+        "nc_projects_contact_label": {
+            "context": 312,
+            "field_key": "field_nc_projects_contact_label",
+            "action": "preserve-existing",
+            "value": "Trao đổi về dự án "
+        },
+        "nc_featured_projects": {
+            "context": 312,
+            "field_key": "field_nc_featured_projects",
+            "action": "preserve-existing",
+            "value": [
+                {
+                    "object": false,
+                    "visual_variant": "portal",
+                    "card_label": "Nextcore Portal",
+                    "card_summary": "Hệ thống quản lý doanh nghiệp thông minh.",
+                    "card_image": 1535
+                },
+                {
+                    "object": 1510,
+                    "visual_variant": "olympia",
+                    "card_label": "Trường Doanh nhân Top Olympia",
+                    "card_summary": "Website đào tạo doanh nhân.",
+                    "card_image": 1814
+                },
+                {
+                    "object": 1548,
+                    "visual_variant": "affiliate",
+                    "card_label": "WordPress Plugin - Affiliate",
+                    "card_summary": "Giải pháp tiếp thị liên kết hiệu quả.",
+                    "card_image": 1541
+                }
+            ]
+        },
+        "nc_partner_eyebrow": {
+            "context": 312,
+            "field_key": "field_nc_partner_eyebrow",
+            "action": "preserve-existing",
+            "value": "Đối tác chiến lược"
+        },
+        "nc_partner_name": {
+            "context": 312,
+            "field_key": "field_nc_partner_name",
+            "action": "preserve-existing",
+            "value": "GM Solutions"
+        },
+        "nc_partner_logo": {
+            "context": 312,
+            "field_key": "field_nc_partner_logo",
+            "action": "preserve-existing",
+            "value": 1789
+        },
+        "nc_partner_description": {
+            "context": 312,
+            "field_key": "field_nc_partner_description",
+            "action": "preserve-existing",
+            "value": "Cùng nhau kiến tạo\nnhững giá trị bền vững."
+        },
+        "nc_partner_motto": {
+            "context": 312,
+            "field_key": "field_nc_partner_motto",
+            "action": "preserve-existing",
+            "value": "Stronger\n together\n for a brighter\n tomorrow"
+        },
+        "nc_partner_link_label": {
+            "context": 312,
+            "field_key": "field_nc_partner_link_label",
+            "action": "preserve-existing",
+            "value": "Tìm hiểu thêm"
+        },
+        "nc_partner_link": {
+            "context": 312,
+            "field_key": "field_nc_partner_link",
+            "action": "preserve-existing",
+            "value": {
+                "title": "Tìm hiểu thêm",
+                "url": "https://gm-group.vn/",
+                "target": ""
+            }
+        },
+        "nc_testimonials_eyebrow": {
+            "context": 312,
+            "field_key": "field_nc_testimonials_eyebrow",
+            "action": "preserve-existing",
+            "value": "KHÁCH HÀNG NÓI VỀ NEXTCORE"
+        },
+        "nc_testimonials_heading": {
+            "context": 312,
+            "field_key": "field_nc_testimonials_heading",
+            "action": "preserve-existing",
+            "value": "Đánh giá từ khách hàng"
+        },
+        "nc_testimonials_intro": {
+            "context": 312,
+            "field_key": "field_nc_testimonials_intro",
+            "action": "preserve-existing",
+            "value": "Những chia sẻ thực tế từ khách hàng đang đồng hành cùng Nextcore."
+        },
+        "nc_testimonials": {
+            "context": 312,
+            "field_key": "field_nc_testimonials",
+            "action": "preserve-existing",
+            "value": [
+                {
+                    "name": "Công ty An Tâm Việt",
+                    "project_label": "Dự án Plugin Affiliate",
+                    "quote": "Nextcore để lại ấn tượng mạnh mẽ với đội ngũ hỗ trợ chuyên nghiệp, luôn đồng hành từ khâu tư vấn ban đầu đến việc sắp xếp kế hoạch và triển khai dự án. Phản hồi nhanh chóng, thông tin rõ ràng giúp chúng tôi hoàn toàn yên tâm khi làm việc cùng họ. Đặc biệt, sự uy tín và cam kết trách nhiệm với deadline của Nextcore là yếu tố nổi bật. Không thể không nhắc đến anh Tú, Project Manager của đội, người luôn tận tâm tư vấn và hỗ trợ nhiệt tình, mang đến trải nghiệm làm việc tuyệt vời.\nNextcore không chỉ là một đối tác, mà còn là một người bạn đồng hành đáng tin cậy trên hành trình phát triển của chúng tôi!",
+                    "image": 1578
+                },
+                {
+                    "name": "Phạm Việt Hùng",
+                    "project_label": "Dự án Tạo template ebook",
+                    "quote": "Hoàn thành công việc nhanh và chất lượng. Nhiệt tình hỗ trợ sau khi hoàn thành công việc",
+                    "image": 1580
+                },
+                {
+                    "name": "Nguyễn Phương Trà My",
+                    "project_label": "Dự án Convert nghiệp vụ sang sơ đồ khối",
+                    "quote": "Công ty Phần mềm Next Core làm dự án của tôi rất chuyên nghiệp, thực hiện đúng yêu cầu của khách hàng và hoàn thành công việc sớm hơn thời gian quy định, đảm bảo chất lượng. Các bạn dev của Công ty hỗ trợ tôi rất nhiệt tình trong thời gian thực hiện yêu cầu của tôi. Highly recommend cho các khách hàng trong lĩnh vực IT, phần mềm, design.",
+                    "image": 1581
+                },
+                {
+                    "name": "Bé khỏe bé vui",
+                    "project_label": "Dự án phục hồi website bị tấn công",
+                    "quote": "Highly appreciate your working spirit. I am pleased to choose you as partners. We will continue to cooperate in the future when there are new projects.",
+                    "image": 1579
+                }
+            ]
+        },
+        "nc_team_eyebrow": {
+            "context": 312,
+            "field_key": "field_nc_team_eyebrow",
+            "action": "preserve-existing",
+            "value": "ĐỘI NGŨ"
+        },
+        "nc_team_heading": {
+            "context": 312,
+            "field_key": "field_nc_team_heading",
+            "action": "preserve-existing",
+            "value": "Đội ngũ"
+        },
+        "nc_team_intro": {
+            "context": 312,
+            "field_key": "field_nc_team_intro",
+            "action": "preserve-existing",
+            "value": "Đội ngũ chuyên môn cao, tận tâm và luôn sẵn sàng đồng hành."
+        },
+        "nc_team_members": {
+            "context": 312,
+            "field_key": "field_nc_team_members",
+            "action": "preserve-existing",
+            "value": [
+                {
+                    "name": "Nguyễn Văn Hiền",
+                    "role": "Chief Executive Officer",
+                    "image": 1799,
+                    "email": "hiennv@nextcore.vn",
+                    "phone": "+84378962625"
+                },
+                {
+                    "name": "Trần Đức Anh",
+                    "role": "Chief Technology Officer",
+                    "image": 527,
+                    "email": "anhtd@nextcore.vn",
+                    "phone": "+84976748059"
+                },
+                {
+                    "name": "Phan Thanh Tú",
+                    "role": "Project Manager",
+                    "image": 526,
+                    "email": "tupt@nextcore.vn",
+                    "phone": "+84979525694"
+                }
+            ]
+        },
+        "nc_cta_heading": {
+            "context": 312,
+            "field_key": "field_nc_cta_heading",
+            "action": "preserve-existing",
+            "value": "Sẵn sàng bắt đầu dự án của bạn?"
+        },
+        "nc_cta_description": {
+            "context": 312,
+            "field_key": "field_nc_cta_description",
+            "action": "preserve-existing",
+            "value": "Hãy để Nextcore đồng hành cùng bạn trên hành trình chuyển đổi số."
+        },
+        "nc_cta_button_label": {
+            "context": 312,
+            "field_key": "field_nc_cta_button_label",
+            "action": "preserve-existing",
+            "value": "Liên hệ ngay"
+        },
+        "nc_cta_motto": {
+            "context": 312,
+            "field_key": "field_nc_cta_motto",
+            "action": "preserve-existing",
+            "value": "New\nideas.\nHigher\npossibilities."
+        },
+        "nc_header_contact_label": {
+            "context": "option",
+            "field_key": "field_nc_header_contact_label",
+            "action": "preserve-existing",
+            "value": "Liên hệ ngay"
+        },
+        "nc_contact_address": {
+            "context": "option",
+            "field_key": "field_nc_contact_address",
+            "action": "preserve-existing",
+            "value": "63 Phan Đăng Lưu Street, Hai Chau, Da Nang 550000, Viet Nam"
+        },
+        "nc_contact_email": {
+            "context": "option",
+            "field_key": "field_nc_contact_email",
+            "action": "preserve-existing",
+            "value": "info@nextcore.vn"
+        },
+        "nc_contact_phone": {
+            "context": "option",
+            "field_key": "field_nc_contact_phone",
+            "action": "preserve-existing",
+            "value": "+84378962625"
+        },
+        "nc_contact_page": {
+            "context": "option",
+            "field_key": "field_nc_contact_page",
+            "action": "preserve-existing",
+            "value": 320
+        },
+        "nc_footer_description": {
+            "context": "option",
+            "field_key": "field_nc_footer_description",
+            "action": "preserve-existing",
+            "value": "Giải pháp công nghệ cho doanh nghiệp."
+        },
+        "nc_footer_about_heading": {
+            "context": "option",
+            "field_key": "field_nc_footer_about_heading",
+            "action": "preserve-existing",
+            "value": "Về Nextcore"
+        },
+        "nc_footer_support_heading": {
+            "context": "option",
+            "field_key": "field_nc_footer_support_heading",
+            "action": "preserve-existing",
+            "value": "Hỗ trợ"
+        },
+        "nc_footer_contact_heading": {
+            "context": "option",
+            "field_key": "field_nc_footer_contact_heading",
+            "action": "preserve-existing",
+            "value": "Liên hệ"
+        },
+        "nc_footer_social_heading": {
+            "context": "option",
+            "field_key": "field_nc_footer_social_heading",
+            "action": "preserve-existing",
+            "value": "Kết nối"
+        },
+        "nc_footer_motto": {
+            "context": "option",
+            "field_key": "field_nc_footer_motto",
+            "action": "preserve-existing",
+            "value": "Build a\nbetter tomorrow"
+        },
+        "nc_social_links": {
+            "context": "option",
+            "field_key": "field_nc_social_links",
+            "action": "preserve-existing",
+            "value": [
+                {
+                    "platform": "facebook",
+                    "url": "https://www.facebook.com/nextcore.software.jsc"
+                },
+                {
+                    "platform": "tiktok",
+                    "url": "https://www.tiktok.com/@nextcore.software.jsc"
+                }
+            ]
+        },
+        "nc_hero_image_dark": {
+            "context": "option",
+            "field_key": "field_nc_hero_image_dark",
+            "action": "preserve-existing",
+            "value": 1815
+        },
+        "nc_hero_image_light": {
+            "context": "option",
+            "field_key": "field_nc_hero_image_light",
+            "action": "preserve-existing",
+            "value": 1816
+        },
+        "nc_about_video_dark": {
+            "context": "option",
+            "field_key": "field_nc_about_video_dark",
+            "action": "preserve-existing",
+            "value": 1817
+        },
+        "nc_about_video_light": {
+            "context": "option",
+            "field_key": "field_nc_about_video_light",
+            "action": "preserve-existing",
+            "value": 1818
+        },
+        "nc_about_poster_dark": {
+            "context": "option",
+            "field_key": "field_nc_about_poster_dark",
+            "action": "preserve-existing",
+            "value": 1819
+        },
+        "nc_about_poster_light": {
+            "context": "option",
+            "field_key": "field_nc_about_poster_light",
+            "action": "preserve-existing",
+            "value": 1820
+        },
+        "nc_cta_image_dark": {
+            "context": "option",
+            "field_key": "field_nc_cta_image_dark",
+            "action": "preserve-existing",
+            "value": 1821
+        },
+        "nc_cta_image_light": {
+            "context": "option",
+            "field_key": "field_nc_cta_image_light",
+            "action": "preserve-existing",
+            "value": 1822
+        },
+        "nc_blog_eyebrow": {
+            "context": 312,
+            "field_key": "field_nc_blog_eyebrow",
+            "action": "preserve-existing",
+            "value": "Tin tức"
+        },
+        "nc_blog_heading": {
+            "context": 312,
+            "field_key": "field_nc_blog_heading",
+            "action": "preserve-existing",
+            "value": "Cập nhật mới nhất"
+        },
+        "nc_blog_note": {
+            "context": 312,
+            "field_key": "field_nc_blog_note",
+            "action": "preserve-existing",
+            "value": "Góc nhìn & kiến thức"
+        },
+        "nc_contact_integration_owner": {
+            "context": "option",
+            "field_key": "field_nc_contact_integration_owner",
+            "action": "preserve-existing",
+            "value": "theme"
+        },
+        "nc_messenger_url": {
+            "context": "option",
+            "field_key": "field_nc_messenger_url",
+            "action": "preserve-existing",
+            "value": ""
+        },
+        "nc_zalo_oa_id": {
+            "context": "option",
+            "field_key": "field_nc_zalo_oa_id",
+            "action": "preserve-existing",
+            "value": ""
+        },
+        "nc_zalo_welcome": {
+            "context": "option",
+            "field_key": "field_nc_zalo_welcome",
+            "action": "preserve-existing",
+            "value": ""
+        },
+        "nc_analytics_owner": {
+            "context": "option",
+            "field_key": "field_nc_analytics_owner",
+            "action": "preserve-existing",
+            "value": "theme"
+        },
+        "nc_umami_script_url": {
+            "context": "option",
+            "field_key": "field_nc_umami_script_url",
+            "action": "preserve-existing",
+            "value": ""
+        },
+        "nc_umami_website_id": {
+            "context": "option",
+            "field_key": "field_nc_umami_website_id",
+            "action": "preserve-existing",
+            "value": ""
+        }
+    },
+    "menus": {
+        "home_primary": {
+            "name": "Nextcore Homepage Desktop",
+            "id": 82,
+            "action": "reuse",
+            "items": [
+                {
+                    "id": 1823,
+                    "action": "preserve-existing",
+                    "args": {
+                        "menu-item-title": "Giới thiệu",
+                        "menu-item-status": "publish",
+                        "menu-item-position": 1,
+                        "menu-item-parent-id": 0,
+                        "menu-item-type": "custom",
+                        "menu-item-url": "#about"
+                    }
+                },
+                {
+                    "id": 1824,
+                    "action": "preserve-existing",
+                    "args": {
+                        "menu-item-title": "Dịch vụ",
+                        "menu-item-status": "publish",
+                        "menu-item-position": 2,
+                        "menu-item-parent-id": 0,
+                        "menu-item-type": "custom",
+                        "menu-item-url": "#services"
+                    }
+                },
+                {
+                    "id": 1825,
+                    "action": "preserve-existing",
+                    "args": {
+                        "menu-item-title": "Outsource",
+                        "menu-item-status": "publish",
+                        "menu-item-position": 3,
+                        "menu-item-parent-id": 1824,
+                        "menu-item-type": "post_type",
+                        "menu-item-object": "page",
+                        "menu-item-object-id": 1133
+                    }
+                },
+                {
+                    "id": 1826,
+                    "action": "preserve-existing",
+                    "args": {
+                        "menu-item-title": "Tư vấn doanh nghiệp",
+                        "menu-item-status": "publish",
+                        "menu-item-position": 4,
+                        "menu-item-parent-id": 1824,
+                        "menu-item-type": "taxonomy",
+                        "menu-item-object": "danh-muc-dich-vu",
+                        "menu-item-object-id": 74
+                    }
+                },
+                {
+                    "id": 1827,
+                    "action": "preserve-existing",
+                    "args": {
+                        "menu-item-title": "Khách hàng cá nhân",
+                        "menu-item-status": "publish",
+                        "menu-item-position": 5,
+                        "menu-item-parent-id": 1824,
+                        "menu-item-type": "taxonomy",
+                        "menu-item-object": "danh-muc-dich-vu",
+                        "menu-item-object-id": 75
+                    }
+                },
+                {
+                    "id": 1828,
+                    "action": "preserve-existing",
+                    "args": {
+                        "menu-item-title": "Sản phẩm",
+                        "menu-item-status": "publish",
+                        "menu-item-position": 6,
+                        "menu-item-parent-id": 1824,
+                        "menu-item-type": "taxonomy",
+                        "menu-item-object": "danh-muc-dich-vu",
+                        "menu-item-object-id": 81
+                    }
+                },
+                {
+                    "id": 1829,
+                    "action": "preserve-existing",
+                    "args": {
+                        "menu-item-title": "Công nghệ",
+                        "menu-item-status": "publish",
+                        "menu-item-position": 7,
+                        "menu-item-parent-id": 0,
+                        "menu-item-type": "custom",
+                        "menu-item-url": "#technology"
+                    }
+                },
+                {
+                    "id": 1830,
+                    "action": "preserve-existing",
+                    "args": {
+                        "menu-item-title": "Sản phẩm / Dự án",
+                        "menu-item-status": "publish",
+                        "menu-item-position": 8,
+                        "menu-item-parent-id": 0,
+                        "menu-item-type": "custom",
+                        "menu-item-url": "#projects"
+                    }
+                },
+                {
+                    "id": 1831,
+                    "action": "preserve-existing",
+                    "args": {
+                        "menu-item-title": "Đội ngũ",
+                        "menu-item-status": "publish",
+                        "menu-item-position": 9,
+                        "menu-item-parent-id": 0,
+                        "menu-item-type": "custom",
+                        "menu-item-url": "#team"
+                    }
+                },
+                {
+                    "id": 1832,
+                    "action": "preserve-existing",
+                    "args": {
+                        "menu-item-title": "Tin tức",
+                        "menu-item-status": "publish",
+                        "menu-item-position": 10,
+                        "menu-item-parent-id": 0,
+                        "menu-item-type": "custom",
+                        "menu-item-url": "#blog"
+                    }
+                },
+                {
+                    "id": 1833,
+                    "action": "preserve-existing",
+                    "args": {
+                        "menu-item-title": "Kiến thức",
+                        "menu-item-status": "publish",
+                        "menu-item-position": 11,
+                        "menu-item-parent-id": 1832,
+                        "menu-item-type": "taxonomy",
+                        "menu-item-object": "category",
+                        "menu-item-object-id": 1
+                    }
+                },
+                {
+                    "id": 1834,
+                    "action": "preserve-existing",
+                    "args": {
+                        "menu-item-title": "Công ty",
+                        "menu-item-status": "publish",
+                        "menu-item-position": 12,
+                        "menu-item-parent-id": 1832,
+                        "menu-item-type": "taxonomy",
+                        "menu-item-object": "category",
+                        "menu-item-object-id": 76
+                    }
+                },
+                {
+                    "id": 1835,
+                    "action": "preserve-existing",
+                    "args": {
+                        "menu-item-title": "Liên hệ",
+                        "menu-item-status": "publish",
+                        "menu-item-position": 13,
+                        "menu-item-parent-id": 0,
+                        "menu-item-type": "custom",
+                        "menu-item-url": "#contact"
+                    }
+                }
+            ]
+        },
+        "home_mobile": {
+            "name": "Nextcore Homepage Mobile",
+            "id": 83,
+            "action": "reuse",
+            "items": [
+                {
+                    "id": 1836,
+                    "action": "preserve-existing",
+                    "args": {
+                        "menu-item-title": "Giới thiệu",
+                        "menu-item-status": "publish",
+                        "menu-item-position": 1,
+                        "menu-item-parent-id": 0,
+                        "menu-item-type": "custom",
+                        "menu-item-url": "#about"
+                    }
+                },
+                {
+                    "id": 1837,
+                    "action": "preserve-existing",
+                    "args": {
+                        "menu-item-title": "Dịch vụ",
+                        "menu-item-status": "publish",
+                        "menu-item-position": 2,
+                        "menu-item-parent-id": 0,
+                        "menu-item-type": "custom",
+                        "menu-item-url": "#services"
+                    }
+                },
+                {
+                    "id": 1838,
+                    "action": "preserve-existing",
+                    "args": {
+                        "menu-item-title": "Outsource",
+                        "menu-item-status": "publish",
+                        "menu-item-position": 3,
+                        "menu-item-parent-id": 1837,
+                        "menu-item-type": "post_type",
+                        "menu-item-object": "page",
+                        "menu-item-object-id": 1133
+                    }
+                },
+                {
+                    "id": 1839,
+                    "action": "preserve-existing",
+                    "args": {
+                        "menu-item-title": "Tư vấn doanh nghiệp",
+                        "menu-item-status": "publish",
+                        "menu-item-position": 4,
+                        "menu-item-parent-id": 1837,
+                        "menu-item-type": "taxonomy",
+                        "menu-item-object": "danh-muc-dich-vu",
+                        "menu-item-object-id": 74
+                    }
+                },
+                {
+                    "id": 1840,
+                    "action": "preserve-existing",
+                    "args": {
+                        "menu-item-title": "Khách hàng cá nhân",
+                        "menu-item-status": "publish",
+                        "menu-item-position": 5,
+                        "menu-item-parent-id": 1837,
+                        "menu-item-type": "taxonomy",
+                        "menu-item-object": "danh-muc-dich-vu",
+                        "menu-item-object-id": 75
+                    }
+                },
+                {
+                    "id": 1841,
+                    "action": "preserve-existing",
+                    "args": {
+                        "menu-item-title": "Sản phẩm",
+                        "menu-item-status": "publish",
+                        "menu-item-position": 6,
+                        "menu-item-parent-id": 1837,
+                        "menu-item-type": "taxonomy",
+                        "menu-item-object": "danh-muc-dich-vu",
+                        "menu-item-object-id": 81
+                    }
+                },
+                {
+                    "id": 1842,
+                    "action": "preserve-existing",
+                    "args": {
+                        "menu-item-title": "Công nghệ",
+                        "menu-item-status": "publish",
+                        "menu-item-position": 7,
+                        "menu-item-parent-id": 0,
+                        "menu-item-type": "custom",
+                        "menu-item-url": "#technology"
+                    }
+                },
+                {
+                    "id": 1843,
+                    "action": "preserve-existing",
+                    "args": {
+                        "menu-item-title": "Sản phẩm / Dự án",
+                        "menu-item-status": "publish",
+                        "menu-item-position": 8,
+                        "menu-item-parent-id": 0,
+                        "menu-item-type": "custom",
+                        "menu-item-url": "#projects"
+                    }
+                },
+                {
+                    "id": 1844,
+                    "action": "preserve-existing",
+                    "args": {
+                        "menu-item-title": "Đối tác",
+                        "menu-item-status": "publish",
+                        "menu-item-position": 9,
+                        "menu-item-parent-id": 0,
+                        "menu-item-type": "custom",
+                        "menu-item-url": "#partner"
+                    }
+                },
+                {
+                    "id": 1845,
+                    "action": "preserve-existing",
+                    "args": {
+                        "menu-item-title": "Đánh giá",
+                        "menu-item-status": "publish",
+                        "menu-item-position": 10,
+                        "menu-item-parent-id": 0,
+                        "menu-item-type": "custom",
+                        "menu-item-url": "#testimonials"
+                    }
+                },
+                {
+                    "id": 1846,
+                    "action": "preserve-existing",
+                    "args": {
+                        "menu-item-title": "Đội ngũ",
+                        "menu-item-status": "publish",
+                        "menu-item-position": 11,
+                        "menu-item-parent-id": 0,
+                        "menu-item-type": "custom",
+                        "menu-item-url": "#team"
+                    }
+                },
+                {
+                    "id": 1847,
+                    "action": "preserve-existing",
+                    "args": {
+                        "menu-item-title": "Tin tức",
+                        "menu-item-status": "publish",
+                        "menu-item-position": 12,
+                        "menu-item-parent-id": 0,
+                        "menu-item-type": "custom",
+                        "menu-item-url": "#blog"
+                    }
+                },
+                {
+                    "id": 1848,
+                    "action": "preserve-existing",
+                    "args": {
+                        "menu-item-title": "Kiến thức",
+                        "menu-item-status": "publish",
+                        "menu-item-position": 13,
+                        "menu-item-parent-id": 1847,
+                        "menu-item-type": "taxonomy",
+                        "menu-item-object": "category",
+                        "menu-item-object-id": 1
+                    }
+                },
+                {
+                    "id": 1849,
+                    "action": "preserve-existing",
+                    "args": {
+                        "menu-item-title": "Công ty",
+                        "menu-item-status": "publish",
+                        "menu-item-position": 14,
+                        "menu-item-parent-id": 1847,
+                        "menu-item-type": "taxonomy",
+                        "menu-item-object": "category",
+                        "menu-item-object-id": 76
+                    }
+                },
+                {
+                    "id": 1850,
+                    "action": "preserve-existing",
+                    "args": {
+                        "menu-item-title": "Liên hệ",
+                        "menu-item-status": "publish",
+                        "menu-item-position": 15,
+                        "menu-item-parent-id": 0,
+                        "menu-item-type": "custom",
+                        "menu-item-url": "#contact"
+                    }
+                }
+            ]
+        }
+    },
+    "resolved": {
+        "frontpage": 312,
+        "contact": 320,
+        "outsource": 1133,
+        "olympia": 1510,
+        "affiliate": 1548,
+        "consulting": 74,
+        "personal": 75,
+        "products": 81,
+        "knowledge": 1,
+        "company": 76,
+        "portal": null
+    },
+    "assignments_after": {
+        "primary": 69,
+        "primary_mobile": 69,
+        "home_primary": 82,
+        "home_mobile": 83,
+        "footer_about": 0,
+        "footer_support": 0
+    },
+    "stored_stylesheet": "nextcore-theme",
+    "complete": true,
+    "database_diff": [],
+    "write_query_counts": [],
+    "finished_utc": "2026-09-14T02:40:19+00:00"
+}

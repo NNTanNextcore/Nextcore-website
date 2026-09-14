@@ -4,17 +4,18 @@ if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
 define('WP_USE_THEMES', false);
 define('DISABLE_WP_CRON', true);
 define('NEXTCORE_DEVELOPMENT_PREVIEW', true);
+$nc5_base_url = rtrim(getenv('PHASE6_BASE_URL') ?: 'http://localhost/nextcore-website', '/');
 $_SERVER['HTTP_HOST'] = 'localhost';
 $_SERVER['REQUEST_METHOD'] = 'GET';
-$_SERVER['REQUEST_URI'] = '/';
+$_SERVER['REQUEST_URI'] = parse_url($nc5_base_url, PHP_URL_PATH) . '/';
 $_SERVER['SERVER_PROTOCOL'] = 'HTTP/1.1';
 function nc5_hook($name, $callback, $args = 1) {
     $GLOBALS['wp_filter'][$name][1][] = array('function' => $callback, 'accepted_args' => $args);
 }
 nc5_hook('pre_option_template', function () { return 'nextcore-theme'; });
 nc5_hook('pre_option_stylesheet', function () { return 'nextcore-theme'; });
-nc5_hook('pre_option_home', function () { return 'http://localhost'; });
-nc5_hook('pre_option_siteurl', function () { return 'http://localhost'; });
+nc5_hook('pre_option_home', function () use ($nc5_base_url) { return $nc5_base_url; });
+nc5_hook('pre_option_siteurl', function () use ($nc5_base_url) { return $nc5_base_url; });
 nc5_hook('pre_option_active_plugins', function () { return array('advanced-custom-fields-pro/acf.php'); });
 nc5_hook('pre_site_option_active_sitewide_plugins', function () { return array(); });
 nc5_hook('query', function ($sql) {
@@ -34,7 +35,7 @@ nc5_hook('query', function ($sql) {
     return 'SELECT NULL WHERE 1 = 0';
 });
 require dirname(__DIR__, 3) . '/wp-load.php';
-if (!in_array(DB_HOST, array('localhost', '127.0.0.1', '::1'), true) || realpath(ABSPATH) !== realpath('C:/xampp/htdocs')) {
+if (!in_array(DB_HOST, array('localhost', '127.0.0.1', '::1'), true) || realpath(ABSPATH) !== realpath(dirname(__DIR__, 3))) {
     throw new RuntimeException('This routine is restricted to the reviewed local XAMPP installation.');
 }
 if (!function_exists('acf_get_field_groups') || !post_type_exists('dich-vu') || !taxonomy_exists('danh-muc-dich-vu')) {

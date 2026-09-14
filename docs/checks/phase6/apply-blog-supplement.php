@@ -10,7 +10,7 @@ $GLOBALS['wp_filter']['query'][1][] = array('function' => function ($sql) {
 }, 'accepted_args' => 1);
 ob_start(); require dirname(__DIR__, 3) . '/wp-load.php';
 if (!in_array(DB_HOST, array('localhost', '127.0.0.1', '::1'), true) || get_stylesheet() !== 'nextcore-theme') { throw new RuntimeException('Local Nextcore required.'); }
-$html = file_get_contents('http://localhost/');
+$html = file_get_contents(home_url('/'));
 if (!preg_match('~<section[^>]+id="blog"[^>]*>(.*?)</section>~s', $html, $section)) { throw new RuntimeException('Blog missing.'); }
 preg_match_all('~<h3><a[^>]*>(.*?)</a></h3>~s', $section[1], $titles);
 preg_match_all('~<p class="blog-excerpt">(.*?)</p>~s', $section[1], $excerpts);

@@ -1,8 +1,8 @@
 import {writeFile} from 'node:fs/promises';
-import {browser,delay} from './cdp.mjs';
+import {browser,delay,urlFor} from './cdp.mjs';
 const b=await browser(),report=[];
 const key=async key=>{const windowsVirtualKeyCode=key==='Escape'?27:key==='ArrowDown'?40:9;await b.send('Input.dispatchKeyEvent',{type:'keyDown',key,code:key,windowsVirtualKeyCode});await b.send('Input.dispatchKeyEvent',{type:'keyUp',key,code:key,windowsVirtualKeyCode});await delay(100)};
-const load=async(route,width=1440)=>{await b.send('Emulation.setDeviceMetricsOverride',{width,height:900,deviceScaleFactor:1,mobile:false});b.errors.length=0;await b.send('Page.navigate',{url:'http://localhost'+route});await delay(2000)};
+const load=async(route,width=1440)=>{await b.send('Emulation.setDeviceMetricsOverride',{width,height:900,deviceScaleFactor:1,mobile:false});b.errors.length=0;await b.send('Page.navigate',{url:urlFor(route)});await delay(2000)};
 try {
  for(const route of ['/','/en/','/danh-muc-dich-vu/tu-van-doanh-nghiep/','/en/danh-muc-dich-vu/tu-van-doanh-nghiep/']) {
   await load(route);const r={route,checks:{}};

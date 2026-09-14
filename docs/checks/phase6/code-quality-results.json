@@ -393,28 +393,28 @@
         "route": "/",
         "template": "front-page.php",
         "no_fatal": true,
-        "bytes": 64417,
+        "bytes": 64737,
         "breadcrumb_fallback": false
       },
       {
         "route": "/danh-muc-dich-vu/tu-van-doanh-nghiep/",
         "template": "taxonomy-danh-muc-dich-vu.php",
         "no_fatal": true,
-        "bytes": 3116,
+        "bytes": 3303,
         "breadcrumb_fallback": true
       },
       {
         "route": "/ve-chung-toi/",
         "template": "page.php",
         "no_fatal": true,
-        "bytes": 16043,
+        "bytes": 16468,
         "breadcrumb_fallback": true
       },
       {
         "route": "/phase6-optional-404/",
         "template": "404.php",
         "no_fatal": true,
-        "bytes": 908,
+        "bytes": 959,
         "breadcrumb_fallback": true
       }
     ]

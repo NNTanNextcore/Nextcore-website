@@ -78,6 +78,24 @@ function nextcore_builder_cached_markup_compatibility($content) {
 }
 add_filter('elementor/frontend/the_content', 'nextcore_builder_cached_markup_compatibility', 20);
 
+/** Rebase migrated same-host asset URLs to the active WordPress directory. */
+function nextcore_rebase_migrated_asset_urls($content) {
+    $current_host = strtolower((string) wp_parse_url(home_url('/'), PHP_URL_HOST));
+    if (!$current_host || strpos($content, '/wp-content/') === false) { return $content; }
+    return preg_replace_callback(
+        '~https?://([^/"\'\s<>]+)(?:/[^/"\'\s<>]+)*/wp-content/(uploads|plugins)/([^"\'\s<>)]*)~i',
+        function ($match) use ($current_host) {
+            if (strtolower($match[1]) !== $current_host) { return $match[0]; }
+            return $match[2] === 'plugins'
+                ? plugins_url('/' . $match[3])
+                : content_url('/uploads/' . $match[3]);
+        },
+        $content
+    );
+}
+add_filter('the_content', 'nextcore_rebase_migrated_asset_urls', 30);
+add_filter('elementor/frontend/the_content', 'nextcore_rebase_migrated_asset_urls', 30);
+
 function nextcore_lark_static_markup($content) {
     if (!is_singular('dich-vu') || get_post_field('post_name', get_queried_object_id()) !== 'lark' || !class_exists('WP_HTML_Tag_Processor')) {
         return $content;

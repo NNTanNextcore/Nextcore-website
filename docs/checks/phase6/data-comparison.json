@@ -1,0 +1,59 @@
+{
+  "baseline": {
+    "theme": true,
+    "template": true,
+    "frontpage": true,
+    "posts_page": true,
+    "plugins": true,
+    "permalink": true,
+    "acf_options": false,
+    "frontpage_acf": false,
+    "content": false,
+    "legacy_meta": false
+  },
+  "resume": {
+    "theme": true,
+    "template": true,
+    "frontpage": true,
+    "posts_page": true,
+    "plugins": true,
+    "permalink": true,
+    "acf_options": false,
+    "frontpage_acf": false,
+    "content": false,
+    "legacy_meta": false
+  },
+  "menu69Unchanged": false,
+  "menuAssignments": {
+    "primary": 82,
+    "primary_mobile": 83,
+    "home_primary": 82,
+    "home_mobile": 83,
+    "footer_about": 84,
+    "footer_support": 85
+  },
+  "dictionaryCounts": {
+    "baseline": {
+      "nxt_trp_dictionary_vi_en_us": 1471,
+      "nxt_trp_dictionary_vi_ja": 112,
+      "nxt_trp_gettext_en_us": 3549,
+      "nxt_trp_gettext_ja": 849,
+      "nxt_trp_gettext_original_meta": 0,
+      "nxt_trp_gettext_original_strings": 5976,
+      "nxt_trp_gettext_vi": 5640,
+      "nxt_trp_original_meta": 950,
+      "nxt_trp_original_strings": 1482
+    },
+    "after": {
+      "nxt_trp_dictionary_vi_en_us": 1619,
+      "nxt_trp_dictionary_vi_ja": 112,
+      "nxt_trp_gettext_en_us": 3593,
+      "nxt_trp_gettext_ja": 849,
+      "nxt_trp_gettext_original_meta": 0,
+      "nxt_trp_gettext_original_strings": 5947,
+      "nxt_trp_gettext_vi": 5569,
+      "nxt_trp_original_meta": 950,
+      "nxt_trp_original_strings": 1630
+    }
+  }
+}

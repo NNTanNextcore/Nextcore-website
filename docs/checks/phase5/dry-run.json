@@ -1,6 +1,6 @@
 {
     "mode": "dry-run",
-    "started_utc": "2026-09-11T02:32:02+00:00",
+    "started_utc": "2026-09-14T02:39:23+00:00",
     "media": {
         "images/gm-solutions.png": {
             "sha256": "5a0b2b0e2777d59f61f3f57977f92cae3faf52a74c563071040561ae374fd1e9",
@@ -920,7 +920,8 @@
                         "menu-item-url": "#contact"
                     }
                 }
-            ]
+            ],
+            "restored_from_reset_menu": 69
         },
         "home_mobile": {
             "name": "Nextcore Homepage Mobile",
@@ -1113,7 +1114,8 @@
                         "menu-item-url": "#contact"
                     }
                 }
-            ]
+            ],
+            "restored_from_reset_menu": 69
         }
     },
     "resolved": {
@@ -1129,7 +1131,14 @@
         "company": 76,
         "portal": null
     },
-    "assignments_after": [],
-    "stored_stylesheet": "flatsome-child",
+    "assignments_after": {
+        "primary": 69,
+        "primary_mobile": 69,
+        "home_primary": 69,
+        "home_mobile": 69,
+        "footer_about": 0,
+        "footer_support": 0
+    },
+    "stored_stylesheet": "nextcore-theme",
     "complete": true
 }

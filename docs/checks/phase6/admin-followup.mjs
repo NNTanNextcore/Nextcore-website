@@ -1,9 +1,9 @@
 import {writeFile} from 'node:fs/promises';
-import {browser,delay} from './cdp.mjs';
+import {browser,delay,urlFor} from './cdp.mjs';
 const b=await browser(9224),report={checks:{}};
 const load=async url=>{await b.send('Page.navigate',{url});await delay(2500);};
 try {
- await load('http://localhost/wp-admin/admin.php?page=nextcore-settings');
+ await load(urlFor('/wp-admin/admin.php?page=nextcore-settings'));
  report.checks.authenticated=await b.evaluate("!!document.querySelector('#publish')&&!document.querySelector('#loginform')");
  if(!report.checks.authenticated)throw Error('Admin login required');
  report.image_before=await b.evaluate("document.querySelector('[data-name=nc_hero_image_light] .acf-input')?.innerHTML");
@@ -13,7 +13,7 @@ try {
  report.checks.image_picker_open=await b.evaluate("!!document.querySelector('.media-modal')&&document.querySelector('.media-modal').getClientRects().length>0");
  report.image_dialog=await b.evaluate("document.querySelector('.media-modal')?.innerText.slice(0,600)");
  await b.evaluate("document.querySelector('.media-modal-close')?.click()");
- await load('http://localhost/wp-admin/post.php?post=312&action=edit');
+ await load(urlFor('/wp-admin/post.php?post=312&action=edit'));
  for(const [name,type] of [['object','post_object'],['target_term','taxonomy']]) {
   report[type]=await b.evaluate(`(()=>{const f=[...document.querySelectorAll('[data-name=${name}][data-type=${type}]')].find(e=>!e.closest('.acf-clone'));f.scrollIntoView(); const s=f.querySelector('select');jQuery(s).select2('open');return {value:s.value,options:[...s.options].map(e=>({value:e.value,text:e.textContent}))}})()`);
   for(let attempt=0;attempt<12;attempt++) {
