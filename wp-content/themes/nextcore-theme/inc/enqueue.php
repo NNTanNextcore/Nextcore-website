@@ -18,7 +18,7 @@ add_action('wp_head', 'nextcore_theme_init_script', 0);
 function nextcore_enqueue_assets() {
     $styles = array('tokens', 'base', 'layout');
     if (is_front_page()) { $styles = array_merge($styles, array('services', 'team', 'testimonials')); }
-    $styles = array_merge($styles, array('footer', 'light', 'content', 'compatibility', 'native'));
+    $styles = array_merge($styles, array('footer', 'light', 'content', 'compatibility', 'native', 'custom'));
     $previous = array();
     foreach ($styles as $name) {
         $path = '/assets/css/' . $name . '.css';
