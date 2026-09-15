@@ -30,13 +30,13 @@
 :root[data-theme="light"] .stats:where(.nextcore-native, .nextcore-native *) { background: #fafafa; }
 :root[data-theme="light"] #services .service-card:where(.nextcore-native, .nextcore-native *) {
   background: #fff;
-  border-color: #e8e8e8;
+  border-color: rgba(255, 20, 38, .55);
   box-shadow: 0 6px 24px rgba(20, 30, 40, .06);
 }
 :root[data-theme="light"] #services .service-card:where(.nextcore-native, .nextcore-native *)::after {
   background: none;
 }
-:root[data-theme="light"] #services .service-image:where(.nextcore-native, .nextcore-native *) { height: 166px; object-position: center 38%; }
+:root[data-theme="light"] #services .service-image:where(.nextcore-native, .nextcore-native *) { height: 200px; object-position: center 38%; }
 :root[data-theme="light"] #services .service-card h3:where(.nextcore-native, .nextcore-native *) { color: #151515; }
 :root[data-theme="light"] #services .service-card p:where(.nextcore-native, .nextcore-native *) { color: #4b4b4b; }
 :root[data-theme="light"] #services .service-icon:where(.nextcore-native, .nextcore-native *) { background: rgba(255, 255, 255, .88); }
@@ -155,13 +155,13 @@
 :root:not([data-theme]) .stats:where(.nextcore-native, .nextcore-native *) { background: #fafafa; }
 :root:not([data-theme]) #services .service-card:where(.nextcore-native, .nextcore-native *) {
   background: #fff;
-  border-color: #e8e8e8;
+  border-color: rgba(255, 20, 38, .55);
   box-shadow: 0 6px 24px rgba(20, 30, 40, .06);
 }
 :root:not([data-theme]) #services .service-card:where(.nextcore-native, .nextcore-native *)::after {
   background: none;
 }
-:root:not([data-theme]) #services .service-image:where(.nextcore-native, .nextcore-native *) { height: 166px; object-position: center 38%; }
+:root:not([data-theme]) #services .service-image:where(.nextcore-native, .nextcore-native *) { height: 200px; object-position: center 38%; }
 :root:not([data-theme]) #services .service-card h3:where(.nextcore-native, .nextcore-native *) { color: #151515; }
 :root:not([data-theme]) #services .service-card p:where(.nextcore-native, .nextcore-native *) { color: #4b4b4b; }
 :root:not([data-theme]) #services .service-icon:where(.nextcore-native, .nextcore-native *) { background: rgba(255, 255, 255, .88); }
@@ -170,6 +170,9 @@
 :root:not([data-theme]) #services .service-card:hover:where(.nextcore-native, .nextcore-native *), :root:not([data-theme]) #services .service-card:focus-visible:where(.nextcore-native, .nextcore-native *) {
   border-color: rgba(223, 0, 0, .4);
   box-shadow: 0 12px 30px rgba(20, 30, 40, .1);
+}
+@media (max-width: 639px) {
+:root[data-theme="light"] #services .service-image:where(.nextcore-native, .nextcore-native *), :root:not([data-theme]) #services .service-image:where(.nextcore-native, .nextcore-native *) { height: 170px; }
 }
 :root:not([data-theme]) .project-card:where(.nextcore-native, .nextcore-native *) {
   background: #fff;
