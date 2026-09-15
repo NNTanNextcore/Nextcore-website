@@ -42,6 +42,22 @@
 .hero-image:where(.nextcore-native, .nextcore-native *) {
   object-position: 65% center;
 }
+/* Keep copy above a subdued background on phones and tablets. */
+@media (max-width: 1199px) {
+  .hero.hero--platform:where(.nextcore-native, .nextcore-native *) { --hero-surface: #080d13; background: var(--hero-surface); min-height: 100svh; }
+  :root[data-theme="light"] .hero.hero--platform:where(.nextcore-native, .nextcore-native *) { --hero-surface: #f4f5f7; }
+  .hero.hero--platform .hero-inner:where(.nextcore-native, .nextcore-native *) { min-height: max(720px, 100svh); align-items: center; padding-block: 140px 160px; }
+  .hero.hero--platform .hero-copy:where(.nextcore-native, .nextcore-native *) { position: relative; z-index: 1; }
+  .hero.hero--platform .hero-image:where(.nextcore-native, .nextcore-native *) { top: auto; bottom: 0; height: 85%; object-position: 75% bottom; opacity: .4; -webkit-mask-image: linear-gradient(transparent, #000 45%); mask-image: linear-gradient(transparent, #000 45%); }
+  .hero.hero--platform:where(.nextcore-native, .nextcore-native *)::after { background: linear-gradient(180deg, var(--hero-surface), transparent 75%, var(--hero-surface)); }
+}
+@media (max-width: 639px) {
+  .hero.hero--platform .hero-inner:where(.nextcore-native, .nextcore-native *) { min-height: max(640px, 100svh); padding-block: 124px 130px; }
+  .hero.hero--platform .hero-image:where(.nextcore-native, .nextcore-native *) { height: 78%; object-position: 72% bottom; opacity: .32; }
+}
+@media (prefers-color-scheme: light) and (max-width: 1199px) {
+  :root:not([data-theme]) .hero.hero--platform:where(.nextcore-native, .nextcore-native *) { --hero-surface: #f4f5f7; }
+}
 .section:where(.nextcore-native, .nextcore-native *) {
   min-height: var(--section-height);
   padding-block: var(--section-space);
@@ -329,7 +345,7 @@
 .company-video.is-playing .company-video-media:where(.nextcore-native, .nextcore-native *) { visibility: hidden; }
 
 }
-.stats:where(.nextcore-native, .nextcore-native *), .technology:where(.nextcore-native, .nextcore-native *) {
+.stats:where(.nextcore-native, .nextcore-native *) {
   min-height: 45svh;
   display: flex;
   align-items: center;
@@ -353,6 +369,9 @@
 .stat span:where(.nextcore-native, .nextcore-native *) {
   font-size: 14px;
   margin-top: 12px;
+}
+.technology:where(.nextcore-native, .nextcore-native *) {
+  padding-block: 48px;
 }
 .technology-inner:where(.nextcore-native, .nextcore-native *) {
   padding-block: 0;
@@ -423,7 +442,8 @@
 .final-cta:where(.nextcore-native, .nextcore-native *), .cta-inner:where(.nextcore-native, .nextcore-native *) { min-height: 80svh; }
 .cta-inner h2:where(.nextcore-native, .nextcore-native *) { font-size: 32px; }
 .cta-inner p:not(.cta-motto):where(.nextcore-native, .nextcore-native *) { font-size: 16px; }
-.stats:where(.nextcore-native, .nextcore-native *), .technology:where(.nextcore-native, .nextcore-native *) { min-height: auto; padding-block: 44px; }
+.stats:where(.nextcore-native, .nextcore-native *) { min-height: auto; padding-block: 44px; }
+.technology:where(.nextcore-native, .nextcore-native *) { padding-block: 44px; }
 .stats-grid:where(.nextcore-native, .nextcore-native *) { grid-template-columns: 1fr; }
 .stat:where(.nextcore-native, .nextcore-native *), .stat:first-child:where(.nextcore-native, .nextcore-native *) { padding: 26px 20px; gap: 24px; border-right: 0; }
 .stat:not(:last-child):where(.nextcore-native, .nextcore-native *) { border-bottom: 1px solid var(--border); }
@@ -432,6 +452,3 @@
 .technology-inner:where(.nextcore-native, .nextcore-native *) { gap: 32px 12px; }
 
 }
-
-
-

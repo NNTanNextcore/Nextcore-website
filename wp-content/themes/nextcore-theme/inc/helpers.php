@@ -100,13 +100,21 @@ function nextcore_mode_url($field, $fallback, $video = false) {
 
 function nextcore_mode_image($kind, $class, $alt, $width, $height) {
     $files = array(
-        'hero' => array('hero-corporate-v2.png', 'hero-corporate-light.png'),
+        'hero' => array('home/hero-platform-network-dark.webp', 'home/hero-platform-network-light.webp'),
         'cta' => array('cta.png', 'cta-light.png'),
         'about' => array('danang-poster.jpg', 'cauronglight.png'),
     );
     $base = $kind === 'about' ? 'nc_about_poster_' : 'nc_' . $kind . '_image_';
     $dark = nextcore_mode_url($base . 'dark', 'images/' . $files[$kind][0]);
     $light = nextcore_mode_url($base . 'light', 'images/' . $files[$kind][1]);
+    // Replace the imported corporate defaults while preserving custom ACF images.
+    if ($kind === 'hero') {
+        foreach (array('dark' => 0, 'light' => 1) as $mode => $index) {
+            if (preg_match('/^hero-corporate-(?:v2|light)(?:-\d+)?\.(?:png|webp|jpe?g)$/i', wp_basename(wp_parse_url($$mode, PHP_URL_PATH)))) {
+                $$mode = nextcore_asset('images/' . $files[$kind][$index]);
+            }
+        }
+    }
     ?>
     <img class="<?php echo esc_attr($class); ?> mode-image" data-mode-image data-dark-src="<?php echo esc_url($dark); ?>" data-light-src="<?php echo esc_url($light); ?>" alt="<?php echo esc_attr($alt); ?>" width="<?php echo absint($width); ?>" height="<?php echo absint($height); ?>" <?php if ($kind === 'hero') : ?>fetchpriority="high"<?php endif; ?>>
     <noscript><picture><source media="(prefers-color-scheme: light)" srcset="<?php echo esc_url($light); ?>"><img class="<?php echo esc_attr($class); ?>" src="<?php echo esc_url($dark); ?>" alt="<?php echo esc_attr($alt); ?>" width="<?php echo absint($width); ?>" height="<?php echo absint($height); ?>"></picture></noscript>

@@ -32,7 +32,6 @@
 .nextcore-native .blog-image-link { display: block; }
 .nextcore-native .blog-card h3 a::after { content: ''; position: absolute; inset: 0; }
 .nextcore-native .social-links a { font-size: 12px; width: auto; padding-inline: 8px; }
-.nextcore-native .tech-mark { display: contents; }
 :root:not([data-theme]) .nextcore-site-header { position: relative; }
 .nextcore-native .final-cta picture img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; }
 .nextcore-native .nextcore-search-form { display: grid; gap: 16px; margin-top: 24px; }
@@ -54,8 +53,3 @@ body.admin-bar .nextcore-site-header { top: 32px; }
     .nextcore-native .nextcore-mobile-panel { flex-basis: 100%; }
 }
 @media (max-width: 480px) { .nextcore-native .nextcore-header-cta { display: none; } }
-@media (prefers-reduced-motion: reduce) {
-    .nextcore-native .marquee-track { transform: none; animation: none; }
-    .nextcore-native .tech-list[aria-hidden="true"] { display: none; }
-    .nextcore-native .tech-list { flex-wrap: wrap; }
-}

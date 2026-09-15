@@ -1,6 +1,6 @@
 <?php defined('ABSPATH') || exit; ?>
-<section class="hero" id="home" aria-labelledby="hero-title">
-      <?php nextcore_mode_image('hero', 'hero-image', 'Ba đồng nghiệp mặc polo đen có logo N đỏ cùng làm việc bên laptop trong văn phòng hiện đại', 1672, 941); ?>
+<section class="hero hero--platform" id="home" aria-labelledby="hero-title">
+      <?php nextcore_mode_image('hero', 'hero-image', __('Nền tảng phần mềm kết nối đám mây, dữ liệu, phát triển và bảo mật', 'nextcore-theme'), 1672, 941); ?>
       <div class="container hero-inner"><div class="hero-copy" data-reveal>
         <p class="eyebrow"><?php echo esc_html(nextcore_field('nc_hero_eyebrow', 'Software development company')); ?></p>
         <h1 id="hero-title" class="company-title translation-block"><span class="company-line"><?php echo esc_html(nextcore_field('nc_hero_line_one', 'Công ty cổ phần Phần')); ?></span> <span class="company-line"><?php echo esc_html(nextcore_field('nc_hero_line_two_prefix', 'mềm')); ?> <span class="company-name"><?php echo esc_html(nextcore_field('nc_hero_brand', 'Nextcore')); ?></span></span></h1>
@@ -10,4 +10,3 @@
       </div></div>
       <a class="scroll-cue" href="#about"><span><?php esc_html_e('Khám phá', 'nextcore-theme'); ?></span><span class="circle" aria-hidden="true">↓</span></a>
     </section>
-
