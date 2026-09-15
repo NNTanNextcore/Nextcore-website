@@ -36,3 +36,7 @@ Thumbs.db
 # Media uploads are intentionally tracked in this repository.
 !/wp-content/uploads/
 
+
+# Temporary technology QA artifacts
+/docs/checks/technology-browser/
+/docs/checks/phase6/technology-icons/

@@ -55,8 +55,7 @@
 :root[data-theme="light"] .card-copy h3:where(.nextcore-native, .nextcore-native *) { color: #151515; }
 :root[data-theme="light"] .card-copy p:where(.nextcore-native, .nextcore-native *) { color: #5a5a5a; }
 :root[data-theme="light"] .round-button:where(.nextcore-native, .nextcore-native *) { color: #fff; }
-:root[data-theme="light"] .technology:where(.nextcore-native, .nextcore-native *) { background: #fafafa; }
-:root[data-theme="light"] .tech-list .node:where(.nextcore-native, .nextcore-native *), :root[data-theme="light"] .tech-list .aws:where(.nextcore-native, .nextcore-native *), :root[data-theme="light"] .tech-list .figma:where(.nextcore-native, .nextcore-native *), :root[data-theme="light"] .tech-list .cicd:where(.nextcore-native, .nextcore-native *) { color: #202020; }
+:root[data-theme="light"] .technology:where(.nextcore-native, .nextcore-native *) { background: radial-gradient(circle at 43% 51%, rgba(206, 0, 16, .055), transparent 24%), radial-gradient(circle at 2% 72%, rgba(206, 0, 16, .08), transparent 27%), #fafafa; }
 :root[data-theme="light"] .partner:where(.nextcore-native, .nextcore-native *) {
   background: linear-gradient(rgba(255, 255, 255, .7), rgba(255, 255, 255, .7)), url('../images/partner-waves.svg') center / cover no-repeat, #fff;
 }
@@ -184,8 +183,7 @@
 :root:not([data-theme]) .card-copy h3:where(.nextcore-native, .nextcore-native *) { color: #151515; }
 :root:not([data-theme]) .card-copy p:where(.nextcore-native, .nextcore-native *) { color: #5a5a5a; }
 :root:not([data-theme]) .round-button:where(.nextcore-native, .nextcore-native *) { color: #fff; }
-:root:not([data-theme]) .technology:where(.nextcore-native, .nextcore-native *) { background: #fafafa; }
-:root:not([data-theme]) .tech-list .node:where(.nextcore-native, .nextcore-native *), :root:not([data-theme]) .tech-list .aws:where(.nextcore-native, .nextcore-native *), :root:not([data-theme]) .tech-list .figma:where(.nextcore-native, .nextcore-native *), :root:not([data-theme]) .tech-list .cicd:where(.nextcore-native, .nextcore-native *) { color: #202020; }
+:root:not([data-theme]) .technology:where(.nextcore-native, .nextcore-native *) { background: radial-gradient(circle at 43% 51%, rgba(206, 0, 16, .055), transparent 24%), radial-gradient(circle at 2% 72%, rgba(206, 0, 16, .08), transparent 27%), #fafafa; }
 :root:not([data-theme]) .partner:where(.nextcore-native, .nextcore-native *) {
   background: linear-gradient(rgba(255, 255, 255, .7), rgba(255, 255, 255, .7)), url('../images/partner-waves.svg') center / cover no-repeat, #fff;
 }
@@ -253,4 +251,3 @@
 
 
 }
-
