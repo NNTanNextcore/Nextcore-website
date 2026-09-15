@@ -100,7 +100,7 @@ function nextcore_mode_url($field, $fallback, $video = false) {
 
 function nextcore_mode_image($kind, $class, $alt, $width, $height) {
     $files = array(
-        'hero' => array('home/hero-platform-network-dark.webp', 'home/hero-platform-network-light.webp'),
+        'hero' => array('home/hero-platform-network-dark-sharp.webp', 'home/hero-platform-network-light-sharp.webp'),
         'cta' => array('cta.png', 'cta-light.png'),
         'about' => array('danang-poster.jpg', 'cauronglight.png'),
     );

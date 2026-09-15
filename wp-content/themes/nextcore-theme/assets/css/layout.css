@@ -54,6 +54,13 @@
 @media (max-width: 639px) {
   .hero.hero--platform .hero-inner:where(.nextcore-native, .nextcore-native *) { min-height: max(640px, 100svh); padding-block: 124px 130px; }
   .hero.hero--platform .hero-image:where(.nextcore-native, .nextcore-native *) { height: 78%; object-position: 72% bottom; opacity: .32; }
+  /* Reveal the light artwork while retaining a soft backdrop behind the copy. */
+  :root[data-theme="light"] .hero.hero--platform .hero-image:where(.nextcore-native, .nextcore-native *) { opacity: .62; }
+  :root[data-theme="light"] .hero.hero--platform:where(.nextcore-native, .nextcore-native *)::after { background: linear-gradient(180deg, var(--hero-surface), rgba(244, 245, 247, .68) 34%, rgba(244, 245, 247, .38) 55%, transparent 72%, var(--hero-surface)); }
+}
+@media (prefers-color-scheme: light) and (max-width: 639px) {
+  :root:not([data-theme]) .hero.hero--platform .hero-image:where(.nextcore-native, .nextcore-native *) { opacity: .62; }
+  :root:not([data-theme]) .hero.hero--platform:where(.nextcore-native, .nextcore-native *)::after { background: linear-gradient(180deg, var(--hero-surface), rgba(244, 245, 247, .68) 34%, rgba(244, 245, 247, .38) 55%, transparent 72%, var(--hero-surface)); }
 }
 @media (prefers-color-scheme: light) and (max-width: 1199px) {
   :root:not([data-theme]) .hero.hero--platform:where(.nextcore-native, .nextcore-native *) { --hero-surface: #f4f5f7; }
