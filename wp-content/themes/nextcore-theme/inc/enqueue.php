@@ -17,7 +17,7 @@ add_action('wp_head', 'nextcore_theme_init_script', 0);
 
 function nextcore_enqueue_assets() {
     $styles = array('tokens', 'base', 'layout');
-    if (is_front_page()) { $styles = array_merge($styles, array('services', 'team', 'testimonials')); }
+    if (is_front_page()) { $styles = array_merge($styles, array('services', 'team', 'testimonials', 'home-section-snap')); }
     $styles = array_merge($styles, array('footer', 'light', 'content', 'compatibility', 'native', 'custom'));
     $previous = array();
     foreach ($styles as $name) {
@@ -26,7 +26,7 @@ function nextcore_enqueue_assets() {
         $previous = array('nextcore-' . $name);
     }
     $scripts = array('theme-switch', 'navigation');
-    if (is_front_page()) { $scripts = array_merge($scripts, array('home', 'testimonials')); }
+    if (is_front_page()) { $scripts = array_merge($scripts, array('home', 'testimonials', 'home-section-snap')); }
     foreach ($scripts as $name) {
         $path = '/assets/js/' . $name . '.js';
         wp_enqueue_script('nextcore-' . $name, get_theme_file_uri($path), array(), nextcore_asset_version($path), true);

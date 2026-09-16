@@ -1,0 +1,9 @@
+/* Enabled by the homepage enhancement only. The document remains natively scrollable. */
+html.nc-home-snap {
+    scroll-behavior: auto !important;
+    scroll-padding-top: var(--nc-snap-offset, 0px);
+}
+/* Header spacing is owned by the root; do not add Technology's existing offset twice. */
+html.nc-home-snap [data-nc-snap-section] {
+    scroll-margin-top: 0;
+}
