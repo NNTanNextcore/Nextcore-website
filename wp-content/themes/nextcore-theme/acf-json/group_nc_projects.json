@@ -74,8 +74,8 @@
                     "label": "Bài viết hoặc dịch vụ đã xuất bản",
                     "name": "object",
                     "type": "post_object",
-                    "instructions": "Portal được để trống khi chưa có đối tượng local đã xuất bản được xác minh. Hai dự án còn lại bắt buộc chọn đối tượng hợp lệ.",
-                    "required": 0,
+                    "instructions": "Chọn bài viết hoặc dịch vụ đã xuất bản. Thẻ chỉ hiển thị khi có đối tượng WordPress thật.",
+                    "required": 1,
                     "conditional_logic": 0,
                     "wrapper": {
                         "width": "",
@@ -92,7 +92,7 @@
                     "taxonomy": [],
                     "return_format": "id",
                     "multiple": 0,
-                    "allow_null": 1,
+                    "allow_null": 0,
                     "ui": 1
                 },
                 {

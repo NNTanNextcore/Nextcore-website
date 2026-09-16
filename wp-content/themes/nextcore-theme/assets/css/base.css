@@ -1,4 +1,5 @@
 /* Port of approved preview main.css; native areas only. */
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;450;500;550;600;650;700;750;800&display=swap');
 @font-face {
   font-family: 'Be Vietnam Pro';
   src: url('../fonts/BeVietnamPro-Bold.ttf') format('truetype');
@@ -8,7 +9,7 @@
 }
 *:where(.nextcore-native, .nextcore-native *) { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: 90px; }
-body.nextcore-homepage, .nextcore-native { margin: 0; background: var(--bg); color: var(--text); font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 1.55; }
+body.nextcore-homepage, .nextcore-native { margin: 0; background: var(--bg); color: var(--text); font-family: 'Be Vietnam Pro', Arial, Helvetica, sans-serif; font-size: 15px; line-height: 1.55; }
 body.nextcore-site.modal-open { overflow: hidden; }
 button:where(.nextcore-native, .nextcore-native *), input:where(.nextcore-native, .nextcore-native *) { font: inherit; }
 button:where(.nextcore-native, .nextcore-native *), a:where(.nextcore-native, .nextcore-native *) { -webkit-tap-highlight-color: transparent; }
@@ -93,18 +94,10 @@ h1 span:where(.nextcore-native, .nextcore-native *) { color: #ef272d; }
 .projects-grid:where(.nextcore-native, .nextcore-native *), .blog-grid:where(.nextcore-native, .nextcore-native *) { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
 .project-card:where(.nextcore-native, .nextcore-native *) { overflow: hidden; border: 1px solid var(--border); border-radius: 8px; background: #0d1315; transition: border-color .25s; }
 .project-card:hover:where(.nextcore-native, .nextcore-native *) { border-color: rgba(223,0,0,.6); }
-.project-visual:where(.nextcore-native, .nextcore-native *) { height: 205px; display: flex; align-items: flex-end; justify-content: center; padding: 27px 28px 0; position: relative; overflow: hidden; }
-.portal-visual:where(.nextcore-native, .nextcore-native *) { background: radial-gradient(ellipse at 75% 30%, #96282c, #370e12 75%); }
-.olympia-visual:where(.nextcore-native, .nextcore-native *) { background: linear-gradient(135deg, #8b9190, #d0d3cd 40%, #334344); }
-.affiliate-visual:where(.nextcore-native, .nextcore-native *) { background: linear-gradient(130deg, #dce6ee, #8dabb8); padding-left: 65px; }
-.screen-frame:where(.nextcore-native, .nextcore-native *) { width: 100%; height: 100%; border: 6px solid #1c2529; border-bottom: 0; border-radius: 8px 8px 0 0; background: white; box-shadow: 0 8px 25px #0006; transform: perspective(900px) rotateY(-5deg); transition: transform .3s; overflow: hidden; }
-.project-card:hover .screen-frame:where(.nextcore-native, .nextcore-native *) { transform: perspective(900px) rotateY(0); }
-.screen-frame img:where(.nextcore-native, .nextcore-native *) { width: 100%; height: calc(100% - 17px); object-fit: cover; object-position: top left; }
-.screen-bar:where(.nextcore-native, .nextcore-native *) { display: flex; align-items: center; gap: 3px; background: #e9ecee; height: 17px; padding: 0 6px; color: #526068; font-size: 7px; }
-.screen-bar i:where(.nextcore-native, .nextcore-native *) { width: 3px; height: 3px; border-radius: 50%; background: #9aa5aa; }
-.screen-bar span:where(.nextcore-native, .nextcore-native *) { margin-left: 10px; }
-.wordpress-mark:where(.nextcore-native, .nextcore-native *) { position: absolute; top: 32px; left: 18px; border: 2px solid #21759b; border-radius: 50%; font-family: Georgia, serif; font-size: 36px; line-height: 42px; width: 46px; text-align: center; color: #21759b; }
-.card-copy:where(.nextcore-native, .nextcore-native *) { position: relative; padding: 18px 62px 20px 20px; min-height: 107px; }
+.project-visual:where(.nextcore-native, .nextcore-native *) { display: block; overflow: hidden; aspect-ratio: 16 / 9; background: #101618; }
+.project-visual img:where(.nextcore-native, .nextcore-native *) { width: 100%; height: 100%; object-fit: cover; transition: transform .4s; }
+.project-card:hover .project-visual img:where(.nextcore-native, .nextcore-native *) { transform: scale(1.035); }
+.card-copy:where(.nextcore-native, .nextcore-native *) { position: relative; padding: 18px 20px 20px; min-height: 107px; }
 .card-copy h3:where(.nextcore-native, .nextcore-native *) { font-size: 16px; }
 .card-copy p:where(.nextcore-native, .nextcore-native *) { font-size: 13px; margin-top: 8px; }
 .round-button:where(.nextcore-native, .nextcore-native *) { position: absolute; right: 18px; top: 25px; border: 0; background: var(--red); width: 36px; height: 36px; border-radius: 50%; font-size: 23px; }
@@ -203,11 +196,12 @@ h1 span:where(.nextcore-native, .nextcore-native *) { color: #ef272d; }
 .team-message p:where(.nextcore-native, .nextcore-native *) { margin-top: 12px; color: #e2e5e6; font-size: 14px; }
 .team-message > span:where(.nextcore-native, .nextcore-native *) { color: var(--red-text); align-self: end; font-size: 23px; margin-top: auto; }
 .quiet-label:where(.nextcore-native, .nextcore-native *) { color: var(--muted); font-size: 12px; }
-.blog-card:where(.nextcore-native, .nextcore-native *) { position: relative; overflow: hidden; isolation: isolate; border: 1px solid var(--border); border-radius: 7px; min-height: 205px; }
-.blog-card > img:where(.nextcore-native, .nextcore-native *) { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; transition: transform .4s; }
-.blog-card:where(.nextcore-native, .nextcore-native *)::after { content: ''; position: absolute; inset: 0; z-index: -1; background: linear-gradient(0deg, #0a1012 5%, rgba(7,11,13,.8) 45%, rgba(7,11,13,.05)); }
-.blog-card:hover img:where(.nextcore-native, .nextcore-native *) { transform: scale(1.035); }
-.blog-card > div:where(.nextcore-native, .nextcore-native *) { padding: 90px 23px 20px; }
+.blog-card:where(.nextcore-native, .nextcore-native *) { position: relative; overflow: hidden; isolation: isolate; border: 1px solid var(--border); border-radius: 7px; min-height: 205px; background: #0d1315; }
+.blog-image-link:where(.nextcore-native, .nextcore-native *) { display: block; overflow: hidden; aspect-ratio: 16 / 7.2; background: #101618; }
+.blog-image-link img:where(.nextcore-native, .nextcore-native *) { display: block; width: 100%; height: 100%; object-fit: cover; transition: transform .4s; }
+.blog-card:where(.nextcore-native, .nextcore-native *)::after { content: none; }
+.blog-card:hover .blog-image-link img:where(.nextcore-native, .nextcore-native *) { transform: scale(1.035); }
+.blog-card > div:where(.nextcore-native, .nextcore-native *) { padding: 23px; }
 .post-meta:where(.nextcore-native, .nextcore-native *) { font-size: 12px; color: #c4cbd0; }
 .blog-card h3:where(.nextcore-native, .nextcore-native *) { font-size: 17px; margin-top: 10px; }
 .blog-card button:where(.nextcore-native, .nextcore-native *) { background: none; border: none; text-align: left; font: inherit; padding: 0; }
@@ -312,10 +306,8 @@ h1:where(.nextcore-native, .nextcore-native *) { font-size: 55px; }
 .office-logo:where(.nextcore-native, .nextcore-native *) { right: 15%; width: 145px; }
 .services-grid:where(.nextcore-native, .nextcore-native *) { grid-template-columns: repeat(2, 1fr); }
 .service-card:where(.nextcore-native, .nextcore-native *) { min-height: 205px; }
-.project-visual:where(.nextcore-native, .nextcore-native *) { height: 165px; padding: 20px 12px 0; }
-.affiliate-visual:where(.nextcore-native, .nextcore-native *) { padding-left: 45px; }
-.wordpress-mark:where(.nextcore-native, .nextcore-native *) { font-size: 26px; width: 33px; line-height: 30px; left: 8px; }
-.card-copy:where(.nextcore-native, .nextcore-native *) { padding: 16px 16px 58px; min-height: 156px; }
+.project-visual:where(.nextcore-native, .nextcore-native *) { aspect-ratio: 16 / 9; }
+.card-copy:where(.nextcore-native, .nextcore-native *) { padding: 16px; min-height: 156px; }
 .round-button:where(.nextcore-native, .nextcore-native *) { top: auto; bottom: 15px; right: 15px; }
 .card-copy h3:where(.nextcore-native, .nextcore-native *) { font-size: 15px; }
 .technology-inner:where(.nextcore-native, .nextcore-native *) { grid-template-columns: minmax(0, 1fr); gap: 24px; }
@@ -392,11 +384,8 @@ h1:where(.nextcore-native, .nextcore-native *) { font-size: clamp(37px, 9.3vw, 5
 .service-card p:where(.nextcore-native, .nextcore-native *) { min-height: 38px; font-size: 12px; }
 .section-projects:where(.nextcore-native, .nextcore-native *) { padding-top: 0; }
 .projects-grid:where(.nextcore-native, .nextcore-native *), .blog-grid:where(.nextcore-native, .nextcore-native *) { grid-template-columns: 1fr; gap: 18px; }
-.project-visual:where(.nextcore-native, .nextcore-native *) { height: auto; aspect-ratio: 1.85; padding: 26px 32px 0; }
-.screen-frame:where(.nextcore-native, .nextcore-native *) { height: 160px; }
-.affiliate-visual:where(.nextcore-native, .nextcore-native *) { padding-left: 65px; }
-.wordpress-mark:where(.nextcore-native, .nextcore-native *) { top: 40px; left: 20px; }
-.card-copy:where(.nextcore-native, .nextcore-native *) { min-height: 105px; padding: 20px 65px 20px 20px; }
+.project-visual:where(.nextcore-native, .nextcore-native *) { aspect-ratio: 16 / 9; }
+.card-copy:where(.nextcore-native, .nextcore-native *) { min-height: 105px; padding: 20px; }
 .card-copy h3:where(.nextcore-native, .nextcore-native *) { font-size: 17px; }
 .round-button:where(.nextcore-native, .nextcore-native *) { top: 25px; bottom: auto; right: 15px; }
 .technology-inner:where(.nextcore-native, .nextcore-native *) { grid-template-columns: 1fr; padding-block: 25px; gap: 34px; }
@@ -415,7 +404,7 @@ h1:where(.nextcore-native, .nextcore-native *) { font-size: clamp(37px, 9.3vw, 5
 .team-card h3:where(.nextcore-native, .nextcore-native *) { font-size: 16px; }
 .team-card p:where(.nextcore-native, .nextcore-native *) { font-size: 12px; }
 .blog-card:where(.nextcore-native, .nextcore-native *) { min-height: 215px; }
-.blog-card > div:where(.nextcore-native, .nextcore-native *) { padding: 115px 22px 23px; }
+.blog-card > div:where(.nextcore-native, .nextcore-native *) { padding: 23px 22px; }
 .blog-card h3:where(.nextcore-native, .nextcore-native *) { font-size: 18px; }
 .final-cta:where(.nextcore-native, .nextcore-native *), .cta-inner:where(.nextcore-native, .nextcore-native *) { min-height: 350px; }
 .cta-inner:where(.nextcore-native, .nextcore-native *) { padding-block: 36px; }

@@ -1,4 +1,4 @@
 .nextcore-native-content { padding: 1.5rem max(1rem, calc((100% - 1200px) / 2)); overflow-wrap: anywhere; }
 .nextcore-native-content img { max-width: 100%; height: auto; }
 .nextcore-post-card { padding: 1rem 0; border-bottom: 1px solid var(--nc-border); }
-.nextcore-shell, .nextcore-native-content { background: var(--bg); color: var(--text); font-family: Arial, Helvetica, sans-serif; }
+.nextcore-shell, .nextcore-native-content { background: var(--bg); color: var(--text); font-family: 'Be Vietnam Pro', Arial, Helvetica, sans-serif; }
