@@ -57,9 +57,8 @@ function nextcore_acf_validate($valid, $value, $field, $input) {
             }
             if ($name === 'nc_featured_projects') {
                 $id = absint($get('object'));
-                if (!$id && $get('visual_variant') !== 'portal') { return 'Olympia và Affiliate phải có đối tượng đã xuất bản.'; }
-                if ($id && (!nextcore_published_object($id, array('post', 'dich-vu')) || in_array($id, $objects, true))) { return 'Dự án phải đã xuất bản, đúng loại và không trùng đối tượng.'; }
-                if ($id) { $objects[] = $id; }
+                if (!$id || !nextcore_published_object($id, array('post', 'dich-vu')) || in_array($id, $objects, true)) { return 'Dự án phải đã xuất bản, đúng loại và không trùng đối tượng.'; }
+                $objects[] = $id;
             }
         }
     }

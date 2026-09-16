@@ -1,6 +1,6 @@
 /* Curated replacement for the authored Lark landing page. No global font,
    animation, generic utility or Slick stylesheet is imported. */
-.nextcore-lark{background:#fff;color:#17243f;font:16px/1.8 Arial,Helvetica,sans-serif;overflow:clip}
+.nextcore-lark{background:#fff;color:#17243f;font:16px/1.8 'Be Vietnam Pro',Arial,Helvetica,sans-serif;overflow:clip}
 .nextcore-lark .larksuite{max-width:100%;margin:auto}
 .nextcore-lark .container-md,.nextcore-lark .larksuite__container,.nextcore-lark .larksuite__whoneedlarksuite{width:min(1200px,calc(100% - 48px));margin-inline:auto}
 .nextcore-lark section{padding:64px 0}

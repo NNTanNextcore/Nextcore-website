@@ -1,8 +1,8 @@
-.nextcore-inner,.nextcore-entry{background:var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif;min-width:0}
+.nextcore-inner,.nextcore-entry{background:var(--bg);color:var(--text);font-family:'Be Vietnam Pro',Arial,Helvetica,sans-serif;min-width:0}
 .nextcore-inner-container{width:min(1280px,calc(100% - 64px));margin-inline:auto}
 .nextcore-page-hero{position:relative;isolation:isolate;padding:64px 0 70px;border-bottom:1px solid var(--border);overflow:hidden;background:var(--panel)}
 .nextcore-page-hero:after{content:"";position:absolute;z-index:-1;right:-70px;top:-170px;width:530px;height:530px;border:80px solid var(--red);opacity:.07;transform:rotate(32deg);pointer-events:none}
-.nextcore-page-hero h1{font-family:Arial,Helvetica,sans-serif;font-size:clamp(30px,3.5vw,50px);line-height:1.25;letter-spacing:-.025em;max-width:1000px;margin:22px 0 0;text-wrap:balance;color:var(--text)}
+.nextcore-page-hero h1{font-family:'Be Vietnam Pro',Arial,Helvetica,sans-serif;font-size:clamp(30px,3.5vw,50px);line-height:1.25;letter-spacing:-.025em;max-width:1000px;margin:22px 0 0;text-wrap:balance;color:var(--text)}
 .nextcore-term-description{max-width:760px;line-height:1.7;color:var(--muted);margin-top:18px}
 .nextcore-breadcrumbs{font-size:14px;line-height:1.7;color:var(--muted);overflow-wrap:anywhere}
 .nextcore-breadcrumbs a{color:var(--muted);text-decoration:none}
@@ -30,7 +30,7 @@
 .nextcore-card-media{display:block;aspect-ratio:16/10;overflow:hidden;background:var(--border)}
 .nextcore-card-media img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .3s}
 .nextcore-post-card:hover .nextcore-card-media img{transform:scale(1.025)}
-.nextcore-card-placeholder{display:grid;place-items:center;height:100%;font:bold 80px Arial,sans-serif;color:var(--red);opacity:.6}
+.nextcore-card-placeholder{display:grid;place-items:center;height:100%;font:bold 80px 'Be Vietnam Pro',Arial,sans-serif;color:var(--red);opacity:.6}
 .nextcore-card-copy{padding:25px}
 .nextcore-card-copy h2{font-size:22px;line-height:1.4;margin:0 0 14px}
 .nextcore-card-copy h2 a{color:var(--text);text-decoration:none}

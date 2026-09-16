@@ -16,11 +16,12 @@
         var button = Array.from(item.children).find(function (child) { return child.classList.contains('nextcore-submenu-toggle'); });
         if (!submenu || !button) { return; }
         submenu.id = button.getAttribute('aria-controls');
-        var entry = { item: item, submenu: submenu, button: button, timer: null };
+        var entry = { item: item, submenu: submenu, button: button, timer: null, mega: submenu.classList.contains('nextcore-mega-panel') };
         entries.push(entry);
         button.hidden = false;
         set(entry, false);
         function open() {
+            if (entry.mega && !desktop.matches) { return; }
             clearTimeout(entry.timer);
             entries.forEach(function (other) {
                 if (other !== entry && other.item.parentElement === item.parentElement) { set(other, false); }

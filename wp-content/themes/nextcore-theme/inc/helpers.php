@@ -27,6 +27,9 @@ function nextcore_rows($name, $context = null) {
             : metadata_exists('post', $source, $name);
         if ($configured) { return array(); }
     }
+    if ($name === 'nc_featured_projects') {
+        return array();
+    }
     $defaults = nextcore_home_defaults();
     return $defaults[$name] ?? array();
 }
@@ -68,11 +71,7 @@ function nextcore_project_object($row) {
     if (!empty($row['object'])) {
         return nextcore_published_object($row['object'], array('post', 'dich-vu'));
     }
-    // Only the two audited Post slugs have a safe lookup; Portal waits for its relationship.
-    $slug = $row['target_slug'] ?? '';
-    if (!in_array($slug, array('truong-doanh-nhan-top-olympia', 'wordpress-plugin-affiliate'), true)) { return null; }
-    $post = get_page_by_path($slug, OBJECT, 'post');
-    return $post ? nextcore_published_object($post->ID, array('post')) : null;
+    return null;
 }
 
 function nextcore_image_url($value) {
@@ -142,8 +141,133 @@ function nextcore_menu_fallback($args) {
     echo '</ul>';
 }
 
+function nextcore_menu_item_url($item) {
+    $url = isset($item->url) ? (string) $item->url : '';
+    if (strpos($url, '#') === 0 && strlen($url) > 1) {
+        return is_front_page() ? $url : nextcore_home_url($url);
+    }
+    return $url ? nextcore_localized_url($url) : '#';
+}
+
+function nextcore_is_language_menu_item($item) {
+    $title = isset($item->title) ? (string) $item->title : '';
+    return (isset($item->object) && $item->object === 'language_switcher')
+        || stripos($title, 'trp-flag-image') !== false
+        || stripos($title, 'trp-ls-language-name') !== false;
+}
+
+function nextcore_filter_language_menu_items($items, $args) {
+    if (empty($args->theme_location) || !in_array($args->theme_location, array('home_primary', 'home_mobile', 'primary', 'primary_mobile'), true)) {
+        return $items;
+    }
+    $removed = array();
+    foreach ($items as $item) {
+        if (nextcore_is_language_menu_item($item)) {
+            $removed[(int) $item->ID] = true;
+        }
+    }
+    if (!$removed) { return $items; }
+    return array_values(array_filter($items, function ($item) use ($removed) {
+        return empty($removed[(int) $item->ID]) && empty($removed[(int) $item->menu_item_parent]);
+    }));
+}
+add_filter('wp_nav_menu_objects', 'nextcore_filter_language_menu_items', 10, 2);
+
+function nextcore_menu_item_description($item, $limit = 118) {
+    $description = isset($item->description) ? trim(wp_strip_all_tags($item->description)) : '';
+    if ($description === '' && !empty($item->object_id) && in_array($item->object, array('page', 'post', 'dich-vu'), true)) {
+        $post = get_post(absint($item->object_id));
+        if ($post && $post->post_status === 'publish') {
+            $description = has_excerpt($post) ? get_the_excerpt($post) : wp_trim_words(wp_strip_all_tags($post->post_content), 16, '');
+        }
+    }
+    return $description === '' ? '' : wp_html_excerpt($description, $limit, '...');
+}
+
+function nextcore_menu_item_image($item) {
+    if (!empty($item->object_id) && in_array($item->object, array('page', 'post', 'dich-vu'), true) && has_post_thumbnail(absint($item->object_id))) {
+        return get_the_post_thumbnail_url(absint($item->object_id), 'medium_large');
+    }
+    return nextcore_asset('images/project-portal.png');
+}
+
+function nextcore_menu_item_classes($item, $extra = array()) {
+    $classes = array_filter(array_map('sanitize_html_class', (array) ($item->classes ?? array())));
+    return implode(' ', array_unique(array_merge($classes, $extra)));
+}
+
+function nextcore_render_desktop_navigation($location) {
+    $locations = get_nav_menu_locations();
+    if (empty($locations[$location])) {
+        nextcore_menu_fallback(array('theme_location' => $location, 'menu_class' => 'nextcore-menu'));
+        return;
+    }
+
+    $items = wp_get_nav_menu_items($locations[$location]);
+    if (!$items) {
+        nextcore_menu_fallback(array('theme_location' => $location, 'menu_class' => 'nextcore-menu'));
+        return;
+    }
+    if (function_exists('_wp_menu_item_classes_by_context')) {
+        _wp_menu_item_classes_by_context($items);
+    }
+
+    $children = array();
+    $top_level = array();
+    foreach ($items as $item) {
+        if (nextcore_is_language_menu_item($item)) { continue; }
+        $parent = (int) $item->menu_item_parent;
+        if ($parent === 0) {
+            $top_level[] = $item;
+        } else {
+            $children[$parent][] = $item;
+        }
+    }
+
+    $limit = max(1, min(8, absint(apply_filters('nextcore_mega_child_limit', 4, $location))));
+    echo '<ul id="nextcore-desktop-menu" class="nextcore-menu">';
+    foreach ($top_level as $item) {
+        $submenu_items = array_slice($children[(int) $item->ID] ?? array(), 0, $limit);
+        $has_children = !empty($submenu_items);
+        $classes = nextcore_menu_item_classes($item, $has_children ? array('menu-item-has-children', 'nextcore-has-mega') : array());
+        echo '<li class="' . esc_attr($classes) . '">';
+        echo '<a href="' . esc_url(nextcore_menu_item_url($item)) . '">' . esc_html($item->title) . '</a>';
+        if ($has_children) {
+            $button_id = wp_unique_id('nextcore-submenu-');
+            $label = sprintf(__('Mở menu con: %s', 'nextcore-theme'), wp_strip_all_tags($item->title));
+            echo '<button type="button" class="nextcore-submenu-toggle" aria-expanded="false" aria-controls="' . esc_attr($button_id) . '" aria-label="' . esc_attr($label) . '" hidden><span aria-hidden="true">▾</span></button>';
+            echo '<div class="sub-menu nextcore-mega-panel" id="' . esc_attr($button_id) . '" hidden>';
+            echo '<div class="nextcore-mega-intro"><p>' . esc_html__('Explore / Nextcore', 'nextcore-theme') . '</p>';
+            echo '<h3>' . esc_html($item->title) . '</h3>';
+            $intro = nextcore_menu_item_description($item, 150);
+            if ($intro) { echo '<span>' . esc_html($intro) . '</span>'; }
+            echo '<a class="nextcore-mega-overview" href="' . esc_url(nextcore_menu_item_url($item)) . '">' . esc_html__('Khám phá tổng quan', 'nextcore-theme') . ' <span aria-hidden="true">↗</span></a></div>';
+            echo '<div class="nextcore-mega-links">';
+            foreach ($submenu_items as $index => $child) {
+                $description = nextcore_menu_item_description($child, 96);
+                echo '<a href="' . esc_url(nextcore_menu_item_url($child)) . '"><span class="nextcore-mega-icon" aria-hidden="true">' . esc_html(str_pad((string) ($index + 1), 2, '0', STR_PAD_LEFT)) . '</span><span><strong>' . esc_html($child->title) . '</strong>';
+                if ($description) { echo '<small>' . esc_html($description) . '</small>'; }
+                echo '</span><em aria-hidden="true">↗</em></a>';
+            }
+            echo '</div>';
+            $feature = $submenu_items[0];
+            echo '<a class="nextcore-mega-feature" href="' . esc_url(nextcore_menu_item_url($feature)) . '">';
+            echo '<img src="' . esc_url(nextcore_menu_item_image($feature)) . '" alt="" loading="lazy">';
+            echo '<span>' . esc_html__('Nổi bật', 'nextcore-theme') . '</span><strong>' . esc_html($feature->title) . '</strong><small>' . esc_html__('Tìm hiểu thêm ↗', 'nextcore-theme') . '</small></a>';
+            echo '<div class="nextcore-mega-bottom"><span><i></i>' . esc_html__('Build trust, create value.', 'nextcore-theme') . '</span><a href="' . esc_url(nextcore_contact_url() ?: nextcore_home_url('contact')) . '">' . esc_html__('Cùng trao đổi về dự án của bạn', 'nextcore-theme') . ' <span aria-hidden="true">↗</span></a></div>';
+            echo '</div>';
+        }
+        echo '</li>';
+    }
+    echo '</ul>';
+}
+
 function nextcore_navigation($mobile = false) {
     $location = is_front_page() ? ($mobile ? 'home_mobile' : 'home_primary') : ($mobile ? 'primary_mobile' : 'primary');
+    if (!$mobile) {
+        nextcore_render_desktop_navigation($location);
+        return;
+    }
     wp_nav_menu(array(
         'theme_location' => $location, 'container' => false,
         'menu_id' => $mobile ? 'nextcore-mobile-menu' : 'nextcore-desktop-menu',
