@@ -1,11 +1,15 @@
 .site-footer .footer-grid:where(.nextcore-native, .nextcore-native *) { grid-template-columns: 1.3fr .8fr .7fr 1.65fr .9fr; gap: 28px; }
 .site-footer .footer-grid > *:where(.nextcore-native, .nextcore-native *) { min-width: 0; }
+.site-footer .social-links:where(.nextcore-native, .nextcore-native *) { flex-direction: column; align-items: flex-start; gap: 12px; }
+.site-footer .social-links a:where(.nextcore-native, .nextcore-native *) { display: grid; grid-template-columns: 20px max-content; align-items: center; column-gap: 9px; padding-inline: 0; }
+.site-footer .social-links svg:where(.nextcore-native, .nextcore-native *) { width: 18px; height: 18px; justify-self: center; fill: currentColor; stroke: none; }
+.site-footer .social-links a[href^="mailto:"] svg:where(.nextcore-native, .nextcore-native *) { fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
 .site-footer .footer-contact address:where(.nextcore-native, .nextcore-native *) { font-style: normal; display: grid; gap: 12px; }
 .site-footer .footer-contact address > *:where(.nextcore-native, .nextcore-native *) { display: flex; gap: 10px; align-items: flex-start; margin: 0; color: #bfc5ca; font-size: 13px; line-height: 1.7; }
 .site-footer .footer-contact svg:where(.nextcore-native, .nextcore-native *) { width: 17px; height: 17px; flex-shrink: 0; margin-top: 3px; fill: none; stroke: #ed1523; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
 .site-footer .footer-contact a:hover:where(.nextcore-native, .nextcore-native *) { color: #ed1523; }
 .site-footer .footer-motto:where(.nextcore-native, .nextcore-native *) { display: flex; margin-top: 22px; font-size: 10px; gap: 10px; }
-.site-footer .footer-motto:where(.nextcore-native, .nextcore-native *)::before { width: 24px; flex-shrink: 0; }
+.site-footer .footer-motto:where(.nextcore-native, .nextcore-native *)::before { content: none; }
 .site-footer .footer-copyright:where(.nextcore-native, .nextcore-native *) { grid-column: 1 / -1; border-top: 1px solid rgba(255,255,255,.12); padding-top: 18px; font-size: 11px; color: var(--muted); }
 :root[data-theme="light"] .site-footer .footer-contact address > *:where(.nextcore-native, .nextcore-native *) { color: #555; }
 :root[data-theme="light"] .site-footer .footer-contact a:hover:where(.nextcore-native, .nextcore-native *) { color: #ce0010; }
@@ -21,6 +25,3 @@
 .site-footer h2:where(.nextcore-native, .nextcore-native *) { margin-top: 0; }
 
 }
-
-
-

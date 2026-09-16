@@ -2,6 +2,25 @@
     'use strict';
     var home = document.querySelector('.nextcore-home');
     if (!home) { return; }
+    var companyVideo = home.querySelector('.company-video');
+    if (companyVideo) {
+        var companyHeader = document.querySelector('.nextcore-site-header');
+        var companyAdminBar = document.getElementById('wpadminbar');
+        function syncCompanyHeight() {
+            var occupied = [companyHeader, companyAdminBar].reduce(function (height, element) {
+                return height + (element ? element.getBoundingClientRect().height : 0);
+            }, 0);
+            companyVideo.style.setProperty('--company-chrome-height', occupied + 'px');
+        }
+        syncCompanyHeight();
+        if ('ResizeObserver' in window) {
+            var companyChromeObserver = new ResizeObserver(syncCompanyHeight);
+            [companyHeader, companyAdminBar].forEach(function (element) {
+                if (element) { companyChromeObserver.observe(element); }
+            });
+        }
+        addEventListener('resize', syncCompanyHeight, {passive: true});
+    }
     var reduced = matchMedia('(prefers-reduced-motion: reduce)');
     if ('IntersectionObserver' in window && !reduced.matches) {
         var reveal = new IntersectionObserver(function (entries) {
