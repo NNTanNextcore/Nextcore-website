@@ -1,5 +1,5 @@
 <?php defined('ABSPATH') || exit; ?>
-<section class="stats" aria-label="<?php esc_attr_e('Nextcore qua những con số', 'nextcore-theme'); ?>">
+<section class="stats" id="stats" aria-label="<?php esc_attr_e('Nextcore qua những con số', 'nextcore-theme'); ?>">
 <div class="container stats-grid">
 <?php foreach (nextcore_rows('nc_stats') as $row) :
     $icons = array('projects' => 'layers', 'clients' => 'people', 'employees' => 'employee');

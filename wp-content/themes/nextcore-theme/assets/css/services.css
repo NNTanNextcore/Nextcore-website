@@ -138,6 +138,34 @@
   font-size: 11px;
   line-height: 1;
 }
+:root[data-theme="dark"] #services .service-card:where(.nextcore-native, .nextcore-native *) {
+  background: #172126;
+  border-color: #344348;
+}
+:root[data-theme="dark"] #services .service-card:hover:where(.nextcore-native, .nextcore-native *),
+:root[data-theme="dark"] #services .service-card:focus-visible:where(.nextcore-native, .nextcore-native *) {
+  border-color: #ff3644;
+}
+:root[data-theme="dark"] #services .service-card h3:where(.nextcore-native, .nextcore-native *) {
+  color: #f5f7f8;
+}
+:root[data-theme="dark"] #services .service-card p:where(.nextcore-native, .nextcore-native *) {
+  color: #c8d0d3;
+}
+:root[data-theme="dark"] #services .service-bottom:where(.nextcore-native, .nextcore-native *),
+:root[data-theme="dark"] #services .service-featured:where(.nextcore-native, .nextcore-native *) {
+  border-color: #344348;
+}
+:root[data-theme="dark"] #services .service-featured-title:where(.nextcore-native, .nextcore-native *) {
+  color: #dce3e5;
+}
+:root[data-theme="dark"] #services .service-tags span:where(.nextcore-native, .nextcore-native *) {
+  background: #2a353a;
+  color: #e5eaec;
+}
+:root[data-theme="dark"] #services .service-icon:where(.nextcore-native, .nextcore-native *) {
+  background: #fff;
+}
 @media (max-width: 1023px) {
 #services .services-grid:where(.nextcore-native, .nextcore-native *) { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 
