@@ -96,6 +96,366 @@ function nextcore_rebase_migrated_asset_urls($content) {
 add_filter('the_content', 'nextcore_rebase_migrated_asset_urls', 30);
 add_filter('elementor/frontend/the_content', 'nextcore_rebase_migrated_asset_urls', 30);
 
+function nextcore_current_language() {
+    global $TRP_LANGUAGE;
+    if (!empty($TRP_LANGUAGE)) {
+        return (string) $TRP_LANGUAGE;
+    }
+    return function_exists('get_locale') ? (string) get_locale() : '';
+}
+
+function nextcore_common_english_translations() {
+    return array(
+        'Nextcore — Trang chủ' => 'Nextcore — Home',
+        'Chuyển đến nội dung' => 'Skip to content',
+        'Điều hướng chính' => 'Primary navigation',
+        'Điều hướng di động' => 'Mobile navigation',
+        'Đóng tìm kiếm' => 'Close search',
+        'Bạn đang tìm gì?' => 'What are you looking for?',
+        'Tìm kiếm' => 'Search',
+        '>Tìm<' => '>Search<',
+        'Tìm hiểu thêm ↗' => 'Learn more ↗',
+        'Tìm hiểu thêm' => 'Learn more',
+        'Khám phá tổng quan' => 'Explore overview',
+        'Cùng trao đổi về dự án của bạn' => 'Discuss your project with us',
+        'Mở menu con:' => 'Open submenu:',
+        'Ngôn ngữ' => 'Language',
+        'Chế độ tối' => 'Dark mode',
+        'Đường dẫn trang' => 'Breadcrumb',
+        'Trang chủ' => 'Home',
+        'Về chúng tôi' => 'About us',
+        'Về Nextcore' => 'About Nextcore',
+        'VỀ NEXTCORE' => 'ABOUT NEXTCORE',
+        'Giới thiệu' => 'About',
+        'DỊCH VỤ' => 'SERVICES',
+        'Dịch vụ' => 'Services',
+        'dịch vụ' => 'services',
+        'Tư vấn doanh nghiệp' => 'Business consulting',
+        'Tư vấn' => 'Consulting',
+        'Chiến lược' => 'Strategy',
+        'Tối ưu vận hành' => 'Operational optimization',
+        'Khách hàng cá nhân' => 'Individual customers',
+        'Khách hàng tin tưởng' => 'Trusted customers',
+        'Sản phẩm / Dự án' => 'Products / Projects',
+        'Sản phẩm' => 'Products',
+        'Dự án' => 'Projects',
+        'dự án' => 'project',
+        'Công nghệ' => 'Technology',
+        'Đối tác' => 'Partners',
+        'Đánh giá' => 'Testimonials',
+        'ĐỘI NGŨ' => 'TEAM',
+        'Đội ngũ' => 'Team',
+        'đội ngũ' => 'team',
+        'Tin tức' => 'News',
+        'Bài viết' => 'Posts',
+        'Tất cả bài viết' => 'All posts',
+        'Kiến thức' => 'Insights',
+        'kiến thức' => 'insights',
+        'Công ty' => 'Company',
+        'Liên hệ ngay' => 'Contact now',
+        'Liên hệ' => 'Contact',
+        'liên hệ' => 'contact',
+        'Hỗ trợ' => 'Support',
+        'hỗ trợ' => 'support',
+        'Khám phá' => 'Explore',
+        'Kết nối' => 'Connect',
+        'kết nối' => 'connect',
+        'Công ty Cổ phần Phần mềm Nextcore' => 'Nextcore Software Joint Stock Company',
+        'Danh mục dịch vụ' => 'Service categories',
+        'Danh mục bài viết' => 'Post categories',
+        'Không tìm thấy trang' => 'Page not found',
+        'Không tìm thấy nội dung.' => 'No content found.',
+        'Kết quả tìm kiếm:' => 'Search results:',
+        'Trước' => 'Previous',
+        'Tiếp' => 'Next',
+        'Về trang chủ' => 'Back to home',
+        'Trang bạn tìm không tồn tại hoặc đã được chuyển đi.' => 'The page you are looking for does not exist or has been moved.',
+        'Bình luận' => 'Comments',
+        'Xem thêm' => 'Read more',
+        'Khách hàng &amp; đối tác' => 'Customers &amp; partners',
+        'Đăng nhập WordPress ›' => 'WordPress login ›',
+        'tổng quan' => 'overview',
+        'Tổng quan' => 'Overview',
+        'Nổi bật' => 'Featured',
+        'nổi bật' => 'featured',
+        'tìm kiếm' => 'search',
+        'Lợi ích' => 'Benefits',
+        'Tiết kiệm chi phí' => 'Cost optimization',
+        'chuyên gia giàu kinh nghiệm' => 'experienced experts',
+        'About &amp; Lợi ích Tiết kiệm chi phí Team chuyên gia giàu kinh nghiệm' => 'About &amp; Benefits Cost optimization Experienced expert team',
+        'Projects triển khai' => 'Delivered projects',
+        'Năng lực cốt lõi' => 'Core capabilities',
+        'Trao đổi nhu cầu' => 'Discuss your needs',
+        'Giải pháp cá nhân' => 'Individual solutions',
+        'Support các nhu cầu công nghệ linh hoạt cho khách hàng cá nhân.' => 'Support flexible technology needs for individual customers.',
+        'Có ý tưởng lớn?' => 'Have a big idea?',
+        'Cùng hiện thực hóa.' => 'Let us make it real.',
+        'Trao đổi cùng Nextcore' => 'Talk with Nextcore',
+        'Công ty cổ phần Phần mềm Nextcore' => 'Nextcore Software Joint Stock Company',
+        'Cổ phần Phần mềm' => 'Software Joint Stock Company',
+        'Giải pháp phần mềm cho doanh nghiệp hiện đại.' => 'Software solutions for modern businesses.',
+        'Thành lập vào' => 'Founded on',
+        'Chuyên thực hiện phát triển, bảo trì các dự án CNTT cho các đối tác outsource.' => 'Specialized in developing and maintaining IT projects for outsourcing partners.',
+        'Phát triển và bảo trì' => 'Development and maintenance',
+        'Bảo trì' => 'Maintenance',
+        'Đồng hành tối ưu hoạt động và xây dựng giải pháp phù hợp.' => 'Helping optimize operations and build suitable solutions.',
+        'Nền tảng tạo nên khác biệt' => 'The foundation that makes the difference',
+        'Chúng tôi lựa chọn và làm chủ những công nghệ hiện đại để kiến tạo giải pháp bền vững, hiệu quả và sẵn sàng cho tương lai.' => 'We choose and master modern technologies to build sustainable, effective, future-ready solutions.',
+        'Giải pháp được tin chọn' => 'Trusted solutions',
+        'Hướng đến xây dựng môi trường cộng tác có tính kết nối giữa các thành viên.' => 'Aiming to build a connected collaborative environment among team members.',
+        'Chúng tôi là một đội ngũ nhiệt huyết và chuyên nghiệp với động lực thấu hiểu công nghệ mạnh mẽ, luôn sẵn sàng đáp ứng nhu cầu của bạn!' => 'We are a passionate and professional team with a strong drive to understand technology, always ready to meet your needs!',
+        'Nguyễn Văn Hiền' => 'Nguyen Van Hien',
+        'Trần Đức Tú' => 'Tran Duc Tu',
+        'Phan Đăng Lưu' => 'Phan Dang Luu',
+        'Đăng Lưu, Hải Châu Đà Nẵng Việt' => 'Dang Luu, Hai Chau, Da Nang, Viet Nam',
+        'Đăng Lưu' => 'Dang Luu',
+        'Hải Châu' => 'Hai Chau',
+        'Đà Nẵng' => 'Da Nang',
+        'Việt Nam' => 'Viet Nam',
+        'tiếng Anh-Nhật-Việt' => 'English-Japanese-Vietnamese markets',
+        'Phan Đăng Lưu, Hải Châu Đà Nẵng Việt' => 'Phan Dang Luu, Hai Chau, Da Nang, Viet Nam',
+        '63 Phan Đăng Lưu, Hải Châu Đà Nẵng Việt Nam' => '63 Phan Dang Luu, Hai Chau, Da Nang, Viet Nam',
+        '63 Phan Đăng Lưu, Hải Châu Đà Nẵng, Việt Nam' => '63 Phan Dang Luu, Hai Chau, Da Nang, Viet Nam',
+        'Company CPPM Nextcore tổ chức picnic tại Enjoy Camping Hòa Bắc, Đà Nẵng' => 'Nextcore Software JSC held a picnic at Enjoy Camping Hoa Bac, Da Nang',
+        'Công ty CPPM Nextcore tổ chức picnic tại Enjoy Camping Hòa Bắc, Đà Nẵng' => 'Nextcore Software JSC held a picnic at Enjoy Camping Hoa Bac, Da Nang',
+        'Company CPPM NextCore đón sinh nhật 2 tuổi tại Bạch Mã Village ở tỉnh Thừa Thiên Huế' => 'NextCore Software JSC celebrated its 2nd birthday at Bach Ma Village in Thua Thien Hue',
+        'Công ty CPPM NextCore đón sinh nhật 2 tuổi tại Bạch Mã Village ở tỉnh Thừa Thiên Huế' => 'NextCore Software JSC celebrated its 2nd birthday at Bach Ma Village in Thua Thien Hue',
+        'Trường Doanh nhân Top Olympia' => 'Top Olympia Business School',
+        'Hệ thống chấm công bằng gương mặt - tích hợp với Lark' => 'Face attendance system integrated with Lark',
+        'Viết Plugin WordPress Chuyên Nghiệp – Tùy Biến Theo Yêu Cầu' => 'Professional WordPress Plugin Development - Custom Built on Demand',
+        'Viết Plugin WordPress Chuyên Nghiệp - Tùy Biến Theo Yêu Cầu' => 'Professional WordPress Plugin Development - Custom Built on Demand',
+        'Viết Extension – Tăng Cường Hiệu Suất và Tính Năng Cho Trình Duyệt Của Bạn' => 'Extension Development - Enhance Your Browser Performance and Features',
+        'Viết Extension - Tăng Cường Hiệu Suất và Tính Năng Cho Trình Duyệt Của Bạn' => 'Extension Development - Enhance Your Browser Performance and Features',
+        'Ứng dụng đặt sân' => 'Court booking app',
+    );
+}
+
+function nextcore_translate_common_markup($html) {
+    if (!is_string($html) || $html === '' || nextcore_current_language() !== 'en_US') {
+        return $html;
+    }
+    return strtr($html, nextcore_common_english_translations());
+}
+add_filter('trp_translated_html', 'nextcore_translate_common_markup', 10);
+add_filter('elementor/frontend/the_content', 'nextcore_translate_common_markup', 35);
+add_filter('the_content', 'nextcore_translate_common_markup', 35);
+
+function nextcore_translate_mixed_english_markup($html) {
+    if (!is_string($html) || $html === '' || nextcore_current_language() !== 'en_US') {
+        return $html;
+    }
+
+    return strtr($html, array(
+        'Company cổ phần Phần mềm Nextcore' => 'Nextcore Software Joint Stock Company',
+        'Company Cổ phần Phần mềm Nextcore' => 'Nextcore Software Joint Stock Company',
+        'Company cổ phần Phần mềm' => 'Nextcore Software Joint Stock Company',
+        'Company Cổ phần Phần mềm' => 'Nextcore Software Joint Stock Company',
+        'Founded on 15 thg 6, 2022' => 'Founded on June 15, 2022',
+        'Projects triển khai' => 'Delivered projects',
+        'Xem năng lực' => 'View capabilities',
+        'Partners của Company là các Company outsource lớn-vừa-nhỏ ở Viet Nam ở cả 3 thị trường nói English-Japanese-Vietnamese markets.' => 'The company partners with outsourcing businesses of different sizes in Viet Nam and across English, Japanese, and Vietnamese speaking markets.',
+        'Partners của Company là các Company outsource lớn-vừa-nhỏ ở Viet Nam ở cả 3 thị trường nói English-Japanese-Vietnamese markets' => 'The company partners with outsourcing businesses of different sizes in Viet Nam and across English, Japanese, and Vietnamese speaking markets',
+        'Không ngừng nỗ lực để giải quyết các vấn đề là Nỗi đau và tạo giá trị hữu ích cho khách hàng để trở thành đối tác tin cậy và lâu dài.' => 'We continuously work to solve real pain points and create useful value for customers, becoming a reliable long-term partner.',
+        'Không ngừng nỗ lực để giải quyết các vấn đề là Pain points và tạo giá trị useful cho khách hàng để trở thành đối tác tin cậy và lâu dài.' => 'We continuously work to solve real pain points and create useful value for customers, becoming a reliable long-term partner.',
+        'Outsource CNTT' => 'IT Outsourcing',
+        'Development and maintenance project CNTT cho đối tác outsource.' => 'Development and maintenance of IT projects for outsourcing partners.',
+        'Support các nhu cầu công nghệ linh hoạt cho khách hàng cá nhân.' => 'Support flexible technology needs for individual customers.',
+        'Tự động hóa' => 'Automation',
+        'Linh hoạt' => 'Flexible',
+        'Nền tảng tạo nên khác biệt' => 'The foundation that makes the difference',
+        'Cùng nhau kiến tạo những giá trị bền vững.' => 'Creating sustainable value together.',
+        'KHÁCH HÀNG NÓI ABOUT NEXTCORE' => 'CUSTOMERS ABOUT NEXTCORE',
+        'Testimonials từ khách hàng' => 'Customer testimonials',
+        'Những chia sẻ thực tế từ khách hàng đang đồng hành cùng Nextcore.' => 'Real feedback from customers working with Nextcore.',
+        'Team chuyên môn cao, tận tâm và luôn sẵn sàng đồng hành.' => 'A highly skilled, dedicated team always ready to accompany you.',
+        'Cập nhật mới nhất' => 'Latest updates',
+        'Góc nhìn & insights' => 'Perspectives & insights',
+        'Sẵn sàng bắt đầu project của bạn?' => 'Ready to start your project?',
+        'Hãy để Nextcore đồng hành cùng bạn trên hành trình chuyển đổi số.' => 'Let Nextcore accompany you on your digital transformation journey.',
+        'Nguyễn Phương Trà My' => 'Nguyen Phuong Tra My',
+        'Trần Đức Anh' => 'Tran Duc Anh',
+        'Phan Thanh Tú' => 'Phan Thanh Tu',
+        'Bé khỏe bé vui' => 'Be Khoe Be Vui',
+    ));
+}
+add_filter('trp_translated_html', 'nextcore_translate_mixed_english_markup', 11);
+add_filter('elementor/frontend/the_content', 'nextcore_translate_mixed_english_markup', 36);
+add_filter('the_content', 'nextcore_translate_mixed_english_markup', 36);
+
+function nextcore_final_english_translations() {
+    return array(
+        '<span class="company-line">Company cổ phần Phần</span> <span class="company-line">mềm <span class="company-name">Nextcore</span></span>' => '<span class="company-line">Nextcore Software</span> <span class="company-line"><span class="company-name">Joint Stock Company</span></span>',
+        '<span>Company Cổ phần</span> <span>Phần mềm Nextcore</span>' => '<span>Nextcore Software</span> <span>Joint Stock Company</span>',
+        '<time datetime="2022-06-15">15 thg 6, 2022</time>' => '<time datetime="2022-06-15">June 15, 2022</time>',
+        'Không ngừng nỗ lực để giải quyết các vấn đề là <strong>Nỗi đau</strong> và tạo giá trị <strong>hữu ích</strong> cho khách hàng để trở thành đối tác tin cậy và lâu dài.' => 'We continuously work to solve real pain points and create useful value for customers, becoming a reliable long-term partner.',
+        'Cùng nhau kiến tạo<br />' . "\n" . 'những giá trị bền vững.' => 'Creating sustainable<br />' . "\n" . 'value together.',
+        'Góc nhìn &amp; insights' => 'Perspectives &amp; insights',
+        'Góc nhìn & insights' => 'Perspectives & insights',
+        'Testimonials từ customers' => 'Customer testimonials',
+        'Những chia sẻ thực tế từ customers đang đồng hành cùng Nextcore.' => 'Real feedback from customers working with Nextcore.',
+        'Băng chuyền' => 'Carousel',
+        'Testimonials trước' => 'Previous testimonial',
+        'Testimonials tiếp theo' => 'Next testimonial',
+        'Projects Convert nghiệp vụ sang sơ đồ khối' => 'Business workflow conversion project',
+        'Company Phần mềm Next Core làm project của tôi rất chuyên nghiệp, thực hiện đúng requirements của customers và hoàn thành công việc sớm hơn thời gian quy định, đảm bảo chất lượng. Các bạn dev của Company support tôi rất nhiệt tình trong thời gian thực hiện requirements của tôi. Highly recommend cho các customers trong lĩnh vực IT, software, design.' => 'NextCore Software handled my project very professionally, met the requirements, and completed the work earlier than planned while ensuring quality. The development team supported me enthusiastically throughout the project. Highly recommended for customers in IT, software, and design.',
+        'Trở thành trusted partner, đem lại giá trị lớn và hữu ích cho các đối
+      tác.' => 'Become a trusted partner that delivers significant and useful value to partners.',
+        'Trở thành một phần không thể thiếu, là \'người nhà\' trong việc hiểu và
+      giải quyết \'Nỗi đau\' của customers và đối tác.' => 'Become an indispensable partner who understands and solves the pain points of customers and partners.',
+        'Flexible và dễ dàng mở rộng' => 'Flexible and easy to scale',
+        'Chúng tôi cung cấp services phát triển phần mềm tùy chỉnh, đáp ứng nhu cầu riêng của từng khách hàng. Với team chuyên gia, chúng tôi cam kết mang đến giải pháp công nghệ hiệu quả.' => 'We provide custom software development services tailored to each customer’s needs. With an expert team, we are committed to delivering effective technology solutions.',
+        'Maintenance và nâng cấp phần mềm' => 'Software maintenance and upgrades',
+        'Duy trì và cập nhật phần mềm của bạn để đảm bảo hoạt động tối ưu, tăng cường tính năng và bảo mật. Chúng tôi cung cấp các services bảo trì và nâng cấp linh hoạt và hiệu quả.' => 'Maintain and update your software to ensure optimal operation, improved features, and better security. We provide flexible and effective maintenance and upgrade services.',
+        'Cung cấp nguồn nhân lực chất lượng cao, đáp ứng nhu cầu của doanh nghiệp. Services cho thuê nhân sự linh hoạt, giúp tối ưu chi phí và nâng cao hiệu quả hoạt động.' => 'Provide high-quality talent to meet business needs. Flexible staff leasing services help optimize costs and improve operational efficiency.',
+        'Next nhận yêu cầu' => 'Next receives the request',
+        'Next nhận requirements' => 'Next receives the requirements',
+        'Đảm bảo hiểu rõ yêu cầu và các hạn chế của project.' => 'Ensure a clear understanding of requirements and project constraints.',
+        'Đảm bảo hiểu rõ requirements và các hạn chế của project.' => 'Ensure a clear understanding of requirements and project constraints.',
+        'Bàn giao & support' => 'Handover & support',
+        'Bàn giao &amp; support' => 'Handover &amp; support',
+        'Bàn giao software cho customers hoặc người dùng cuối.' => 'Hand over the software to customers or end users.',
+        'Cung cấp support và bảo trì sau khi bàn giao để giải quyết vấn đề phát sinh.' => 'Provide support and maintenance after handover to resolve arising issues.',
+        'Nền tảngtạo nên khác biệt' => 'The foundation that makes the difference',
+        'Nền tảng tạo nên khác biệt' => 'The foundation that makes the difference',
+        'We lựa chọn và làm chủ những công nghệ hiện đại để kiến tạo giải pháp bền vững, hiệu quả và sẵn sàng cho tương lai.' => 'We choose and master modern technologies to build sustainable, effective, future-ready solutions.',
+        'We là một team nhiệt huyết và chuyên nghiệp với động lực am hiểu công nghệ mạnh mẽ, luôn sẵn sàng đáp ứng nhu cầu của bạn!' => 'We are a passionate and professional team with strong technology expertise, always ready to meet your needs!',
+        'Tập trung vào năng lượng cốt lõi' => 'Focus on core strengths',
+        'Phát triển software tùy chỉnh' => 'Custom software development',
+        'Xác định nhu cầu và mục tiêu customers' => 'Identify customer needs and goals',
+        'Thu thập thông tin chi tiết về tính năng và requirements hệ thống' => 'Collect detailed information about features and system requirements',
+        'Phân tích requirements kỹ thuật và chức năng.' => 'Analyze technical and functional requirements.',
+        'Tiến hành software development dựa trên requirements đã phân tích.' => 'Proceed with software development based on the analyzed requirements.',
+        'Thực hiện kiểm thử software (unit test, integration test) để đảm bảo chất lượng.' => 'Conduct software testing (unit tests and integration tests) to ensure quality.',
+        'Cập nhật và sửa lỗi theo requirements trong quá trình phát triển.' => 'Update and fix issues as requested during the development process.',
+        'Chất lượng sản phẩm của chúng tôi luôn được đảm bảo, đáp ứng các tiêu chuẩn nghiêm ngặt và mang lại sự hài lòng tối đa cho customers.' => 'Our product quality is always assured, meeting strict standards and delivering maximum customer satisfaction.',
+        'We luôn nỗ lực search các phương án tiết kiệm chi phí, đồng thời đảm bảo chất lượng services vượt trội.' => 'We always seek cost-saving options while ensuring outstanding service quality.',
+        'Hãy tin tưởng vào chúng tôi để đạt được mục tiêu tài chính của bạn một cách hiệu quả và bền vững.' => 'Trust us to help you achieve your financial goals effectively and sustainably.',
+        'Đồng hành và support lâu dài' => 'Long-term partnership and support',
+        'We hiểu rằng mỗi project không chỉ đơn thuần là một hợp đồng, mà là một phần của quá trình phát triển lâu dài và thành công của customers.' => 'We understand that every project is not merely a contract, but part of the customer’s long-term growth and success.',
+        'Giải pháp software cho doanh nghiệp hiện đại.' => 'Software solutions for modern businesses.',
+        'Nền tảng software connect đám mây, dữ liệu, phát triển và bảo mật' => 'A software platform connecting cloud, data, development, and security',
+        'Các công nghệ' => 'Technologies',
+        'Cung cấp services và sản phẩm software giá trị cao.' => 'Provide high-value software products and services.',
+        'Hướng đến cung cấp giải pháp có giá trị gia tăng cao đối với customers và đối tác.' => 'Aim to provide high value-added solutions for customers and partners.',
+        'Continuously striving to address challenges as <span style="font-weight: 700;">Pain points</span> and create <span style="font-weight: 700;">meaningful</span> cho customers để trở thành trusted partner và lâu dài.' => 'Continuously striving to address challenges as <span style="font-weight: 700;">Pain points</span> and create <span style="font-weight: 700;">meaningful value</span> for customers to become a long-term trusted partner.',
+        'cho customers để trở thành trusted partner và lâu dài.' => 'for customers to become a long-term trusted partner.',
+        'Hướng đến xây dựng môi trường cộng tác có tính connect cao giữa các thành viên.' => 'Aim to build a highly connected collaborative environment among team members.',
+        'Tối ưu chi phí' => 'Cost optimization',
+        'Tiết kiệm chi phí' => 'Cost savings',
+        'Tối ưu vận hành' => 'Operational optimization',
+        'đối tác tin cậy' => 'trusted partner',
+        'khách hàng cá nhân' => 'individual customers',
+        'các nhu cầu công nghệ flexible cho individual customers' => 'flexible technology needs for individual customers',
+        'phát triển phần mềm' => 'software development',
+        'phần mềm' => 'software',
+        'khách hàng' => 'customers',
+        'linh hoạt' => 'flexible',
+        'yêu cầu' => 'requirements',
+        'Chúng tôi' => 'We',
+    );
+}
+
+function nextcore_translate_final_english_html($html) {
+    if (!is_string($html) || $html === '') {
+        return $html;
+    }
+    $request_uri = isset($_SERVER['REQUEST_URI']) ? (string) wp_unslash($_SERVER['REQUEST_URI']) : '';
+    $is_english_request = strpos($request_uri, '/en/') === 0 || $request_uri === '/en';
+    if (nextcore_current_language() !== 'en_US' && !$is_english_request) {
+        return $html;
+    }
+    $html = strtr($html, nextcore_final_english_translations());
+
+    $html = preg_replace(
+        array(
+            '~>[^<]*services[^<]*software[^<]*gi[^<]*cao\.<~u',
+            '~>[^<]*customers[^<]*đối tác\.<~u',
+            '~Continuously striving to address challenges as\s*<span[^>]*>Pain points</span>\s*and create\s*<span[^>]*>meaningful</span>[^<]*~u',
+            '~>[^<]*connect cao[^<]*<~u',
+        ),
+        array(
+            '>Provide high-value software products and services.<',
+            '>Aim to provide high value-added solutions for customers and partners.<',
+            'Continuously striving to address challenges as <span style="font-weight: 700;">Pain points</span> and create <span style="font-weight: 700;">meaningful value</span> for customers to become a long-term trusted partner.',
+            '>Aim to build a highly connected collaborative environment among team members.<',
+        ),
+        $html
+    );
+
+    return $html;
+}
+add_filter('trp_translated_html', 'nextcore_translate_final_english_html', 999);
+add_filter('elementor/widget/render_content', 'nextcore_translate_final_english_html', 999);
+
+function nextcore_start_english_output_cleanup() {
+    if (is_admin()) {
+        return;
+    }
+    $request_uri = isset($_SERVER['REQUEST_URI']) ? (string) wp_unslash($_SERVER['REQUEST_URI']) : '';
+    if (strpos($request_uri, '/en/') !== 0 && $request_uri !== '/en') {
+        return;
+    }
+    ob_start('nextcore_translate_final_english_html');
+}
+add_action('template_redirect', 'nextcore_start_english_output_cleanup', 0);
+
+function nextcore_translate_contact_page_markup($html) {
+    if (!is_string($html) || $html === '' || nextcore_current_language() !== 'en_US') {
+        return $html;
+    }
+
+    $request_uri = isset($_SERVER['REQUEST_URI']) ? (string) wp_unslash($_SERVER['REQUEST_URI']) : '';
+    if (strpos($request_uri, '/lien-he') === false && strpos($html, 'elementor-320') === false) {
+        return $html;
+    }
+
+    $translations = array(
+        'Bắt đầu bằng <br>' => 'Start with <br>',
+        'Bắt đầu bằng' => 'Start with',
+        'một cuộc trò chuyện.' => 'a conversation.',
+        'Chia sẻ bài toán của bạn. Nextcore sẵn sàng lắng nghe, tư vấn hướng đi phù hợp và cùng bạn biến ý tưởng thành sản phẩm vận hành được.' => 'Share your challenge. Nextcore is ready to listen, recommend the right direction, and help turn your idea into a working product.',
+        'Thông tin liên hệ' => 'Contact information',
+        'Điện thoại' => 'Phone',
+        'Văn phòng' => 'Office',
+        'Bạn muốn xây dựng điều gì?' => 'What would you like to build?',
+        'Gửi thông tin ngắn gọn về nhu cầu, thời gian mong muốn và cách Nextcore có thể liên hệ lại với bạn.' => 'Send us a short note about your needs, timeline, and how Nextcore can get back to you.',
+        'Cách Nextcore bắt đầu cùng bạn' => 'How Nextcore starts with you',
+        'Lắng nghe nhu cầu' => 'Understand your needs',
+        'Hiểu mục tiêu, bối cảnh vận hành và ràng buộc hiện tại của dự án.' => 'Understand the goals, operating context, and current constraints of the project.',
+        'Đề xuất hướng đi' => 'Recommend a direction',
+        'Gợi ý phạm vi, mô hình triển khai và bước tiếp theo rõ ràng.' => 'Suggest the scope, delivery model, and clear next steps.',
+        'Đồng hành thực thi' => 'Deliver together',
+        'Bắt đầu bằng kế hoạch khả thi, minh bạch tiến độ và trách nhiệm.' => 'Start with a feasible plan, transparent progress, and clear ownership.',
+        'Họ &amp; Tên' => 'Full name',
+        'Họ & Tên' => 'Full name',
+        'Địa chỉ email' => 'Email address',
+        'Dịch vụ bạn quan tâm' => 'Service of interest',
+        'Thiết kế website' => 'Website design',
+        'Lark - Phần mềm phối hợp &amp; truyền thông' => 'Lark - Collaboration and communication platform',
+        'Lark - Phần mềm phối hợp & truyền thông' => 'Lark - Collaboration and communication platform',
+        'NextAttendance - Hệ thống chấm công' => 'NextAttendance - Time attendance system',
+        'Nextbooking - Hệ thống tích hợp thanh toán online' => 'Nextbooking - Online payment integration system',
+        'NextLMS - Hệ thống quản lý giáo dục' => 'NextLMS - Education management system',
+        'Nextcoin - Hệ thống khen thưởng nội bộ' => 'Nextcoin - Internal rewards system',
+        'NextDevice - Hệ thống quản lý thiết bị' => 'NextDevice - Device management system',
+        'Redmine - Phần mềm quản lý dự án' => 'Redmine - Project management software',
+        'Umami - Phần mềm phân tích lưu lượng truy cập' => 'Umami - Web analytics software',
+        'Thuê outsource' => 'Outsourcing',
+        'Khác' => 'Other',
+        'Tiêu đề' => 'Subject',
+        'Nội dung' => 'Message',
+        'Gửi' => 'Send',
+        '63 Phan Đăng Lưu, Hải Châu<br>Đà Nẵng 550000, Việt Nam' => '63 Phan Dang Luu, Hai Chau<br>Da Nang 550000, Viet Nam',
+        '63 Phan Đăng Lưu, Hải ChâuĐà Nẵng 550000, Việt Nam' => '63 Phan Dang Luu, Hai Chau, Da Nang 550000, Viet Nam',
+        '63 Phan Đăng Lưu, Hòa Cường, Đà Nẵng, Việt Nam' => '63 Phan Dang Luu, Hoa Cuong, Da Nang, Viet Nam',
+    );
+
+    return strtr($html, $translations);
+}
+add_filter('trp_translated_html', 'nextcore_translate_contact_page_markup', 20);
+add_filter('elementor/frontend/the_content', 'nextcore_translate_contact_page_markup', 40);
+add_filter('the_content', 'nextcore_translate_contact_page_markup', 40);
+
 function nextcore_lark_static_markup($content) {
     if (!is_singular('dich-vu') || get_post_field('post_name', get_queried_object_id()) !== 'lark' || !class_exists('WP_HTML_Tag_Processor')) {
         return $content;
