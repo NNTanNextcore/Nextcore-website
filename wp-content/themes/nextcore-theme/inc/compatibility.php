@@ -400,11 +400,16 @@ function nextcore_start_english_output_cleanup() {
 add_action('template_redirect', 'nextcore_start_english_output_cleanup', 0);
 
 function nextcore_translate_contact_page_markup($html) {
-    if (!is_string($html) || $html === '' || nextcore_current_language() !== 'en_US') {
+    if (!is_string($html) || $html === '') {
         return $html;
     }
 
     $request_uri = isset($_SERVER['REQUEST_URI']) ? (string) wp_unslash($_SERVER['REQUEST_URI']) : '';
+    $is_english_request = strpos($request_uri, '/en/') === 0 || $request_uri === '/en';
+    if (nextcore_current_language() !== 'en_US' && !$is_english_request) {
+        return $html;
+    }
+
     if (strpos($request_uri, '/lien-he') === false && strpos($html, 'elementor-320') === false) {
         return $html;
     }
@@ -415,13 +420,16 @@ function nextcore_translate_contact_page_markup($html) {
         'một cuộc trò chuyện.' => 'a conversation.',
         'Chia sẻ bài toán của bạn. Nextcore sẵn sàng lắng nghe, tư vấn hướng đi phù hợp và cùng bạn biến ý tưởng thành sản phẩm vận hành được.' => 'Share your challenge. Nextcore is ready to listen, recommend the right direction, and help turn your idea into a working product.',
         'Thông tin liên hệ' => 'Contact information',
+        'Thông tin contact' => 'Contact information',
         'Điện thoại' => 'Phone',
         'Văn phòng' => 'Office',
         'Bạn muốn xây dựng điều gì?' => 'What would you like to build?',
         'Gửi thông tin ngắn gọn về nhu cầu, thời gian mong muốn và cách Nextcore có thể liên hệ lại với bạn.' => 'Send us a short note about your needs, timeline, and how Nextcore can get back to you.',
+        'Send thông tin ngắn gọn về nhu cầu, thời gian mong muốn và cách Nextcore có thể contact lại với bạn.' => 'Send us a short note about your needs, timeline, and how Nextcore can get back to you.',
         'Cách Nextcore bắt đầu cùng bạn' => 'How Nextcore starts with you',
         'Lắng nghe nhu cầu' => 'Understand your needs',
         'Hiểu mục tiêu, bối cảnh vận hành và ràng buộc hiện tại của dự án.' => 'Understand the goals, operating context, and current constraints of the project.',
+        'Hiểu mục tiêu, bối cảnh vận hành và ràng buộc hiện tại của project.' => 'Understand the goals, operating context, and current constraints of the project.',
         'Đề xuất hướng đi' => 'Recommend a direction',
         'Gợi ý phạm vi, mô hình triển khai và bước tiếp theo rõ ràng.' => 'Suggest the scope, delivery model, and clear next steps.',
         'Đồng hành thực thi' => 'Deliver together',
@@ -430,6 +438,7 @@ function nextcore_translate_contact_page_markup($html) {
         'Họ & Tên' => 'Full name',
         'Địa chỉ email' => 'Email address',
         'Dịch vụ bạn quan tâm' => 'Service of interest',
+        'Services bạn quan tâm' => 'Service of interest',
         'Thiết kế website' => 'Website design',
         'Lark - Phần mềm phối hợp &amp; truyền thông' => 'Lark - Collaboration and communication platform',
         'Lark - Phần mềm phối hợp & truyền thông' => 'Lark - Collaboration and communication platform',
@@ -439,6 +448,7 @@ function nextcore_translate_contact_page_markup($html) {
         'Nextcoin - Hệ thống khen thưởng nội bộ' => 'Nextcoin - Internal rewards system',
         'NextDevice - Hệ thống quản lý thiết bị' => 'NextDevice - Device management system',
         'Redmine - Phần mềm quản lý dự án' => 'Redmine - Project management software',
+        'Redmine - Phần mềm quản lý project' => 'Redmine - Project management software',
         'Umami - Phần mềm phân tích lưu lượng truy cập' => 'Umami - Web analytics software',
         'Thuê outsource' => 'Outsourcing',
         'Khác' => 'Other',
