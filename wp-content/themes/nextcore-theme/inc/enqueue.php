@@ -18,7 +18,7 @@ add_action('wp_head', 'nextcore_theme_init_script', 0);
 function nextcore_enqueue_assets() {
     $styles = array('tokens', 'base', 'layout');
     if (is_front_page()) { $styles = array_merge($styles, array('services', 'team', 'testimonials', 'home-section-snap')); }
-    $styles = array_merge($styles, array('footer', 'light', 'content', 'compatibility', 'native', 'custom'));
+    $styles = array_merge($styles, array('light', 'content', 'compatibility', 'native', 'custom'));
     $previous = array();
     foreach ($styles as $name) {
         $path = '/assets/css/' . $name . '.css';
@@ -34,6 +34,20 @@ function nextcore_enqueue_assets() {
     if (is_singular() && comments_open() && get_option('thread_comments')) { wp_enqueue_script('comment-reply'); }
 }
 add_action('wp_enqueue_scripts', 'nextcore_enqueue_assets');
+
+function nextcore_enqueue_elementor_footer_assets() {
+    if (!did_action('elementor/loaded') || !defined('ELEMENTOR_ASSETS_URL') || !defined('ELEMENTOR_VERSION')) {
+        return;
+    }
+
+    wp_enqueue_style(
+        'widget-social-icons',
+        ELEMENTOR_ASSETS_URL . 'css/widget-social-icons.min.css',
+        array('elementor-frontend'),
+        ELEMENTOR_VERSION
+    );
+}
+add_action('wp_enqueue_scripts', 'nextcore_enqueue_elementor_footer_assets', 20);
 
 function nextcore_body_classes($classes) {
     $classes[] = 'nextcore-site';

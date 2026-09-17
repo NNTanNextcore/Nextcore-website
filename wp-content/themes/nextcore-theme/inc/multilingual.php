@@ -27,7 +27,7 @@ function nextcore_home_url($fragment = '') {
 }
 
 function nextcore_menu_anchor($atts, $item, $args) {
-    $locations = array('home_primary', 'home_mobile', 'primary', 'primary_mobile', 'footer_about', 'footer_support');
+    $locations = array('home_primary', 'home_mobile', 'primary', 'primary_mobile', 'footer_about', 'footer_support', 'footer_nextcore', 'footer_services', 'footer_explore', 'footer_connect');
     if (isset($args->theme_location, $atts['href']) && in_array($args->theme_location, $locations, true)
         && strpos($atts['href'], '#') === 0 && strlen($atts['href']) > 1) {
         $atts['href'] = is_front_page() ? $atts['href'] : nextcore_home_url($atts['href']);

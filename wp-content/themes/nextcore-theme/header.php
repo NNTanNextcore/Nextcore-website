@@ -11,6 +11,15 @@
 <?php wp_body_open(); ?>
 <a class="nextcore-skip-link" href="#main-content"><?php esc_html_e('Chuyển đến nội dung', 'nextcore-theme'); ?></a>
 <?php get_template_part('template-parts/global/icons'); ?>
+<?php
+$nextcore_preview_id = isset($_GET['elementor-preview']) ? absint(wp_unslash($_GET['elementor-preview'])) : 0;
+$nextcore_elementor_header_preview = $nextcore_preview_id
+    && current_user_can('edit_post', $nextcore_preview_id)
+    && 'header' === get_post_meta($nextcore_preview_id, '_elementor_template_type', true)
+    && function_exists('elementor_theme_do_location')
+    && elementor_theme_do_location('header');
+if (!$nextcore_elementor_header_preview) :
+?>
 <header class="site-header nextcore-site-header nextcore-native" id="site-header">
 <div class="container header-inner">
     <a class="brand" href="<?php echo esc_url(nextcore_home_url()); ?>" aria-label="<?php esc_attr_e('Nextcore — Trang chủ', 'nextcore-theme'); ?>">
@@ -35,3 +44,4 @@
     <h2 id="nextcore-search-title"><?php esc_html_e('Bạn đang tìm gì?', 'nextcore-theme'); ?></h2>
     <?php get_search_form(); ?>
 </dialog>
+<?php endif; ?>

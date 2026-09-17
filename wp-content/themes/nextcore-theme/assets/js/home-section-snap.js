@@ -6,21 +6,31 @@
     var header = document.querySelector('.nextcore-site-header');
     var admin = document.getElementById('wpadminbar');
     var nodes = Array.prototype.filter.call(home.children, function (node) { return node.matches('section'); });
-    var footer = document.querySelector('.site-footer');
+    var footer = document.querySelector(
+        '.elementor-location-footer, [data-elementor-type="footer"], .site-footer'
+    );
     if (footer) { nodes.push(footer); }
     if (nodes.length < 2) { return; }
-    var desktop = matchMedia('(min-width: 1200px) and (hover: hover) and (pointer: fine)');
     var reduced = matchMedia('(prefers-reduced-motion: reduce)');
-    var threshold = 45, tolerance = 20, quietPeriod = 200;
-    var scenes = [], offset = 0, viewport = innerHeight, available = innerHeight, snapOverflow = 0, maxY = 0;
+    var threshold = 18, tolerance = 20, quietPeriod = 300;
+    var scenes = [], offset = 0, viewport = innerHeight, available = innerHeight, maxY = 0;
     var frame = 0, layoutFrame = 0, layoutDirty = false, animation = null;
     var state = 'idle', gesture = null, lastWheel = -Infinity, tailUntil = 0, tailDirection = 0;
+    var lastWheelReason = 'waiting', lastWheelTarget = null;
     var reverseDelta = 0, reverseStarted = 0;
     var touch = null, touchIntent = false, settleTimer = 0, userInteracted = false;
-    var excluded = 'input, textarea, select, iframe, [contenteditable]:not([contenteditable="false"]), [role="slider"], [role="dialog"], [role="listbox"], dialog, .modal, .lightbox, .dropdown, .sub-menu, .nextcore-mobile-panel, .map, .map-container, .leaflet-container, .mapboxgl-map, [data-nc-snap-ignore]';
+    var excluded = 'input, textarea, select, iframe, [contenteditable]:not([contenteditable="false"]), [role="slider"], [role="dialog"], [role="listbox"], dialog, .modal, .lightbox, .dropdown, .sub-menu, .nextcore-mobile-panel, .is-dragging, .map, .map-container, .leaflet-container, .mapboxgl-map, [data-nc-snap-ignore]';
 
     nodes.forEach(function (node) { node.setAttribute('data-nc-snap-section', ''); });
     root.classList.add('nc-home-snap');
+    window.nextcoreHomeSnapStatus = function () {
+        return {
+            sections: scenes.map(function (scene) { return scene.node.id || scene.node.className; }),
+            scrollY: scrollY, viewport: viewport, offset: offset, maxY: maxY,
+            state: state, blocked: blocked(), blockingReason: blockingReason(),
+            lastWheel: lastWheelReason, target: lastWheelTarget
+        };
+    };
 
     // Opt-in QA events only; no frame history or logging in normal operation.
     function trace(reason, extra) {
@@ -30,10 +40,24 @@
             target: animation ? animation.destination : null
         }, extra || {})}));
     }
-    function blocked() {
-        return (header && header.classList.contains('menu-open')) || document.body.classList.contains('modal-open') ||
-            !!document.querySelector('dialog[open], [aria-modal="true"]:not([hidden]), .is-dragging');
+    function blockingReason() {
+        if (header && header.classList.contains('menu-open')) { return 'menu-open'; }
+        if (document.body.classList.contains('modal-open')) { return 'body.modal-open'; }
+        var modals = document.querySelectorAll('dialog[open], [aria-modal="true"]');
+        for (var i = 0; i < modals.length; i++) {
+            var modal = modals[i];
+            if (!modal.getClientRects().length) { continue; }
+            for (var node = modal; node; node = node.parentElement) {
+                var style = getComputedStyle(node);
+                if (node.hidden || node.getAttribute('aria-hidden') === 'true' || node.inert ||
+                    style.display === 'none' || style.visibility === 'hidden' || style.visibility === 'collapse' ||
+                    Number(style.opacity) === 0) { break; }
+            }
+            if (!node) { return modal.tagName.toLowerCase(); }
+        }
+        return null;
     }
+    function blocked() { return blockingReason() !== null; }
     function ignore(target, direction) {
         if (!(target instanceof Element) || target.closest(excluded)) { return true; }
         for (var node = target; node && node !== document.body; node = node.parentElement) {
@@ -56,10 +80,6 @@
         root.style.setProperty('--nc-snap-offset', offset + 'px');
         maxY = Math.max(0, root.scrollHeight - viewport);
         available = viewport - offset;
-        // Small overflow commonly comes from responsive padding/aspect ratios. Treat
-        // it as one visual scene so a full-page section does not require a second
-        // wheel gesture merely to clear its last few pixels.
-        snapOverflow = Math.min(160, Math.max(0, available * .2));
         scenes = [];
         nodes.forEach(function (node) {
             var rect = node.getBoundingClientRect();
@@ -77,6 +97,10 @@
     }
     function scheduleMeasure() {
         if (!layoutFrame) { layoutFrame = requestAnimationFrame(measure); }
+    }
+    function listenMedia(query, handler) {
+        if (query.addEventListener) { query.addEventListener('change', handler); }
+        else if (query.addListener) { query.addListener(handler); }
     }
     function cancel() {
         cancelAnimationFrame(frame);
@@ -156,33 +180,23 @@
             });
             return directionalTarget(boundaries, direction);
         }
-        var visibleTop = scrollY + offset, index = 0;
+        var index = 0;
         // The final short scene may hit the document limit before its top reaches
         // the header. Use its reachable landing position in both directions.
         scenes.forEach(function (scene, i) { if (clampY(scene.top - offset) <= scrollY + tolerance) { index = i; } });
-        var scene = scenes[index];
-        if (!scene) { return null; }
         if (direction > 0) {
-            var remaining = scene.bottom - scrollY - viewport;
-            var atSceneStart = Math.abs(scrollY - clampY(scene.top - offset)) <= tolerance;
-            if ((remaining > tolerance && !(atSceneStart && remaining <= snapOverflow)) || index === scenes.length - 1) { return null; }
             return directionalTarget(scenes.slice(index + 1).map(function (next) { return next.top - offset; }), direction);
         }
-        var passedTop = visibleTop - scene.top;
-        var atSceneEnd = Math.abs(scrollY - clampY(scene.bottom - viewport)) <= tolerance;
-        // Mirror the small-overflow allowance used by downward snaps. When an
-        // almost-full-screen scene was entered from below, its reachable landing
-        // point is slightly past its top; that must not turn the next upward wheel
-        // gesture into native scrolling.
-        if (passedTop > tolerance && !(atSceneEnd && passedTop <= snapOverflow)) { return null; }
-        var previous = scenes.slice(0, index).map(function (item) { return Math.max(item.top - offset, item.bottom - viewport); });
+        var previous = scenes.slice(0, index).map(function (item) { return item.top - offset; });
         previous.push(0);
         return directionalTarget(previous, direction);
     }
     window.addEventListener('wheel', function (event) {
         userInteracted = true;
-        if (!desktop.matches || reduced.matches || event.ctrlKey || event.metaKey || Math.abs(event.deltaX) > Math.abs(event.deltaY) || !event.deltaY) { return; }
-        if (blocked()) { cancel(); return; }
+        lastWheelReason = 'received';
+        lastWheelTarget = event.target instanceof Element ? event.target.tagName : null;
+        if (event.ctrlKey || event.metaKey || Math.abs(event.deltaX) > Math.abs(event.deltaY) || !event.deltaY) { lastWheelReason = 'filtered-gesture'; return; }
+        if (blocked()) { lastWheelReason = 'blocked'; cancel(); return; }
         var direction = Math.sign(event.deltaY), now = performance.now();
         var fresh = now - lastWheel > quietPeriod;
         var delta = Math.abs(event.deltaY) * (event.deltaMode === 1 ? 16 : event.deltaMode === 2 ? viewport : 1);
@@ -191,9 +205,10 @@
         // a stationary pointer during the captured gesture must not cancel the animation.
         var moved = gesture && Math.hypot(event.clientX - gesture.x, event.clientY - gesture.y) > 8;
         if (animation) {
-            if (fresh && (!gesture || moved) && ignore(event.target, direction)) { cancel(); return; }
-            if (!event.cancelable) { cancel(); return; }
+            if (fresh && (!gesture || moved) && ignore(event.target, direction)) { lastWheelReason = 'nested-scroll'; cancel(); return; }
+            if (!event.cancelable) { lastWheelReason = 'not-cancelable'; cancel(); return; }
             event.preventDefault();
+            lastWheelReason = 'animating';
             if (direction === animation.direction) { reverseDelta = 0; return; }
             if (!reverseDelta || now - reverseStarted > 160) { reverseDelta = 0; reverseStarted = now; }
             reverseDelta += delta;
@@ -209,23 +224,30 @@
         if (state === 'tail') {
             if (!fresh && direction === tailDirection && now < tailUntil) {
                 if (event.cancelable) { event.preventDefault(); }
+                lastWheelReason = 'tail';
                 return;
             }
             state = 'idle'; gesture = null; trace('unlock');
         }
         if (fresh || !gesture || gesture.direction !== direction) {
             if (layoutDirty) { measure(); }
-            gesture = {direction: direction, delta: 0, x: event.clientX, y: event.clientY,
+            gesture = {direction: direction, x: event.clientX, y: event.clientY,
                 destination: ignore(event.target, direction) ? null : targetFor(direction)};
-            state = gesture.destination === null ? 'native' : 'collecting';
+            state = gesture.destination === null ? 'native' : 'idle';
+            lastWheelReason = gesture.destination === null ? 'no-target-or-nested-scroll' : 'target-found';
             trace(state === 'native' ? 'native-gesture' : 'boundary-intent');
         }
-        // Never switch a native gesture into a snap in the middle of its momentum.
-        if (state === 'native') { return; }
-        if (!event.cancelable) { cancel(); return; }
+        if (state === 'native') {
+            if (ignore(event.target, direction)) { lastWheelReason = 'nested-scroll'; return; }
+            gesture.destination = targetFor(direction);
+            if (gesture.destination === null) { lastWheelReason = 'no-target'; return; }
+            state = 'idle';
+            trace('boundary-intent');
+        }
+        if (!event.cancelable) { lastWheelReason = 'not-cancelable'; cancel(); return; }
         event.preventDefault();
-        gesture.delta += delta;
-        if (gesture.delta >= threshold) { smoothScrollToTarget(gesture.destination); }
+        lastWheelReason = 'started';
+        smoothScrollToTarget(gesture.destination);
     }, {passive: false});
 
     function stopForInput() { userInteracted = true; cancel(); }
@@ -243,7 +265,7 @@
     function settle() {
         clearTimeout(settleTimer);
         settleTimer = setTimeout(function () {
-            if (!touchIntent || touch || desktop.matches || reduced.matches || blocked() || frame) { return; }
+            if (!touchIntent || touch || reduced.matches || blocked() || frame) { return; }
             touchIntent = false;
             var nearest = null, distance = 25;
             scenes.forEach(function (scene) {
@@ -298,8 +320,7 @@
     window.addEventListener('pageshow', scheduleMeasure);
     window.addEventListener('resize', function () { cancel(); scheduleMeasure(); }, {passive: true});
     window.addEventListener('orientationchange', function () { cancel(); scheduleMeasure(); }, {passive: true});
-    reduced.addEventListener('change', cancel);
-    desktop.addEventListener('change', cancel);
+    listenMedia(reduced, function () { cancel(); scheduleMeasure(); });
     if ('ResizeObserver' in window) {
         var observer = new ResizeObserver(scheduleMeasure);
         nodes.concat([header, admin]).forEach(function (node) { if (node) { observer.observe(node); } });

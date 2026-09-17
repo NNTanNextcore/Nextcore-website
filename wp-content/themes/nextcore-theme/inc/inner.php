@@ -61,6 +61,9 @@ function nextcore_sidebar_terms($taxonomy, $parent = 0, $terms = null) {
 function nextcore_inner_assets() {
     if (is_front_page()) { return; }
     wp_enqueue_style('nextcore-inner', get_theme_file_uri('/assets/css/inner.css'), array('nextcore-native'), nextcore_asset_version('/assets/css/inner.css'));
+    if (is_page(array('ve-chung-toi', 'outsource'))) {
+        wp_enqueue_style('nextcore-theme-pages', get_theme_file_uri('/assets/css/theme-pages.css'), array('nextcore-inner'), nextcore_asset_version('/assets/css/theme-pages.css'));
+    }
     if (is_page('lien-he')) {
         wp_enqueue_style('nextcore-contact', get_theme_file_uri('/assets/css/contact.css'), array('nextcore-inner'), nextcore_asset_version('/assets/css/contact.css'));
     }
