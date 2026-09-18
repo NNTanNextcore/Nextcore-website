@@ -22,8 +22,9 @@ function nextcore_enqueue_assets() {
     $previous = array();
     foreach ($styles as $name) {
         $path = '/assets/css/' . $name . '.css';
-        wp_enqueue_style('nextcore-' . $name, get_theme_file_uri($path), $previous, nextcore_asset_version($path));
-        $previous = array('nextcore-' . $name);
+        $handle = $name === 'team' ? 'nextcore-home-team' : 'nextcore-' . $name;
+        wp_enqueue_style($handle, get_theme_file_uri($path), $previous, nextcore_asset_version($path));
+        $previous = array($handle);
     }
     $scripts = array('theme-switch', 'navigation');
     if (is_front_page()) { $scripts = array_merge($scripts, array('home', 'testimonials', 'home-section-snap')); }
