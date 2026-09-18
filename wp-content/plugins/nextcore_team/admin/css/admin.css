@@ -1,0 +1,44 @@
+.nextcore-team-admin-wrap{max-width:1100px}.nextcore-team-section-form{display:flex;align-items:center;gap:10px;margin:18px 0 24px}.nextcore-team-order-status{min-height:24px;font-weight:600}.nextcore-team-order-status.is-success{color:#008a20}.nextcore-team-order-status.is-error{color:#b32d2e}.nextcore-team-sections{display:grid;gap:16px}.nextcore-team-section-box{background:#fff;border:1px solid #dcdcde;border-radius:8px;box-shadow:0 1px 1px rgba(0,0,0,.04);padding:14px}.nextcore-team-section-head{display:flex;align-items:center;gap:10px;margin-bottom:12px}.nextcore-team-section-handle,.nextcore-team-handle{cursor:grab;color:#646970}.nextcore-team-section-edit{display:flex;align-items:center;gap:8px;flex:1}.nextcore-team-section-edit input[type=text]{font-weight:600;min-width:280px}.nextcore-team-section-delete{margin-left:auto}.nextcore-team-sortable{margin:0;min-height:44px}.nextcore-team-sortable li{display:flex;align-items:center;gap:14px;background:#f6f7f7;border:1px solid #dcdcde;border-radius:8px;padding:10px 12px;margin:0 0 10px}.nextcore-team-order-photo{width:48px;height:48px;border-radius:8px;background:#f0f0f1;overflow:hidden;flex:0 0 48px}.nextcore-team-order-photo img{width:48px;height:48px;object-fit:cover}.nextcore-team-order-main{display:flex;flex-direction:column;gap:3px;flex:1}.nextcore-team-order-main small{color:#646970}.nextcore-team-sort-placeholder{height:70px;border:2px dashed #2271b1!important;background:#f0f6fc!important}.nextcore-team-section-placeholder{height:120px;border:2px dashed #2271b1!important;background:#f0f6fc!important;border-radius:8px}.nextcore-social-networks{display:grid;gap:8px;max-width:760px}.nextcore-social-network-row{display:grid;grid-template-columns:1fr 140px 140px auto;gap:8px;align-items:center}.nextcore-social-network-row input{width:100%}.nextcore-custom-css{font-family:Consolas,Monaco,monospace;width:100%;max-width:900px;min-height:180px}
+
+.nextcore-team-admin-wrap .nextcore-team-section-form,
+.nextcore-team-admin-wrap .nextcore-team-section-edit {
+    flex-wrap: wrap;
+}
+
+.nextcore-team-admin-wrap .nextcore-team-section-form label,
+.nextcore-team-admin-wrap .nextcore-team-section-edit label {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 0;
+}
+
+.nextcore-team-admin-wrap .nextcore-team-section-form input[type="text"],
+.nextcore-team-admin-wrap .nextcore-team-section-edit input[type="text"],
+.nextcore-team-admin-wrap .nextcore-team-section-form .button,
+.nextcore-team-admin-wrap .nextcore-team-section-head .button,
+.nextcore-team-admin-wrap .nextcore-team-sortable .button {
+    box-sizing: border-box;
+    height: 40px;
+    min-height: 40px;
+    margin: 0;
+    padding: 0 14px;
+    line-height: normal;
+}
+
+.nextcore-team-admin-wrap .nextcore-team-sortable a.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 782px) {
+    .nextcore-team-admin-wrap .nextcore-team-section-head {
+        flex-wrap: wrap;
+    }
+
+    .nextcore-team-admin-wrap .nextcore-team-section-edit input[type="text"] {
+        min-width: 0;
+        width: min(280px, 65vw);
+    }
+}

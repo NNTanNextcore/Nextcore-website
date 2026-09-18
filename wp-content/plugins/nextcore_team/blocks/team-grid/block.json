@@ -1,0 +1,25 @@
+{
+  "apiVersion": 2,
+  "name": "nextcore/team-grid",
+  "version": "1.1.7",
+  "title": "Danh sách đội ngũ",
+  "category": "nextcore-team",
+  "icon": "groups",
+  "description": "Hiển thị đội ngũ Nextcore theo từng phần.",
+  "textdomain": "nextcore-team",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "columns": { "type": "number", "default": 3 },
+    "tablet_columns": { "type": "number", "default": 2 },
+    "mobile_columns": { "type": "number", "default": 1 },
+    "gap": { "type": "number", "default": 28 },
+    "radius": { "type": "number", "default": 12 },
+    "image_ratio": { "type": "string", "default": "1-1" },
+    "show_role": { "type": "boolean", "default": true },
+    "show_contact": { "type": "boolean", "default": true },
+    "show_section_heading": { "type": "boolean", "default": true },
+    "section": { "type": "string", "default": "" },
+    "limit": { "type": "number", "default": -1 }
+  },
+  "supports": { "html": false }
+}

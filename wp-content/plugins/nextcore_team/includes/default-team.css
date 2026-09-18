@@ -1,0 +1,319 @@
+.nextcore-team-shell {
+    --nct-primary: var(--nc-accent, #db0707);
+    --nct-link: var(--red-text, #ce0010);
+    --nct-card-background: var(--nc-surface, #ffffff);
+    --nct-card-text: var(--nc-text, #1c1d3e);
+    --nct-card-muted: var(--nc-muted, #45516d);
+    --nct-divider: var(--nc-border, rgba(28, 29, 62, .14));
+    --nct-card-shadow: rgba(28, 29, 62, .12);
+    --nct-card-shadow-strong: rgba(28, 29, 62, .2);
+    color: var(--nct-card-text);
+}
+
+:root[data-theme="light"] .nextcore-team-shell,
+:root:not([data-theme]) .nextcore-team-shell {
+    --nct-primary: var(--nc-accent, #db0707);
+    --nct-link: var(--red-text, #ce0010);
+    --nct-card-background: var(--nc-surface, #ffffff);
+    --nct-card-text: var(--nc-text, #1c1d3e);
+    --nct-card-muted: var(--nc-muted, #45516d);
+    --nct-divider: var(--nc-border, rgba(28, 29, 62, .14));
+    --nct-card-shadow: rgba(28, 29, 62, .12);
+    --nct-card-shadow-strong: rgba(28, 29, 62, .2);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme]) .nextcore-team-shell {
+        --nct-primary: var(--nc-accent, #db0707);
+        --nct-link: var(--red-text, #ff4d4d);
+        --nct-card-background: var(--nc-surface, #101618);
+        --nct-card-text: var(--nc-text, #f4f5f5);
+        --nct-card-muted: var(--nc-muted, #c9cfdb);
+        --nct-divider: var(--nc-border, rgba(255, 255, 255, .12));
+        --nct-card-shadow: rgba(0, 0, 0, .28);
+        --nct-card-shadow-strong: rgba(0, 0, 0, .4);
+    }
+}
+
+:root[data-theme="dark"] .nextcore-team-shell {
+    --nct-primary: var(--nc-accent, #db0707);
+    --nct-link: var(--red-text, #ff4d4d);
+    --nct-card-background: var(--nc-surface, #101618);
+    --nct-card-text: var(--nc-text, #f4f5f5);
+    --nct-card-muted: var(--nc-muted, #c9cfdb);
+    --nct-divider: var(--nc-border, rgba(255, 255, 255, .12));
+    --nct-card-shadow: rgba(0, 0, 0, .28);
+    --nct-card-shadow-strong: rgba(0, 0, 0, .4);
+}
+
+/* Quick tabs */
+.nextcore-team-shell .nextcore-team-menu {
+    display: none !important;
+}
+
+.nextcore-team-shell .nextcore-team-menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: transparent !important;
+}
+
+.nextcore-team-shell .nextcore-team-menu-list li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+}
+
+.nextcore-team-shell .nextcore-team-menu-list a {
+    display: inline-flex;
+    align-items: center;
+
+    min-height: 46px;
+    padding: 0px;
+
+    border: 0;
+    border-bottom: 2px solid transparent;
+
+    background: transparent;
+    color: var(--nct-card-text);
+
+    text-decoration: none;
+
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.3;
+
+    transition:
+        color .2s ease,
+        border-color .2s ease;
+}
+
+.nextcore-team-shell .nextcore-team-menu-list a:hover,
+.nextcore-team-shell .nextcore-team-menu-list a:focus-visible {
+    color: var(--nct-link);
+    border-bottom-color: var(--nct-link);
+}
+
+.nextcore-team-shell .nextcore-team-menu-list a:focus-visible {
+    outline: none;
+}
+
+/* Active item - nếu có class current-menu-item */
+.nextcore-team-shell .nextcore-team-menu-list .current-menu-item > a,
+.nextcore-team-shell .nextcore-team-menu-list .current_page_item > a,
+.nextcore-team-shell .nextcore-team-menu-list a.is-active {
+    color: var(--nct-link);
+    border-bottom-color: var(--nct-link);
+}
+
+@media (max-width: 640px) {
+    .nextcore-team-shell .nextcore-team-menu {
+        overflow: hidden;
+    }
+
+    .nextcore-team-shell .nextcore-team-menu-list {
+        flex-wrap: nowrap;
+        gap: 22px;
+
+        overflow-x: auto;
+        overflow-y: hidden;
+
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+    }
+
+    .nextcore-team-shell .nextcore-team-menu-list::-webkit-scrollbar {
+        display: none;
+    }
+
+    .nextcore-team-shell .nextcore-team-menu-list a {
+        white-space: nowrap;
+    }
+}
+/* End quick tabs */
+
+.nextcore-team-shell .nextcore-team-card {
+    position: relative;
+    isolation: isolate;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 430px;
+    padding: 30px 24px 38px;
+    overflow: hidden;
+    border: 1px solid var(--nct-divider);
+    border-radius: 7px;
+    background: var(--nct-card-background);
+    color: var(--nct-card-text);
+    text-align: center;
+    box-shadow: 0 0 15px var(--nct-card-shadow);
+    transition: box-shadow .5s ease, transform .5s ease;
+}
+
+.nextcore-team-shell .nextcore-team-card::before,
+.nextcore-team-shell .nextcore-team-card::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 45%;
+    aspect-ratio: 1;
+    background: var(--nct-primary);
+    transition: transform .5s ease;
+}
+
+.nextcore-team-shell .nextcore-team-card::before {
+    top: 0;
+    right: 0;
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+    transform: translate(0, 0);
+}
+
+.nextcore-team-shell .nextcore-team-card::after {
+    bottom: 0;
+    left: 0;
+    clip-path: polygon(0 0, 0 100%, 100% 100%);
+    transform: translate(0, 0);
+}
+
+.nextcore-team-shell .nextcore-team-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 28px var(--nct-card-shadow-strong);
+}
+
+.nextcore-team-shell .nextcore-team-card:hover::before {
+    transform: translate(100%, -100%);
+}
+
+.nextcore-team-shell .nextcore-team-card:hover::after {
+    transform: translate(-100%, 100%);
+}
+
+.nextcore-team-shell .nextcore-team-photo {
+    width: min(81%, 220px);
+    flex-shrink: 0;
+}
+
+.nextcore-team-shell .nextcore-team-photo img {
+    border-radius: 50%;
+    object-position: center;
+}
+
+.nextcore-team-shell .nextcore-team-body {
+    padding-top: 24px;
+}
+
+.nextcore-team-shell .nextcore-team-name {
+    margin: 0;
+    color: var(--nct-card-text);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.3;
+    transition: color .5s ease;
+}
+
+.nextcore-team-shell .nextcore-team-card:hover .nextcore-team-name {
+    color: var(--nct-link);
+}
+
+.nextcore-team-shell .nextcore-team-role {
+    margin-top: 8px;
+    color: var(--nct-card-muted);
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.nextcore-team-shell .nextcore-team-contact {
+    justify-content: center;
+    gap: 4px;
+    padding-top: 14px;
+}
+
+.nextcore-team-shell .nextcore-team-contact a {
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    padding: 10px;
+    color: var(--nct-link);
+    text-decoration: none;
+    transition: opacity .25s ease, transform .25s ease;
+}
+
+.nextcore-team-shell .nextcore-team-contact a:hover {
+    opacity: .75;
+    transform: scale(1.05);
+}
+
+.nextcore-team-shell .nextcore-team-contact svg {
+    width: 24px;
+    height: 24px;
+}
+
+@media (max-width: 640px) {
+    .nextcore-team-shell .nextcore-team-card {
+        max-width: 380px;
+        min-height: 410px;
+        margin-inline: auto;
+        padding-inline: 18px;
+    }
+
+    .nextcore-team-shell .nextcore-team-name {
+        font-size: 20px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .nextcore-team-shell .nextcore-team-card,
+    .nextcore-team-shell .nextcore-team-card::before,
+    .nextcore-team-shell .nextcore-team-card::after,
+    .nextcore-team-shell .nextcore-team-name,
+    .nextcore-team-shell .nextcore-team-contact a {
+        transition: none;
+    }
+
+    .nextcore-team-shell .nextcore-team-card:hover,
+    .nextcore-team-shell .nextcore-team-contact a:hover {
+        transform: none;
+    }
+}
+
+.nextcore-team-shell .nextcore-team-menu,
+.nextcore-team-shell .nextcore-team-menu-list,
+.nextcore-team-shell .nextcore-team-menu-list li,
+.nextcore-team-shell .nextcore-team-menu-list a {
+    display: none !important;
+}
+
+.nextcore-team-shell .nextcore-team-section-title,
+.nextcore-legacy-wrap {
+    background: var(--nc-surface, var(--nct-card-background, #fff));
+    color: var(--nc-text, var(--nct-card-text, #1c1d3e));
+}
+
+.nextcore-team-shell .nextcore-team-menu {
+    background: transparent;
+}
+
+.nextcore-team-shell .nextcore-team-menu-list a,
+.nextcore-team-shell .nextcore-team-menu-list li,
+.nextcore-team-shell .nextcore-team-section-title {
+    background: transparent;
+    color: var(--nct-card-text);
+}
+
+.nextcore-legacy-wrap {
+    background: var(--nc-bg, var(--bg, #fff));
+    color: var(--nc-text, var(--text, #151515));
+    border-color: var(--nct-divider);
+}
+
+@media (prefers-color-scheme: dark) {
+    .nextcore-legacy-wrap {
+        background: var(--nc-bg, var(--bg, #0d1116));
+        color: var(--nc-text, var(--text, #f4f5f5));
+    }
+}

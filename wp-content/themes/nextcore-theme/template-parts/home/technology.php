@@ -12,6 +12,9 @@ $technology_items = array();
 $configured_items = nextcore_rows('nc_technology_items');
 $fallback_items = nextcore_home_defaults()['nc_technology_items'];
 $technology_heading = nextcore_field('nc_technology_heading', "Nền tảng\ntạo nên khác biệt");
+if (nextcore_current_language() === 'en_US' && preg_replace('/\s+/u', ' ', trim((string) $technology_heading)) === 'Nền tảng tạo nên khác biệt') {
+    $technology_heading = "Our foundation\nsets us apart";
+}
 $technology_heading_lines = preg_split('/\R+/', trim((string) $technology_heading));
 
 // Keep configured labels and supply approved additions until they are saved through ACF.
