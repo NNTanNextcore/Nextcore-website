@@ -14,6 +14,22 @@ function nextcore_option($name, $fallback = '') {
     return nextcore_field($name, $fallback, 'option');
 }
 
+function nextcore_copyright_shortcode() {
+    $request_uri = isset($_SERVER['REQUEST_URI']) ? (string) wp_unslash($_SERVER['REQUEST_URI']) : '';
+    $is_english = strpos($request_uri, '/en/') === 0 || $request_uri === '/en';
+    $label = $is_english
+        ? 'Nextcore. All rights reserved.'
+        : 'Nextcore. Bảo lưu mọi quyền.';
+
+    return sprintf('&copy; %s %s', esc_html(wp_date('Y')), esc_html($label));
+}
+add_shortcode('nextcore_copyright', 'nextcore_copyright_shortcode');
+
+function nextcore_footer_description_shortcode() {
+    return esc_html('Nextcore đồng hành cùng doanh nghiệp bằng công nghệ, sáng tạo và tư duy chiến lược.');
+}
+add_shortcode('nextcore_footer_description', 'nextcore_footer_description_shortcode');
+
 function nextcore_rows($name, $context = null) {
     $value = function_exists('get_field') ? get_field($name, $context === null ? get_queried_object_id() : $context) : null;
     if (is_array($value)) {
@@ -288,7 +304,7 @@ function nextcore_header_markup() {
             <div class="header-actions">
                 <button class="icon-button" data-nextcore-search aria-label="<?php esc_attr_e('Tìm kiếm', 'nextcore-theme'); ?>"><svg class="icon"><use href="#i-search"/></svg></button>
                 <div class="nextcore-desktop-actions"><?php get_template_part('template-parts/global/language-switch'); ?><?php get_template_part('template-parts/global/theme-switch'); ?></div>
-                <?php if (nextcore_contact_url()) : ?><a class="button button-small nextcore-header-cta" href="<?php echo esc_url(nextcore_contact_url()); ?>"><?php echo esc_html(nextcore_option('nc_header_contact_label', 'Liên hệ ngay')); ?> <span aria-hidden="true">→</span></a><?php endif; ?>
+                <?php if (nextcore_contact_url()) : ?><a class="button button-small nextcore-header-cta" href="<?php echo esc_url(nextcore_contact_url()); ?>"><?php echo esc_html(nextcore_option('nc_header_contact_label', __('Liên hệ ngay', 'nextcore-theme'))); ?> <span aria-hidden="true">→</span></a><?php endif; ?>
             </div>
             <button class="menu-toggle nextcore-mobile-toggle" type="button" aria-expanded="false" aria-controls="nextcore-mobile-panel" aria-label="<?php esc_attr_e('Menu', 'nextcore-theme'); ?>" hidden><span></span><span></span><span></span></button>
             <div id="nextcore-mobile-panel" class="nextcore-mobile-panel">

@@ -1,0 +1,141 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Nextcore Theme\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: nextcore-theme\n"
+
+msgid "Góc nhìn, câu chuyện và những cập nhật mới nhất từ Nextcore trên hành trình kiến tạo giá trị cùng khách hàng."
+msgstr "Insights, stories and the latest updates from Nextcore as we create lasting value with our clients."
+
+msgid "Từ chiến lược đến triển khai, Nextcore đồng hành cùng doanh nghiệp xây dựng các giải pháp công nghệ hiệu quả, linh hoạt và phù hợp với từng giai đoạn phát triển."
+msgstr "From strategy to delivery, Nextcore works alongside businesses to build effective, flexible technology solutions for every stage of growth."
+
+msgid "Thấu hiểu nhu cầu - Kiến tạo giải pháp - Đồng hành phát triển"
+msgstr "Understand the need - Build the solution - Grow together"
+
+msgid "Khám phá những giải pháp thực tế được xây dựng từ nhu cầu vận hành và hướng đến giá trị bền vững."
+msgstr "Explore practical solutions shaped around real operational needs and built to deliver lasting value."
+
+msgid "Sản phẩm thật - Giá trị thật - Đồng hành lâu dài"
+msgstr "Real products - Real value - Long-term partnership"
+
+msgid "Đối tác chiến lược"
+msgstr "Strategic partners"
+
+msgid "Kết nối cùng các đối tác chiến lược để mở rộng năng lực, chia sẻ thế mạnh và kiến tạo những bước tiến dài hạn."
+msgstr "Connecting with strategic partners to expand capabilities, share strengths, and create lasting progress."
+
+msgid "Những chia sẻ thực tế từ khách hàng đang đồng hành và phát triển cùng Nextcore."
+msgstr "Real feedback from customers who are building and growing alongside Nextcore."
+
+msgid "Dấu ấn Nextcore"
+msgstr "NEXTCORE IN NUMBERS"
+
+msgid "Những con số tạo nên niềm tin"
+msgstr "Numbers built on trust"
+
+msgid "Mỗi cột mốc là kết quả từ sự tin tưởng của khách hàng và nỗ lực bền bỉ của đội ngũ Nextcore."
+msgstr "Every milestone reflects the trust of our clients and the dedication of the Nextcore team."
+
+msgid "Hơn cả những con số"
+msgstr "BEYOND THE NUMBERS"
+
+msgid "Kinh nghiệm thực chiến, đội ngũ tận tâm và sự đồng hành dài hạn là nền tảng phía sau mỗi dự án được triển khai."
+msgstr "Practical experience, a committed team and long-term partnerships are the foundation behind every project we deliver."
+
+msgid "Nền tảng\ntạo nên khác biệt"
+msgstr "Our foundation\nsets us apart"
+
+msgid "Tin tức"
+msgstr "News"
+
+msgid "Cập nhật mới nhất"
+msgstr "Latest updates"
+
+msgid "Góc nhìn & kiến thức"
+msgstr "Insights & knowledge"
+
+msgid "ĐỘI NGŨ"
+msgstr "TEAM"
+
+msgid "Đội ngũ"
+msgstr "Our team"
+
+msgid "Đội ngũ chuyên môn cao, tận tâm và luôn sẵn sàng đồng hành."
+msgstr "A highly skilled, dedicated team, always ready to work alongside you."
+
+msgid "Sản phẩm nổi bật"
+msgstr "Featured products"
+
+msgid "Giải pháp được tin chọn"
+msgstr "Trusted solutions"
+
+msgid "KHÁCH HÀNG NÓI VỀ NEXTCORE"
+msgstr "WHAT CLIENTS SAY ABOUT NEXTCORE"
+
+msgid "Đánh giá từ khách hàng"
+msgstr "Client testimonials"
+
+msgid "Công nghệ"
+msgstr "Technology"
+
+msgid "Giải pháp phần mềm cho doanh nghiệp hiện đại."
+msgstr "Software solutions for modern businesses."
+
+msgid "Liên hệ ngay"
+msgstr "Contact now"
+
+msgid "Xem năng lực"
+msgstr "View our capabilities"
+
+msgid "Sẵn sàng bắt đầu dự án của bạn?"
+msgstr "Ready to start your project?"
+
+msgid "Hãy để Nextcore đồng hành cùng bạn trên hành trình chuyển đổi số."
+msgstr "Let Nextcore accompany you on your digital transformation journey."
+
+msgid "Dịch vụ"
+msgstr "Services"
+
+msgid "Năng lực cốt lõi"
+msgstr "Core capabilities"
+
+msgid "Trao đổi nhu cầu"
+msgstr "Discuss your needs"
+
+msgid "Dịch vụ nổi bật"
+msgstr "Featured services"
+
+msgid "Bảo trì"
+msgstr "Maintenance"
+
+msgid "Tư vấn"
+msgstr "Consulting"
+
+msgid "Chiến lược"
+msgstr "Strategy"
+
+msgid "Tối ưu vận hành"
+msgstr "Operations optimization"
+
+msgid "Tự động hóa"
+msgstr "Automation"
+
+msgid "Linh hoạt"
+msgstr "Flexible"
+
+msgid "Tìm hiểu thêm"
+msgstr "Learn more"
+
+msgid "Về Nextcore"
+msgstr "About Nextcore"
+
+msgid "Công ty Cổ phần"
+msgstr "Joint Stock Company"
+
+msgid "Phần mềm Nextcore"
+msgstr "Nextcore Software"

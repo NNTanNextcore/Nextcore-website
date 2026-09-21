@@ -1,0 +1,45 @@
+#projects:where(.nextcore-native, .nextcore-native *) {
+  min-height: var(--section-height);
+  padding-block: var(--section-space);
+  justify-content: center;
+}
+#projects .section-heading:where(.nextcore-native, .nextcore-native *) { margin-bottom: 38px; }
+#projects .section-heading > div:where(.nextcore-native, .nextcore-native *) { max-width: 760px; }
+#projects .projects-intro:where(.nextcore-native, .nextcore-native *) {
+  max-width: 700px;
+  margin-top: 18px;
+  color: #aeb6bc;
+  font-size: 15px;
+  line-height: 1.75;
+}
+#projects .projects-grid:where(.nextcore-native, .nextcore-native *) { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 26px; }
+#projects .project-card:where(.nextcore-native, .nextcore-native *) { display: flex; flex-direction: column; min-width: 0; }
+#projects .project-visual:where(.nextcore-native, .nextcore-native *) { aspect-ratio: 16 / 9; }
+#projects .card-copy:where(.nextcore-native, .nextcore-native *) { flex: 1; min-height: 178px; padding: 24px 20px; }
+#projects .card-copy h3:where(.nextcore-native, .nextcore-native *) { font-size: 18px; line-height: 1.4; }
+#projects .card-copy p:where(.nextcore-native, .nextcore-native *) { display: -webkit-box; margin-top: 10px; overflow: hidden; color: var(--muted); line-height: 1.65; -webkit-box-orient: vertical; -webkit-line-clamp: 3; }
+#projects .projects-slogan:where(.nextcore-native, .nextcore-native *) {
+  margin-top: clamp(26px, 3.5svh, 38px);
+  color: var(--text);
+  font-size: clamp(18px, 1.7vw, 24px);
+  font-weight: 700;
+  text-align: center;
+}
+#projects .projects-slogan:where(.nextcore-native, .nextcore-native *)::after {
+  content: '';
+  display: block;
+  width: 42px;
+  height: 3px;
+  margin: 15px auto 0;
+  background: #ed1523;
+}
+:root[data-theme="light"] #projects .projects-intro:where(.nextcore-native, .nextcore-native *),
+:root:not([data-theme]) #projects .projects-intro:where(.nextcore-native, .nextcore-native *) { color: #59616a; }
+@media (max-width: 1023px) {
+  #projects:where(.nextcore-native, .nextcore-native *) { min-height: auto; }
+  #projects .projects-grid:where(.nextcore-native, .nextcore-native *) { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 639px) {
+  #projects .projects-grid:where(.nextcore-native, .nextcore-native *) { grid-template-columns: 1fr; gap: 20px; }
+  #projects .card-copy:where(.nextcore-native, .nextcore-native *) { min-height: 0; }
+}

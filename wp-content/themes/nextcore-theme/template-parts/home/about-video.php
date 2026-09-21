@@ -6,8 +6,8 @@
     data-light-src="<?php echo esc_url(nextcore_mode_url('nc_about_video_light', 'video/caurongquay-light-video.mp4', true)); ?>"></video>
       <div class="container company-video-inner">
         <div class="company-video-copy">
-          <p class="company-eyebrow" data-reveal><?php echo esc_html(nextcore_field('nc_about_eyebrow', 'Về Nextcore')); ?></p>
-          <h2 id="about-title" data-reveal><span><?php echo esc_html(nextcore_field('nc_about_heading_line_one', 'Công ty Cổ phần')); ?></span> <span><?php echo esc_html(nextcore_field('nc_about_heading_line_two', 'Phần mềm Nextcore')); ?></span></h2>
+          <p class="company-eyebrow" data-reveal><?php echo esc_html(nextcore_field('nc_about_eyebrow', __('Về Nextcore', 'nextcore-theme'))); ?></p>
+          <h2 id="about-title" data-reveal><span><?php echo esc_html(nextcore_field('nc_about_heading_line_one', __('Công ty Cổ phần', 'nextcore-theme'))); ?></span> <span><?php echo esc_html(nextcore_field('nc_about_heading_line_two', __('Phần mềm Nextcore', 'nextcore-theme'))); ?></span></h2>
           <?php
           $founded = nextcore_field('nc_about_founded_date', '2022-06-15');
           $date = DateTimeImmutable::createFromFormat('!Y-m-d', $founded, wp_timezone());
@@ -25,7 +25,7 @@
           <div class="company-description translation-block" data-reveal><?php echo wp_kses(nextcore_field('nc_about_body', '<p>Chuyên thực hiện phát triển, bảo trì các dự án CNTT cho các đối tác outsource.</p>
             <p>Đối tác của Công ty là các Công ty outsource lớn-vừa-nhỏ ở Việt Nam ở cả 3 thị trường nói tiếng Anh-Nhật-Việt.</p>
             <p>Không ngừng nỗ lực để giải quyết các vấn đề là <strong>Nỗi đau</strong> và tạo giá trị <strong>hữu ích</strong> cho khách hàng để trở thành đối tác tin cậy và lâu dài.</p>'), array('p' => array(), 'strong' => array(), 'em' => array(), 'a' => array('href' => array(), 'title' => array()))); ?></div>
-          <a class="button company-more" href="#team" data-reveal><?php echo esc_html(nextcore_field('nc_about_link_label', 'Tìm hiểu thêm')); ?> <span aria-hidden="true">⟶</span></a>
+          <a class="button company-more" href="#team" data-reveal><?php echo esc_html(nextcore_field('nc_about_link_label', __('Tìm hiểu thêm', 'nextcore-theme'))); ?> <span aria-hidden="true">⟶</span></a>
         </div>
       </div>
     </section>

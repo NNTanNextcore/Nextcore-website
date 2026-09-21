@@ -12,7 +12,7 @@
             <?php get_template_part('template-parts/content/gallery'); nextcore_render_content(); ?>
         </article></div>
     <?php endif; ?>
-    <?php if (nextcore_contact_url()) : ?><section class="nextcore-service-cta nextcore-inner-container nextcore-native"><h2><?php echo esc_html(nextcore_field('nc_cta_heading', 'Sẵn sàng bắt đầu dự án của bạn?', get_option('page_on_front'))); ?></h2><a class="button" href="<?php echo esc_url(nextcore_contact_url()); ?>"><?php echo esc_html(nextcore_option('nc_header_contact_label', 'Liên hệ ngay')); ?></a></section><?php endif; ?>
+    <?php if (nextcore_contact_url()) : ?><section class="nextcore-service-cta nextcore-inner-container nextcore-native"><h2><?php echo esc_html(nextcore_field('nc_cta_heading', __('Sẵn sàng bắt đầu dự án của bạn?', 'nextcore-theme'), get_option('page_on_front'))); ?></h2><a class="button" href="<?php echo esc_url(nextcore_contact_url()); ?>"><?php echo esc_html(nextcore_option('nc_header_contact_label', __('Liên hệ ngay', 'nextcore-theme'))); ?></a></section><?php endif; ?>
     <?php if (comments_open() || get_comments_number()) { comments_template(); } ?>
 <?php endwhile; ?>
 </main>

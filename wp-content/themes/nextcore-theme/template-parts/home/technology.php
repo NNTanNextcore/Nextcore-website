@@ -11,10 +11,7 @@ $technology_groups = array(
 $technology_items = array();
 $configured_items = nextcore_rows('nc_technology_items');
 $fallback_items = nextcore_home_defaults()['nc_technology_items'];
-$technology_heading = nextcore_field('nc_technology_heading', "Nền tảng\ntạo nên khác biệt");
-if (nextcore_current_language() === 'en_US' && preg_replace('/\s+/u', ' ', trim((string) $technology_heading)) === 'Nền tảng tạo nên khác biệt') {
-    $technology_heading = "Our foundation\nsets us apart";
-}
+$technology_heading = nextcore_field('nc_technology_heading', __("Nền tảng\ntạo nên khác biệt", 'nextcore-theme'));
 $technology_heading_lines = preg_split('/\R+/', trim((string) $technology_heading));
 
 // Keep configured labels and supply approved additions until they are saved through ACF.
@@ -49,7 +46,7 @@ $render_technology_node = static function ($mark, $label, $group_label, $index) 
 <section class="technology section-border" id="technology" aria-labelledby="technology-title">
     <div class="container technology-inner">
         <div class="technology-copy">
-            <p class="eyebrow"><?php echo esc_html(nextcore_field('nc_technology_eyebrow', 'Công nghệ')); ?></p>
+            <p class="eyebrow"><?php echo esc_html(nextcore_field('nc_technology_eyebrow', __('Công nghệ', 'nextcore-theme'))); ?></p>
             <h2 id="technology-title" class="translation-block"><?php foreach ($technology_heading_lines as $line) : ?><span><?php echo esc_html(trim($line)); ?></span><?php endforeach; ?></h2>
             <p class="technology-description"><?php esc_html_e('Chúng tôi lựa chọn và làm chủ những công nghệ hiện đại để kiến tạo giải pháp bền vững, hiệu quả và sẵn sàng cho tương lai.', 'nextcore-theme'); ?></p>
         </div>

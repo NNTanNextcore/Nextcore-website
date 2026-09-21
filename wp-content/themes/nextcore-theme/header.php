@@ -30,7 +30,7 @@ if (!$nextcore_elementor_header_preview) :
     <div class="header-actions">
         <button class="icon-button" data-nextcore-search aria-label="<?php esc_attr_e('Tìm kiếm', 'nextcore-theme'); ?>"><svg class="icon"><use href="#i-search"/></svg></button>
         <div class="nextcore-desktop-actions"><?php get_template_part('template-parts/global/language-switch'); ?><?php get_template_part('template-parts/global/theme-switch'); ?></div>
-        <?php if (nextcore_contact_url()) : ?><a class="button button-small nextcore-header-cta" href="<?php echo esc_url(nextcore_contact_url()); ?>"><?php echo esc_html(nextcore_option('nc_header_contact_label', 'Liên hệ ngay')); ?> <span aria-hidden="true">→</span></a><?php endif; ?>
+        <?php if (nextcore_contact_url()) : ?><a class="button button-small nextcore-header-cta" href="<?php echo esc_url(nextcore_contact_url()); ?>"><?php echo esc_html(nextcore_option('nc_header_contact_label', __('Liên hệ ngay', 'nextcore-theme'))); ?> <span aria-hidden="true">→</span></a><?php endif; ?>
     </div>
     <button class="menu-toggle nextcore-mobile-toggle" type="button" aria-expanded="false" aria-controls="nextcore-mobile-panel" aria-label="<?php esc_attr_e('Menu', 'nextcore-theme'); ?>" hidden><span></span><span></span><span></span></button>
     <div id="nextcore-mobile-panel" class="nextcore-mobile-panel">

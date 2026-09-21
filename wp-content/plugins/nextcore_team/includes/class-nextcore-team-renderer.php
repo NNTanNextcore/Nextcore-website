@@ -28,6 +28,10 @@ class Nextcore_Team_Renderer {
             'show_role'            => 1,
             'show_contact'         => 1,
             'show_section_heading' => 1,
+            'home_columns'         => 3,
+            'home_tablet_columns'  => 2,
+            'home_mobile_columns'  => 1,
+            'home_member_ids'      => array(),
             'custom_css'           => '',
             'social_networks'      => class_exists( 'Nextcore_Team_Installer' ) ? Nextcore_Team_Installer::default_social_networks() : array(),
         ) );
@@ -111,6 +115,53 @@ class Nextcore_Team_Renderer {
         }
 
         echo '</div>';
+        return ob_get_clean();
+    }
+
+    public static function render_selected_members( $ids = array(), $limit = -1 ) {
+        $defaults = self::defaults();
+        $limit = intval( $limit );
+        $post_ids = array_values( array_unique( array_filter( array_map( 'absint', (array) $ids ) ) ) );
+        if ( $limit > 0 ) {
+            $post_ids = array_slice( $post_ids, 0, $limit );
+        }
+        $query_args = array(
+            'post_type'      => 'nextcore_member',
+            'post_status'    => 'publish',
+            'posts_per_page' => $limit > 0 ? $limit : -1,
+            'orderby'        => array( 'menu_order' => 'ASC', 'title' => 'ASC' ),
+            'no_found_rows'  => true,
+        );
+        if ( $post_ids ) {
+            $query_args['post__in'] = $post_ids;
+            $query_args['orderby'] = 'post__in';
+        }
+        $members = get_posts( $query_args );
+        if ( ! $members ) {
+            return '<div class="nextcore-team-empty">' . esc_html__( 'Chưa có thành viên nào.', 'nextcore-team' ) . '</div>';
+        }
+
+        $atts = $defaults;
+        $image_ratio = in_array( $defaults['image_ratio'], array( '1-1', '4-5', '3-4', '16-9' ), true ) ? $defaults['image_ratio'] : '1-1';
+        $style = sprintf(
+            '--nct-columns:%d;--nct-tablet-columns:%d;--nct-mobile-columns:%d;--nct-gap:%dpx;--nct-radius:%dpx;',
+            min( 6, max( 1, absint( $defaults['home_columns'] ) ) ),
+            min( 4, max( 1, absint( $defaults['home_tablet_columns'] ) ) ),
+            min( 2, max( 1, absint( $defaults['home_mobile_columns'] ) ) ),
+            min( 100, max( 0, absint( $defaults['gap'] ) ) ),
+            min( 100, max( 0, absint( $defaults['radius'] ) ) )
+        );
+
+        ob_start();
+        echo '<div class="nextcore-team-shell nextcore-team-home" style="' . esc_attr( $style ) . '"><div class="nextcore-team-grid">';
+        foreach ( $members as $member ) {
+            $post_id = $member->ID;
+            $role_name = self::member_role( $post_id );
+            $contacts = self::contacts( $post_id );
+            $template = self::locate_template( 'team-card.php' );
+            include $template;
+        }
+        echo '</div></div>';
         return ob_get_clean();
     }
 

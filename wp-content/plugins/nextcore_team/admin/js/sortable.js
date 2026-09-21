@@ -56,6 +56,24 @@
             }
         });
 
+        var $homeMembers = $('#nextcore-home-members');
+        var homeMemberTemplate = $('#nextcore-home-member-template').html();
+
+        if ($homeMembers.length) {
+            $homeMembers.sortable({
+                handle: '.nextcore-home-member-handle',
+                placeholder: 'nextcore-home-member-placeholder'
+            });
+
+            $('#nextcore-add-home-member').on('click', function () {
+                $homeMembers.append(homeMemberTemplate);
+            });
+
+            $homeMembers.on('click', '.nextcore-remove-home-member', function () {
+                $(this).closest('.nextcore-home-member-row').remove();
+            });
+        }
+
         var $networks = $('#nextcore-social-networks');
         var nextNetworkIndex = 0;
         $networks.find('input[name$="[label]"]').each(function () {

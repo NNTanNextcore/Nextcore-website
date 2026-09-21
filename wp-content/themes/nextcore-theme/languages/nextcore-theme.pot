@@ -1,0 +1,355 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Nextcore Theme\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Domain: nextcore-theme\n"
+
+msgid "63 Phan Đăng Lưu Street, Hai Chau, Da Nang 550000, Viet Nam"
+msgstr ""
+
+msgid "BUILD TRUST, CREATE VALUE"
+msgstr ""
+
+msgid "Build trust, create value."
+msgstr ""
+
+msgid "Bài viết"
+msgstr ""
+
+msgid "Bình luận"
+msgstr ""
+
+msgid "Băng chuyền"
+msgstr ""
+
+msgid "Bạn đang tìm gì?"
+msgstr ""
+
+msgid "Bảo trì"
+msgstr ""
+
+msgid "Chiến lược"
+msgstr ""
+
+msgid "Chuyển đến nội dung"
+msgstr ""
+
+msgid "Chúng tôi lựa chọn và làm chủ những công nghệ hiện đại để kiến tạo giải pháp bền vững, hiệu quả và sẵn sàng cho tương lai."
+msgstr ""
+
+msgid "Chế độ tối"
+msgstr ""
+
+msgid "Chọn nhóm đánh giá"
+msgstr ""
+
+msgid "Cài đặt Nextcore"
+msgstr ""
+
+msgid "Các công nghệ"
+msgstr ""
+
+msgid "Công nghệ"
+msgstr ""
+
+msgid "Công ty Cổ phần"
+msgstr ""
+
+msgid "Công ty Cổ phần Phần mềm Nextcore"
+msgstr ""
+
+msgid "Công ty cổ phần Phần"
+msgstr ""
+
+msgid "Cùng trao đổi về dự án của bạn"
+msgstr ""
+
+msgid "Cập nhật mới nhất"
+msgstr ""
+
+msgid "Danh mục bài viết"
+msgstr ""
+
+msgid "Danh mục dịch vụ"
+msgstr ""
+
+msgid "Dấu ấn Nextcore"
+msgstr ""
+
+msgid "Dịch vụ"
+msgstr ""
+
+msgid "Dịch vụ nổi bật"
+msgstr ""
+
+msgid "Dự án"
+msgstr ""
+
+msgid "Explore / Nextcore"
+msgstr ""
+
+msgid "Footer - Dịch vụ"
+msgstr ""
+
+msgid "Footer - Khám phá"
+msgstr ""
+
+msgid "Footer - Kết nối"
+msgstr ""
+
+msgid "Footer - Nextcore"
+msgstr ""
+
+msgid "Footer giới thiệu"
+msgstr ""
+
+msgid "Footer hỗ trợ"
+msgstr ""
+
+msgid "Giải pháp phần mềm cho doanh nghiệp hiện đại."
+msgstr ""
+
+msgid "Giải pháp được tin chọn"
+msgstr ""
+
+msgid "Giới thiệu"
+msgstr ""
+
+msgid "Góc nhìn & kiến thức"
+msgstr ""
+
+msgid "Góc nhìn, câu chuyện và những cập nhật mới nhất từ Nextcore trên hành trình kiến tạo giá trị cùng khách hàng."
+msgstr ""
+
+msgid "Homepage desktop"
+msgstr ""
+
+msgid "Homepage mobile"
+msgstr ""
+
+msgid "Hãy để Nextcore đồng hành cùng bạn trên hành trình chuyển đổi số."
+msgstr ""
+
+msgid "Hơn cả những con số"
+msgstr ""
+
+msgid "Hỗ trợ"
+msgstr ""
+
+msgid "Inner pages desktop"
+msgstr ""
+
+msgid "Inner pages mobile"
+msgstr ""
+
+msgid "KHÁCH HÀNG NÓI VỀ NEXTCORE"
+msgstr ""
+
+msgid "Khám phá những giải pháp thực tế được xây dựng từ nhu cầu vận hành và hướng đến giá trị bền vững."
+msgstr ""
+
+msgid "Khám phá tổng quan"
+msgstr ""
+
+msgid "Không tìm thấy nội dung."
+msgstr ""
+
+msgid "Không tìm thấy trang"
+msgstr ""
+
+msgid "Kinh nghiệm thực chiến, đội ngũ tận tâm và sự đồng hành dài hạn là nền tảng phía sau mỗi dự án được triển khai."
+msgstr ""
+
+msgid "Kết nối"
+msgstr ""
+
+msgid "Kết nối cùng các đối tác chiến lược để mở rộng năng lực, chia sẻ thế mạnh và kiến tạo những bước tiến dài hạn."
+msgstr ""
+
+msgid "Kết quả tìm kiếm: %s"
+msgstr ""
+
+msgid "Linh hoạt"
+msgstr ""
+
+msgid "Liên hệ"
+msgstr ""
+
+msgid "Liên hệ ngay"
+msgstr ""
+
+msgid "Liên hệ và thông tin cuối trang"
+msgstr ""
+
+msgid "Menu"
+msgstr ""
+
+msgid "Mỗi cột mốc là kết quả từ sự tin tưởng của khách hàng và nỗ lực bền bỉ của đội ngũ Nextcore."
+msgstr ""
+
+msgid "Mở menu con: %s"
+msgstr ""
+
+msgid "Nextcore"
+msgstr ""
+
+msgid "Nextcore — Trang chủ"
+msgstr ""
+
+msgid "Nextcore. All rights reserved."
+msgstr ""
+
+msgid "Ngôn ngữ"
+msgstr ""
+
+msgid "Những chia sẻ thực tế từ khách hàng đang đồng hành và phát triển cùng Nextcore."
+msgstr ""
+
+msgid "Những con số tạo nên niềm tin"
+msgstr ""
+
+msgid "Năng lực cốt lõi"
+msgstr ""
+
+msgid "Nền tảng\ntạo nên khác biệt"
+msgstr ""
+
+msgid "Nền tảng phần mềm kết nối đám mây, dữ liệu, phát triển và bảo mật"
+msgstr ""
+
+msgid "Nổi bật"
+msgstr ""
+
+msgid "Phần mềm Nextcore"
+msgstr ""
+
+msgid "Sidebar"
+msgstr ""
+
+msgid "Software development company"
+msgstr ""
+
+msgid "Sản phẩm / Dự án"
+msgstr ""
+
+msgid "Sản phẩm nổi bật"
+msgstr ""
+
+msgid "Sản phẩm thật - Giá trị thật - Đồng hành lâu dài"
+msgstr ""
+
+msgid "Sẵn sàng bắt đầu dự án của bạn?"
+msgstr ""
+
+msgid "Thành lập vào"
+msgstr ""
+
+msgid "Thấu hiểu nhu cầu - Kiến tạo giải pháp - Đồng hành phát triển"
+msgstr ""
+
+msgid "Tin tức"
+msgstr ""
+
+msgid "Tiếp"
+msgstr ""
+
+msgid "Trang bạn tìm không tồn tại hoặc đã được chuyển đi."
+msgstr ""
+
+msgid "Trang chủ"
+msgstr ""
+
+msgid "Trao đổi nhu cầu"
+msgstr ""
+
+msgid "Trước"
+msgstr ""
+
+msgid "Tìm"
+msgstr ""
+
+msgid "Tìm hiểu thêm"
+msgstr ""
+
+msgid "Tìm hiểu thêm ↗"
+msgstr ""
+
+msgid "Tìm kiếm"
+msgstr ""
+
+msgid "Tư vấn"
+msgstr ""
+
+msgid "Tối ưu vận hành"
+msgstr ""
+
+msgid "Từ chiến lược đến triển khai, Nextcore đồng hành cùng doanh nghiệp xây dựng các giải pháp công nghệ hiệu quả, linh hoạt và phù hợp với từng giai đoạn phát triển."
+msgstr ""
+
+msgid "Tự động hóa"
+msgstr ""
+
+msgid "Vuốt để xem các đánh giá"
+msgstr ""
+
+msgid "Về Nextcore"
+msgstr ""
+
+msgid "Về trang chủ"
+msgstr ""
+
+msgid "Xem năng lực"
+msgstr ""
+
+msgid "Xem thêm"
+msgstr ""
+
+msgid "j \\t\\h\\g n, Y"
+msgstr ""
+
+msgid "mềm"
+msgstr ""
+
+msgid "Điều hướng chính"
+msgstr ""
+
+msgid "Điều hướng di động"
+msgstr ""
+
+msgid "Đánh giá"
+msgstr ""
+
+msgid "Đánh giá tiếp theo"
+msgstr ""
+
+msgid "Đánh giá trước"
+msgstr ""
+
+msgid "Đánh giá từ khách hàng"
+msgstr ""
+
+msgid "Đóng tìm kiếm"
+msgstr ""
+
+msgid "Đóng đánh giá"
+msgstr ""
+
+msgid "Đường dẫn trang"
+msgstr ""
+
+msgid "Đối tác"
+msgstr ""
+
+msgid "Đối tác chiến lược"
+msgstr ""
+
+msgid "ĐỘI NGŨ"
+msgstr ""
+
+msgid "Đội ngũ"
+msgstr ""
+
+msgid "Đội ngũ chuyên môn cao, tận tâm và luôn sẵn sàng đồng hành."
+msgstr ""
+

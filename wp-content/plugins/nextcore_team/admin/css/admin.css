@@ -42,3 +42,66 @@
         width: min(280px, 65vw);
     }
 }
+
+.nextcore-home-members {
+    display: grid;
+    gap: 8px;
+    max-width: 620px;
+}
+
+.nextcore-home-layout-fields {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 20px;
+    margin-bottom: 16px;
+}
+
+.nextcore-home-layout-fields label {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+}
+
+.nextcore-home-layout-fields input[type="number"] {
+    width: 64px;
+}
+
+.nextcore-home-member-row {
+    display: grid;
+    grid-template-columns: 24px minmax(240px, 1fr) auto;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 12px;
+    background: #fff;
+    border: 1px solid #dcdcde;
+    border-radius: 6px;
+}
+
+.nextcore-home-member-row select {
+    width: 100%;
+    max-width: none;
+}
+
+.nextcore-home-member-handle {
+    cursor: grab;
+    color: #646970;
+}
+
+.nextcore-home-member-placeholder {
+    min-height: 50px;
+    border: 2px dashed #2271b1;
+    border-radius: 6px;
+    background: #f0f6fc;
+}
+
+@media (max-width: 600px) {
+    .nextcore-home-member-row {
+        grid-template-columns: 24px minmax(0, 1fr);
+    }
+
+    .nextcore-remove-home-member {
+        grid-column: 2;
+        justify-self: start;
+    }
+}
