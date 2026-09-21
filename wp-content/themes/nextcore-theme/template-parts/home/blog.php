@@ -1,11 +1,16 @@
-<?php defined('ABSPATH') || exit; ?>
+<?php
+defined('ABSPATH') || exit;
+
+$blog_description_default = __('Góc nhìn, câu chuyện và những cập nhật mới nhất từ Nextcore trên hành trình kiến tạo giá trị cùng khách hàng.', 'nextcore-theme');
+?>
 <section class="section container" id="blog" aria-labelledby="blog-title">
     <div class="section-heading" data-reveal>
         <div>
-            <p class="eyebrow"><?php echo esc_html(nextcore_field('nc_blog_eyebrow', 'Tin tức')); ?></p>
-            <h2 id="blog-title"><?php echo esc_html(nextcore_field('nc_blog_heading', 'Cập nhật mới nhất')); ?></h2>
+            <p class="eyebrow"><?php echo esc_html(nextcore_field('nc_blog_eyebrow', __('Tin tức', 'nextcore-theme'))); ?></p>
+            <h2 id="blog-title"><?php echo esc_html(nextcore_field('nc_blog_heading', __('Cập nhật mới nhất', 'nextcore-theme'))); ?></h2>
+            <p class="blog-description"><?php echo esc_html(nextcore_field('nc_blog_description', $blog_description_default)); ?></p>
         </div>
-        <span class="quiet-label"><?php echo esc_html(nextcore_field('nc_blog_note', 'Góc nhìn & kiến thức')); ?></span>
+        <span class="quiet-label"><?php echo esc_html(nextcore_field('nc_blog_note', __('Góc nhìn & kiến thức', 'nextcore-theme'))); ?></span>
     </div>
     <?php
     $posts = new WP_Query(array(

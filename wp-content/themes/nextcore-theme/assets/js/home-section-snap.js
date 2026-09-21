@@ -9,7 +9,7 @@
     var footer = document.querySelector(
         '.elementor-location-footer, [data-elementor-type="footer"], .site-footer'
     );
-    if (footer) { nodes.push(footer); }
+    if (footer && !home.contains(footer)) { nodes.push(footer); }
     if (nodes.length < 2) { return; }
     var reduced = matchMedia('(prefers-reduced-motion: reduce)');
     var threshold = 18, tolerance = 20, quietPeriod = 300;
@@ -78,6 +78,7 @@
             return /fixed|sticky/.test(getComputedStyle(node).position) ? Math.max(occupied, node.getBoundingClientRect().bottom) : occupied;
         }, 0);
         root.style.setProperty('--nc-snap-offset', offset + 'px');
+        root.style.setProperty('--nc-section-height', Math.max(1, viewport - offset) + 'px');
         maxY = Math.max(0, root.scrollHeight - viewport);
         available = viewport - offset;
         scenes = [];
@@ -171,12 +172,14 @@
         return targets.length ? (direction > 0 ? Math.min.apply(null, targets) : Math.max.apply(null, targets)) : null;
     }
     function targetFor(direction, reversing) {
+        function sceneTarget(scene, index) {
+            return index === scenes.length - 1 ? maxY : scene.top - offset;
+        }
         // A reversal may return to the boundary behind the current animation position.
         if (reversing) {
             var boundaries = [0, maxY];
-            scenes.forEach(function (scene) {
-                boundaries.push(scene.top - offset);
-                if (direction < 0) { boundaries.push(Math.max(scene.top - offset, scene.bottom - viewport)); }
+            scenes.forEach(function (scene, index) {
+                boundaries.push(sceneTarget(scene, index));
             });
             return directionalTarget(boundaries, direction);
         }
@@ -185,11 +188,13 @@
         // the header. Use its reachable landing position in both directions.
         scenes.forEach(function (scene, i) { if (clampY(scene.top - offset) <= scrollY + tolerance) { index = i; } });
         if (direction > 0) {
-            return directionalTarget(scenes.slice(index + 1).map(function (next) { return next.top - offset; }), direction);
+            return directionalTarget(scenes.slice(index + 1).map(function (next, relativeIndex) {
+                return sceneTarget(next, index + 1 + relativeIndex);
+            }), direction);
         }
-        var previous = scenes.slice(0, index).map(function (item) { return item.top - offset; });
-        previous.push(0);
-        return directionalTarget(previous, direction);
+        var sectionTops = scenes.map(sceneTarget);
+        sectionTops.push(0);
+        return directionalTarget(sectionTops, direction);
     }
     window.addEventListener('wheel', function (event) {
         userInteracted = true;

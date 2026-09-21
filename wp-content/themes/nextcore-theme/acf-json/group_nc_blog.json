@@ -49,6 +49,24 @@
             },
             "default_value": "",
             "placeholder": ""
+        },
+        {
+            "key": "field_nc_blog_description",
+            "label": "Mô tả",
+            "name": "nc_blog_description",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "rows": 3,
+            "new_lines": ""
         }
     ],
     "location": [
@@ -69,5 +87,5 @@
     "active": true,
     "description": "Dữ liệu nguồn dùng chung cho sáng/tối và VI/EN. Bản dịch quản lý qua TranslatePress.",
     "show_in_rest": 0,
-    "modified": 1789084800
+    "modified": 1789952400
 }

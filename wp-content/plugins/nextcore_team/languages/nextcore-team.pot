@@ -1,0 +1,247 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Nextcore Team\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Domain: nextcore-team\n"
+
+msgid "Bo góc"
+msgstr ""
+
+msgid "Bạn không có quyền truy cập trang này."
+msgstr ""
+
+msgid "CSS này được in cùng plugin, độc lập với theme để có thể mang plugin đi nơi khác."
+msgstr ""
+
+msgid "Chưa có phần đội ngũ nào."
+msgstr ""
+
+msgid "Chưa có thành viên nào."
+msgstr ""
+
+msgid "Chọn thành viên"
+msgstr ""
+
+msgid "Chọn ảnh thành viên"
+msgstr ""
+
+msgid "Chỗ nhúng"
+msgstr ""
+
+msgid "Chức danh"
+msgstr ""
+
+msgid "Chức danh (EN)"
+msgstr ""
+
+msgid "Chức danh (VI)"
+msgstr ""
+
+msgid "Custom CSS riêng"
+msgstr ""
+
+msgid "Cài đặt"
+msgstr ""
+
+msgid "Cài đặt Đội ngũ"
+msgstr ""
+
+msgid "Cập nhật phần"
+msgstr ""
+
+msgid "Cột desktop"
+msgstr ""
+
+msgid "Cột mobile"
+msgstr ""
+
+msgid "Cột tablet"
+msgstr ""
+
+msgid "Danh sách đội ngũ"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "Giới hạn số thành viên mỗi phần"
+msgstr ""
+
+msgid "Hiển thị"
+msgstr ""
+
+msgid "Hiện"
+msgstr ""
+
+msgid "Hiện chức danh"
+msgstr ""
+
+msgid "Hiện icon liên hệ"
+msgstr ""
+
+msgid "Hiện tiêu đề section"
+msgstr ""
+
+msgid "Icon liên hệ/mạng xã hội"
+msgstr ""
+
+msgid "Key dùng làm meta field. Icon hỗ trợ: email, phone, facebook, linkedin, zalo, website; key khác sẽ dùng icon link mặc định."
+msgstr ""
+
+msgid "Khoảng cách"
+msgstr ""
+
+msgid "Không chọn"
+msgstr ""
+
+msgid "Không có thành viên trong thùng rác."
+msgstr ""
+
+msgid "Không thể lưu. Vui lòng thử lại."
+msgstr ""
+
+msgid "Không tìm thấy thành viên."
+msgstr ""
+
+msgid "Không đủ quyền."
+msgstr ""
+
+msgid "Liên hệ"
+msgstr ""
+
+msgid "Lưu tên"
+msgstr ""
+
+msgid "Mạng xã hội"
+msgstr ""
+
+msgid "Nextcore Team"
+msgstr ""
+
+msgid "Phần & sắp xếp"
+msgstr ""
+
+msgid "Phần & sắp xếp đội ngũ"
+msgstr ""
+
+msgid "Phần đội ngũ"
+msgstr ""
+
+msgid "Slug phần (tùy chọn)"
+msgstr ""
+
+msgid "Số cột"
+msgstr ""
+
+msgid "Sửa"
+msgstr ""
+
+msgid "Sửa phần"
+msgstr ""
+
+msgid "Sửa thành viên"
+msgstr ""
+
+msgid "Thành viên"
+msgstr ""
+
+msgid "Thành viên mới"
+msgstr ""
+
+msgid "Thành viên trang chủ"
+msgstr ""
+
+msgid "Thêm mạng"
+msgstr ""
+
+msgid "Thêm phần"
+msgstr ""
+
+msgid "Thêm số lượng thành viên tùy ý và kéo thả để sắp xếp thứ tự hiển thị tại section Đội ngũ trên trang chủ."
+msgstr ""
+
+msgid "Thêm thành viên"
+msgstr ""
+
+msgid "Thông tin liên hệ"
+msgstr ""
+
+msgid "Thông tin thành viên"
+msgstr ""
+
+msgid "Tiêu đề từng phần"
+msgstr ""
+
+msgid "Tên hiển thị (EN)"
+msgstr ""
+
+msgid "Tên hiển thị (VI)"
+msgstr ""
+
+msgid "Tên phần"
+msgstr ""
+
+msgid "Tên phần mới"
+msgstr ""
+
+msgid "Tên từng phần"
+msgstr ""
+
+msgid "Tìm phần"
+msgstr ""
+
+msgid "Tìm thành viên"
+msgstr ""
+
+msgid "Tạo các phần như Board of Management, Project Manager rồi kéo thả phần hoặc thành viên để đổi thứ tự hiển thị."
+msgstr ""
+
+msgid "Tất cả phần"
+msgstr ""
+
+msgid "Tất cả thành viên"
+msgstr ""
+
+msgid "Tỷ lệ ảnh"
+msgstr ""
+
+msgid "Xem thành viên"
+msgstr ""
+
+msgid "Xóa"
+msgstr ""
+
+msgid "Xóa phần này? Thành viên sẽ không bị xóa."
+msgstr ""
+
+msgid "Xóa ảnh"
+msgstr ""
+
+msgid "hoặc"
+msgstr ""
+
+msgid "Đang lưu..."
+msgstr ""
+
+msgid "Điện thoại"
+msgstr ""
+
+msgid "Đã lưu thứ tự."
+msgstr ""
+
+msgid "Đội ngũ"
+msgstr ""
+
+msgid "Ảnh"
+msgstr ""
+
+msgid "Ảnh thành viên"
+msgstr ""
+
+msgid "Ảnh đại diện"
+msgstr ""
+
+msgid "Ẩn"
+msgstr ""
+

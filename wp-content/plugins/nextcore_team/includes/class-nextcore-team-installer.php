@@ -27,6 +27,10 @@ class Nextcore_Team_Installer {
             'show_role'            => 1,
             'show_contact'         => 1,
             'show_section_heading' => 1,
+            'home_columns'         => 3,
+            'home_tablet_columns'  => 2,
+            'home_mobile_columns'  => 1,
+            'home_member_ids'      => array(),
             'custom_css'           => self::default_css(),
             'social_networks'      => self::default_social_networks(),
         ) );

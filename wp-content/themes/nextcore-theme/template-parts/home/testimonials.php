@@ -1,7 +1,11 @@
-<?php defined('ABSPATH') || exit; ?>
+<?php
+defined('ABSPATH') || exit;
+
+$testimonials_intro_default = __('Những chia sẻ thực tế từ khách hàng đang đồng hành và phát triển cùng Nextcore.', 'nextcore-theme');
+?>
 <section class="testimonials section" id="testimonials" aria-labelledby="testimonials-title">
       <div class="container">
-        <div class="testimonial-heading" data-reveal><p class="eyebrow"><?php echo esc_html(nextcore_field('nc_testimonials_eyebrow', 'KHÁCH HÀNG NÓI VỀ NEXTCORE')); ?></p><h2 id="testimonials-title"><?php echo esc_html(nextcore_field('nc_testimonials_heading', 'Đánh giá từ khách hàng')); ?></h2><p><?php echo esc_html(nextcore_field('nc_testimonials_intro', 'Những chia sẻ thực tế từ khách hàng đang đồng hành cùng Nextcore.')); ?></p></div>
+        <div class="testimonial-heading" data-reveal><p class="eyebrow"><?php echo esc_html(nextcore_field('nc_testimonials_eyebrow', __('KHÁCH HÀNG NÓI VỀ NEXTCORE', 'nextcore-theme'))); ?></p><h2 id="testimonials-title"><?php echo esc_html(nextcore_field('nc_testimonials_heading', __('Đánh giá từ khách hàng', 'nextcore-theme'))); ?></h2><p><?php echo esc_html(nextcore_field('nc_testimonials_intro', $testimonials_intro_default)); ?></p></div>
         <div class="testimonial-carousel" role="region" aria-roledescription="<?php esc_attr_e('Băng chuyền', 'nextcore-theme'); ?>" aria-label="<?php esc_attr_e('Đánh giá từ khách hàng', 'nextcore-theme'); ?>">
           <button class="testimonial-prev" type="button" aria-label="<?php esc_attr_e('Đánh giá trước', 'nextcore-theme'); ?>">←</button>
           <div class="testimonial-track" tabindex="0" aria-label="<?php esc_attr_e('Vuốt để xem các đánh giá', 'nextcore-theme'); ?>"><?php foreach (nextcore_rows('nc_testimonials') as $row) : ?>

@@ -17,14 +17,19 @@ add_action('wp_head', 'nextcore_theme_init_script', 0);
 
 function nextcore_enqueue_assets() {
     $styles = array('tokens', 'base', 'layout');
-    if (is_front_page()) { $styles = array_merge($styles, array('services', 'team', 'testimonials', 'home-section-snap')); }
+    if (is_front_page()) { $styles = array_merge($styles, array('services', 'projects', 'partner', 'testimonials', 'home-section-snap')); }
     $styles = array_merge($styles, array('light', 'content', 'compatibility', 'native', 'custom'));
     $previous = array();
     foreach ($styles as $name) {
         $path = '/assets/css/' . $name . '.css';
-        $handle = $name === 'team' ? 'nextcore-home-team' : 'nextcore-' . $name;
+        $handle = 'nextcore-' . $name;
         wp_enqueue_style($handle, get_theme_file_uri($path), $previous, nextcore_asset_version($path));
         $previous = array($handle);
+    }
+    if (is_front_page() && class_exists('Nextcore_Team_Renderer') && wp_style_is('nextcore-team', 'registered')) {
+        $team_settings = Nextcore_Team_Renderer::defaults();
+        wp_enqueue_style('nextcore-team');
+        if (!empty($team_settings['custom_css'])) { wp_add_inline_style('nextcore-team', $team_settings['custom_css']); }
     }
     $scripts = array('theme-switch', 'navigation');
     if (is_front_page()) { $scripts = array_merge($scripts, array('home', 'testimonials', 'home-section-snap')); }

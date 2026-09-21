@@ -40,3 +40,29 @@ function nextcore_language_links() {
     return function_exists('trp_custom_language_switcher') ? (array) trp_custom_language_switcher() : array();
 }
 
+/**
+ * Load the theme catalog selected by TranslatePress.
+ *
+ * TranslatePress keeps the WordPress locale unchanged on translated URLs, so
+ * load_theme_textdomain() alone cannot select the matching theme MO file.
+ */
+function nextcore_load_current_language_catalog() {
+    if (is_admin() || !function_exists('nextcore_current_language')) {
+        return;
+    }
+
+    $locale = nextcore_current_language();
+    if ($locale === '' || $locale === 'vi' || strpos($locale, 'vi_') === 0) {
+        return;
+    }
+
+    $catalog = get_theme_file_path('/languages/nextcore-theme-' . sanitize_file_name($locale) . '.mo');
+    if (!is_readable($catalog)) {
+        return;
+    }
+
+    unload_textdomain('nextcore-theme');
+    load_textdomain('nextcore-theme', $catalog);
+}
+add_action('wp', 'nextcore_load_current_language_catalog', 1);
+

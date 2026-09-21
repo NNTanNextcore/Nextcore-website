@@ -1,7 +1,17 @@
-# Languages
+# Nextcore Theme Languages
 
-Text domain: nextcore-theme. UI dùng WordPress i18n; editorial text render server-side để TranslatePress xử lý. Dark/light và VI/EN dùng chung source ACF.
+Text domain: `nextcore-theme`.
 
-Phase 5 đã soạn **docs/homepage-en-translation-review.md** ở repository: 134 chuỗi, EN proposed/context/existing translation/notes. Chờ người dùng duyệt; chưa ghi TranslatePress dictionary, tạo EN Page hoặc import catalog.
+## Quy uoc
 
-Hero phải dịch nguyên cụm tên công ty vì source VI chia giữa “Phần” và “mềm”. QA block/attributes/layout sau duyệt. Route VI/EN đã render bằng TranslatePress local trong harness chỉ đọc; chưa có đầy đủ bản dịch EN mới trên trang.
+- PHP chi khai bao chuoi nguon tieng Viet bang cac ham WordPress i18n.
+- Khong kiem tra locale va khong khai bao cap chuoi VI/EN truc tiep trong template.
+- Chuoi dich tieng Anh duoc quan ly trong `nextcore-theme-en_US.po`.
+- WordPress doc ban dich runtime tu `nextcore-theme-en_US.mo`.
+- `nextcore-theme.pot` la template chuoi nguon de cap nhat catalog.
+
+TranslatePress giu nguyen WordPress locale tren URL da dich. Vi vay
+`nextcore_load_current_language_catalog()` trong `inc/multilingual.php` nap catalog
+phu hop voi ngon ngu hien tai cua TranslatePress.
+
+Sau khi sua file PO, can bien dich lai file MO truoc khi kiem tra giao dien.

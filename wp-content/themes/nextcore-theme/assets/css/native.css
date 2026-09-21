@@ -211,8 +211,20 @@ body.admin-bar .nextcore-desktop-nav .nextcore-mega-panel { top: 88px; }
     .nextcore-native .tech-list { flex-wrap: wrap; }
 }
 
-body.nextcore-homepage .final-cta:where(.nextcore-native, .nextcore-native *) { min-height: clamp(426px, 61svh, 582px); margin-bottom: 0; }
-body.nextcore-homepage .cta-inner:where(.nextcore-native, .nextcore-native *) { min-height: clamp(426px, 61svh, 582px); padding-block: 44px 36px; }
+body.nextcore-homepage .final-cta:where(.nextcore-native, .nextcore-native *) { min-height: var(--section-height); margin-bottom: 0; }
+body.nextcore-homepage .stats:where(.nextcore-native, .nextcore-native *) {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    background: #0c0f11;
+    box-shadow: inset 0 1px rgba(255, 255, 255, .05), inset 0 -1px rgba(255, 255, 255, .05);
+}
+:root[data-theme="light"] body.nextcore-homepage .stats:where(.nextcore-native, .nextcore-native *),
+:root:not([data-theme]) body.nextcore-homepage .stats:where(.nextcore-native, .nextcore-native *) {
+    background: #f7f7f7;
+    box-shadow: inset 0 1px #e8e8e8, inset 0 -1px #e8e8e8;
+}
+body.nextcore-homepage .cta-inner:where(.nextcore-native, .nextcore-native *) { min-height: var(--section-height); padding-block: var(--section-space); }
 body.nextcore-homepage .final-cta > img:where(.nextcore-native, .nextcore-native *),
 body.nextcore-homepage .final-cta picture img:where(.nextcore-native, .nextcore-native *) { height: 100%; object-position: 65% center; }
 body.nextcore-homepage .site-footer:where(.nextcore-native, .nextcore-native *) { background: #070b0d; color: var(--text); box-shadow: none; padding-block: 22px 24px; }
@@ -221,10 +233,75 @@ body.nextcore-homepage .site-footer h2:where(.nextcore-native, .nextcore-native 
 body.nextcore-homepage .site-footer .footer-contact address:where(.nextcore-native, .nextcore-native *) { gap: 8px; }
 body.nextcore-homepage .site-footer .footer-copyright:where(.nextcore-native, .nextcore-native *) { padding-top: 12px; }
 
+body.nextcore-homepage .home-contact-footer:where(.nextcore-native, .nextcore-native *) {
+    display: grid;
+    grid-template-rows: minmax(0, 1fr) minmax(0, 1fr);
+    width: 100%;
+    height: var(--nc-section-height, var(--section-height));
+    min-height: var(--nc-section-height, var(--section-height));
+    overflow: hidden;
+}
+body.nextcore-homepage .home-contact-footer .final-cta:where(.nextcore-native, .nextcore-native *) {
+    width: 100%;
+    height: 100%;
+    min-height: 0;
+}
+body.nextcore-homepage .home-contact-footer .cta-inner:where(.nextcore-native, .nextcore-native *) {
+    width: min(var(--container), calc(100% - 112px));
+    height: 100%;
+    min-height: 0;
+    margin-inline: auto;
+}
+body.nextcore-homepage .home-contact-footer .cta-inner:where(.nextcore-native, .nextcore-native *) {
+    padding-block: clamp(24px, 4vh, 42px);
+}
+body.nextcore-homepage .home-contact-footer .cta-inner h2:where(.nextcore-native, .nextcore-native *) {
+    font-size: clamp(30px, 3vw, 46px);
+}
+body.nextcore-homepage .home-contact-footer .cta-inner p:not(.cta-motto):where(.nextcore-native, .nextcore-native *) {
+    margin-block: 14px 22px;
+}
+body.nextcore-homepage .home-footer-slot:where(.nextcore-native, .nextcore-native *) {
+    display: flex;
+    min-width: 0;
+    min-height: 0;
+    overflow: hidden;
+    background: #0e1414;
+}
+body.nextcore-homepage .home-footer-slot > :where(.elementor-location-footer, [data-elementor-type="footer"], .site-footer) {
+    width: 100%;
+    height: 100%;
+    min-width: 0;
+    flex: 1 1 auto;
+}
+body.nextcore-homepage .home-footer-slot > :where(.elementor-location-footer, [data-elementor-type="footer"]) > .e-con {
+    min-height: 100%;
+}
+@media (min-width: 640px) and (max-width: 1200px) {
+    body.nextcore-homepage .home-contact-footer .cta-inner:where(.nextcore-native, .nextcore-native *) {
+        width: calc(100% - 64px);
+    }
+}
+
 @media (max-width: 639px) {
+    body.nextcore-homepage .home-contact-footer:where(.nextcore-native, .nextcore-native *) {
+        height: auto;
+        min-height: auto;
+        grid-template-rows: auto auto;
+        overflow: visible;
+    }
+    body.nextcore-homepage .home-contact-footer .final-cta:where(.nextcore-native, .nextcore-native *),
+    body.nextcore-homepage .home-contact-footer .cta-inner:where(.nextcore-native, .nextcore-native *) {
+        height: auto;
+        min-height: 50svh;
+    }
+    body.nextcore-homepage .home-contact-footer .cta-inner:where(.nextcore-native, .nextcore-native *) {
+        width: calc(100% - 40px);
+    }
+    body.nextcore-homepage .home-footer-slot:where(.nextcore-native, .nextcore-native *) { overflow: visible; }
     body.nextcore-homepage .final-cta:where(.nextcore-native, .nextcore-native *),
-    body.nextcore-homepage .cta-inner:where(.nextcore-native, .nextcore-native *) { min-height: 51svh; }
-    body.nextcore-homepage .cta-inner:where(.nextcore-native, .nextcore-native *) { padding-block: 28px 24px; }
+    body.nextcore-homepage .cta-inner:where(.nextcore-native, .nextcore-native *) { min-height: auto; }
+    body.nextcore-homepage .cta-inner:where(.nextcore-native, .nextcore-native *) { padding-block: 48px; }
     body.nextcore-homepage .cta-inner h2:where(.nextcore-native, .nextcore-native *) { font-size: 27px; }
     body.nextcore-homepage .cta-inner p:not(.cta-motto):where(.nextcore-native, .nextcore-native *) { font-size: 14px; margin-block: 16px 20px; }
     body.nextcore-homepage .site-footer:where(.nextcore-native, .nextcore-native *) { padding-block: 20px 22px; }

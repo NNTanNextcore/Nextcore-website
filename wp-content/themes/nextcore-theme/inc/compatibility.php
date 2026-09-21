@@ -186,6 +186,14 @@ function nextcore_common_english_translations() {
         'Projects triển khai' => 'Delivered projects',
         'Năng lực cốt lõi' => 'Core capabilities',
         'Trao đổi nhu cầu' => 'Discuss your needs',
+        'Từ chiến lược đến triển khai, Nextcore đồng hành cùng doanh nghiệp xây dựng các giải pháp công nghệ hiệu quả, linh hoạt và phù hợp với từng giai đoạn phát triển.' => 'From strategy to delivery, Nextcore works alongside businesses to build effective, flexible technology solutions for every stage of growth.',
+        'Cam kết dịch vụ' => 'Service commitments',
+        'Tư vấn đúng nhu cầu' => 'Needs-focused consulting',
+        'Giải pháp phù hợp mục tiêu và ngân sách.' => 'Solutions aligned with your goals and budget.',
+        'Triển khai linh hoạt' => 'Flexible delivery',
+        'Quy trình rõ ràng, thích ứng theo từng giai đoạn.' => 'A clear process that adapts to every stage.',
+        'Đồng hành dài hạn' => 'Long-term partnership',
+        'Hỗ trợ vận hành và cải tiến sau bàn giao.' => 'Ongoing support and improvement after handover.',
         'Giải pháp cá nhân' => 'Individual solutions',
         'Support các nhu cầu công nghệ linh hoạt cho khách hàng cá nhân.' => 'Support flexible technology needs for individual customers.',
         'Có ý tưởng lớn?' => 'Have a big idea?',
@@ -352,6 +360,10 @@ function nextcore_final_english_translations() {
         'linh hoạt' => 'flexible',
         'yêu cầu' => 'requirements',
         'Chúng tôi' => 'We',
+        'We cung cấp services software development tùy chỉnh, đáp ứng nhu cầu riêng của từng customers. Với team chuyên gia, chúng tôi cam kết mang đến giải pháp công nghệ hiệu quả.' => 'We provide custom software development services tailored to each customer’s needs. With an expert team, we are committed to delivering effective technology solutions.',
+        'Maintenance và nâng cấp software' => 'Software maintenance and upgrades',
+        'Duy trì và cập nhật software của bạn để đảm bảo hoạt động tối ưu, tăng cường tính năng và bảo mật. We cung cấp các services bảo trì và nâng cấp flexible và hiệu quả.' => 'Maintain and update your software to ensure optimal performance, enhanced features, and stronger security. We provide flexible and effective maintenance and upgrade services.',
+        'Cung cấp nguồn nhân lực chất lượng cao, đáp ứng nhu cầu của doanh nghiệp. Services cho thuê nhân sự flexible, giúp tối ưu chi phí và nâng cao hiệu quả hoạt động.' => 'We provide high-quality professionals to meet business needs. Our flexible staff leasing service helps optimize costs and improve operational efficiency.',
     );
 }
 
@@ -361,19 +373,31 @@ function nextcore_translate_final_english_html($html) {
     }
     $request_uri = isset($_SERVER['REQUEST_URI']) ? (string) wp_unslash($_SERVER['REQUEST_URI']) : '';
     $is_english_request = strpos($request_uri, '/en/') === 0 || $request_uri === '/en';
-    if (nextcore_current_language() !== 'en_US' && !$is_english_request) {
-        return $html;
+    if (!$is_english_request) {
+        return str_replace(
+            array('Nextcore. All rights reserved.', '>Contact<'),
+            array('Nextcore. Bảo lưu mọi quyền.', '>Liên hệ<'),
+            $html
+        );
     }
+    $html = str_replace('Nextcore. Bảo lưu mọi quyền.', 'Nextcore. All rights reserved.', $html);
+    $html = str_replace(
+        'Nextcore đồng hành cùng doanh nghiệp bằng công nghệ, sáng tạo và tư duy chiến lược.',
+        'Nextcore helps businesses grow through technology, creativity and strategic thinking.',
+        $html
+    );
     $html = strtr($html, nextcore_final_english_translations());
 
     $html = preg_replace(
         array(
+            '~Trở thành\s+trusted partner,\s*đem lại giá trị lớn và hữu ích cho các đối\s+tác\.~u',
             '~>[^<]*services[^<]*software[^<]*gi[^<]*cao\.<~u',
             '~>[^<]*customers[^<]*đối tác\.<~u',
             '~Continuously striving to address challenges as\s*<span[^>]*>Pain points</span>\s*and create\s*<span[^>]*>meaningful</span>[^<]*~u',
             '~>[^<]*connect cao[^<]*<~u',
         ),
         array(
+            'Become a trusted partner that delivers meaningful, lasting value to our partners.',
             '>Provide high-value software products and services.<',
             '>Aim to provide high value-added solutions for customers and partners.<',
             'Continuously striving to address challenges as <span style="font-weight: 700;">Pain points</span> and create <span style="font-weight: 700;">meaningful value</span> for customers to become a long-term trusted partner.',
@@ -382,10 +406,42 @@ function nextcore_translate_final_english_html($html) {
         $html
     );
 
+    $html = preg_replace(
+        '~(<meta[^>]+content=")[^"]*We cung cấp services software development[^"]*("[^>]*>)~u',
+        '$1Custom software development, maintenance, upgrades, and flexible staff leasing services tailored to your business needs.$2',
+        $html
+    );
+
+    $html = preg_replace(
+        '~(<h1\b[^>]*\bid="hero-title"[^>]*>).*?(</h1>)~su',
+        '$1<span class="company-line">Nextcore Software</span> <span class="company-line"><span class="company-name">Joint Stock Company</span></span>$2',
+        $html
+    );
+
     return $html;
 }
 add_filter('trp_translated_html', 'nextcore_translate_final_english_html', 999);
 add_filter('elementor/widget/render_content', 'nextcore_translate_final_english_html', 999);
+
+function nextcore_translate_legacy_english_meta($description) {
+    if (!is_string($description) || $description === '') {
+        return $description;
+    }
+
+    $request_uri = isset($_SERVER['REQUEST_URI']) ? (string) wp_unslash($_SERVER['REQUEST_URI']) : '';
+    if (strpos($request_uri, '/en/') !== 0 && $request_uri !== '/en') {
+        return $description;
+    }
+
+    if (strpos($description, 'We cung cấp services software development') !== false) {
+        return 'Custom software development, maintenance, upgrades, and flexible staff leasing services tailored to your business needs.';
+    }
+
+    return wp_strip_all_tags(nextcore_translate_final_english_html($description));
+}
+add_filter('wpseo_metadesc', 'nextcore_translate_legacy_english_meta', 999);
+add_filter('wpseo_opengraph_desc', 'nextcore_translate_legacy_english_meta', 999);
+add_filter('wpseo_twitter_description', 'nextcore_translate_legacy_english_meta', 999);
 
 function nextcore_start_english_output_cleanup() {
     if (is_admin()) {
@@ -398,6 +454,25 @@ function nextcore_start_english_output_cleanup() {
     ob_start('nextcore_translate_final_english_html');
 }
 add_action('template_redirect', 'nextcore_start_english_output_cleanup', 0);
+
+function nextcore_footer_locale_output($html) {
+    if (!is_string($html) || $html === '') {
+        return $html;
+    }
+    $request_uri = isset($_SERVER['REQUEST_URI']) ? (string) wp_unslash($_SERVER['REQUEST_URI']) : '';
+    $is_english_request = strpos($request_uri, '/en/') === 0 || $request_uri === '/en';
+
+    return $is_english_request
+        ? str_replace('Nextcore. Bảo lưu mọi quyền.', 'Nextcore. All rights reserved.', $html)
+        : str_replace('Nextcore. All rights reserved.', 'Nextcore. Bảo lưu mọi quyền.', $html);
+}
+
+function nextcore_start_footer_locale_output() {
+    if (!is_admin()) {
+        ob_start('nextcore_footer_locale_output');
+    }
+}
+add_action('template_redirect', 'nextcore_start_footer_locale_output', 1);
 
 function nextcore_translate_contact_page_markup($html) {
     if (!is_string($html) || $html === '') {
