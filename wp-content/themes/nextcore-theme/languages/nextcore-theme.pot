@@ -344,6 +344,21 @@ msgstr ""
 msgid "Đối tác chiến lược"
 msgstr ""
 
+msgid "Đối tác chiến lược đồng hành cùng Nextcore"
+msgstr ""
+
+msgid "Kết nối cùng GM Solutions để mở rộng năng lực, chia sẻ thế mạnh và cùng kiến tạo những giải pháp bền vững cho khách hàng doanh nghiệp."
+msgstr ""
+
+msgid "Tìm hiểu đối tác"
+msgstr ""
+
+msgid "Chúng tôi không chỉ tạo ra sản phẩm, mà còn xây dựng những mối quan hệ bền vững."
+msgstr ""
+
+msgid "Đội ngũ Nextcore"
+msgstr ""
+
 msgid "ĐỘI NGŨ"
 msgstr ""
 

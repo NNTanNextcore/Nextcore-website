@@ -6,10 +6,10 @@ $partner_intro_default = __('Kết nối cùng GM Solutions để mở rộng n�
 $partner_intro_legacy = __('Kết nối cùng các đối tác chiến lược để mở rộng năng lực, chia sẻ thế mạnh và kiến tạo những bước tiến dài hạn.', 'nextcore-theme');
 $partner_link_label_default = __('Tìm hiểu đối tác', 'nextcore-theme');
 $partner_name = (string) nextcore_field('nc_partner_name', 'GM Solutions');
-$partner_headline = (string) nextcore_field('nc_partner_headline', $partner_headline_default);
-$partner_description = (string) nextcore_field('nc_partner_description', $partner_intro_default);
+$partner_headline = __((string) nextcore_field('nc_partner_headline', $partner_headline_default), 'nextcore-theme');
+$partner_description = __((string) nextcore_field('nc_partner_description', $partner_intro_default), 'nextcore-theme');
 $partner_description = $partner_description === $partner_intro_legacy ? $partner_intro_default : $partner_description;
-$partner_link_label = (string) nextcore_field('nc_partner_link_label', $partner_link_label_default);
+$partner_link_label = __((string) nextcore_field('nc_partner_link_label', $partner_link_label_default), 'nextcore-theme');
 
 $partner_link = function_exists('get_field') ? get_field('nc_partner_link') : null;
 $partner_configured = metadata_exists('post', get_queried_object_id(), 'nc_partner_link');

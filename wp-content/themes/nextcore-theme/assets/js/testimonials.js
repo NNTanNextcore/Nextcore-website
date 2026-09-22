@@ -121,7 +121,7 @@
     const dialogAvatar = dialog.querySelector('.testimonial-dialog-avatar');
     dialog.querySelector('h2').textContent = customerName;
     dialog.querySelector('.testimonial-dialog-project').textContent = card.querySelector('.testimonial-person p').textContent;
-    dialog.querySelector('blockquote').textContent = card.dataset.quote || card.querySelector('blockquote').textContent;
+    dialog.querySelector('blockquote').textContent = card.querySelector('.testimonial-full-quote')?.textContent || card.querySelector('blockquote').textContent;
     if (sourceAvatar && (sourceAvatar.currentSrc || sourceAvatar.src)) {
       dialogAvatar.src = sourceAvatar.currentSrc || sourceAvatar.src;
       dialogAvatar.alt = customerName;

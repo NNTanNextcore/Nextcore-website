@@ -2,8 +2,8 @@
 defined('ABSPATH') || exit;
 
 $testimonials_intro_default = __('Những chia sẻ thực tế từ khách hàng đang đồng hành và phát triển cùng Nextcore.', 'nextcore-theme');
-$testimonial_slogan = (string) nextcore_field('nc_testimonials_slogan', __('Chúng tôi không chỉ tạo ra sản phẩm, mà còn xây dựng những mối quan hệ bền vững.', 'nextcore-theme'));
-$testimonial_slogan_author = (string) nextcore_field('nc_testimonials_slogan_author', __('Đội ngũ Nextcore', 'nextcore-theme'));
+$testimonial_slogan = __((string) nextcore_field('nc_testimonials_slogan', 'Chúng tôi không chỉ tạo ra sản phẩm, mà còn xây dựng những mối quan hệ bền vững.'), 'nextcore-theme');
+$testimonial_slogan_author = __((string) nextcore_field('nc_testimonials_slogan_author', 'Đội ngũ Nextcore'), 'nextcore-theme');
 ?>
 <section class="testimonials section" id="testimonials" aria-labelledby="testimonials-title">
       <div class="container">
@@ -24,9 +24,10 @@ $testimonial_slogan_author = (string) nextcore_field('nc_testimonials_slogan_aut
               $quote = trim((string) ($row['quote'] ?? ''));
               $quote_excerpt = wp_trim_words($quote, 28, '...');
           ?>
-<article class="testimonial-card" data-quote="<?php echo esc_attr($quote); ?>">
-    <div class="testimonial-person"><?php nextcore_image($row['image'] ?? 0, $row['name'] ?? '', '', 64, 64); ?><div><h3><?php echo esc_html($row['name'] ?? ''); ?></h3><p><?php echo esc_html($row['project_label'] ?? ''); ?></p></div></div>
-    <blockquote><?php echo esc_html($quote_excerpt); ?></blockquote>
+<article class="testimonial-card">
+    <div class="testimonial-person"><?php nextcore_image($row['image'] ?? 0, $row['name'] ?? '', 'notranslate', 64, 64); ?><div><h3 class="notranslate" translate="no" data-nextcore-no-translate><?php echo esc_html($row['name'] ?? ''); ?></h3><p class="notranslate" translate="no" data-nextcore-no-translate><?php echo esc_html($row['project_label'] ?? ''); ?></p></div></div>
+    <blockquote class="notranslate" translate="no" data-nextcore-no-translate><?php echo esc_html($quote_excerpt); ?></blockquote>
+    <div class="testimonial-full-quote notranslate" translate="no" data-nextcore-no-translate hidden><?php echo esc_html($quote); ?></div>
     <button class="testimonial-more" type="button"><?php esc_html_e('Xem chi tiết', 'nextcore-theme'); ?><span aria-hidden="true">→</span><span class="sr-only"> — <?php echo esc_html($row['name'] ?? ''); ?></span></button>
 </article>
 <?php endforeach; ?></div>
@@ -41,11 +42,11 @@ $testimonial_slogan_author = (string) nextcore_field('nc_testimonials_slogan_aut
   <div class="testimonial-dialog-person">
     <img class="testimonial-dialog-avatar" alt="" width="72" height="72" hidden>
     <div>
-      <h2 id="testimonial-dialog-title"></h2>
-      <p class="testimonial-dialog-project"></p>
+      <h2 class="notranslate" id="testimonial-dialog-title" translate="no" data-nextcore-no-translate></h2>
+      <p class="testimonial-dialog-project notranslate" translate="no" data-nextcore-no-translate></p>
     </div>
   </div>
-  <blockquote></blockquote>
+  <blockquote class="notranslate" translate="no" data-nextcore-no-translate></blockquote>
 </dialog>
 
 

@@ -280,10 +280,8 @@ function nextcore_translate_mixed_english_markup($html) {
         'Góc nhìn & insights' => 'Perspectives & insights',
         'Sẵn sàng bắt đầu project của bạn?' => 'Ready to start your project?',
         'Hãy để Nextcore đồng hành cùng bạn trên hành trình chuyển đổi số.' => 'Let Nextcore accompany you on your digital transformation journey.',
-        'Nguyễn Phương Trà My' => 'Nguyen Phuong Tra My',
         'Trần Đức Anh' => 'Tran Duc Anh',
         'Phan Thanh Tú' => 'Phan Thanh Tu',
-        'Bé khỏe bé vui' => 'Be Khoe Be Vui',
     ));
 }
 add_filter('trp_translated_html', 'nextcore_translate_mixed_english_markup', 11);
@@ -292,6 +290,15 @@ add_filter('the_content', 'nextcore_translate_mixed_english_markup', 36);
 
 function nextcore_final_english_translations() {
     return array(
+        'Đối tác chiến lược đồng hành cùng Nextcore' => 'A strategic partner working alongside Nextcore',
+        'Partners chiến lược đồng hành cùng Nextcore' => 'A strategic partner working alongside Nextcore',
+        'artners chiến lược đồng hành cùng Nextcore' => 'A strategic partner working alongside Nextcore',
+        'Kết nối cùng GM Solutions để mở rộng năng lực, chia sẻ thế mạnh và cùng kiến tạo những giải pháp bền vững cho khách hàng doanh nghiệp.' => 'Connect with GM Solutions to expand capabilities, share strengths, and jointly create sustainable solutions for business customers.',
+        'Connect cùng GM Solutions để mở rộng năng lực, chia sẻ thế mạnh và cùng kiến tạo những giải pháp bền vững cho customers doanh nghiệp.' => 'Connect with GM Solutions to expand capabilities, share strengths, and jointly create sustainable solutions for business customers.',
+        'Tìm hiểu đối tác' => 'Learn about our partner',
+        'Chúng tôi không chỉ tạo ra sản phẩm, mà còn xây dựng những mối quan hệ bền vững.' => 'We do not just create products; we build lasting relationships.',
+        'We không chỉ tạo ra sản phẩm, mà còn xây dựng những mối quan hệ bền vững.' => 'We do not just create products; we build lasting relationships.',
+        'Đội ngũ Nextcore' => 'Nextcore team',
         '<span class="company-line">Company cổ phần Phần</span> <span class="company-line">mềm <span class="company-name">Nextcore</span></span>' => '<span class="company-line">Nextcore Software</span> <span class="company-line"><span class="company-name">Joint Stock Company</span></span>',
         '<span>Company Cổ phần</span> <span>Phần mềm Nextcore</span>' => '<span>Nextcore Software</span> <span>Joint Stock Company</span>',
         '<time datetime="2022-06-15">15 thg 6, 2022</time>' => '<time datetime="2022-06-15">June 15, 2022</time>',
@@ -304,8 +311,9 @@ function nextcore_final_english_translations() {
         'Băng chuyền' => 'Carousel',
         'Testimonials trước' => 'Previous testimonial',
         'Testimonials tiếp theo' => 'Next testimonial',
-        'Projects Convert nghiệp vụ sang sơ đồ khối' => 'Business workflow conversion project',
-        'Company Phần mềm Next Core làm project của tôi rất chuyên nghiệp, thực hiện đúng requirements của customers và hoàn thành công việc sớm hơn thời gian quy định, đảm bảo chất lượng. Các bạn dev của Company support tôi rất nhiệt tình trong thời gian thực hiện requirements của tôi. Highly recommend cho các customers trong lĩnh vực IT, software, design.' => 'NextCore Software handled my project very professionally, met the requirements, and completed the work earlier than planned while ensuring quality. The development team supported me enthusiastically throughout the project. Highly recommended for customers in IT, software, and design.',
+        'Nguyen Phuong Tra My' => 'Nguyễn Phương Trà My',
+        'Business workflow conversion project' => 'Dự án Convert nghiệp vụ sang sơ đồ khối',
+        'Projects Convert nghiệp vụ sang sơ đồ khối' => 'Dự án Convert nghiệp vụ sang sơ đồ khối',
         'Trở thành trusted partner, đem lại giá trị lớn và hữu ích cho các đối
       tác.' => 'Become a trusted partner that delivers significant and useful value to partners.',
         'Trở thành một phần không thể thiếu, là \'người nhà\' trong việc hiểu và
@@ -380,6 +388,16 @@ function nextcore_translate_final_english_html($html) {
             $html
         );
     }
+    $protected_markup = array();
+    $html = preg_replace_callback(
+        '~<([a-z][a-z0-9]*)\b(?=[^>]*\bdata-nextcore-no-translate\b)[^>]*>.*?</\1>~isu',
+        static function ($matches) use (&$protected_markup) {
+            $placeholder = '___NEXTCORE_NOTRANSLATE_' . count($protected_markup) . '___';
+            $protected_markup[$placeholder] = $matches[0];
+            return $placeholder;
+        },
+        $html
+    );
     $html = str_replace('Nextcore. Bảo lưu mọi quyền.', 'Nextcore. All rights reserved.', $html);
     $html = str_replace(
         'Nextcore đồng hành cùng doanh nghiệp bằng công nghệ, sáng tạo và tư duy chiến lược.',
@@ -418,7 +436,7 @@ function nextcore_translate_final_english_html($html) {
         $html
     );
 
-    return $html;
+    return $protected_markup ? strtr($html, $protected_markup) : $html;
 }
 add_filter('trp_translated_html', 'nextcore_translate_final_english_html', 999);
 add_filter('elementor/widget/render_content', 'nextcore_translate_final_english_html', 999);
