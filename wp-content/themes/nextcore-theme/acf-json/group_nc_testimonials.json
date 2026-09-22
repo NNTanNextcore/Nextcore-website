@@ -52,6 +52,39 @@
             "new_lines": ""
         },
         {
+            "key": "field_nc_testimonials_slogan",
+            "label": "Slogan đánh giá",
+            "name": "nc_testimonials_slogan",
+            "type": "textarea",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Chúng tôi không chỉ tạo ra sản phẩm, mà còn xây dựng những mối quan hệ bền vững.",
+            "rows": 3,
+            "new_lines": ""
+        },
+        {
+            "key": "field_nc_testimonials_slogan_author",
+            "label": "Nguồn slogan",
+            "name": "nc_testimonials_slogan_author",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Đội ngũ Nextcore",
+            "placeholder": ""
+        },
+        {
             "key": "field_nc_testimonials",
             "label": "Đánh giá khách hàng",
             "name": "nc_testimonials",

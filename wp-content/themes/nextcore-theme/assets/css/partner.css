@@ -3,6 +3,7 @@
   overflow: hidden;
   background: url('../images/partner-waves.svg') center / cover no-repeat, #080c0f;
 }
+
 #partner .partner-inner:where(.nextcore-native, .nextcore-native *) {
   width: min(1440px, calc(100% - 112px));
   height: var(--section-height);
@@ -10,90 +11,195 @@
   max-height: none;
   padding-block: var(--section-space);
   display: grid;
-  grid-template-columns: minmax(0, 1fr);
-  grid-template-rows: auto minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1fr) minmax(320px, .78fr);
   align-items: center;
-  justify-items: center;
-  gap: clamp(30px, 5svh, 54px);
-  text-align: center;
+  gap: clamp(48px, 7vw, 112px);
 }
-#partner .partner-heading:where(.nextcore-native, .nextcore-native *) {
-  width: min(960px, 100%);
+
+#partner .partner-content:where(.nextcore-native, .nextcore-native *) {
   display: grid;
-  justify-items: center;
+  justify-items: start;
+  text-align: left;
 }
-#partner .partner-heading h2:where(.nextcore-native, .nextcore-native *) {
-  font-size: clamp(34px, 3.6vw, 50px);
-  line-height: 1.18;
+
+#partner .partner-content h2:where(.nextcore-native, .nextcore-native *) {
+  max-width: 760px;
+  font-size: clamp(36px, 4.2vw, 64px);
+  line-height: 1.12;
+  letter-spacing: 0;
 }
-#partner .partner-heading h2:where(.nextcore-native, .nextcore-native *)::before {
+
+#partner .partner-content h2:where(.nextcore-native, .nextcore-native *)::before {
   content: '';
   display: block;
-  width: 42px;
+  width: 48px;
   height: 4px;
-  margin: 0 auto 18px;
+  margin: 0 0 22px;
   background: #ed1523;
 }
+
+#partner .partner-headline:where(.nextcore-native, .nextcore-native *) {
+  width: min(720px, 100%);
+  margin-top: 22px;
+  color: #eef3f5;
+  font-size: clamp(26px, 2.5vw, 40px);
+  font-weight: 800;
+  line-height: 1.2;
+}
+
 #partner .partner-intro:where(.nextcore-native, .nextcore-native *) {
-  width: min(900px, 100%);
-  margin-top: 20px;
+  width: min(720px, 100%);
+  margin-top: 22px;
   color: #bdc6ca;
-  font-size: clamp(16px, 1.35vw, 20px);
-  line-height: 1.75;
+  font-size: clamp(16px, 1.25vw, 19px);
+  line-height: 1.78;
 }
-#partner .partner-list:where(.nextcore-native, .nextcore-native *) {
-  width: 100%;
-  min-height: 0;
-  display: flex;
+
+#partner .partner-link:where(.nextcore-native, .nextcore-native *) {
+  display: inline-flex;
   align-items: center;
-  justify-content: center;
-  overflow: visible;
+  gap: 14px;
+  min-height: 48px;
+  margin-top: 30px;
+  padding: 13px 22px;
+  border: 1px solid #ed1523;
+  border-radius: 999px;
+  background: #ed1523;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1;
+  text-decoration: none;
+  transition: background .25s ease, border-color .25s ease, transform .25s ease;
 }
-#partner .partner-item:where(.nextcore-native, .nextcore-native *) {
-  width: min(620px, 78vw);
-  height: 100%;
-  max-height: 430px;
+
+#partner .partner-link:hover:where(.nextcore-native, .nextcore-native *),
+#partner .partner-link:focus-visible:where(.nextcore-native, .nextcore-native *) {
+  background: #c90f1b;
+  border-color: #c90f1b;
+  transform: translateY(-2px);
+}
+
+#partner .partner-logo-panel:where(.nextcore-native, .nextcore-native *) {
+  min-width: 0;
   display: grid;
   place-items: center;
-  padding: 0;
-  border: 0;
-  background: transparent;
-  box-shadow: none;
-  color: inherit;
-  transition: filter .25s ease;
 }
-#partner a.partner-item:hover:where(.nextcore-native, .nextcore-native *),
-#partner a.partner-item:focus-visible:where(.nextcore-native, .nextcore-native *) { filter: brightness(1.06); }
-#partner a.partner-item:focus-visible:where(.nextcore-native, .nextcore-native *) { outline: 2px solid #ed1523; outline-offset: 10px; }
+
+#partner .partner-logo-wrap:where(.nextcore-native, .nextcore-native *) {
+  width: min(520px, 100%);
+  display: grid;
+  place-items: center;
+  color: inherit;
+  text-decoration: none;
+  transition: filter .25s ease, transform .25s ease;
+}
+
+#partner a.partner-logo-wrap:hover:where(.nextcore-native, .nextcore-native *),
+#partner a.partner-logo-wrap:focus-visible:where(.nextcore-native, .nextcore-native *) {
+  filter: brightness(1.06);
+  transform: scale(1.02);
+}
+
+#partner a.partner-logo-wrap:focus-visible:where(.nextcore-native, .nextcore-native *) {
+  outline: 2px solid #ed1523;
+  outline-offset: 8px;
+}
+
 #partner .partner-logo:where(.nextcore-native, .nextcore-native *) {
   width: 100%;
-  height: 100%;
-  max-height: 430px;
+  height: auto;
+  max-height: 340px;
   margin: 0;
   object-fit: contain;
   background: transparent;
 }
+
 :root[data-theme="light"] #partner:where(.nextcore-native, .nextcore-native *),
 :root:not([data-theme]) #partner:where(.nextcore-native, .nextcore-native *) {
   background: linear-gradient(rgba(255,255,255,.72), rgba(255,255,255,.72)), url('../images/partner-waves.svg') center / cover no-repeat, #fff;
 }
+
 :root[data-theme="light"] #partner .partner-intro:where(.nextcore-native, .nextcore-native *),
-:root:not([data-theme]) #partner .partner-intro:where(.nextcore-native, .nextcore-native *) { color: #4f5961; }
+:root:not([data-theme]) #partner .partner-intro:where(.nextcore-native, .nextcore-native *) {
+  color: #4f5961;
+}
+
+:root[data-theme="light"] #partner .partner-headline:where(.nextcore-native, .nextcore-native *),
+:root:not([data-theme]) #partner .partner-headline:where(.nextcore-native, .nextcore-native *) {
+  color: #293237;
+}
+
+:root[data-theme="light"] #partner .partner-link:where(.nextcore-native, .nextcore-native *),
+:root:not([data-theme]) #partner .partner-link:where(.nextcore-native, .nextcore-native *) {
+  color: #fff;
+}
+
+:root[data-theme="light"] #partner .partner-link:hover:where(.nextcore-native, .nextcore-native *),
+:root[data-theme="light"] #partner .partner-link:focus-visible:where(.nextcore-native, .nextcore-native *),
+:root:not([data-theme]) #partner .partner-link:hover:where(.nextcore-native, .nextcore-native *),
+:root:not([data-theme]) #partner .partner-link:focus-visible:where(.nextcore-native, .nextcore-native *) {
+  color: #fff;
+}
+
 @media (max-width: 1023px) {
   #partner .partner-inner:where(.nextcore-native, .nextcore-native *) {
     width: calc(100% - 64px);
     height: auto;
     min-height: calc(100svh - 74px);
     max-height: none;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 40px;
   }
-  #partner .partner-item:where(.nextcore-native, .nextcore-native *) { height: clamp(240px, 45svh, 380px); }
+
+  #partner .partner-content:where(.nextcore-native, .nextcore-native *) {
+    justify-items: center;
+    text-align: center;
+  }
+
+  #partner .partner-content h2:where(.nextcore-native, .nextcore-native *)::before {
+    margin-inline: auto;
+  }
+
+  #partner .partner-logo-wrap:where(.nextcore-native, .nextcore-native *) {
+    width: min(460px, 100%);
+  }
 }
+
 @media (max-width: 639px) {
-  #partner .partner-inner:where(.nextcore-native, .nextcore-native *) { width: calc(100% - 40px); min-height: calc(100svh - 68px); padding-block: 54px; gap: 24px; }
-  #partner .partner-heading h2:where(.nextcore-native, .nextcore-native *) { font-size: 32px; }
-  #partner .partner-intro:where(.nextcore-native, .nextcore-native *) { font-size: 15px; }
-  #partner .partner-item:where(.nextcore-native, .nextcore-native *) { width: min(440px, 90vw); height: 260px; }
+  #partner .partner-inner:where(.nextcore-native, .nextcore-native *) {
+    width: calc(100% - 40px);
+    min-height: calc(100svh - 68px);
+    padding-block: 54px;
+    gap: 28px;
+  }
+
+  #partner .partner-headline:where(.nextcore-native, .nextcore-native *) {
+    margin-top: 18px;
+    font-size: 24px;
+  }
+
+  #partner .partner-content h2:where(.nextcore-native, .nextcore-native *) {
+    font-size: 32px;
+  }
+
+  #partner .partner-intro:where(.nextcore-native, .nextcore-native *) {
+    font-size: 15px;
+  }
+
+  #partner .partner-link:where(.nextcore-native, .nextcore-native *) {
+    width: 100%;
+    justify-content: center;
+  }
+
+  #partner .partner-logo-wrap:where(.nextcore-native, .nextcore-native *) {
+    width: min(340px, 100%);
+  }
 }
+
 @media (prefers-reduced-motion: reduce) {
-  #partner .partner-item:where(.nextcore-native, .nextcore-native *) { transition: none; }
+  #partner .partner-logo-wrap:where(.nextcore-native, .nextcore-native *),
+  #partner .partner-link:where(.nextcore-native, .nextcore-native *) {
+    transition: none;
+  }
 }

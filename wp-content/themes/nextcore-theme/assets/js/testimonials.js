@@ -116,9 +116,21 @@
   resize();
   slides.forEach(card => card.querySelector('button').addEventListener('click',() => {
     pauseAutoplay();
-    dialog.querySelector('h2').textContent = card.querySelector('h3').textContent;
+    const customerName = card.querySelector('h3').textContent;
+    const sourceAvatar = card.querySelector('.testimonial-person img');
+    const dialogAvatar = dialog.querySelector('.testimonial-dialog-avatar');
+    dialog.querySelector('h2').textContent = customerName;
     dialog.querySelector('.testimonial-dialog-project').textContent = card.querySelector('.testimonial-person p').textContent;
-    dialog.querySelector('blockquote').textContent = card.querySelector('blockquote').textContent;
+    dialog.querySelector('blockquote').textContent = card.dataset.quote || card.querySelector('blockquote').textContent;
+    if (sourceAvatar && (sourceAvatar.currentSrc || sourceAvatar.src)) {
+      dialogAvatar.src = sourceAvatar.currentSrc || sourceAvatar.src;
+      dialogAvatar.alt = customerName;
+      dialogAvatar.hidden = false;
+    } else {
+      dialogAvatar.removeAttribute('src');
+      dialogAvatar.alt = '';
+      dialogAvatar.hidden = true;
+    }
     dialog.showModal();
   }));
   dialog.addEventListener('close', resumeAutoplay);
