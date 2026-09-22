@@ -3,9 +3,9 @@
     "title": "G07 — Trang chủ — Đối tác chiến lược",
     "fields": [
         {
-            "key": "field_nc_partner_eyebrow",
-            "label": "Nhãn đầu mục",
-            "name": "nc_partner_eyebrow",
+            "key": "field_nc_partner_headline",
+            "label": "Tiêu đề đồng hành",
+            "name": "nc_partner_headline",
             "type": "text",
             "instructions": "",
             "required": 1,
@@ -15,8 +15,8 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
-            "placeholder": ""
+            "default_value": "Đối tác chiến lược đồng hành cùng Nextcore",
+            "placeholder": "Đối tác chiến lược đồng hành cùng Nextcore"
         },
         {
             "key": "field_nc_partner_name",
@@ -31,7 +31,7 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
+            "default_value": "Kết nối cùng GM Solutions để mở rộng năng lực, chia sẻ thế mạnh và cùng kiến tạo những giải pháp bền vững cho khách hàng doanh nghiệp.",
             "placeholder": ""
         },
         {
@@ -56,23 +56,6 @@
             "key": "field_nc_partner_description",
             "label": "Mô tả",
             "name": "nc_partner_description",
-            "type": "textarea",
-            "instructions": "",
-            "required": 1,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "rows": 4,
-            "new_lines": ""
-        },
-        {
-            "key": "field_nc_partner_motto",
-            "label": "Thông điệp",
-            "name": "nc_partner_motto",
             "type": "textarea",
             "instructions": "",
             "required": 1,
